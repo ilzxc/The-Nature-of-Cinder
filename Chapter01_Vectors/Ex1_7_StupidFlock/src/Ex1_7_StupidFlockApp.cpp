@@ -18,7 +18,7 @@ public:
     
     list<Mover> balls;
     Vec2f mousePosition;
-    const int numBalls = 100;
+    const int numBalls = 10000;
 };
 
 void Ex1_7_StupidFlockApp::prepareSettings(Settings *settings){
@@ -43,6 +43,7 @@ void Ex1_7_StupidFlockApp::update() {
         p->setAccel(mousePosition);
         p->update();
     }
+    
 }
 
 void Ex1_7_StupidFlockApp::draw()
@@ -53,6 +54,7 @@ void Ex1_7_StupidFlockApp::draw()
     for(list<Mover>::iterator p = balls.begin(); p != balls.end(); ++p) {
         p->draw();
     }
+
 }
 
 CINDER_APP_BASIC( Ex1_7_StupidFlockApp, RendererGl )
