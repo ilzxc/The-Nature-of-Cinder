@@ -1,0 +1,223 @@
+TEx1_5_VectorAccelRandom
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist" Info.plist
+cCpResource CinderApp.icns ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth Ex1_5_VectorAccelRandom_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom" normal i386
+cTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051567B820000000000002400
+t1364622210
+s9216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051567B820000000000023FF4
+t1364622210
+s147444
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051567B8200000000000061F4
+t1364622210
+s25076
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051567B8200000000000001E5
+t1364622210
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051567B82000000000000E8A8
+t1364622210
+s59560
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E1B3B730000000000006530
+t1310407539
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1B3B730000000000006560
+t1310407539
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004F9D0514000000000007CED0
+t1335690516
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005051800B000000000002D360
+t1347518475
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005051839200000000004B9FB0
+t1347519378
+s4956080
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000514698D4000000000032B7E0
+t1363581140
+s3323872
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp
+c000000005162322C000000000000039B
+t1365389868
+s923
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandom.LinkFileList
+c000000005162324200000000000001CB
+t1365389890
+s459
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/CinderApp.icns
+c000000005161F7C3000000000001BEB5
+t1365374915
+s114357
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Ex1_5_VectorAccelRandom_Prefix.pch
+c000000005161F7C30000000000000093
+t1365374915
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp
+c0000000051622E52000000000000048E
+t1365388882
+s1166
+
+N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c000000005161F7C3000000000000035D
+t1365374915
+s861
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp"
+r0
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb81d46c26912b741^ac194dc26912b741^---0#1#0#--18"Check dependencies36"9D5F6C3A-4C74-48AF-9482-8B3385668A0E-
+
+CCompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387082690.351492
+e387082692.693654
+r1
+xCompileC
+x./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp87195ac26912b741^e294b1c46912b741^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp0000000000000000^4232"CompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o ../src/Ex1_5_VectorAccelRandomApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/../src/Ex1_5_VectorAccelRandomApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandomApp.o"36"503FEED0-394D-4311-9667-5B6462E4BBB0-
+
+CCompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387082690.351487
+e387082692.707033
+r1
+xCompileC
+x./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp33195ac26912b741^76ffb4c46912b741^---0#0#0#-19%DVTDocumentLocation2@144"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp0000000000000000^4092"CompileC ./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Mover.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Mover.o"36"C6ACF802-5AA7-48B5-B76C-EC4327EB95FC-
+
+CCpResource CinderApp.icns ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns
+s387082690.320174
+e387082690.322839
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icnsee0552c26912b741^1aa652c26912b741^---0#0#0#-19%DVTDocumentLocation2@210"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns000000000080d041^654"CpResource CinderApp.icns ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Resources"36"8D95BEA7-E122-48DF-A892-68C05180B662-
+
+CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom" normal i386
+s387082692.714291
+e387082692.999459
+r1
+xLd
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection202"Link /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom2d06b7c46912b741^48dcffc46912b741^---0#0#0#--1491"Ld ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom normal i386    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug" -filelist "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Objects-normal/i386/Ex1_5_VectorAccelRandom.LinkFileList" -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/MacOS/Ex1_5_VectorAccelRandom"36"80D558AF-2EC5-4517-96C1-D6DD0D22D97A-
+
+CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist" Info.plist
+s387082690.305187
+e387082690.310241
+r1
+xProcessInfoPlistFile
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist6f2e4ec26912b741^0d6e4fc26912b741^-203"warning: invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier387082690#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@145"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Info.plist0000000000000000^672"ProcessInfoPlistFile ./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app/Contents/Info.plist"36"6ADD542B-702B-4973-BC7F-2FEE7D71B89A-
+
+CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex1_5_VectorAccelRandom-bfpkspkizxcdafdvykknrfriwljt/Index/PrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-bzoyqstdplbjndalayqbcjileoge_ast/Ex1_5_VectorAccelRandom_Prefix.pch.pth Ex1_5_VectorAccelRandom_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth Ex1_5_VectorAccelRandom_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387082690.331888
+e387082690.343884
+r1
+xProcessPCH++
+x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth
+xEx1_5_VectorAccelRandom_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile Ex1_5_VectorAccelRandom_Prefix.pch661255c26912b741^630858c26912b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Ex1_5_VectorAccelRandom_Prefix.pch0000000000000000^3958"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth Ex1_5_VectorAccelRandom_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/Ex1_5_VectorAccelRandom-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Ex1_5_VectorAccelRandom.build/Debug/Ex1_5_VectorAccelRandom.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/Ex1_5_VectorAccelRandom_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_5_VectorAccelRandom_Prefix-fygxekhbhfbuwxfigstprzhmpfhl/Ex1_5_VectorAccelRandom_Prefix.pch.d36"5479F852-61D5-4904-BC4F-BEAEBF7C7C87-
+
+CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app"
+s387082693.007895
+e387082693.012241
+r1
+xTouch
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Touch /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app7f1302c56912b741^5b2203c56912b741^---0#0#0#--357"Touch ./build/Debug/Ex1_5_VectorAccelRandom.app    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode"    /usr/bin/touch -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_5_VectorAccelRandom/xcode/./build/Debug/Ex1_5_VectorAccelRandom.app"36"124EDB9F-E7A9-47F6-B810-C2959D995759-
+

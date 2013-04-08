@@ -1,0 +1,192 @@
+TEx1_1_BallWithoutVectors
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist" Info.plist
+cCpResource CinderApp.icns ./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth Ex1_1_BallWithoutVectors_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
+c000000004F90F72900000000000000CC
+t1334900521
+s204
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051567B820000000000002400
+t1364622210
+s9216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051567B820000000000023FF4
+t1364622210
+s147444
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051567B8200000000000061F4
+t1364622210
+s25076
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051567B8200000000000001E5
+t1364622210
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051567B82000000000000E8A8
+t1364622210
+s59560
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c000000004E1B3B730000000000006530
+t1310407539
+s25904
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E1B3B730000000000006560
+t1310407539
+s25952
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c000000004F9D0514000000000007CED0
+t1335690516
+s511696
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000005051800B000000000002D360
+t1347518475
+s185184
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c000000005051839200000000004B9FB0
+t1347519378
+s4956080
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000514698D4000000000032B7E0
+t1363581140
+s3323872
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp
+c000000005162000D0000000000000435
+t1365377037
+s1077
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/MacOS/Ex1_1_BallWithoutVectors
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectors.LinkFileList
+c000000005162000D00000000000000F4
+t1365377037
+s244
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/CinderApp.icns
+c000000005161F6F5000000000001BEB5
+t1365374709
+s114357
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/Ex1_1_BallWithoutVectors_Prefix.pch
+c000000005161F6F50000000000000093
+t1365374709
+s147
+i<Cocoa/Cocoa.h>
+
+N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c000000005161F6F5000000000000035E
+t1365374709
+s862
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3cbfd08d3712b741^3c12df8d3712b741^---0#1#0#--18"Check dependencies36"60EBAA57-83C8-4545-991B-53FDEA622C43-
+
+CCompileC ./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387069838.226782
+e387069849.011376
+r0
+xCompileC
+x./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp:27:9: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+o    x = getWindowWidth / 2.0f;
+o        ^~~~~~~~~~~~~~
+o                      ()
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp:28:9: error: reference to non-static member function must be called; did you mean to call it with no arguments?
+o    y = getWindowHeight / 2.0f;
+o        ^~~~~~~~~~~~~~~
+o                       ()
+o2 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp433c3a8e3712b741^fbe602993712b741^-719"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp:27:9: error: reference to non-static member function must be called; did you mean to call it with no arguments?    x = getWindowWidth / 2.0f;        ^~~~~~~~~~~~~~                      ()/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp:28:9: error: reference to non-static member function must be called; did you mean to call it with no arguments?    y = getWindowHeight / 2.0f;        ^~~~~~~~~~~~~~~                       ()2 errors generated.2(36%IDEClangDiagnosticActivityLogMessage2@98"Reference to non-static member function must be called; did you mean to call it with no arguments?-387069849#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^26#8#26#8#576#0#14"Semantic Issue2(3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^26#8#26#22#576#0#3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^26#22#26#22#590#0#-2@98"Reference to non-static member function must be called; did you mean to call it with no arguments?-387069849#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^27#8#27#8#607#0#14"Semantic Issue2(3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^27#8#27#23#607#0#3@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^27#23#27#23#622#0#-0#0#0#-19%DVTDocumentLocation4@174"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp0000000000000000^4277"CompileC ./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o ../src/Ex1_1_BallWithoutVectorsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/../src/Ex1_1_BallWithoutVectorsApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Objects-normal/i386/Ex1_1_BallWithoutVectorsApp.o"36"9CF835B7-90E9-40E8-AC6D-E0CFF7703190-
+
+CCpResource CinderApp.icns ./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns
+s387069837.976133
+e387069837.998021
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy ./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns1bf4f98d3712b741^e57eff8d3712b741^---0#0#0#-19%DVTDocumentLocation2@212"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns000000000080d041^659"CpResource CinderApp.icns ./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Resources"36"548C3322-A06D-4623-894C-6085064159CE-
+
+CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/MacOS/Ex1_1_BallWithoutVectors" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist" Info.plist
+s387069837.898943
+e387069837.967847
+r1
+xProcessInfoPlistFile
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistac37e68d3712b741^69c9f78d3712b741^-203"warning: invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier387069837#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/Info.plist0000000000000000^678"ProcessInfoPlistFile ./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app/Contents/Info.plist"36"D2BFB4FC-896E-4BB4-8A35-C44B380D294F-
+
+CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex1_1_BallWithoutVectors-buofkqcrohatoyawalcnbyusfhih/Index/PrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-hdnxtdugtmgjblddpmtmpqxmgqrs_ast/Ex1_1_BallWithoutVectors_Prefix.pch.pth Ex1_1_BallWithoutVectors_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth Ex1_1_BallWithoutVectors_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s387069838.006196
+e387069838.220241
+r1
+xProcessPCH++
+x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth
+xEx1_1_BallWithoutVectors_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Precompile Ex1_1_BallWithoutVectors_Prefix.pch99bc018e3712b741^ef38398e3712b741^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/Ex1_1_BallWithoutVectors_Prefix.pch0000000000000000^3994"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth Ex1_1_BallWithoutVectors_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/Ex1_1_BallWithoutVectors-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Ex1_1_BallWithoutVectors.build/Debug/Ex1_1_BallWithoutVectors.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/Ex1_1_BallWithoutVectors_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_1_BallWithoutVectors_Prefix-alptmgsmgknnhtgythxhgmwdosjj/Ex1_1_BallWithoutVectors_Prefix.pch.d36"FBB05CAC-824D-4663-9533-720A85277636-
+
+CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_1_BallWithoutVectors/xcode/./build/Debug/Ex1_1_BallWithoutVectors.app"
+r0
+
