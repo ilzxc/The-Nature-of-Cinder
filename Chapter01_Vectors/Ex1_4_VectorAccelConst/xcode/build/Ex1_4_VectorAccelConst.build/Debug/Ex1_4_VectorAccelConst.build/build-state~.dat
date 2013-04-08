@@ -1,223 +1,0 @@
-TEx1_4_VectorAccelConst
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist" Info.plist
-cCpResource CinderApp.icns ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth Ex1_4_VectorAccelConst_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst" normal i386
-cTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F90F72900000000000000CC
-t1334900521
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c0000000051567B820000000000002400
-t1364622210
-s9216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051567B820000000000023FF4
-t1364622210
-s147444
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c0000000051567B8200000000000061F4
-t1364622210
-s25076
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000051567B8200000000000001E5
-t1364622210
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000051567B82000000000000E8A8
-t1364622210
-s59560
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004E1B3B730000000000006530
-t1310407539
-s25904
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004E1B3B730000000000006560
-t1310407539
-s25952
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004F9D0514000000000007CED0
-t1335690516
-s511696
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000005051800B000000000002D360
-t1347518475
-s185184
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000005051839200000000004B9FB0
-t1347519378
-s4956080
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c00000000514698D4000000000032B7E0
-t1363581140
-s3323872
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp
-c000000005162295B0000000000000348
-t1365387611
-s840
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConst.LinkFileList
-c000000005162295D00000000000001C4
-t1365387613
-s452
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/CinderApp.icns
-c000000005161F789000000000001BEB5
-t1365374857
-s114357
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Ex1_4_VectorAccelConst_Prefix.pch
-c000000005161F7890000000000000093
-t1365374857
-s147
-i<Cocoa/Cocoa.h>
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp
-c000000005162287800000000000002BC
-t1365387384
-s700
-
-N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth
-t2
-s0
-
-NInfo.plist
-c000000005161F789000000000000035C
-t1365374857
-s860
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies9f0036dd6012b741^c11c49dd6012b741^---0#1#0#--18"Check dependencies36"57239F23-D4B7-4703-AA53-072205F177A0-
-
-CCompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387080413.472790
-e387080415.359714
-r1
-xCompileC
-x./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cppc23379dd6012b741^db175cdf6012b741^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp0000000000000000^4187"CompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o ../src/Ex1_4_VectorAccelConstApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/../src/Ex1_4_VectorAccelConstApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConstApp.o"36"57B8608E-D5F6-4FBE-B432-2174E8826899-
-
-CCompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387080413.472810
-e387080415.374203
-r1
-xCompileC
-x./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp373479dd6012b741^0ccb5fdf6012b741^---0#0#0#-19%DVTDocumentLocation2@143"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp0000000000000000^4053"CompileC ./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Mover.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Mover.o"36"2D6705EB-B9F3-4172-9A52-F912A7D1B6C6-
-
-CCpResource CinderApp.icns ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns
-s387080413.300650
-e387080413.303150
-r1
-xCpResource
-xCinderApp.icns
-x./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns79064ddd6012b741^919b4ddd6012b741^---0#0#0#-19%DVTDocumentLocation2@208"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns000000000080d041^649"CpResource CinderApp.icns ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Resources"36"94131AFC-D513-4496-9761-21BB79EE60B9-
-
-CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst" normal i386
-s387080415.381584
-e387080416.893643
-r1
-xLd
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection199"Link /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConstdfc361df6012b741^76c5e4e06012b741^---0#0#0#--1479"Ld ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst normal i386    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug" -filelist "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Objects-normal/i386/Ex1_4_VectorAccelConst.LinkFileList" -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/MacOS/Ex1_4_VectorAccelConst"36"107988A1-F035-4BD6-8F0C-BA725C50D6D9-
-
-CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist" Info.plist
-s387080413.289580
-e387080413.293109
-r1
-xProcessInfoPlistFile
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist88304add6012b741^0f0d4bdd6012b741^-203"warning: invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier387080413#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@144"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Info.plist0000000000000000^666"ProcessInfoPlistFile ./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app/Contents/Info.plist"36"6C95AC74-1451-4EAB-BE67-604BEA09D379-
-
-CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex1_4_VectorAccelConst-baiweexrsjizcoesqiswnbhppyfn/Index/PrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-hhditkfqrzvbsghkbijqbbpvflai_ast/Ex1_4_VectorAccelConst_Prefix.pch.pth Ex1_4_VectorAccelConst_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth Ex1_4_VectorAccelConst_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387080413.311868
-e387080413.466400
-r1
-xProcessPCH++
-x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth
-xEx1_4_VectorAccelConst_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Precompile Ex1_4_VectorAccelConst_Prefix.pch5ef24fdd6012b741^ba6577dd6012b741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Ex1_4_VectorAccelConst_Prefix.pch0000000000000000^3922"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth Ex1_4_VectorAccelConst_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/Ex1_4_VectorAccelConst-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Ex1_4_VectorAccelConst.build/Debug/Ex1_4_VectorAccelConst.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/Ex1_4_VectorAccelConst_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_4_VectorAccelConst_Prefix-dfgbscrjrkwwzqawmmohmpzjipzf/Ex1_4_VectorAccelConst_Prefix.pch.d36"3999B7CC-4D1A-44E5-AD79-8E487C2647C8-
-
-CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app"
-s387080416.903681
-e387080416.965440
-r1
-xTouch
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Touch /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app0e66e7e06012b741^0327f7e06012b741^---0#0#0#--353"Touch ./build/Debug/Ex1_4_VectorAccelConst.app    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode"    /usr/bin/touch -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_4_VectorAccelConst/xcode/./build/Debug/Ex1_4_VectorAccelConst.app"36"F5EF19C5-76C4-4B49-AB8B-7F4DD40C473F-
-

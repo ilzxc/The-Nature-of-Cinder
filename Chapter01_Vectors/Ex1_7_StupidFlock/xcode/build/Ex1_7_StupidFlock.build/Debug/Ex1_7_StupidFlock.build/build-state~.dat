@@ -1,232 +1,0 @@
-TEx1_7_StupidFlock
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist" Info.plist
-cCpResource CinderApp.icns ./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth Ex1_7_StupidFlock_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F90F72900000000000000CC
-t1334900521
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c0000000051567B820000000000002400
-t1364622210
-s9216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051567B820000000000023FF4
-t1364622210
-s147444
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c0000000051567B8200000000000061F4
-t1364622210
-s25076
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000051567B8200000000000001E5
-t1364622210
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000051567B82000000000000E8A8
-t1364622210
-s59560
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004E1B3B730000000000006530
-t1310407539
-s25904
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004E1B3B730000000000006560
-t1310407539
-s25952
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004F9D0514000000000007CED0
-t1335690516
-s511696
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000005051800B000000000002D360
-t1347518475
-s185184
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000005051839200000000004B9FB0
-t1347519378
-s4956080
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c00000000514698D4000000000032B7E0
-t1363581140
-s3323872
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp
-c00000000516246DA0000000000000522
-t1365395162
-s1314
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/MacOS/Ex1_7_StupidFlock
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlock.LinkFileList
-c00000000516246DC00000000000001A1
-t1365395164
-s417
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/CinderApp.icns
-c000000005161F7F1000000000001BEB5
-t1365374961
-s114357
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Ex1_7_StupidFlock_Prefix.pch
-c000000005161F7F10000000000000093
-t1365374961
-s147
-i<Cocoa/Cocoa.h>
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp
-c00000000516245EC00000000000002BC
-t1365394924
-s700
-
-N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth
-t2
-s0
-
-NInfo.plist
-c000000005161F7F10000000000000357
-t1365374961
-s855
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies7f865f5c7e12b741^601e6e5c7e12b741^---0#1#0#--18"Check dependencies36"59DB37B1-859E-48AD-957B-036C6076A4B5-
-
-CCompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387087964.943433
-e387087969.481812
-r0
-xCompileC
-x./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp:58:19: error: unknown type name 'Ex1_6_VectorAccelMouseApp'
-oCINDER_APP_BASIC( Ex1_6_VectorAccelMouseApp, RendererGl )
-o                  ^
-o../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h:236:36: note: expanded from macro 'CINDER_APP_BASIC'
-o                cinder::app::AppBasic *app = new APP;                                                           \
-o                                                 ^
-o1 error generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cppb1a7f15c7e12b741^f75b7b617e12b741^-577"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp:58:19: error: unknown type name 'Ex1_6_VectorAccelMouseApp'CINDER_APP_BASIC( Ex1_6_VectorAccelMouseApp, RendererGl )                  ^../../../../cinder_0.8.4_mac/include/cinder/app/AppBasic.h:236:36: note: expanded from macro 'CINDER_APP_BASIC'                cinder::app::AppBasic *app = new APP;                                                           \                                                 ^1 error generated.-0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp0000000000000000^3962"CompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o ../src/Ex1_7_StupidFlockApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/../src/Ex1_7_StupidFlockApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Ex1_7_StupidFlockApp.o"36"CAFB8E33-5DB3-4B5F-9CE7-B4E06B7F0C8F-
-
-CCompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387087964.943671
-e387087969.077667
-r0
-xCompileC
-x./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:13:8: error: constructor for 'Mover' must explicitly initialize the const member 'fatness'
-oMover::Mover( float fat ){
-o       ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.h:24:17: note: declared here
-o    const float fatness;
-o                ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:14:13: error: read-only variable is not assignable
-o    fatness = fat;
-o    ~~~~~~~ ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:24:5: error: use of undeclared identifier 'maxAccel'
-o    maxAccel = 2.0f;
-o    ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:25:58: error: use of undeclared identifier 'maxAccel'
-o    acceleration = (mousePos - position).normalized() * (maxAccel - fatness);
-o                                                         ^
-o4 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp23bcf15c7e12b741^76dd13617e12b741^-1175"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:13:8: error: constructor for 'Mover' must explicitly initialize the const member 'fatness'Mover::Mover( float fat ){       ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.h:24:17: note: declared here    const float fatness;                ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:14:13: error: read-only variable is not assignable    fatness = fat;    ~~~~~~~ ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:24:5: error: use of undeclared identifier 'maxAccel'    maxAccel = 2.0f;    ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp:25:58: error: use of undeclared identifier 'maxAccel'    acceleration = (mousePos - position).normalized() * (maxAccel - fatness);                                                         ^4 errors generated.4(36%IDEClangDiagnosticActivityLogMessage2@77"Constructor for 'Mover' must explicitly initialize the const member 'fatness'-387087969#18446744073709551615#0#1(2@13"Declared here-387087969#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@136"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.h0000000000000000^23#16#23#16#422#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^12#7#12#7#144#0#14"Semantic Issue--2@36"Read-only variable is not assignable-387087969#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^13#12#13#12#176#0#14"Semantic Issue1(3@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^13#4#13#11#168#0#-2@39"Use of undeclared identifier 'maxAccel'-387087969#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^23#4#23#4#375#0#14"Semantic Issue--2@39"Use of undeclared identifier 'maxAccel'-387087969#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^24#57#24#57#449#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@138"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp0000000000000000^3858"CompileC ./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o Mover.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Mover.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Objects-normal/i386/Mover.o"36"D6002265-A4FA-44BB-954F-D278A42E6C82-
-
-CCpResource CinderApp.icns ./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns
-s387087964.446733
-e387087964.452463
-r1
-xCpResource
-xCinderApp.icns
-x./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy ./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns616b725c7e12b741^d0d4735c7e12b741^---0#0#0#-19%DVTDocumentLocation2@198"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns000000000080d041^624"CpResource CinderApp.icns ./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Resources"36"E01CC2A4-CB2C-49B5-BAA0-6AF6957A1446-
-
-CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/MacOS/Ex1_7_StupidFlock" normal i386
-r0
-
-CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist" Info.plist
-s387087964.434404
-e387087964.438485
-r1
-xProcessInfoPlistFile
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist0f436f5c7e12b741^fa42705c7e12b741^-203"warning: invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier387087964#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@139"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Info.plist0000000000000000^636"ProcessInfoPlistFile ./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app/Contents/Info.plist"36"377578F1-E8D6-4D1C-9547-77C7B6314867-
-
-CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex1_7_StupidFlock-dsaualvmemjyjqcwtxjdwdyyrcqu/Index/PrecompiledHeaders/Ex1_7_StupidFlock_Prefix-cmkvldcpbyfebshjjirlvgnpjgme_ast/Ex1_7_StupidFlock_Prefix.pch.pth Ex1_7_StupidFlock_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth Ex1_7_StupidFlock_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387087964.464296
-e387087964.936624
-r1
-xProcessPCH++
-x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth
-xEx1_7_StupidFlock_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Ex1_7_StupidFlock_Prefix.pch1af7765c7e12b741^2ac8ef5c7e12b741^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Ex1_7_StupidFlock_Prefix.pch0000000000000000^3742"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth Ex1_7_StupidFlock_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/Ex1_7_StupidFlock-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Ex1_7_StupidFlock.build/Debug/Ex1_7_StupidFlock.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/Ex1_7_StupidFlock_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_7_StupidFlock_Prefix-danoazqujgepwbddkhbmrqmabxbx/Ex1_7_StupidFlock_Prefix.pch.d36"4A692BD3-E7FF-40A7-821C-C3048FFC48BC-
-
-CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_7_StupidFlock/xcode/./build/Debug/Ex1_7_StupidFlock.app"
-r0
-

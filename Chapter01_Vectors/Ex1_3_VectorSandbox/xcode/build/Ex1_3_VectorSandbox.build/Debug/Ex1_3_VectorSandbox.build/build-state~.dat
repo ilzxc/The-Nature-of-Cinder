@@ -1,223 +1,0 @@
-TEx1_3_VectorSandbox
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist" Info.plist
-cCpResource CinderApp.icns ./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth Ex1_3_VectorSandbox_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox" normal i386
-cTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F90F72900000000000000CC
-t1334900521
-s204
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c0000000051567B820000000000002400
-t1364622210
-s9216
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051567B820000000000023FF4
-t1364622210
-s147444
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c0000000051567B8200000000000061F4
-t1364622210
-s25076
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000051567B8200000000000001E5
-t1364622210
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000051567B82000000000000E8A8
-t1364622210
-s59560
-
-N/System/Library/Frameworks/Carbon.framework/Carbon
-c000000004E1B3B730000000000006530
-t1310407539
-s25904
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004E1B3B730000000000006560
-t1310407539
-s25952
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000004F9D0514000000000007CED0
-t1335690516
-s511696
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c000000005051800B000000000002D360
-t1347518475
-s185184
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c000000005051839200000000004B9FB0
-t1347519378
-s4956080
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c00000000514698D4000000000032B7E0
-t1363581140
-s3323872
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp
-c0000000051623102000000000000024B
-t1365389570
-s587
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandbox.LinkFileList
-c000000005162313300000000000001B5
-t1365389619
-s437
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/CinderApp.icns
-c0000000051623102000000000001BEB5
-t1365389570
-s114357
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/Ex1_3_VectorSandbox_Prefix.pch
-c00000000516231020000000000000093
-t1365389570
-s147
-i<Cocoa/Cocoa.h>
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp
-c00000000516221DD0000000000000544
-t1365385693
-s1348
-
-N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth
-t1365381793
-s106608
-
-NInfo.plist
-c00000000516231020000000000000359
-t1365389570
-s857
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb2bb28b36812b741^c8063ab36812b741^---0#1#0#--18"Check dependencies36"0258944E-A037-4C39-8E5A-D95EF5E6BB74-
-
-CCompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387082419.278478
-e387082421.141086
-r1
-xCompileC
-x./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp2b8647b36812b741^4b1d24b56812b741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp0000000000000000^4052"CompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o ../src/Ex1_3_VectorSandboxApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/../src/Ex1_3_VectorSandboxApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandboxApp.o"36"BB975180-3433-42EC-B46D-16D7E602346E-
-
-CCompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387082419.278492
-e387082421.106338
-r1
-xCompileC
-x./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp4c8a47b36812b741^5c391bb56812b741^---0#0#0#-19%DVTDocumentLocation2@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp0000000000000000^3972"CompileC ./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o vecToCenter.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/vecToCenter.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/vecToCenter.o"36"A014DCAC-BF38-48FC-86E2-AFE3AF9D5781-
-
-CCpResource CinderApp.icns ./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns
-s387082419.246707
-e387082419.249269
-r1
-xCpResource
-xCinderApp.icns
-x./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Copy ./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns473a3fb36812b741^48e03fb36812b741^---0#0#0#-19%DVTDocumentLocation2@202"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns000000000080d041^634"CpResource CinderApp.icns ./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Resources"36"EBDF797D-F640-4590-8689-AE3781D0E0F9-
-
-CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox" normal i386
-s387082421.149111
-e387082421.417094
-r1
-xLd
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection190"Link /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox355e26b56812b741^cec66ab56812b741^---0#0#0#--1443"Ld ./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox normal i386    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug" -filelist "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Objects-normal/i386/Ex1_3_VectorSandbox.LinkFileList" -mmacosx-version-min=10.5 ../../../../cinder_0.8.4_mac/lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/MacOS/Ex1_3_VectorSandbox"36"BC8C08F0-DEA3-48FC-A891-26A55EE253FC-
-
-CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist" Info.plist
-s387082419.230611
-e387082419.237014
-r1
-xProcessInfoPlistFile
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist39263bb36812b741^07b43cb36812b741^-203"warning: invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.1(21%IDEActivityLogMessage2@194"invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier (UTI) that contains only alphanumeric (A-Z,a-z,0-9), hyphen (-), and period (.) characters.102"Invalid character '_' in Bundle Identifier at column 14. This string must be a uniform type identifier387082419#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Info.plist Utility Warning--0#0#0#-19%DVTDocumentLocation4@141"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/Info.plist0000000000000000^648"ProcessInfoPlistFile ./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app/Contents/Info.plist"36"62FD822C-2800-43FA-B2D3-703305A5F714-
-
-CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex1_3_VectorSandbox-fpbgfsmcvlwhtcaoqlzszltgttda/Index/PrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-gbiqgqwqtyckomapqmcursxjavjb_ast/Ex1_3_VectorSandbox_Prefix.pch.pth Ex1_3_VectorSandbox_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth Ex1_3_VectorSandbox_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s387082419.258007
-e387082419.271485
-r1
-xProcessPCH++
-x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth
-xEx1_3_VectorSandbox_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Ex1_3_VectorSandbox_Prefix.pchc32a42b36812b741^7a8945b36812b741^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/Ex1_3_VectorSandbox_Prefix.pch0000000000000000^3814"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth Ex1_3_VectorSandbox_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/Ex1_3_VectorSandbox-project-headers.hmap" -iquote../../../../cinder_0.8.4_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug/include" -I../../../../cinder_0.8.4_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Ex1_3_VectorSandbox.build/Debug/Ex1_3_VectorSandbox.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/Ex1_3_VectorSandbox_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex1_3_VectorSandbox_Prefix-ckiuqzwruebxpzfzvtjchbmwjxgj/Ex1_3_VectorSandbox_Prefix.pch.d36"7577D0CC-F638-4A8B-9555-973168D316D7-
-
-CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app"
-s387082421.425419
-e387082421.433507
-r1
-xTouch
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection156"Touch /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app47766db56812b741^76f96eb56812b741^---0#0#0#--341"Touch ./build/Debug/Ex1_3_VectorSandbox.app    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode"    /usr/bin/touch -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter01_Vectors/Ex1_3_VectorSandbox/xcode/./build/Debug/Ex1_3_VectorSandbox.app"36"808477BB-55B1-444D-9D42-02B03C21C631-
-

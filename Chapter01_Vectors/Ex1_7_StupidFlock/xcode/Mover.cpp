@@ -21,13 +21,13 @@ void Mover::resetPosition() {
 }
 
 void Mover::setAccel( Vec2f mousePos ) {
-    float maxAccel = 2.0f;
+    float maxAccel = 3.0f;
     acceleration = (mousePos - position).normalized() * (maxAccel - fatness);
 }
 
 void Mover::update() {
     velocity += acceleration;
-    velocity.limit( 10.0f );
+    velocity.limit( 20.0f );
     position += velocity;
 }
 
