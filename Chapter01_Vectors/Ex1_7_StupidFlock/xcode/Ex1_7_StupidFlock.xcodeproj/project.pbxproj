@@ -42,7 +42,7 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex1_7_StupidFlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex1_7_StupidFlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B0DF0DE17127CC200C0B38A /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
-		9B0DF0DF17127CC200C0B38A /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
+		9B0DF0DF17127CC200C0B38A /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../../../../../../testingNewCinder/src/Mover.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
