@@ -1,11 +1,11 @@
-#include "cinder/app/AppBasic.h"
+#include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
 using namespace ci;
 using namespace ci::app;
 using namespace std;
 
-class Ex26EverythingAttractsApp : public AppBasic {
+class Ex26EverythingAttractsApp : public AppNative {
   public:
 	void setup();
 	void mouseDown( MouseEvent event );	
@@ -31,4 +31,4 @@ void Ex26EverythingAttractsApp::draw()
 	gl::clear( Color( 0, 0, 0 ) ); 
 }
 
-CINDER_APP_BASIC( Ex26EverythingAttractsApp, RendererGl )
+CINDER_APP_NATIVE( Ex26EverythingAttractsApp, RendererGl )
