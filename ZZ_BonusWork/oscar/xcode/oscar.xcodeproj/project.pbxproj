@@ -26,8 +26,8 @@
 		6C0931EE2D394592B90CF465 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 942084532CFA48C2AD48B0D8 /* UdpSocket.cpp */; };
 		87C85C8F340C43BDAB6665BC /* OscSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4886B067E63A493E81CB5AB1 /* OscSender.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9B3312FC1781C9DE00E3217D /* OSCInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B3312FA1781C9DE00E3217D /* OSCInterface.cpp */; };
 		9B8A6AF417433C3C00ADAC7C /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B8A6AF217433C3C00ADAC7C /* square.cpp */; };
-		9BC8B68A174306F60034D75C /* OSCInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BC8B689174306F60034D75C /* OSCInterface.cpp */; };
 		D53FFBF2534648E7B8B29F21 /* oscarApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A899215D77D74DFDB420E5FA /* oscarApp.cpp */; };
 		EFAA00CD38E74ED5920C8FC5 /* NetworkingUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F9E79A5BF434151A09DCEB6 /* NetworkingUtils.cpp */; };
 /* End PBXBuildFile section */
@@ -66,11 +66,11 @@
 		942084532CFA48C2AD48B0D8 /* UdpSocket.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = UdpSocket.cpp; path = ../blocks/OSC/src/ip/posix/UdpSocket.cpp; sourceTree = "<group>"; };
 		971209F9663B4D3290F5274C /* OscHostEndianness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscHostEndianness.h; path = ../blocks/OSC/src/osc/OscHostEndianness.h; sourceTree = "<group>"; };
 		99B063C5B44A4D098564BD7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B3312FA1781C9DE00E3217D /* OSCInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OSCInterface.cpp; path = ../src/OSCInterface.cpp; sourceTree = "<group>"; };
+		9B3312FB1781C9DE00E3217D /* OSCInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCInterface.h; path = ../src/OSCInterface.h; sourceTree = "<group>"; };
 		9B8A6AF217433C3C00ADAC7C /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = square.cpp; path = ../src/square.cpp; sourceTree = "<group>"; };
 		9B8A6AF317433C3C00ADAC7C /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = square.h; path = ../src/square.h; sourceTree = "<group>"; };
 		9BB094EB281840C892B76F58 /* OscTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscTypes.h; path = ../blocks/OSC/src/osc/OscTypes.h; sourceTree = "<group>"; };
-		9BC8B689174306F60034D75C /* OSCInterface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OSCInterface.cpp; path = ../../CinderOSCDemo/src/OSCInterface.cpp; sourceTree = "<group>"; };
-		9BC8B68B174307100034D75C /* OSCInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSCInterface.h; path = ../../CinderOSCDemo/include/OSCInterface.h; sourceTree = "<group>"; };
 		A899215D77D74DFDB420E5FA /* oscarApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = oscarApp.cpp; path = ../src/oscarApp.cpp; sourceTree = "<group>"; };
 		A9B59492DF9641918F990E03 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		ACECA0E07BAC4D8CB955397D /* OscPacketListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OscPacketListener.h; path = ../blocks/OSC/src/osc/OscPacketListener.h; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9BC8B68B174307100034D75C /* OSCInterface.h */,
-				9BC8B689174306F60034D75C /* OSCInterface.cpp */,
+				9B3312FA1781C9DE00E3217D /* OSCInterface.cpp */,
+				9B3312FB1781C9DE00E3217D /* OSCInterface.h */,
 				A899215D77D74DFDB420E5FA /* oscarApp.cpp */,
 				9B8A6AF217433C3C00ADAC7C /* square.cpp */,
 				9B8A6AF317433C3C00ADAC7C /* square.h */,
@@ -336,8 +336,8 @@
 				26619B21458048879CFD30C6 /* OscTypes.cpp in Sources */,
 				EFAA00CD38E74ED5920C8FC5 /* NetworkingUtils.cpp in Sources */,
 				6C0931EE2D394592B90CF465 /* UdpSocket.cpp in Sources */,
-				9BC8B68A174306F60034D75C /* OSCInterface.cpp in Sources */,
 				9B8A6AF417433C3C00ADAC7C /* square.cpp in Sources */,
+				9B3312FC1781C9DE00E3217D /* OSCInterface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
