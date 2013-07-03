@@ -29,11 +29,11 @@ void Ex44ParticlePolymorphismApp::setup()
 void Ex44ParticlePolymorphismApp::update()
 {
     if(everything.size() > 0) {
-        for(std::vector<Particle*>::iterator iter = everything.end() - 1; iter >= everything.begin(); --iter) {
+        for(std::vector<Particle*>::reverse_iterator iter = everything.rbegin(); iter != everything.rend(); ++iter){
             (*iter)->update();
             if ( (*iter)->isDead() ) {
                 delete (*iter);
-                iter = everything.erase(iter);
+                everything.erase(--iter.base());
             }
         }
     }
