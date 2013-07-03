@@ -34,7 +34,7 @@ void Ex45ParticleRepellerApp::mouseMove( MouseEvent event ){
 }
 
 void Ex45ParticleRepellerApp::update() {
-    ps->update( gravity, *repeller, random );
+    ps->update( gravity, repeller, random );
 }
 
 void Ex45ParticleRepellerApp::draw()

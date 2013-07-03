@@ -33,7 +33,7 @@ public:
     }
     ~ParticleSystem();
         
-    void update( const Vec2f& force, Repeller& repeller, Rand& random );
+    void update( const Vec2f& force, Repeller * repeller, Rand& random );
     void draw();
 };
 
