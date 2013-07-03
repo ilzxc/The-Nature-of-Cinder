@@ -9,10 +9,8 @@
 #include "Confetti.h"
 
 void Confetti::update() {
-    velocity += acceleration;
-    position += velocity;
-    lifespan -= aging;
-    rotation += 0.03;
+    Particle::update();
+    rotation += rotationSpeed;
 }
 
 void Confetti::draw() {
