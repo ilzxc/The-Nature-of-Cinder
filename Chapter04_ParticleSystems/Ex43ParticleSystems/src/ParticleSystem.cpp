@@ -9,10 +9,10 @@
 #include "ParticleSystem.h"
 
 void ParticleSystem::update() {
-    for(std::vector<Particle>::iterator iter = particles.end() - 1; iter >= particles.begin(); --iter) {
+    for(std::vector<Particle>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
         iter->update();
         if ( iter->isDead() ) {
-            particles.erase( iter );
+            particles.erase( --iter.base() );
         }
     }
     particles.push_back( Particle( origin, r ) );
