@@ -50,14 +50,14 @@ void Ex44ParticlePolymorphismApp::draw()
 	// clear out the window with black
 	gl::clear( Color( 0.96, 0.96, 0.96 ) );
     
-    for (int i = 0; i < everything.size(); i++) {
-        everything[i]->draw();
+    for (auto& p : everything) {
+        p->draw();
     }
 }
 
 void Ex44ParticlePolymorphismApp::shutdown() {
-    for (int i = 0; i < everything.size(); ++i) {
-        delete everything[i];
+    for (auto& p : everything) {
+        delete p;
     }
 }
 

@@ -8,7 +8,7 @@
 
 #include "Particle.h"
 
-void Particle::update(Vec2f &force) {
+void Particle::update(const Vec2f &force) {
     acceleration += force;
     velocity += acceleration;
     position += velocity;
@@ -19,7 +19,7 @@ void Particle::draw() {
     gl::color(0, lifespan * lifespan / 5.0, lifespan * lifespan * lifespan, lifespan);
     gl::pushMatrices();
     gl::translate(position);
-    gl::draw( *texture, Rectf(-sizeRadius, -sizeRadius, sizeRadius, sizeRadius));
+    gl::draw( *texture, Rectf(-sizeRadius, -sizeRadius, sizeRadius, sizeRadius) );
     gl::popMatrices();
 }
 

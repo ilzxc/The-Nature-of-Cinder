@@ -20,7 +20,7 @@ void ParticleSystem::update() {
 
 
 void ParticleSystem::draw() {
-    for( int i = 0; i < particles.size(); i++ ) {
-        particles[i].draw();
+    for( auto& particle : particles ) {
+        particle.draw();
     }
 }

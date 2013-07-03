@@ -14,7 +14,7 @@ void Repeller::draw() {
     gl::color(30.0/255, 95.0/255, 153.0/255);
     gl::drawSolidCircle(Vec2f(0, 0), radius);
     gl::color(102.0/255, 156.0/255, 204.0/255);
-    gl::drawStrokedCircle(Vec2f(0, 0), radius * 0.80f);
+    gl::drawSolidCircle(Vec2f(0, 0), radius * 0.80f);
     gl::popMatrices();
 }
 
