@@ -20,6 +20,7 @@ void ParticleSystem::update( const Vec2f& force, Repeller * repeller, Rand& rand
     for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
         (*iter)->update();
         if ( (*iter)->isDead() ) {
+            delete *iter;
             particles.erase( --iter.base() );
         }
     }
@@ -30,7 +31,7 @@ void ParticleSystem::update( const Vec2f& force, Repeller * repeller, Rand& rand
 }
 
 void ParticleSystem::draw() {
-    for( auto i : particles) {
+    for( auto& i : particles) {
         i->draw();
     }
 }
@@ -40,13 +41,13 @@ void ParticleSystem::addParticle( Rand& r ) {
 }
 
 void ParticleSystem::applyForce( const Vec2f& f ) {
-    for (auto i : particles) {
+    for (auto& i : particles) {
         i->applyForce(f);
     }
 }
 
 void ParticleSystem::applyRepeller( Repeller& repeller ) {
-    for (auto i : particles) {
+    for (auto& i : particles) {
         Vec2f force = repeller.repel(*i);
         i->applyForce(force);
     }
