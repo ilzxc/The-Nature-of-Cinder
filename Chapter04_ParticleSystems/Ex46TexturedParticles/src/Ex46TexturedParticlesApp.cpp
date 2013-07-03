@@ -29,6 +29,7 @@ void Ex46TexturedParticlesApp::setup()
     random.randomize();
     image = gl::Texture( loadImage( loadResource("texture00.png") ) );
     particles.push_back( new Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7 ), random ) );
+    windDirection = 0.0f;
     windSpeed = 0.11;
 }
 
@@ -43,6 +44,7 @@ void Ex46TexturedParticlesApp::update()
     for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
         (*iter)->update(wind);
         if ( (*iter)->isDead() ) {
+            delete (*iter);
             particles.erase( --iter.base() );
         }
     }
@@ -56,7 +58,7 @@ void Ex46TexturedParticlesApp::draw()
 {
 	gl::clear( Color( 0, 0, 0 ) );
     
-    for( auto i : particles ) {
+    for( auto& i : particles ) {
         i->draw();
     }
 }
