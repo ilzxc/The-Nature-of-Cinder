@@ -33,8 +33,8 @@ void Ex43ParticleSystemsApp::mouseDown( MouseEvent event )
 void Ex43ParticleSystemsApp::update()
 {
     if(pss.size() > 0) {
-        for (int i = 0; i < pss.size(); i++) {
-            pss[i].update();
+        for ( auto& system : pss ) {
+            system.update();
         }
     }
 }
@@ -44,8 +44,8 @@ void Ex43ParticleSystemsApp::draw()
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
     if(pss.size() > 0) {
-        for (int i = 0; i < pss.size(); i++) {
-            pss[i].draw();
+        for ( auto& system : pss ) {
+            system.draw();
         }
     }
 }

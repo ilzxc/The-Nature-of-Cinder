@@ -12,15 +12,13 @@ using namespace std;
 class Ex46TexturedParticlesApp : public AppNative {
   public:
 	void setup();
-	void mouseMove( MouseEvent event );
 	void update();
 	void draw();
-    void shutdown();
     
     gl::Texture image;
     float windDirection, windSpeed;
     Vec2f wind;
-    std::vector<Particle> particles;
+    std::vector<Particle*> particles;
     Rand random;
 };
 
@@ -30,11 +28,8 @@ void Ex46TexturedParticlesApp::setup()
     gl::enableAdditiveBlending();
     random.randomize();
     image = gl::Texture( loadImage( loadResource("texture00.png") ) );
-    particles.push_back( Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7 ), random ) );
+    particles.push_back( new Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7 ), random ) );
     windSpeed = 0.11;
-}
-
-void Ex46TexturedParticlesApp::mouseMove( MouseEvent event ){
 }
 
 void Ex46TexturedParticlesApp::update()
@@ -45,14 +40,14 @@ void Ex46TexturedParticlesApp::update()
         windDirection -= 6.28318530717959;
     }
     wind = Vec2f( sin(windDirection) * 0.0005f, 0.0f );
-    for(std::vector<Particle>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
-        iter->update(wind);
-        if ( iter->isDead() ) {
+    for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
+        (*iter)->update(wind);
+        if ( (*iter)->isDead() ) {
             particles.erase( --iter.base() );
         }
     }
     
-    particles.push_back( Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7  ), random ) );
+    particles.push_back( new Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7  ), random ) );
     
     // std::cout << "Current particle count is " << particles.size() << std::endl;
 }
@@ -61,12 +56,9 @@ void Ex46TexturedParticlesApp::draw()
 {
 	gl::clear( Color( 0, 0, 0 ) );
     
-    for (int i = 0; i < particles.size(); i++) {
-        particles[i].draw();
+    for( auto i : particles ) {
+        i->draw();
     }
-}
-
-void Ex46TexturedParticlesApp::shutdown() {
 }
 
 CINDER_APP_NATIVE( Ex46TexturedParticlesApp, RendererGl )
