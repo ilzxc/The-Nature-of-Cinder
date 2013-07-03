@@ -35,6 +35,7 @@ void Ex42ParticleVectorApp::update()
     for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
         (*iter)->update();
         if ( (*iter)->isDead() ) {
+            delete (*iter);
             particles.erase( --iter.base() );
         }
     }
