@@ -48,7 +48,7 @@ void Ex44ParticlePolymorphismApp::update()
 void Ex44ParticlePolymorphismApp::draw()
 {
 	// clear out the window with black
-	gl::clear( Color( 0.8, 0.8, 0.8 ) );
+	gl::clear( Color( 0.96, 0.96, 0.96 ) );
     
     for (int i = 0; i < everything.size(); i++) {
         everything[i]->draw();

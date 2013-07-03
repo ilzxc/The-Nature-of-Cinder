@@ -22,7 +22,6 @@ protected:
     float lifespan;
     float aging;
     float sizeRadius;
-    float rotation;
     Vec3f color;
     
 public:
@@ -33,7 +32,6 @@ public:
         lifespan = 1.0f;
         aging = r.nextFloat( (1.0f / 100), (1.0f/ 200) );
         sizeRadius = r.nextFloat( 2, 7 );
-        rotation = r.nextFloat(0, 360);
         color = Vec3f(154.0/255, 40.0/255, 47.0/255);
     }
     virtual ~Particle() {}
