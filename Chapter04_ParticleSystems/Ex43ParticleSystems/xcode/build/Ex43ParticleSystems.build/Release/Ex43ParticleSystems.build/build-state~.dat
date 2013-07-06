@@ -1,0 +1,281 @@
+TEx43ParticleSystems
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth Ex43ParticleSystems_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems" normal i386
+cTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDACDB00000000000000AA
+t1371385051
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051567B8D00000000000024F0
+t1364622221
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051567B8D0000000000024DD8
+t1364622221
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051567B8D00000000000060B4
+t1364622221
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051567B8E00000000000001E5
+t1364622222
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051567B8E000000000000E9A8
+t1364622222
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051BDCA270000000000006730
+t1371392551
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051BDCA2B0000000000081CB0
+t1371392555
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051BDCA3D000000000002DAD0
+t1371392573
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051BDCA4500000000004A2E10
+t1371392581
+s4861456
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../resources/CinderApp.icns
+c0000000051D34DAF0000000000070375
+t1372802479
+s459637
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp
+c0000000051D44C630000000000000439
+t1372867683
+s1081
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp
+c0000000051D38FA700000000000001B2
+t1372819367
+s434
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp
+c0000000051D44C43000000000000024A
+t1372867651
+s586
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystems.LinkFileList
+c0000000051D4584E00000000000002A8
+t1372870734
+s680
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/Ex43ParticleSystems_Prefix.pch
+c0000000051D34DAF000000000000012D
+t1372802479
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D34DAF0000000000000462
+t1372802479
+s1122
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp"
+r0
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp"
+r0
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies69726dce8f84b741^64ae84ce8f84b741^---0#1#0#--18"Check dependencies36"B7D55E7E-38F3-4EA5-BDC2-07601389DF67-
+
+CCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394563538.510387
+e394563539.589587
+r1
+xCompileC
+x./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection162"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp14ed82d28f84b741^91ef96d38f84b741^---0#0#0#-19%DVTDocumentLocation2@172"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp0000000000000000^4243"CompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o ../src/Ex43ParticleSystemsApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Ex43ParticleSystemsApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystemsApp.o"36"E9FFE79B-AD54-4168-916F-ECA0C04D2F82-
+
+CCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394563538.510396
+e394563539.463667
+r1
+xCompileC
+x./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp5fef82d28f84b741^53b476d38f84b741^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp0000000000000000^4159"CompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o ../src/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/Particle.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Particle.o"36"9010BDE9-89FC-43E6-A1E1-ABC9821521E3-
+
+CCompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394563538.510463
+e394563539.464091
+r1
+xCompileC
+x./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection154"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp8dec82d28f84b741^46ce76d38f84b741^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp0000000000000000^4195"CompileC ./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o ../src/ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../src/ParticleSystem.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/ParticleSystem.o"36"C65DC251-3470-4010-AD83-1B5E2DE64483-
+
+CCpResource ../resources/CinderApp.icns ./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns
+s394563534.557906
+e394563534.617342
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy ./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns43e28ece8f84b741^7c0c9ece8f84b741^---0#0#0#-19%DVTDocumentLocation2@212"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns000000000080d041^814"CpResource ../resources/CinderApp.icns ./build/Release/Ex43ParticleSystems.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/../resources/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Resources"36"668A0D0F-DFF1-4833-8D6C-A94E9544D33E-
+
+CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems" normal i386
+s394563539.596593
+e394563540.299382
+r1
+xLd
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"Link /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems6ccf98d38f84b741^09a44cd48f84b741^---0#0#0#--1472"Ld ./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems normal i386    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" -filelist "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Objects-normal/i386/Ex43ParticleSystems.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/MacOS/Ex43ParticleSystems"36"C571B51F-7806-4AD3-8BB3-9CE3D9DC7315-
+
+CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Info.plist" Info.plist
+s394563534.522782
+e394563534.549278
+r1
+xProcessInfoPlistFile
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plista0e185ce8f84b741^57b58cce8f84b741^---0#0#0#-19%DVTDocumentLocation2@149"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/Info.plist0000000000000000^678"ProcessInfoPlistFile ./build/Release/Ex43ParticleSystems.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app/Contents/Info.plist"36"DBAE09C5-CFD2-41B5-AFDF-8543EA3DEA58-
+
+CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex43ParticleSystems-eqyxqmmmqxekjxbcjhtkpzpfzidv/Index/PrecompiledHeaders/Ex43ParticleSystems_Prefix-gmyjvekspfdvvgdjarkgaibkctuw_ast/Ex43ParticleSystems_Prefix.pch.pth Ex43ParticleSystems_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth Ex43ParticleSystems_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394563534.625712
+e394563538.503082
+r1
+xProcessPCH++
+x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth
+xEx43ParticleSystems_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Ex43ParticleSystems_Prefix.pchf547a0ce8f84b741^54c980d28f84b741^---0#0#0#-19%DVTDocumentLocation2@169"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/Ex43ParticleSystems_Prefix.pch0000000000000000^3973"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth Ex43ParticleSystems_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/Ex43ParticleSystems-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Ex43ParticleSystems.build/Release/Ex43ParticleSystems.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/build/Release" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/Ex43ParticleSystems_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex43ParticleSystems_Prefix-ccqnbuhekhdmrwfddruiglavrhwn/Ex43ParticleSystems_Prefix.pch.d36"997A2A1B-0748-4EF6-A398-7CD9412E735B-
+
+CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app"
+s394563540.307674
+e394563540.348094
+r1
+xTouch
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Touch /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app8dd14ed48f84b741^c11c59d48f84b741^---0#0#0#--361"Touch ./build/Release/Ex43ParticleSystems.app    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode"    /usr/bin/touch -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex43ParticleSystems/xcode/./build/Release/Ex43ParticleSystems.app"36"3A7DA936-5461-43D3-985E-A3E45974780B-
+

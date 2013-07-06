@@ -1,0 +1,266 @@
+TEx42ParticleVector
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth Ex42ParticleVector_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDACDB00000000000000AA
+t1371385051
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051567B8D00000000000024F0
+t1364622221
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051567B8D0000000000024DD8
+t1364622221
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051567B8D00000000000060B4
+t1364622221
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051567B8E00000000000001E5
+t1364622222
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051567B8E000000000000E9A8
+t1364622222
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051BDCA270000000000006730
+t1371392551
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051BDCA2B0000000000081CB0
+t1371392555
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051BDCA3D000000000002DAD0
+t1371392573
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051BDCA4500000000004A2E10
+t1371392581
+s4861456
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../resources/CinderApp.icns
+c0000000051D34D9E0000000000070375
+t1372802462
+s459637
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp
+c0000000051D383E500000000000003E0
+t1372816357
+s992
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp
+c0000000051D382EF00000000000001AB
+t1372816111
+s427
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/MacOS/Ex42ParticleVector
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVector.LinkFileList
+c0000000051D383E500000000000001BB
+t1372816357
+s443
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/Ex42ParticleVector_Prefix.pch
+c0000000051D34D9E000000000000012D
+t1372802462
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D34D9E0000000000000462
+t1372802462
+s1122
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp"
+r0
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0b7a3f65bb83b741^33518065bb83b741^---0#1#0#--18"Check dependencies36"832EAEF0-F0FD-4A2F-8459-337E2EB6EAE5-
+
+CCompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394509179.582676
+e394509182.458508
+r0
+xCompileC
+x./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:17:17: error: use of undeclared identifier 'Particle'
+o    std::vector<Particle> particles;
+o                ^
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:22:26: error: use of undeclared identifier 'Particle'
+o    particles.push_back( Particle( Vec2f( getWindowWidth(), 30 ) ) );
+o                         ^
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:35:26: error: use of undeclared identifier 'Particle'
+o    particles.push_back( Particle( Vec2f( getWindowWidth(), 30 ) );
+o                         ^
+o3 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cppb745957bbb83b741^92767b7ebb83b741^-888"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:17:17: error: use of undeclared identifier 'Particle'    std::vector<Particle> particles;                ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:22:26: error: use of undeclared identifier 'Particle'    particles.push_back( Particle( Vec2f( getWindowWidth(), 30 ) ) );                         ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp:35:26: error: use of undeclared identifier 'Particle'    particles.push_back( Particle( Vec2f( getWindowWidth(), 30 ) );                         ^3 errors generated.-0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp0000000000000000^4175"CompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o ../src/Ex42ParticleVectorApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Ex42ParticleVectorApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Ex42ParticleVectorApp.o"36"46B01F3A-564F-4499-9F7C-D0D41C1FC2DE-
+
+CCompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394509179.582670
+e394509181.955350
+r0
+xCompileC
+x./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oIn file included from /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:9:
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:13:2: error: invalid preprocessing directive
+o#inlcude "cinder/Rand.h"
+o ^
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:23:5: error: unknown type name 'Rand'
+o    Rand  r;
+o    ^
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:35:2: error: expected ';' after class
+o}
+o ^
+o ;
+o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:23:8: error: use of undeclared identifier 'lifespan'
+o    if(lifespan < 0.0f) {
+o       ^
+o4 errors generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp8046957bbb83b741^9b8ef47dbb83b741^-1003"In file included from /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:9:/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:13:2: error: invalid preprocessing directive#inlcude "cinder/Rand.h" ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:23:5: error: unknown type name 'Rand'    Rand  r;    ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.h:35:2: error: expected ';' after class} ^ ;/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:23:8: error: use of undeclared identifier 'lifespan'    if(lifespan < 0.0f) {       ^4 errors generated.4(36%IDEClangDiagnosticActivityLogMessage2@31"Invalid preprocessing directive-394509181#18446744073709551615#0#1(2@164"In file included from /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:9:-394509181#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.cpp0000000000000000^8#9#8#9#104#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.h0000000000000000^12#1#12#1#203#0#29"Lexical or Preprocessor Issue--2@24"Unknown type name 'Rand'-394509181#18446744073709551615#0#1(2@164"In file included from /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:9:-394509181#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.cpp0000000000000000^8#9#8#9#104#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.h0000000000000000^22#4#22#4#363#0#11"Parse Issue--2@24"Expected ';' after class-394509181#18446744073709551615#0#1(2@164"In file included from /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp:9:-394509181#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.cpp0000000000000000^8#9#8#9#104#0#21"Clang LLVM 1.0 Notice--2#27"com.apple.dt.IDE.diagnostic3@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.h0000000000000000^34#1#34#1#697#0#11"Parse Issue1(3@146"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.h0000000000000000^34#1#34#1#697#0#-2@39"Use of undeclared identifier 'lifespan'-394509181#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/src/Particle.cpp0000000000000000^22#7#22#7#358#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@157"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp0000000000000000^4097"CompileC ./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o ../src/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../src/Particle.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Objects-normal/i386/Particle.o"36"219C100F-BA79-4641-9737-B4B01A2AFB45-
+
+CCpResource ../resources/CinderApp.icns ./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns
+s394509157.600834
+e394509157.711676
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy ./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns4ab7a165bb83b741^c43ebd65bb83b741^---0#0#0#-19%DVTDocumentLocation2@208"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns000000000080d041^679"CpResource ../resources/CinderApp.icns ./build/Debug/Ex42ParticleVector.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/../resources/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Resources"36"4B89A559-F37B-4001-96AD-FBAB69CF9805-
+
+CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/MacOS/Ex42ParticleVector" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Info.plist" Info.plist
+s394509157.526774
+e394509157.592635
+r1
+xProcessInfoPlistFile
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist57e98665bb83b741^6b65aa65bb83b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/Info.plist0000000000000000^666"ProcessInfoPlistFile ./build/Debug/Ex42ParticleVector.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app/Contents/Info.plist"36"3F60DE56-CEC1-48EB-B63A-57BBC85E0CA7-
+
+CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex42ParticleVector-aclzbxscicuznnebvmxuxruadvja/Index/PrecompiledHeaders/Ex42ParticleVector_Prefix-gcjmvggkbtehwlfgaxdpiwqwhyua_ast/Ex42ParticleVector_Prefix.pch.pth Ex42ParticleVector_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth Ex42ParticleVector_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394509157.721781
+e394509179.575607
+r1
+xProcessPCH++
+x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth
+xEx42ParticleVector_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Precompile Ex42ParticleVector_Prefix.pch6116be65bb83b741^ea5a937bbb83b741^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/Ex42ParticleVector_Prefix.pch0000000000000000^3922"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth Ex42ParticleVector_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/Ex42ParticleVector-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Ex42ParticleVector.build/Debug/Ex42ParticleVector.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/Ex42ParticleVector_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex42ParticleVector_Prefix-cltjuvnuuftxmgfvkdxszzdphlys/Ex42ParticleVector_Prefix.pch.d36"D0EDC657-2069-4E58-9BA4-3867F13C94DC-
+
+CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex42ParticleVector/xcode/./build/Debug/Ex42ParticleVector.app"
+r0
+
