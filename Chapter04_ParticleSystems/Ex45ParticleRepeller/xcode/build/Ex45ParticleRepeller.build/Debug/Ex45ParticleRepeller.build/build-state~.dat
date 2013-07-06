@@ -1,425 +1,0 @@
-TEx45ParticleRepeller
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist" Info.plist
-cCpResource ../resources/CinderApp.icns ./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns
-cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth Ex45ParticleRepeller_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c0000000051BDACDB00000000000000AA
-t1371385051
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-c0000000051567B8D00000000000024F0
-t1364622221
-s9456
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c0000000051567B8D0000000000024DD8
-t1364622221
-s151000
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-c0000000051567B8D00000000000060B4
-t1364622221
-s24756
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000051567B8E00000000000001E5
-t1364622222
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000051567B8E000000000000E9A8
-t1364622222
-s59816
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c0000000051BDCA270000000000006730
-t1371392551
-s26416
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c0000000051BDCA2B0000000000081CB0
-t1371392555
-s531632
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000051BDCA3D000000000002DAD0
-t1371392573
-s187088
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c0000000051BDCA4500000000004A2E10
-t1371392581
-s4861456
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../resources/CinderApp.icns
-c0000000051D34DD80000000000070375
-t1372802520
-s459637
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp
-c0000000051D3ECFD0000000000000462
-t1372843261
-s1122
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp
-c0000000051D3EB800000000000000257
-t1372842880
-s599
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp
-c0000000051D3ED1300000000000004CA
-t1372843283
-s1226
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp
-c0000000051D3EAE500000000000002F1
-t1372842725
-s753
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/MacOS/Ex45ParticleRepeller
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepeller.LinkFileList
-c0000000051D3ED130000000000000389
-t1372843283
-s905
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o
-t2
-s0
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Ex45ParticleRepeller_Prefix.pch
-c0000000051D34DD8000000000000012D
-t1372802520
-s301
-i<Cocoa/Cocoa.h>
-i"cinder/Cinder.h"
-i"cinder/app/AppBasic.h"
-i"cinder/gl/gl.h"
-i"cinder/CinderMath.h"
-i"cinder/Matrix.h"
-i"cinder/Vector.h"
-i"cinder/Quaternion.h"
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Particle.cpp
-c0000000051D3DF640000000000000077
-t1372839780
-s119
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Cinder.h
-c0000000051780B7C0000000000000CEB
-t1366821756
-s3307
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/CinderMath.h
-c0000000051780B7C0000000000001F9E
-t1366821756
-s8094
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Matrix.h
-c0000000051780B7C0000000000000EDD
-t1366821756
-s3805
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Quaternion.h
-c0000000051780B7D0000000000005499
-t1366821757
-s21657
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Vector.h
-c0000000051780B7D000000000000AD7C
-t1366821757
-s44412
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
-c0000000051780B7D0000000000002262
-t1366821757
-s8802
-
-N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h
-c0000000051780B7E0000000000006469
-t1366821758
-s25705
-
-N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth
-t2
-s0
-
-NInfo.plist
-c0000000051D34DD80000000000000462
-t1372802520
-s1122
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp"
-r0
-
-CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Particle.cpp"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3c876a932484b741^1e37b0932484b741^---0#1#0#--18"Check dependencies36"ABCEA354-727B-4D19-93D5-A000B5ADC4E0-
-
-CCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394536094.128847
-e394536096.086845
-r0
-xCompileC
-x./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:37:26: error: too many arguments to function call, expected single argument 'r', have 3 arguments
-o    ps->update( gravity, repeller, random );
-o    ~~~~~~~~~~           ^~~~~~~~~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.h:36:5: note: 'update' declared here
-o    void update( Rand& r );
-o    ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:48:12: error: use of undeclared identifier 'ps'
-o    delete ps;
-o           ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:49:12: error: use of undeclared identifier 'repeller'
-o    delete repeller;
-o           ^
-o3 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection164"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp0ed8219e2484b741^71e8b1a02484b741^-1055"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:37:26: error: too many arguments to function call, expected single argument 'r', have 3 arguments    ps->update( gravity, repeller, random );    ~~~~~~~~~~           ^~~~~~~~~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.h:36:5: note: 'update' declared here    void update( Rand& r );    ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:48:12: error: use of undeclared identifier 'ps'    delete ps;           ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp:49:12: error: use of undeclared identifier 'repeller'    delete repeller;           ^3 errors generated.-0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp0000000000000000^4265"CompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o ../src/Ex45ParticleRepellerApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Ex45ParticleRepellerApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Ex45ParticleRepellerApp.o"36"5391BDFB-DC7E-49D7-93FE-3D4585915017-
-
-CCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394536094.128829
-e394536095.885286
-r0
-xCompileC
-x./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp:17:16: error: out-of-line definition of 'applyForce' does not match any declaration in 'Particle'
-ovoid Particle::applyForce( const Vec2f force ) {
-o               ^~~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.h:35:28: note: type of 1st parameter of member declaration does not match definition ('const Vec2f &' (aka 'const Vec2<float> &') vs 'const Vec2f' (aka 'const Vec2<float>'))
-o    void applyForce( const Vec2f& force );
-o                           ^
-o1 error generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp5cab219e2484b741^249ce29f2484b741^-718"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp:17:16: error: out-of-line definition of 'applyForce' does not match any declaration in 'Particle'void Particle::applyForce( const Vec2f force ) {               ^~~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.h:35:28: note: type of 1st parameter of member declaration does not match definition ('const Vec2f &' (aka 'const Vec2<float> &') vs 'const Vec2f' (aka 'const Vec2<float>'))    void applyForce( const Vec2f& force );                           ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@83"Out-of-line definition of 'applyForce' does not match any declaration in 'Particle'-394536095#18446744073709551615#0#1(2@158"Type of 1st parameter of member declaration does not match definition ('const Vec2f &' (aka 'const Vec2<float> &') vs 'const Vec2f' (aka 'const Vec2<float>'))-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Particle.h0000000000000000^34#27#34#27#812#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Particle.cpp0000000000000000^16#15#16#15#243#0#14"Semantic Issue1(3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Particle.cpp0000000000000000^16#15#16#25#243#0#-0#0#0#-19%DVTDocumentLocation4@159"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp0000000000000000^4175"CompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o ../src/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o"36"971EFF96-BC07-44AF-9D84-126D6BAF6A5B-
-
-CCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394536094.129626
-e394536095.885786
-r0
-xCompileC
-x./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:17:22: error: out-of-line definition of 'update' does not match any declaration in 'ParticleSystem'
-ovoid ParticleSystem::update( const Vec2f force, const Repeller repel, Rand& r) {
-o                     ^~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:31:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?
-o        particles[i].draw();
-o        ~~~~~~~~~~~~^
-o                    ->
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:39:22: error: out-of-line definition of 'applyForce' does not match any declaration in 'ParticleSystem'
-ovoid ParticleSystem::applyForce( const Vec2f& f ) {
-o                     ^~~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.h:26:28: note: type of 1st parameter of member declaration does not match definition ('const Vec2f' (aka 'const Vec2<float>') vs 'const Vec2f &' (aka 'const Vec2<float> &'))
-o    void applyForce( const Vec2f f );
-o                           ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:41:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?
-o        particles[i].applyForce(f);
-o        ~~~~~~~~~~~~^
-o                    ->
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:47:23: error: type 'const Repeller' does not provide a call operator
-o        Vec2f force = repeller(particles[i]);
-o                      ^~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:48:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?
-o        particles[i].applyForce(force);
-o        ~~~~~~~~~~~~^
-o                    ->
-o6 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp93aa219e2484b741^87bfe29f2484b741^-2409"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:17:22: error: out-of-line definition of 'update' does not match any declaration in 'ParticleSystem'void ParticleSystem::update( const Vec2f force, const Repeller repel, Rand& r) {                     ^~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:31:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?        particles[i].draw();        ~~~~~~~~~~~~^                    ->/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:39:22: error: out-of-line definition of 'applyForce' does not match any declaration in 'ParticleSystem'void ParticleSystem::applyForce( const Vec2f& f ) {                     ^~~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.h:26:28: note: type of 1st parameter of member declaration does not match definition ('const Vec2f' (aka 'const Vec2<float>') vs 'const Vec2f &' (aka 'const Vec2<float> &'))    void applyForce( const Vec2f f );                           ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:41:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?        particles[i].applyForce(f);        ~~~~~~~~~~~~^                    ->/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:47:23: error: type 'const Repeller' does not provide a call operator        Vec2f force = repeller(particles[i]);                      ^~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp:48:21: error: member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?        particles[i].applyForce(force);        ~~~~~~~~~~~~^                    ->6 errors generated.6(36%IDEClangDiagnosticActivityLogMessage2@85"Out-of-line definition of 'update' does not match any declaration in 'ParticleSystem'-394536095#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^16#21#16#21#276#0#14"Semantic Issue1(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^16#21#16#27#276#0#-2@96"Member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?-394536095#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^30#20#30#20#750#0#14"Semantic Issue2(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^30#8#30#20#738#11#3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^30#20#30#21#750#1#-2@89"Out-of-line definition of 'applyForce' does not match any declaration in 'ParticleSystem'-394536095#18446744073709551615#0#1(2@158"Type of 1st parameter of member declaration does not match definition ('const Vec2f' (aka 'const Vec2<float>') vs 'const Vec2f &' (aka 'const Vec2<float> &'))-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@154"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.h0000000000000000^25#27#25#27#467#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^38#21#38#21#892#0#14"Semantic Issue1(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^38#21#38#31#892#0#-2@96"Member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?-394536095#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^40#20#40#20#993#0#14"Semantic Issue2(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^40#8#40#20#981#11#3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^40#20#40#21#993#1#-2@54"Type 'const Repeller' does not provide a call operator-394536095#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^46#22#46#22#1155#0#14"Semantic Issue1(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^46#22#46#30#1155#0#-2@96"Member reference type 'value_type' (aka 'Particle *') is a pointer; maybe you meant to use '->'?-394536095#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^47#20#47#20#1199#0#14"Semantic Issue2(3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^47#8#47#20#1187#11#3@156"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/ParticleSystem.cpp0000000000000000^47#20#47#21#1199#1#-0#0#0#-19%DVTDocumentLocation4@165"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp0000000000000000^4211"CompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o ../src/ParticleSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/ParticleSystem.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/ParticleSystem.o"36"63919201-F50F-4073-BFFC-910EF0335394-
-
-CCompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394536094.128837
-e394536095.890882
-r0
-xCompileC
-x./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:14:5: error: no matching function for call to 'color'
-o    gl::color();
-o    ^~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were provided
-oinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were provided
-oinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:16:5: error: no matching function for call to 'color'
-o    gl::color();
-o    ^~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were provided
-oinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were provided
-oinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:18:5: error: no matching function for call to 'color'
-o    gl::color();
-o    ^~~~~~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were provided
-oinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were provided
-oinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were provided
-oinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }
-o            ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:23:17: error: out-of-line definition of 'repel' does not match any declaration in 'Repeller'
-oVec2f Repeller::repel( const Particle& p ) {
-o                ^~~~~
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.h:27:17: note: type of 1st parameter of member declaration does not match definition ('Particle' vs 'const Particle &')
-o    Vec2f repel(Particle p);
-o                ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:24:36: error: 'position' is a protected member of 'Particle'
-o    Vec2f direction = location - p.position;
-o                                   ^
-o/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.h:19:11: note: declared protected here
-o    Vec2f position;
-o          ^
-o5 errors generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cppe9b5219e2484b741^8d0ee49f2484b741^-8375"/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:14:5: error: no matching function for call to 'color'    gl::color();    ^~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were providedinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were providedinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:16:5: error: no matching function for call to 'color'    gl::color();    ^~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were providedinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were providedinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:18:5: error: no matching function for call to 'color'    gl::color();    ^~~~~~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:174:13: note: candidate function not viable: requires 3 arguments, but 0 were providedinline void color( float r, float g, float b ) { glColor4f( r, g, b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:176:13: note: candidate function not viable: requires 4 arguments, but 0 were providedinline void color( float r, float g, float b, float a ) { glColor4f( r, g, b, a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:178:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color8u &c ) { glColor4ub( c.r, c.g, c.b, 255 ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:180:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA8u &c ) { glColor4ub( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:182:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const Color &c ) { glColor4f( c.r, c.g, c.b, 1.0f ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../../../../cinder_0.8.5_mac/include/cinder/gl/gl.h:184:13: note: candidate function not viable: requires single argument 'c', but no arguments were providedinline void color( const ColorA &c ) { glColor4f( c.r, c.g, c.b, c.a ); }            ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:23:17: error: out-of-line definition of 'repel' does not match any declaration in 'Repeller'Vec2f Repeller::repel( const Particle& p ) {                ^~~~~/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.h:27:17: note: type of 1st parameter of member declaration does not match definition ('Particle' vs 'const Particle &')    Vec2f repel(Particle p);                ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp:24:36: error: 'position' is a protected member of 'Particle'    Vec2f direction = location - p.position;                                   ^/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Particle.h:19:11: note: declared protected here    Vec2f position;          ^5 errors generated.5(36%IDEClangDiagnosticActivityLogMessage2@40"No matching function for call to 'color'-394536095#18446744073709551615#0#6(2@72"Candidate function not viable: requires 3 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^173#12#173#12#10007#0#14"Semantic Issue--2@72"Candidate function not viable: requires 4 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^175#12#175#12#10129#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^177#12#177#12#10269#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^179#12#179#12#10388#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^181#12#181#12#10520#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^183#12#183#12#10637#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^13#4#13#4#201#0#14"Semantic Issue1(3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^13#4#13#13#201#4#-2@40"No matching function for call to 'color'-394536095#18446744073709551615#0#6(2@72"Candidate function not viable: requires 3 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^173#12#173#12#10007#0#14"Semantic Issue--2@72"Candidate function not viable: requires 4 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^175#12#175#12#10129#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^177#12#177#12#10269#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^179#12#179#12#10388#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^181#12#181#12#10520#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^183#12#183#12#10637#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^15#4#15#4#264#0#14"Semantic Issue1(3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^15#4#15#13#264#4#-2@40"No matching function for call to 'color'-394536095#18446744073709551615#0#6(2@72"Candidate function not viable: requires 3 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^173#12#173#12#10007#0#14"Semantic Issue--2@72"Candidate function not viable: requires 4 arguments, but 0 were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^175#12#175#12#10129#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^177#12#177#12#10269#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^179#12#179#12#10388#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^181#12#181#12#10520#0#14"Semantic Issue--2@91"Candidate function not viable: requires single argument 'c', but no arguments were provided-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@105"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h0000000000000000^183#12#183#12#10637#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^17#4#17#4#329#0#14"Semantic Issue1(3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^17#4#17#13#329#4#-2@78"Out-of-line definition of 'repel' does not match any declaration in 'Repeller'-394536095#18446744073709551615#0#1(2@104"Type of 1st parameter of member declaration does not match definition ('Particle' vs 'const Particle &')-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.h0000000000000000^26#16#26#16#476#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^22#16#22#16#436#0#14"Semantic Issue1(3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^22#16#22#21#436#0#-2@46"'position' is a protected member of 'Particle'-394536095#18446744073709551615#0#1(2@23"Declared protected here-394536095#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@148"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Particle.h0000000000000000^18#10#18#10#293#0#14"Semantic Issue--2#27"com.apple.dt.IDE.diagnostic3@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/src/Repeller.cpp0000000000000000^23#35#23#35#500#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@159"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp0000000000000000^4175"CompileC ./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o ../src/Repeller.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../src/Repeller.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Objects-normal/i386/Repeller.o"36"2278EF81-7ECE-4DCB-9EC2-097C99C60100-
-
-CCpResource ../resources/CinderApp.icns ./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns
-s394536083.759283
-e394536083.782527
-r1
-xCpResource
-x../resources/CinderApp.icns
-x./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy ./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns986ec2932484b741^6d53c8932484b741^---0#0#0#-19%DVTDocumentLocation2@212"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns000000000080d041^689"CpResource ../resources/CinderApp.icns ./build/Debug/Ex45ParticleRepeller.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/../resources/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Resources"36"2B094E52-787D-4633-B0EB-91FBB5ECF825-
-
-CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/MacOS/Ex45ParticleRepeller" normal i386
-r0
-
-CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist" Info.plist
-s394536083.737162
-e394536083.751715
-r1
-xProcessInfoPlistFile
-x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist
-xInfo.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist4cc7bc932484b741^c021c8932484b741^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Info.plist0000000000000000^678"ProcessInfoPlistFile ./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app/Contents/Info.plist"36"03F40430-0611-4257-B734-98018BB0A3CC-
-
-CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex45ParticleRepeller-cdxsxqqoanvadyfitzppcsiwukeq/Index/PrecompiledHeaders/Ex45ParticleRepeller_Prefix-aifejtmnmjrdlieuuexlfivclqta_ast/Ex45ParticleRepeller_Prefix.pch.pth Ex45ParticleRepeller_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth Ex45ParticleRepeller_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s394536083.790490
-e394536094.120579
-r1
-xProcessPCH++
-x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth
-xEx45ParticleRepeller_Prefix.pch
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Ex45ParticleRepeller_Prefix.pchdd79ca932484b741^855c259e2484b741^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Ex45ParticleRepeller_Prefix.pch0000000000000000^3994"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth Ex45ParticleRepeller_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/Ex45ParticleRepeller-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Ex45ParticleRepeller.build/Debug/Ex45ParticleRepeller.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/build/Debug" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/Ex45ParticleRepeller_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex45ParticleRepeller_Prefix-gdskfecytkysfrcrdwonozhxvegt/Ex45ParticleRepeller_Prefix.pch.d36"3329BD47-702C-4A0D-B629-78427E5667C7-
-
-CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex45ParticleRepeller/xcode/./build/Debug/Ex45ParticleRepeller.app"
-r0
-
