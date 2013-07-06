@@ -9,19 +9,20 @@
 #include "ParticleSystem.h"
 
 void ParticleSystem::update() {
-    for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
-        (*iter)->update();
-        if ( (*iter)->isDead() ) {
-            delete *iter;
-            particles.erase( --iter.base() );
+    for(std::vector<Particle>::iterator iter = particles.begin(); iter != particles.end();) {
+        iter->update();
+        if ( iter->isDead() ) {
+            iter = particles.erase(iter);
+        } else {
+            ++iter;
         }
     }
-    particles.push_back( new Particle( origin, r ) );
+    particles.push_back( Particle( origin, r ) );
 }
 
 
 void ParticleSystem::draw() {
     for( auto& particle : particles ) {
-        particle->draw();
+        particle.draw();
     }
 }

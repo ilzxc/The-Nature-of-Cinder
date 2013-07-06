@@ -16,6 +16,8 @@
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9B75F4E71786EB6B00A434C2 /* JEFF_allWalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B75F4E61786EB6B00A434C2 /* JEFF_allWalk.png */; };
+		9B75F4EA1786EE5C00A434C2 /* NPC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B75F4E81786EE5C00A434C2 /* NPC.cpp */; };
 		9BD94633177FEA96000A0BE5 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD94631177FEA96000A0BE5 /* Character.cpp */; };
 		9BD9463717803F6E000A0BE5 /* NESS_allWalk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD9463617803F6E000A0BE5 /* NESS_allWalk.png */; };
 		BADBDCF4A8D64ACAA58E4A37 /* NessBox2DApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9C46F2C93614120A11338C8 /* NessBox2DApp.cpp */; };
@@ -35,6 +37,9 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* NessBox2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NessBox2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B75F4E61786EB6B00A434C2 /* JEFF_allWalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JEFF_allWalk.png; path = ../../../../sprites/JEFF_allWalk.png; sourceTree = "<group>"; };
+		9B75F4E81786EE5C00A434C2 /* NPC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NPC.cpp; path = ../src/NPC.cpp; sourceTree = "<group>"; };
+		9B75F4E91786EE5C00A434C2 /* NPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NPC.h; path = ../src/NPC.h; sourceTree = "<group>"; };
 		9BD94631177FEA96000A0BE5 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Character.cpp; path = ../src/Character.cpp; sourceTree = "<group>"; };
 		9BD94632177FEA96000A0BE5 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Character.h; path = ../src/Character.h; sourceTree = "<group>"; };
 		9BD9463617803F6E000A0BE5 /* NESS_allWalk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NESS_allWalk.png; path = ../resources/NESS_allWalk.png; sourceTree = SOURCE_ROOT; };
@@ -68,6 +73,8 @@
 				F9C46F2C93614120A11338C8 /* NessBox2DApp.cpp */,
 				9BD94631177FEA96000A0BE5 /* Character.cpp */,
 				9BD94632177FEA96000A0BE5 /* Character.h */,
+				9B75F4E81786EE5C00A434C2 /* NPC.cpp */,
+				9B75F4E91786EE5C00A434C2 /* NPC.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -128,6 +135,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9B75F4E61786EB6B00A434C2 /* JEFF_allWalk.png */,
 				9BD9463617803F6E000A0BE5 /* NESS_allWalk.png */,
 				F5D56802199B4CF3B3A345E9 /* CinderApp.icns */,
 				263BE001997A44E3A1121F44 /* Info.plist */,
@@ -196,6 +204,7 @@
 			files = (
 				3620D3A0AB6F4932A91AA287 /* CinderApp.icns in Resources */,
 				9BD9463717803F6E000A0BE5 /* NESS_allWalk.png in Resources */,
+				9B75F4E71786EB6B00A434C2 /* JEFF_allWalk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +217,7 @@
 			files = (
 				BADBDCF4A8D64ACAA58E4A37 /* NessBox2DApp.cpp in Sources */,
 				9BD94633177FEA96000A0BE5 /* Character.cpp in Sources */,
+				9B75F4EA1786EE5C00A434C2 /* NPC.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

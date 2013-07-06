@@ -1,6 +1,7 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "Character.h"
+#include "NPC.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -15,7 +16,8 @@ class NessBox2DApp : public AppNative {
 	void update();
 	void draw();
     
-    Character *ness;
+    Character ness;
+    NPC jeff;
     gl::Texture::Format _fmt;
     bool keys[5];
     int definedKeys[5];
@@ -35,11 +37,15 @@ void NessBox2DApp::prepareSettings(Settings *Settings) {
 void NessBox2DApp::setup()
 {
     gl::enableAlphaBlending();
-    // fmt.setWrap( GL_REPEAT, GL_REPEAT );
+    //gl::enableWireframe();
+    //fmt.setWrap( GL_REPEAT, GL_REPEAT );
     _fmt.setMinFilter( GL_NEAREST );
     _fmt.setMagFilter( GL_NEAREST );
     int scale = 3;
-    ness = new Character( Surface(loadImage( loadResource( "NESS_allWalk.png" ) ) ), _fmt, 16, 24, 16 * scale, 24 * scale );
+    Surface walkStuff = Surface( loadImage( loadResource( "NESS_allWalk.png" ) ) );
+    ness = Character( &walkStuff, _fmt, 16, 24, 16 * scale, 24 * scale );
+    walkStuff = Surface( loadImage( loadResource( "JEFF_allWalk.png" ) ) );
+    jeff = NPC( &walkStuff, _fmt, 16, 24, 16 * scale, 24 * scale );
     
     for (int i = 0; i < 5; i++) {
         keys[i] = false;
@@ -73,14 +79,21 @@ void NessBox2DApp::setKeysTo(const KeyEvent event, const bool what) {
 
 void NessBox2DApp::update()
 {
-    ness->update(keys);
+    ness.update(keys);
+    jeff.update();
 }
 
 void NessBox2DApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0.2, 0.2, 0.2 ) );
-    ness->draw();
+    if( ness.getY() < jeff.getY() ) {
+        ness.draw();
+        jeff.draw();
+    } else {
+        jeff.draw();
+        ness.draw();
+    }
 }
 
 CINDER_APP_NATIVE( NessBox2DApp, RendererGl )
