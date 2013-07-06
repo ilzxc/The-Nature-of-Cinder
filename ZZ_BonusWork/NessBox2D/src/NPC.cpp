@@ -1,18 +1,18 @@
 //
-//  Character.cpp
+//  NPC.cpp
 //  NessBox2D
 //
-//  Created by Ilya Rostovtsev on 6/29/13.
+//  Created by Ilya Rostovtsev on 7/5/13.
 //
 //
 
-#include "Character.h"
+#include "NPC.h"
 
 using namespace ci;
 
-Character::Character(const ci::Surface * spriteSheet, const gl::Texture::Format &fmt, const int spriteSizeX, const int spriteSizeY, const int sizeX, const int sizeY) {
+NPC::NPC(const ci::Surface * spriteSheet, const gl::Texture::Format &fmt, const int spriteSizeX, const int spriteSizeY, const int sizeX, const int sizeY) {
     size = Area(0, 0, sizeX, sizeY);
-    step = 200;
+    step = 50;
     
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 2; j++) {
@@ -24,10 +24,9 @@ Character::Character(const ci::Surface * spriteSheet, const gl::Texture::Format 
     direction = 1;
     position = ci::app::getWindowCenter();
     timeBetweenFrames = 0.2;
-    currentCharacter = true;
 }
 
-void Character::draw() {
+void NPC::draw() {
     gl::pushMatrices();
     gl::translate(position.x, position.y);
     if (!moving) {
@@ -50,18 +49,22 @@ void Character::draw() {
     gl::popMatrices();
 }
 
-void Character::update(const bool keysPressed[]) {
+void NPC::update() {
     
-    // it has been ci::app::getElapsedSeconds() since the game started
-    // it has been ci::app::getElapsedSeconds() - previousFrameTime since last frame
+    if (timer >= timeToNext) {
+        timer = 0.0;
+        Rand::randomize();
+        timeToNext = randFloat(0.5f, 5.5f);
+        if (randInt(0, 2) == 0) {
+            moving = false;
+        } else {
+            moving = true;
+            direction = randInt(1, 9);
+        }
+    }
     deltaTime = ci::app::getElapsedSeconds() - previousFrameTime;
     previousFrameTime = ci::app::getElapsedSeconds();
-    
-    
-    if (currentCharacter) {
-        input(keysPressed);
-    }
-    
+    timer += deltaTime;
     if (moving) {
         stepSize = step * deltaTime;
         switch (direction) {
@@ -93,47 +96,8 @@ void Character::update(const bool keysPressed[]) {
     }
 }
 
-void Character::input(const bool keysPressed[]){
-    
-    if ( (!(keysPressed[0] || keysPressed[1] || keysPressed[2] || keysPressed[3])) || (keysPressed[0] && keysPressed[2]) || (keysPressed[1] && keysPressed[3]) ) {
-        setMoving( false ); // setMoving off if the character is not moving (checking opposite directions)
-    } else {
-        if (keysPressed[0]) {
-            direction = 3;
-        }
-        if (keysPressed[1]) {
-            direction = 5;
-        }
-        if (keysPressed[2]) {
-            direction = 7;
-        }
-        if (keysPressed[3]) {
-            direction = 1;
-        }
-        if (keysPressed[0] && keysPressed[1]) {
-            direction = 4;
-        }
-        if (keysPressed[0] && keysPressed[3]) {
-            direction = 2;
-        }
-        if (keysPressed[2] && keysPressed[1]) {
-            direction = 6;
-        }
-        if (keysPressed[2] && keysPressed[3]) {
-            direction = 8;
-        }
-        setMoving( true ); // set moving true (after updating direction)
-    }
-    
-    if (keysPressed[4]) { // run key
-        setRun( true );
-    } else {
-        setRun( false );
-    }
-}
 
-
-void Character::setMoving(const bool go){
+void NPC::setMoving(const bool go){
     if (moving != go ) { // only update if go differs from current state
         moving = go;
         frameTwo = 0;
@@ -143,14 +107,6 @@ void Character::setMoving(const bool go){
     }
 }
 
-void Character::setRun(const bool run){
-    if (run) {
-        step = 400;
-    } else {
-        step = 200;
-    }
-}
-
-float Character::getY(){
+float NPC::getY(){
     return position.y;
 }
