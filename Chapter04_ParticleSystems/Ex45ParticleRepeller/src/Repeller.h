@@ -22,6 +22,7 @@ private:
     float strength;
     
 public:
+    Repeller() {}
     Repeller( Vec2f l ): location( l ), radius(50.0f), strength(30.0f) {}
     ~Repeller() {}
     void draw();
