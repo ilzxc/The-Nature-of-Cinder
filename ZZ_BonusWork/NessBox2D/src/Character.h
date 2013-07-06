@@ -29,7 +29,7 @@ private:
     double switchedLastFrame;
     double timeBetweenFrames;
     int frameTwo;
-    float step = 4;
+    float step;
     float stepSize;
     
     void input(const bool keysPressed[]);
@@ -37,9 +37,11 @@ private:
     void setRun(const bool run);
     
 public:
-    Character(const ci::Surface &spriteSheet, const ci::gl::Texture::Format &fmt, const int spriteSizeX, const int spriteSizeY, const int sizeX, const int sizeY);
+    Character() {}
+    Character(const ci::Surface *spriteSheet, const ci::gl::Texture::Format &fmt, const int spriteSizeX, const int spriteSizeY, const int sizeX, const int sizeY);
     void draw();
     void update(const bool keysPressed[]);
+    float getY();
 
     
 };

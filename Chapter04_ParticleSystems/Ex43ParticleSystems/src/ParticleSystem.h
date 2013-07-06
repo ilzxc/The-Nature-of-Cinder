@@ -18,14 +18,14 @@ using namespace ci;
 class ParticleSystem {
     
 private:
-    std::vector<Particle*> particles;
+    std::vector<Particle> particles;
     Vec2f origin;
     Rand r;
     
 public:
     ParticleSystem( Vec2f o, float seed ): origin(o) {
         r.seed( seed );
-        particles.push_back( new Particle( origin, r ) );
+        particles.push_back( Particle( origin, r ) );
     }
     ~ParticleSystem() { }
     void update();

@@ -19,7 +19,7 @@ using namespace ci;
 class ParticleSystem {
     
 private:
-    std::vector<Particle*> particles;
+    std::vector<Particle> particles;
     Vec2f origin;
     
     void addParticle( Rand& r );
@@ -28,12 +28,13 @@ private:
     
     
 public:
+    ParticleSystem() {}
     ParticleSystem( const Vec2f& o, Rand& r ): origin(o) {
         addParticle( r );
     }
-    ~ParticleSystem();
+    ~ParticleSystem() {}
         
-    void update( const Vec2f& force, Repeller * repeller, Rand& random );
+    void update( const Vec2f& force, Repeller& repeller, Rand& random );
     void draw();
 };
 
