@@ -1,0 +1,274 @@
+TEx46TexturedParticles
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Info.plist" Info.plist
+cCpResource ../resources/CinderApp.icns ./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns
+cCpResource ../resources/texture00.png ./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png
+cProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth Ex46TexturedParticles_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles" normal i386
+cTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BDACDB00000000000000AA
+t1371385051
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000051567B8D00000000000024F0
+t1364622221
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051567B8D0000000000024DD8
+t1364622221
+s151000
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c0000000051567B8D00000000000060B4
+t1364622221
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000051567B8E00000000000001E5
+t1364622222
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c0000000051567B8E000000000000E9A8
+t1364622222
+s59816
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051BDCA270000000000006730
+t1371392551
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c0000000051BDCA2B0000000000081CB0
+t1371392555
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c0000000051BDCA3D000000000002DAD0
+t1371392573
+s187088
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000051BDCA4500000000004A2E10
+t1371392581
+s4861456
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../resources/CinderApp.icns
+c0000000051D34DEC0000000000070375
+t1372802540
+s459637
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../resources/texture00.png
+c0000000051AD0A560000000000000DE2
+t1370294870
+s3554
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp
+c0000000051D4547700000000000006FB
+t1372869751
+s1787
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp
+c0000000051D4399F0000000000000285
+t1372862879
+s645
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticles.LinkFileList
+c0000000051D4547D00000000000001D4
+t1372869757
+s468
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Info.plist
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png
+t2
+s0
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/Ex46TexturedParticles_Prefix.pch
+c0000000051D34DEC000000000000012D
+t1372802540
+s301
+i<Cocoa/Cocoa.h>
+i"cinder/Cinder.h"
+i"cinder/app/AppBasic.h"
+i"cinder/gl/gl.h"
+i"cinder/CinderMath.h"
+i"cinder/Matrix.h"
+i"cinder/Vector.h"
+i"cinder/Quaternion.h"
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Cinder.h
+c0000000051780B7C0000000000000CEB
+t1366821756
+s3307
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/CinderMath.h
+c0000000051780B7C0000000000001F9E
+t1366821756
+s8094
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Matrix.h
+c0000000051780B7C0000000000000EDD
+t1366821756
+s3805
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Quaternion.h
+c0000000051780B7D0000000000005499
+t1366821757
+s21657
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/Vector.h
+c0000000051780B7D000000000000AD7C
+t1366821757
+s44412
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/app/AppBasic.h
+c0000000051780B7D0000000000002262
+t1366821757
+s8802
+
+N/Users/ilyarostovtsev/Documents/Creative Coding/cinder_0.8.5_mac/include/cinder/gl/gl.h
+c0000000051780B7E0000000000006469
+t1366821758
+s25705
+
+N/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000051D34DEC0000000000000462
+t1372802540
+s1122
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp"
+r0
+
+CBuild AST from "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies0e2fd8fd8b84b741^a3cde9fd8b84b741^---0#1#0#--18"Check dependencies36"401A4442-A80C-4AB2-8F19-DE0E1026F9B8-
+
+CCompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394562564.308328
+e394562565.771912
+r1
+xCompileC
+x./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp6a2e4f048c84b741^3d9bc5058c84b741^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp0000000000000000^4333"CompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o ../src/Ex46TexturedParticlesApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Ex46TexturedParticlesApp.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticlesApp.o"36"E500B77A-38F7-442B-A919-CAF9E05615AA-
+
+CCompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp" normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394562564.308314
+e394562565.740535
+r1
+xCompileC
+x./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Compile /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp172e4f048c84b741^1d93bd058c84b741^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp0000000000000000^4237"CompileC ./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o ../src/Particle.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release" -include /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch -MMD -MT dependencies -MF "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.d" --serialize-diagnostics "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.dia" -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../src/Particle.cpp" -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Particle.o"36"9390F61E-3510-407F-9377-DED642EA8ADB-
+
+CCpResource ../resources/CinderApp.icns ./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns
+s394562557.995368
+e394562558.030288
+r1
+xCpResource
+x../resources/CinderApp.icns
+x./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy ./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icnsc1e4fefd8b84b741^48c107fe8b84b741^---0#0#0#-19%DVTDocumentLocation2@216"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns000000000080d041^824"CpResource ../resources/CinderApp.icns ./build/Release/Ex46TexturedParticles.app/Contents/Resources/CinderApp.icns    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../resources/CinderApp.icns" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources"36"1BB1E21B-E9A1-49C4-A2C7-296D81D9687C-
+
+CCpResource ../resources/texture00.png ./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png
+s394562557.995377
+e394562558.010789
+r1
+xCpResource
+x../resources/texture00.png
+x./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy ./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png43e2fefd8b84b741^54c302fe8b84b741^---0#0#0#-19%DVTDocumentLocation2@215"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png000000000080d041^821"CpResource ../resources/texture00.png ./build/Release/Ex46TexturedParticles.app/Contents/Resources/texture00.png    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/../resources/texture00.png" "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Resources"36"EF5769EC-7F7F-4D93-BDB0-A2F21E7777E4-
+
+CLd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles" normal i386
+s394562565.778478
+e394562567.684309
+r1
+xLd
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection206"Link /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles3d5fc7058c84b741^6a2eaf078c84b741^---0#0#0#--1496"Ld ./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles normal i386    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release" -filelist "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Objects-normal/i386/Ex46TexturedParticles.LinkFileList" -mmacosx-version-min=10.7 -dead_strip ../../../../cinder_0.8.5_mac/lib/libcinder.a -stdlib=libc++ -framework Cocoa -framework OpenGL -framework CoreVideo -framework QTKit -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/MacOS/Ex46TexturedParticles"36"FEFBFBDD-6367-4ADB-9F4D-C4AB0980818D-
+
+CProcessInfoPlistFile "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Info.plist" Info.plist
+s394562557.917128
+e394562557.986681
+r1
+xProcessInfoPlistFile
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist38d9eafd8b84b741^d87f01fe8b84b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/Info.plist0000000000000000^690"ProcessInfoPlistFile ./build/Release/Ex46TexturedParticles.app/Contents/Info.plist Info.plist    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app/Contents/Info.plist"36"6350A4E9-B19C-49B3-B7C9-28C9DE2A9B79-
+
+CProcessPCH++ /Users/ilyarostovtsev/Library/Developer/Xcode/DerivedData/Ex46TexturedParticles-gknqdrmaktlgmyebiinyfbwrwluo/Index/PrecompiledHeaders/Ex46TexturedParticles_Prefix-cjfcmbqwgjkbvzglmoyrtvijbeur_ast/Ex46TexturedParticles_Prefix.pch.pth Ex46TexturedParticles_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth Ex46TexturedParticles_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s394562558.038372
+e394562564.301135
+r1
+xProcessPCH++
+x/var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth
+xEx46TexturedParticles_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile Ex46TexturedParticles_Prefix.pchd5ec09fe8b84b741^a9164d048c84b741^---0#0#0#-19%DVTDocumentLocation2@173"file://localhost/Users/ilyarostovtsev/Documents/Creative%20Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/Ex46TexturedParticles_Prefix.pch0000000000000000^4045"ProcessPCH++ /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth Ex46TexturedParticles_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O3 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -ffast-math -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -fvisibility-inlines-hidden -Wno-sign-conversion -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-generated-files.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-own-target-headers.hmap" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-all-target-headers.hmap" -iquote "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/Ex46TexturedParticles-project-headers.hmap" -iquote../../../../cinder_0.8.5_mac/include -iquote../include "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release/include" -I../../../../cinder_0.8.5_mac/boost "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources/i386" "-I/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Ex46TexturedParticles.build/Release/Ex46TexturedParticles.build/DerivedSources" "-F/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/build/Release" --serialize-diagnostics /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.dia -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/Ex46TexturedParticles_Prefix.pch" -o /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x5/fl_jxpmn1_n8f18n75j05my00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Ex46TexturedParticles_Prefix-evyrofhltzeqzicrjnupbioclzgd/Ex46TexturedParticles_Prefix.pch.d36"E4DE1E11-06C6-4E34-BA86-CBF8E10E6485-
+
+CTouch "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app"
+s394562567.692814
+e394562567.760772
+r1
+xTouch
+x/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection170"Touch /Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app6e69b1078c84b741^adc2c2078c84b741^---0#0#0#--369"Touch ./build/Release/Ex46TexturedParticles.app    cd "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode"    /usr/bin/touch -c "/Users/ilyarostovtsev/Documents/Creative Coding/The_Nature_of_Cinder/Chapter04_ParticleSystems/Ex46TexturedParticles/xcode/./build/Release/Ex46TexturedParticles.app"36"6580796D-106F-4B0D-B020-D86A7F9E304F-
+
