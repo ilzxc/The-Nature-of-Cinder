@@ -3,7 +3,7 @@
 
 #### /NessBox2D
 
-Port of an old Processing sketch for making a spriteSheet character walk around with user input. (Arrow Keys, Left Shift to "run.")
+Port of an old Processing sketch for making a spriteSheet character walk around with user input. (Arrow Keys, Left Shift to "run.") If, for whatever reason, there's another character present and he is walking by himself, that's also cool (working on an NPC class, at the moment without proper inheritance due to the fact that Playable Character was done first.) _Rewrite of the whole shebang imminent._
 
 #### /ParticleGrids
 
