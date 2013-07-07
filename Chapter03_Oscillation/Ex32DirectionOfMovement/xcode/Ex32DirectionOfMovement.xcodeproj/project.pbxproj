@@ -12,13 +12,12 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
-		14583C1682F148049A6310E7 /* Ex31SpinningBasicsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DEDEA1AB5AE4A13BFB7E5D5 /* Ex31SpinningBasicsApp.cpp */; };
+		15DDAB4C36BE4D2B969205D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = B8657E81487E44B4BA392672 /* CinderApp.icns */; };
+		4DF4CC18320A4268BD52817B /* Ex32DirectionOfMovementApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A35979BE90DB459FADBD6330 /* Ex32DirectionOfMovementApp.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		9BD5F4B21789B43100319368 /* Attractor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5F4B01789B43100319368 /* Attractor.cpp */; };
-		9BD5F4B51789B43E00319368 /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5F4B31789B43E00319368 /* Mover.cpp */; };
-		BB397C73C5E04A18B4244D3A /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9E721C5D1E7545C69696568E /* CinderApp.icns */; };
+		9BD5F4B81789BEDE00319368 /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5F4B61789BEDE00319368 /* Mover.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,21 +26,19 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
-		0DEDEA1AB5AE4A13BFB7E5D5 /* Ex31SpinningBasicsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex31SpinningBasicsApp.cpp; path = ../src/Ex31SpinningBasicsApp.cpp; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		202090C90C9E4C159D4D1E4F /* Ex32DirectionOfMovement_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex32DirectionOfMovement_Prefix.pch; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4A8434035DAC4F0A8019377C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
-		67F4E8D61A6B45208E3CB711 /* Ex31SpinningBasics_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex31SpinningBasics_Prefix.pch; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* Ex31SpinningBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex31SpinningBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9BD5F4B01789B43100319368 /* Attractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Attractor.cpp; path = ../src/Attractor.cpp; sourceTree = "<group>"; };
-		9BD5F4B11789B43100319368 /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attractor.h; path = ../src/Attractor.h; sourceTree = "<group>"; };
-		9BD5F4B31789B43E00319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mover.cpp; sourceTree = "<group>"; };
-		9BD5F4B41789B43E00319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mover.h; sourceTree = "<group>"; };
-		9E721C5D1E7545C69696568E /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
-		CD9147BAC2B94A0C81992059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2154754D1CA4E4682F57F07 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		6F9E9B230AE244A88BE6204E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Ex32DirectionOfMovement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex32DirectionOfMovement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD5F4B61789BEDE00319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
+		9BD5F4B71789BEDE00319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
+		A35979BE90DB459FADBD6330 /* Ex32DirectionOfMovementApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex32DirectionOfMovementApp.cpp; path = ../src/Ex32DirectionOfMovementApp.cpp; sourceTree = "<group>"; };
+		B8657E81487E44B4BA392672 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +70,9 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0DEDEA1AB5AE4A13BFB7E5D5 /* Ex31SpinningBasicsApp.cpp */,
-				9BD5F4B01789B43100319368 /* Attractor.cpp */,
-				9BD5F4B11789B43100319368 /* Attractor.h */,
-				9BD5F4B31789B43E00319368 /* Mover.cpp */,
-				9BD5F4B41789B43E00319368 /* Mover.h */,
+				A35979BE90DB459FADBD6330 /* Ex32DirectionOfMovementApp.cpp */,
+				9BD5F4B61789BEDE00319368 /* Mover.cpp */,
+				9BD5F4B71789BEDE00319368 /* Mover.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -109,12 +104,12 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* Ex31SpinningBasics.app */,
+				8D1107320486CEB800E47090 /* Ex32DirectionOfMovement.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29B97314FDCFA39411CA2CEA /* Ex31SpinningBasics */ = {
+		29B97314FDCFA39411CA2CEA /* Ex32DirectionOfMovement */ = {
 			isa = PBXGroup;
 			children = (
 				01B97315FEAEA392516A2CEA /* Blocks */,
@@ -124,14 +119,14 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = Ex31SpinningBasics;
+			name = Ex32DirectionOfMovement;
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				D2154754D1CA4E4682F57F07 /* Resources.h */,
-				67F4E8D61A6B45208E3CB711 /* Ex31SpinningBasics_Prefix.pch */,
+				4A8434035DAC4F0A8019377C /* Resources.h */,
+				202090C90C9E4C159D4D1E4F /* Ex32DirectionOfMovement_Prefix.pch */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -139,8 +134,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9E721C5D1E7545C69696568E /* CinderApp.icns */,
-				CD9147BAC2B94A0C81992059 /* Info.plist */,
+				B8657E81487E44B4BA392672 /* CinderApp.icns */,
+				6F9E9B230AE244A88BE6204E /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -157,9 +152,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* Ex31SpinningBasics */ = {
+		8D1107260486CEB800E47090 /* Ex32DirectionOfMovement */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ex31SpinningBasics" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ex32DirectionOfMovement" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -169,10 +164,10 @@
 			);
 			dependencies = (
 			);
-			name = Ex31SpinningBasics;
+			name = Ex32DirectionOfMovement;
 			productInstallPath = "$(HOME)/Applications";
-			productName = Ex31SpinningBasics;
-			productReference = 8D1107320486CEB800E47090 /* Ex31SpinningBasics.app */;
+			productName = Ex32DirectionOfMovement;
+			productReference = 8D1107320486CEB800E47090 /* Ex32DirectionOfMovement.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +175,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ex31SpinningBasics" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ex32DirectionOfMovement" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -190,11 +185,11 @@
 				French,
 				German,
 			);
-			mainGroup = 29B97314FDCFA39411CA2CEA /* Ex31SpinningBasics */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Ex32DirectionOfMovement */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* Ex31SpinningBasics */,
+				8D1107260486CEB800E47090 /* Ex32DirectionOfMovement */,
 			);
 		};
 /* End PBXProject section */
@@ -204,7 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB397C73C5E04A18B4244D3A /* CinderApp.icns in Resources */,
+				15DDAB4C36BE4D2B969205D5 /* CinderApp.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14583C1682F148049A6310E7 /* Ex31SpinningBasicsApp.cpp in Sources */,
-				9BD5F4B21789B43100319368 /* Attractor.cpp in Sources */,
-				9BD5F4B51789B43E00319368 /* Mover.cpp in Sources */,
+				4DF4CC18320A4268BD52817B /* Ex32DirectionOfMovementApp.cpp in Sources */,
+				9BD5F4B81789BEDE00319368 /* Mover.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +228,7 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Ex31SpinningBasics_Prefix.pch;
+				GCC_PREFIX_HEADER = Ex32DirectionOfMovement_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -243,7 +237,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
-				PRODUCT_NAME = Ex31SpinningBasics;
+				PRODUCT_NAME = Ex32DirectionOfMovement;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,12 +254,12 @@
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Ex31SpinningBasics_Prefix.pch;
+				GCC_PREFIX_HEADER = Ex32DirectionOfMovement_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
-				PRODUCT_NAME = Ex31SpinningBasics;
+				PRODUCT_NAME = Ex32DirectionOfMovement;
 				STRIP_INSTALLED_PRODUCT = YES;
 				SYMROOT = ./build;
 				WRAPPER_EXTENSION = app;
@@ -309,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ex31SpinningBasics" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Ex32DirectionOfMovement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,
@@ -318,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ex31SpinningBasics" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Ex32DirectionOfMovement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
