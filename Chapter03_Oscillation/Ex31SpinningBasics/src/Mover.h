@@ -6,8 +6,8 @@
 //
 //
 
-#ifndef __Ex31SpinningBasics__SquareMover__
-#define __Ex31SpinningBasics__SquareMover__
+#ifndef __Ex31SpinningBasics__Mover__
+#define __Ex31SpinningBasics__Mover__
 
 #include "cinder/gl/gl.h"
 
@@ -37,5 +37,4 @@ public:
     
 };
 
-
-#endif /* defined(__Ex31SpinningBasics__SquareMover__) */
+#endif /* defined(__Ex31SpinningBasics__Mover__) */
