@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 44;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,12 @@
 		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
 		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		2E5F5010FC5E4FA694D4B613 /* Ex26EverythingAttractsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		08506D58889C4D4DA751C516 /* Ex26EverythingAttracts_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E63DF0630F59423F82A67C8C /* Ex26EverythingAttracts_Prefix.pch */; };
+		9BD5F4AF17896E1A00319368 /* Mover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5F4AD17896E1A00319368 /* Mover.cpp */; };
 		A140DADA687645E2A6704F7B /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = FD83D1DAF5A24CD1969B0252 /* CinderApp.icns */; };
-		4B6DD6981AE94DCCA747733E /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 35091EAE024547F1A1F8EBDC /* Resources.h */; };
-		2E5F5010FC5E4FA694D4B613 /* Ex26EverythingAttractsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,17 +26,19 @@
 		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex26EverythingAttractsApp.cpp; path = ../src/Ex26EverythingAttractsApp.cpp; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		35091EAE024547F1A1F8EBDC /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex26EverythingAttracts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex26EverythingAttracts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; path = ../src/Ex26EverythingAttractsApp.cpp; sourceTree = "<group>"; name = Ex26EverythingAttractsApp.cpp; };
-		35091EAE024547F1A1F8EBDC /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../include/Resources.h; sourceTree = "<group>"; name = Resources.h; };
-		FD83D1DAF5A24CD1969B0252 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; name = CinderApp.icns; };
-		DE04BB44A89B4737BEC0020C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; name = Info.plist; };
-		E63DF0630F59423F82A67C8C /* Ex26EverythingAttracts_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex26EverythingAttracts_Prefix.pch; sourceTree = "<group>"; name = Ex26EverythingAttracts_Prefix.pch; };
+		9BD5F4AD17896E1A00319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
+		9BD5F4AE17896E1A00319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
+		DE04BB44A89B4737BEC0020C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E63DF0630F59423F82A67C8C /* Ex26EverythingAttracts_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex26EverythingAttracts_Prefix.pch; sourceTree = "<group>"; };
+		FD83D1DAF5A24CD1969B0252 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +60,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */,
+				9BD5F4AD17896E1A00319368 /* Mover.cpp */,
+				9BD5F4AE17896E1A00319368 /* Mover.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -110,13 +120,6 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
 			name = Ex26EverythingAttracts;
-			sourceTree = "<group>";
-		};
-		01B97315FEAEA392516A2CEA /* Blocks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Blocks;
 			sourceTree = "<group>";
 		};
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5F5010FC5E4FA694D4B613 /* Ex26EverythingAttractsApp.cpp in Sources */,
+				9BD5F4AF17896E1A00319368 /* Mover.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,24 +222,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEAD_CODE_STRIPPING = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Ex26EverythingAttracts_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Ex26EverythingAttracts_Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder_d.a\"";
 				PRODUCT_NAME = Ex26EverythingAttracts;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -257,19 +261,19 @@
 				OTHER_LDFLAGS = "\"$(CINDER_PATH)/lib/libcinder.a\"";
 				PRODUCT_NAME = Ex26EverythingAttracts;
 				STRIP_INSTALLED_PRODUCT = YES;
-				WRAPPER_EXTENSION = app;
 				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../cinder_0.8.5_mac";
+				CINDER_PATH = ../../../../cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
@@ -282,11 +286,11 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = i386;
-				CINDER_PATH = "../../../../cinder_0.8.5_mac";
+				CINDER_PATH = ../../../../cinder_0.8.5_mac;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/boost\"";
