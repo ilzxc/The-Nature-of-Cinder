@@ -25,7 +25,7 @@ private:
     
 public:
     Attractor() { }
-    Attractor( float x, float y ): mass(30.0f), G(1.5f), location( Vec2f(x, y) ), dragging(false), rollover(false), dragOffset( Vec2f::zero() ) { }
+    Attractor( float x, float y ): mass(30.0f), G(1.5f), location( x, y ), dragging(false), rollover(false), dragOffset( Vec2f::zero() ) { }
     ~Attractor() { }
     
     Vec2f attract( const Mover& m );

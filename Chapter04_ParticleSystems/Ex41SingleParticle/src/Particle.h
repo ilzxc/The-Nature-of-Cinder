@@ -24,9 +24,9 @@ private:
 public:
     Particle(Vec2f l, Vec2f a) :
         location( l ),
-        velocity(Vec2f(0, 0.05)),
+        velocity( 0.0f, 0.05f ),
         acceleration( a ),
-        lifespan(1.0f) { }
+        lifespan( 1.0f ) { }
     ~Particle() { }
     
     void update();

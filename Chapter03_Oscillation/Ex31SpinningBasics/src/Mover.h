@@ -26,7 +26,7 @@ private:
     
 public:
     Mover() { }
-    Mover( float m, float x, float y ): location(Vec2f(x, y)), velocity(Vec2f::zero()), acceleration(Vec2f::zero()), mass(m), bounds( Rectf(-m * 8, -m * 8, m * 8, m * 8) ) { }
+    Mover( float m, float x, float y ): location( x, y ), velocity( Vec2f::zero() ), acceleration( Vec2f::zero() ), mass(m), bounds( -m * 8, -m * 8, m * 8, m * 8 ) { }
     ~Mover() { }
     void applyForce( const Vec2f& force );
     void update();

@@ -26,13 +26,15 @@ protected:
     float rotationSpeed;
     
 public:
-    Particle( const Vec2f& origin, Rand& r ): position(origin), lifespan(1.0) {
-        velocity = Vec2f( r.nextFloat( -1.0, 1.0 ), r.nextFloat( -1.0, 1.0 ) );
-        acceleration = Vec2f( 0.0f, 0.0f );
-        aging = r.nextFloat( (1.0f / 100), (1.0f/ 200) );
-        sizeRadius = r.nextFloat( 2, 7 );
-        rotation = r.nextFloat(0, 360);
-        rotationSpeed = r.nextFloat(-5, 5);
+    Particle( const Vec2f& origin, Rand& r )
+    : position(origin),
+      velocity( r.nextFloat( -1.0f, 1.0f ), r.nextFloat( -1.0f, 1.0f ) ),
+      acceleration( Vec2f::zero() ),
+      lifespan(1.0f),
+      aging( r.nextFloat( (1.0f / 100), (1.0f/ 200) ) ),
+      sizeRadius( r.nextFloat( 2.0f, 7.0f ) ),
+      rotation( r.nextFloat(0.0f, 360.0f) ),
+      rotationSpeed( r.nextFloat(-5.0f, 5.0f) ) {
     }
     ~Particle() {}
     Vec2f getPosition() const;
