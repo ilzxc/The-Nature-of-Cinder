@@ -24,12 +24,7 @@ private:
     float sizeRadius;
     
 public:
-    Particle( const Vec2f origin, Rand& r ): position(origin), lifespan(1.0) {
-        velocity = Vec2f( r.nextFloat( -1.0, 1.0 ), r.nextFloat( -1.0, 1.0 ) );
-        acceleration = Vec2f( 0.0, r.nextFloat( 0.01, 0.03 ) );
-        aging = r.nextFloat( (1.0f / 64), (1.0f/ 128) );
-        sizeRadius = r.nextFloat( 3, 9 );
-    }
+    Particle( const Vec2f origin, Rand& r ): position(origin), lifespan(1.0f), velocity( r.nextFloat( -1.0f, 1.0f ), r.nextFloat( -1.0, 1.0 ) ), acceleration( 0.0f, r.nextFloat( 0.01f, 0.03f ) ), aging( r.nextFloat( (1.0f / 64), (1.0f/ 128) ) ), sizeRadius( r.nextFloat( 3, 9 ) ) { }
     ~Particle() {}
     void update();
     void draw();

@@ -24,7 +24,7 @@ private:
     void checkEdges();
     
 public:
-    Mover(): location(Vec2f(30.f, 30.f)), velocity(Vec2f::zero()), acceleration(Vec2f::zero()), mass(1.0f), radius(24.0f) { }
+    Mover(): location( 30.f, 30.f ), velocity( Vec2f::zero() ), acceleration( Vec2f::zero() ), mass(1.0f), radius(24.0f) { }
     ~Mover() { }
     void applyForce( const Vec2f& force );
     void update();

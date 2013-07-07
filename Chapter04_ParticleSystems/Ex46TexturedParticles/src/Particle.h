@@ -26,11 +26,14 @@ private:
     float sizeRadius;
     
 public:
-    Particle( const gl::Texture * image, const Vec2f origin, Rand& r ): texture(image), position(origin), lifespan(1.0) {
-        velocity = Vec2f( r.nextGaussian() * 0.04f, r.nextGaussian() * 0.06f - 1.0f );
-        acceleration = Vec2f(0.0, 0.0);
-        aging = r.nextFloat( (1.0f / 200), (1.0f/ 300) );
-        sizeRadius = r.nextFloat(6, 11);
+    Particle( const gl::Texture * image, const Vec2f origin, Rand& r )
+    : texture(image),
+      position(origin),
+      velocity( r.nextGaussian() * 0.04f, r.nextGaussian() * 0.06f - 1.0f ),
+      acceleration( Vec2f::zero() ),
+      lifespan( 1.0f ),
+      aging( r.nextFloat( (1.0f / 200), (1.0f/ 300) ) ),
+      sizeRadius( r.nextFloat(6, 11) ) {
     }
     ~Particle() {}
     void update( const Vec2f& force);

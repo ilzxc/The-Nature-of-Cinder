@@ -16,7 +16,7 @@ using namespace ci;
 
 class Mover {
 public:
-    Mover();
+    Mover(): position( Vec2f::zero() ), velocity ( Vec2f::zero() ), acceleration ( Vec2f::zero() ) { }
     ~Mover() {}
     void update( const Vec2f& mousePosition);
     void draw();
