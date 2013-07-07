@@ -24,7 +24,7 @@ private:
     
     void addParticle( Rand& r );
     void applyForce( const Vec2f& f );
-    void applyRepeller( Repeller& repeller );
+    void applyRepeller( const Repeller& repeller );
     
     
 public:

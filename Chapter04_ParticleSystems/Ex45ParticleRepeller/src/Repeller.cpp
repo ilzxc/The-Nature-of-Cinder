@@ -18,7 +18,7 @@ void Repeller::draw() {
     gl::popMatrices();
 }
 
-const Vec2f Repeller::repel( Particle& p ) {
+Vec2f Repeller::repel( const Particle& p ) const {
     Vec2f direction = location - p.getPosition();
     float d = direction.length();
     direction.normalize();
