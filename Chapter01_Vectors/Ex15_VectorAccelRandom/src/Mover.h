@@ -21,7 +21,7 @@ private:
     Vec2f acceleration;
     
 public:
-    Mover(): position( Vec2f::zero() ), velocity( Vec2f(randFloat(20.0f) - 20.0f, randFloat(20.0f) - 20.0f) ), acceleration( Vec2f::zero() ) { }
+    Mover(): position( Vec2f::zero() ), velocity( randFloat(20.0f) - 20.0f, randFloat(20.0f) - 20.0f), acceleration( Vec2f::zero() ) { }
     ~Mover() { }
     void randomizeAcceleration();
     void update();

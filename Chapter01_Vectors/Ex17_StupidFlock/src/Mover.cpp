@@ -8,16 +8,6 @@
 
 #include "Mover.h"
 
-Mover::Mover( float fat ){
-    fatness = fat;
-    position = Vec2f( 0.0f, 0.0f );
-    velocity = Vec2f( 0.0f, 0.0f );
-}
-
-void Mover::resetPosition() {
-    position = app::getWindowCenter();
-}
-
 void Mover::setAccel( Vec2f mousePos ) {
     const float maxAccel = 3.0f;
     acceleration = (mousePos - position).normalized() * (maxAccel - fatness);

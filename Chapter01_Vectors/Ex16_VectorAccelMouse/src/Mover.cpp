@@ -10,11 +10,6 @@
 
 using namespace ci;
 
-Mover::Mover(){
-    position = Vec2f::zero();
-    velocity = Vec2f::zero();
-}
-
 void Mover::update( const Vec2f& mousePosition) {
     acceleration = (mousePosition - position).normalized() * 1.7f;
     velocity += acceleration;

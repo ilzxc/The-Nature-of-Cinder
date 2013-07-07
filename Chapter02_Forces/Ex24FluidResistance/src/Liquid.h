@@ -21,7 +21,7 @@ private:
 
 public:
     Liquid() { }
-    Liquid( float x, float y, float w, float h, float coeff ): bounds( Rectf(x, y, w, h) ), c( coeff ) { }
+    Liquid( float x1, float y1, float x2, float y2, float coeff ): bounds( x1, y1, x2, y2 ), c( coeff ) { }
     ~Liquid() { }
     
     bool contains( const Mover& m );

@@ -17,8 +17,9 @@ using namespace ci;
 
 class Mover {
 public:
-    Mover( float );
-    void resetPosition();
+    Mover() { }
+    Mover( float fat ): fatness(fat), position( Vec2f::zero() ), velocity( Vec2f::zero() ), acceleration( Vec2f::zero() ) { }
+    ~Mover() { }
     void setAccel( cinder::Vec2f );
     void update();
     void draw();

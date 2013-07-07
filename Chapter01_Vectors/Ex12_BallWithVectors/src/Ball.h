@@ -22,8 +22,8 @@ private:
 public:
     
     Ball() {}
-    Ball( float x, float y ) : Ball::Ball( Vec2f(x, y) ) { }
-    Ball( const Vec2f& p ): position(p), velocity( Vec2f( randFloat(-10.0f, 10.0f), randFloat( -10.0, 10.0f ) ) ), radius(30.0f) { }
+    Ball( float x, float y ) : position( x, y ), velocity( randFloat(-10.0f, 10.0f), randFloat( -10.0, 10.0f ) ), radius( 30.0f ) { }
+    Ball( const Vec2f& p ): Ball::Ball( p.x, p.y ) { }
     ~Ball() {}
     
     void update();
