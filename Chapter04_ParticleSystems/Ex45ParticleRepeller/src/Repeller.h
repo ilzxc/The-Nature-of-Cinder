@@ -23,7 +23,11 @@ private:
     
 public:
     Repeller() {}
-    Repeller( Vec2f l ): location( l ), radius(50.0f), strength(30.0f) {}
+    Repeller( Vec2f l )
+    : location( l ),
+      radius(50.0f),
+      strength(30.0f) {
+    }
     ~Repeller() {}
     void draw();
     Vec2f repel( const Particle& p ) const;
