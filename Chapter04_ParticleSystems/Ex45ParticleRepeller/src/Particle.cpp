@@ -8,7 +8,7 @@
 
 #include "Particle.h"
 
-const Vec2f Particle::getPosition() {
+Vec2f Particle::getPosition() const {
     return Vec2f(position);
 }
 
