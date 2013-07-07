@@ -26,7 +26,7 @@ protected:
     float rotationSpeed;
     
 public:
-    Particle( const Vec2f origin, Rand& r ): position(origin), lifespan(1.0) {
+    Particle( const Vec2f& origin, Rand& r ): position(origin), lifespan(1.0) {
         velocity = Vec2f( r.nextFloat( -1.0, 1.0 ), r.nextFloat( -1.0, 1.0 ) );
         acceleration = Vec2f( 0.0f, 0.0f );
         aging = r.nextFloat( (1.0f / 100), (1.0f/ 200) );
@@ -35,7 +35,7 @@ public:
         rotationSpeed = r.nextFloat(-5, 5);
     }
     ~Particle() {}
-    const Vec2f getPosition();
+    Vec2f getPosition() const;
     void update();
     void applyForce( const Vec2f& force );
     void draw();

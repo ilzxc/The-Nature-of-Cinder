@@ -41,7 +41,7 @@ void ParticleSystem::applyForce( const Vec2f& f ) {
     }
 }
 
-void ParticleSystem::applyRepeller( Repeller& repeller ) {
+void ParticleSystem::applyRepeller( const Repeller& repeller ) {
     for (auto& i : particles) {
         Vec2f force = repeller.repel(i);
         i.applyForce(force);
