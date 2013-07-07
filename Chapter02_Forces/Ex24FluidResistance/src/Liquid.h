@@ -24,8 +24,8 @@ public:
     Liquid( float x, float y, float w, float h, float coeff ): bounds( Rectf(x, y, w, h) ), c( coeff ) { }
     ~Liquid() { }
     
-    bool contains( Mover& m );
-    Vec2f drag( Mover& m );
+    bool contains( const Mover& m );
+    Vec2f drag( const Mover& m );
     void draw();
 };
 
