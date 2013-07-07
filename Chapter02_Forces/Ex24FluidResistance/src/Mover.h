@@ -29,9 +29,9 @@ public:
     void applyForce( const Vec2f& force );
     void update();
     void draw();
-    float getMass();
-    Vec2f getLocation();
-    Vec2f getVelocity();
+    float getMass() const;
+    Vec2f getLocation() const;
+    Vec2f getVelocity() const;
     
 };
 

@@ -8,7 +8,7 @@
 
 #include "Liquid.h"
 
-bool Liquid::contains( Mover& m ) {
+bool Liquid::contains( const Mover& m ) {
     Vec2f l = m.getLocation();
     if ( (l.x > bounds.x1) && (l.x < bounds.x2) && (l.y > bounds.y1) && (l.y < bounds.y2) ) {
         return true;
@@ -16,7 +16,7 @@ bool Liquid::contains( Mover& m ) {
     return false;
 }
 
-Vec2f Liquid::drag( Mover& m ) {
+Vec2f Liquid::drag( const Mover& m ) {
     
     float speed = ( m.getVelocity() ).length();
     float dragMagnitude = c * speed * speed;
