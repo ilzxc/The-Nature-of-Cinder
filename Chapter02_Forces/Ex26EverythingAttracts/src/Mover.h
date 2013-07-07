@@ -1,13 +1,13 @@
 //
 //  Mover.h
-//  Ex25GravitationalAttractors
+//  Ex26EverythingAttracts
 //
-//  Created by Ilya Rostovtsev on 7/6/13.
+//  Created by Ilya Rostovtsev on 7/7/13.
 //
 //
 
-#ifndef __Ex25GravitationalAttractors__Mover__
-#define __Ex25GravitationalAttractors__Mover__
+#ifndef __Ex26EverythingAttracts__Mover__
+#define __Ex26EverythingAttracts__Mover__
 
 #include "cinder/gl/gl.h"
 
@@ -23,15 +23,16 @@ private:
     
 public:
     Mover() { }
-    Mover( float m, float x, float y ): location(Vec2f(x, y)), velocity(Vec2f::zero()), acceleration(Vec2f::zero()), mass(m), radius(m * 8) { }
+    Mover( float m, float x, float y ): location(Vec2f(x, y)), velocity(Vec2f::zero()), acceleration(Vec2f::zero()), mass(m), radius(m * 4) { }
     ~Mover() { }
     void applyForce( const Vec2f& force );
     void update();
     void draw();
+    Vec2f attract( const Mover& m, const float g );
     float getMass() const;
     Vec2f getLocation() const;
     Vec2f getVelocity() const;
     
 };
 
-#endif /* defined(__Ex25GravitationalAttractors__Mover__) */
+#endif /* defined(__Ex26EverythingAttracts__Mover__) */

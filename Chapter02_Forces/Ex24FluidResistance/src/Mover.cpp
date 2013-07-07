@@ -40,15 +40,15 @@ void Mover::checkEdges() {
     }
 }
 
-float Mover::getMass() {
+float Mover::getMass() const {
     return mass;
 }
 
-Vec2f Mover::getLocation() {
+Vec2f Mover::getLocation() const {
     return location;
 }
 
-Vec2f Mover::getVelocity() {
+Vec2f Mover::getVelocity() const {
     return velocity;
 }
 
