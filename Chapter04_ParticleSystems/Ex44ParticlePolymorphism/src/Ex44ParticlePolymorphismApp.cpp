@@ -12,6 +12,8 @@ using namespace std;
 class Ex44ParticlePolymorphismApp : public AppNative {
   public:
 	void setup();
+    void keyDown( KeyEvent event );
+    void keyUp( KeyEvent event );
 	void update();
 	void draw();
     void shutdown();
@@ -24,6 +26,16 @@ void Ex44ParticlePolymorphismApp::setup()
 {
     gl::enableAlphaBlending();
     r.randomize();
+}
+
+void Ex44ParticlePolymorphismApp::keyDown(KeyEvent event) {
+    if (event.getCode() == KeyEvent::KEY_w) {
+        gl::enableWireframe();
+    }
+}
+
+void Ex44ParticlePolymorphismApp::keyUp(KeyEvent event) {
+    gl::disableWireframe();
 }
 
 void Ex44ParticlePolymorphismApp::update()
@@ -45,6 +57,7 @@ void Ex44ParticlePolymorphismApp::update()
     } else {
         everything.push_back( new RoundConfetti( Vec2f(getWindowWidth() / 2, 70), r ) );
     }
+    
 }
 
 void Ex44ParticlePolymorphismApp::draw()
