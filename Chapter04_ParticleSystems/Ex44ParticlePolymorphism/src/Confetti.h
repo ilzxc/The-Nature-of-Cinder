@@ -12,20 +12,23 @@
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"
 #include "Particle.h"
+#include "Square.h"
 
 using namespace ci;
 
 class Confetti: public Particle {
 private:
+    Square square;
     float rotation;
     float rotationSpeed;
 
 public:
     Confetti( const Vec2f origin, Rand& r )
     : Particle(origin, r),
+      square( Particle::getRadius() ),
       rotation( r.nextFloat(0, 360) ),
       rotationSpeed( r.nextFloat(-5.0f, 5.0f) ) {
-        color = Vec3f(54.0f/255, 33.0f/255, 68.0f/255);
+          Particle::setColor( Vec3f( 54.0f/255, 33.0f/255, 68.0f/255 ) );
     }
     ~Confetti() {}
     void update();

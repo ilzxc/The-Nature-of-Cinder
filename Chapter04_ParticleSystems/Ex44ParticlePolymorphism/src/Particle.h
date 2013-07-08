@@ -11,6 +11,7 @@
 
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"
+#include "Square.h"
 
 using namespace ci;
 
@@ -40,10 +41,10 @@ public:
     
     virtual void update();
     virtual void draw();
+    virtual void draw( const float angle, const Square& square );
     bool isDead();
     void setColor(Vec3f newColor);
-    float getLifespan();
-    Vec2f getPosition();
+    float getRadius() const;
     
 };
 
