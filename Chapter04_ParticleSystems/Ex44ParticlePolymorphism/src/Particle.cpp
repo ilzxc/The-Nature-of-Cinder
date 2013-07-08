@@ -32,3 +32,11 @@ bool Particle::isDead() {
 void Particle::setColor(Vec3f newColor) {
     color = newColor;
 }
+
+float Particle::getLifespan() {
+    return lifespan;
+}
+
+Vec2f Particle::getPosition() {
+    return position;
+}
