@@ -22,10 +22,7 @@ private:
     Vec2f acceleration;
     float lifespan;
     float aging;
-    
-protected:
     float sizeRadius;
-    Vec3f color;
     
 public:
     Particle( const Vec2f origin, Rand& r )
@@ -34,17 +31,16 @@ public:
       acceleration( 0.0f, r.nextFloat( 0.01f, 0.03f ) ),
       lifespan( 1.0f ),
       aging( r.nextFloat( (1.0f / 100), (1.0f/ 200) ) ),
-      sizeRadius( r.nextFloat( 2.0f, 7.0f ) ),
-      color( 154.0f/255, 40.0f/255, 47.0f/255 ) {
+      sizeRadius( r.nextFloat( 2.0f, 7.0f ) ) {
     }
     virtual ~Particle() {}
     
     virtual void update();
-    virtual void draw();
-    virtual void draw( const float angle, const Square& square );
+    virtual void draw() = 0;
+    void draw( const Shape& shape ) const;
     bool isDead();
-    void setColor(Vec3f newColor);
     float getRadius() const;
+    float getLifespan() const;
     
 };
 
