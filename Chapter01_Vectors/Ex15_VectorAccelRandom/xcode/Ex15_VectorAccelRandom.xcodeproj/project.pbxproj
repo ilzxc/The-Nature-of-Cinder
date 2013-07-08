@@ -35,8 +35,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex15_VectorAccelRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex15_VectorAccelRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEF6178B2FF600EABAC6 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../include/Mover.h; sourceTree = "<group>"; };
 		9B75F4EB1787959A00A434C2 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
-		9B75F4EC1787959A00A434C2 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
 		B1FFDB632C3B43E1A3792905 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		C0CE92C8DBD44D878E544F67 /* Ex15_VectorAccelRandom_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex15_VectorAccelRandom_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +72,6 @@
 			children = (
 				515F22742D2E45269CEBDFA5 /* Ex15_VectorAccelRandomApp.cpp */,
 				9B75F4EB1787959A00A434C2 /* Mover.cpp */,
-				9B75F4EC1787959A00A434C2 /* Mover.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEF6178B2FF600EABAC6 /* Mover.h */,
 				09CC7A7E49D044ED8A929886 /* Resources.h */,
 				C0CE92C8DBD44D878E544F67 /* Ex15_VectorAccelRandom_Prefix.pch */,
 			);

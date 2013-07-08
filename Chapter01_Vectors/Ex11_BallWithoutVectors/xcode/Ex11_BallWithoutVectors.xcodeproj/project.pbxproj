@@ -36,8 +36,8 @@
 		75E8C2F021CE444F86F3F002 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		8B15535BCDAB45C08538F935 /* Ex11_BallWithoutVectors_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex11_BallWithoutVectors_Prefix.pch; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex11_BallWithoutVectors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex11_BallWithoutVectors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEF2178B2F5300EABAC6 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../include/Ball.h; sourceTree = "<group>"; };
 		9BD6AAC51785236300D88EBA /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../src/Ball.cpp; sourceTree = "<group>"; };
-		9BD6AAC61785236300D88EBA /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../src/Ball.h; sourceTree = "<group>"; };
 		C36E81B03F044AE19F2412DA /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,6 @@
 			children = (
 				1AA92B9CA8BD4C0090CFA361 /* Ex11_BallWithoutVectorsApp.cpp */,
 				9BD6AAC51785236300D88EBA /* Ball.cpp */,
-				9BD6AAC61785236300D88EBA /* Ball.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEF2178B2F5300EABAC6 /* Ball.h */,
 				C36E81B03F044AE19F2412DA /* Resources.h */,
 				8B15535BCDAB45C08538F935 /* Ex11_BallWithoutVectors_Prefix.pch */,
 			);
