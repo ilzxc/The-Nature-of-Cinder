@@ -37,10 +37,10 @@
 		7FC62E861A034C37AD3D5909 /* Ex25GravitationalAttractors_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex25GravitationalAttractors_Prefix.pch; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex25GravitationalAttractors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex25GravitationalAttractors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9402DB68A1904578AA5CE772 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		9B03BEEB178B2DF900EABAC6 /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attractor.h; path = ../include/Attractor.h; sourceTree = "<group>"; };
+		9B03BEEC178B2DF900EABAC6 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../include/Mover.h; sourceTree = "<group>"; };
 		9BD5F4A71788F1F600319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
-		9BD5F4A81788F1F600319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
 		9BD5F4AA1788F20300319368 /* Attractor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Attractor.cpp; path = ../src/Attractor.cpp; sourceTree = "<group>"; };
-		9BD5F4AB1788F20300319368 /* Attractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Attractor.h; path = ../src/Attractor.h; sourceTree = "<group>"; };
 		DD517A670F9343489A45113F /* Ex25GravitationalAttractorsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex25GravitationalAttractorsApp.cpp; path = ../src/Ex25GravitationalAttractorsApp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,9 +75,7 @@
 			children = (
 				DD517A670F9343489A45113F /* Ex25GravitationalAttractorsApp.cpp */,
 				9BD5F4A71788F1F600319368 /* Mover.cpp */,
-				9BD5F4A81788F1F600319368 /* Mover.h */,
 				9BD5F4AA1788F20300319368 /* Attractor.cpp */,
-				9BD5F4AB1788F20300319368 /* Attractor.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -130,6 +128,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEEB178B2DF900EABAC6 /* Attractor.h */,
+				9B03BEEC178B2DF900EABAC6 /* Mover.h */,
 				9402DB68A1904578AA5CE772 /* Resources.h */,
 				7FC62E861A034C37AD3D5909 /* Ex25GravitationalAttractors_Prefix.pch */,
 			);

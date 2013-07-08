@@ -35,8 +35,8 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex14_VectorAccelConst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex14_VectorAccelConst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AEC4A4F6BFE4BBE967631F0 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		9B03BEF5178B2FCD00EABAC6 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../include/Mover.h; sourceTree = "<group>"; };
 		9BD6AACE17853AC300D88EBA /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
-		9BD6AACF17853AC300D88EBA /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
 		B5FD877EA09C47A2824699B6 /* Ex14_VectorAccelConstApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex14_VectorAccelConstApp.cpp; path = ../src/Ex14_VectorAccelConstApp.cpp; sourceTree = "<group>"; };
 		C2F012EE05B4422AA6FF26F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +72,6 @@
 			children = (
 				B5FD877EA09C47A2824699B6 /* Ex14_VectorAccelConstApp.cpp */,
 				9BD6AACE17853AC300D88EBA /* Mover.cpp */,
-				9BD6AACF17853AC300D88EBA /* Mover.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEF5178B2FCD00EABAC6 /* Mover.h */,
 				9AEC4A4F6BFE4BBE967631F0 /* Resources.h */,
 				2B613B55778544EF969F2D0D /* Ex14_VectorAccelConst_Prefix.pch */,
 			);
