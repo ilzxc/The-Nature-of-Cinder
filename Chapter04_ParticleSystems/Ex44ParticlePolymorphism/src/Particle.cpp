@@ -22,6 +22,15 @@ void Particle::draw() {
     gl::popMatrices();
 }
 
+void Particle::draw( const float angle, const Square& square) {
+    gl::color(color.x, color.y, color.z, lifespan);
+    gl::pushMatrices();
+    gl::translate(position);
+    gl::rotate(angle);
+    square.draw();
+    gl::popMatrices();
+}
+
 bool Particle::isDead() {
     if(lifespan < 0.0f) {
         return true;
@@ -33,10 +42,6 @@ void Particle::setColor(Vec3f newColor) {
     color = newColor;
 }
 
-float Particle::getLifespan() {
-    return lifespan;
-}
-
-Vec2f Particle::getPosition() {
-    return position;
+float Particle::getRadius() const {
+    return sizeRadius;
 }
