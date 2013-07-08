@@ -77,6 +77,7 @@ void NessBox2DApp::setKeysTo(const KeyEvent event, const bool what) {
 }
 
 
+
 void NessBox2DApp::update()
 {
     ness.update(keys);
