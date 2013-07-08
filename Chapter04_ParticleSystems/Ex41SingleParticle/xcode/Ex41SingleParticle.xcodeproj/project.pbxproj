@@ -37,8 +37,8 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		5B833CC382334DBFB4AC07E3 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex41SingleParticle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex41SingleParticle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEE2178B2BF100EABAC6 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
 		9B614BC717839052002981DE /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
-		9B614BC817839053002981DE /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,6 @@
 			children = (
 				4B2C1B0E0C9346C98AA99A37 /* Ex41SingleParticleApp.cpp */,
 				9B614BC717839052002981DE /* Particle.cpp */,
-				9B614BC817839053002981DE /* Particle.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEE2178B2BF100EABAC6 /* Particle.h */,
 				20C9CF4843F1440AA531F88E /* Resources.h */,
 				438380A95B554BC485A2FAA1 /* Ex41SingleParticle_Prefix.pch */,
 			);
