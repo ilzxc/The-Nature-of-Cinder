@@ -15,12 +15,14 @@
 using namespace ci;
 
 class Particle {
-protected:
+private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
     float lifespan;
     float aging;
+    
+protected:
     float sizeRadius;
     Vec3f color;
     
@@ -40,6 +42,8 @@ public:
     virtual void draw();
     bool isDead();
     void setColor(Vec3f newColor);
+    float getLifespan();
+    Vec2f getPosition();
     
 };
 
