@@ -14,20 +14,11 @@ void Particle::update() {
     lifespan -= aging;
 }
 
-void Particle::draw() {
-    gl::color(color.x, color.y, color.z, lifespan);
+void Particle::draw( const Shape& shape ) const {
     gl::pushMatrices();
     gl::translate(position);
-    gl::drawSolidCircle(Vec2f(0.0f, 0.0f), sizeRadius);
-    gl::popMatrices();
-}
-
-void Particle::draw( const float angle, const Square& square) {
-    gl::color(color.x, color.y, color.z, lifespan);
-    gl::pushMatrices();
-    gl::translate(position);
-    gl::rotate(angle);
-    square.draw();
+    gl::color(shape.color.x, shape.color.y, shape.color.z, lifespan);
+    shape.draw();
     gl::popMatrices();
 }
 
@@ -38,10 +29,10 @@ bool Particle::isDead() {
     return false;
 }
 
-void Particle::setColor(Vec3f newColor) {
-    color = newColor;
-}
-
 float Particle::getRadius() const {
     return sizeRadius;
+}
+
+float Particle::getLifespan() const {
+    return lifespan;
 }

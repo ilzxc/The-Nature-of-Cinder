@@ -18,6 +18,10 @@
 		9B614BD51783CF44002981DE /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B614BD31783CF44002981DE /* Particle.cpp */; };
 		9B614BDB1783D244002981DE /* Confetti.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B614BD91783D244002981DE /* Confetti.cpp */; };
 		9B947665178A64E90027E5AF /* Square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B947663178A64E90027E5AF /* Square.cpp */; };
+		9B94766B178A886D0027E5AF /* Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B947669178A886D0027E5AF /* Circle.cpp */; };
+		9B94766E178A8A6A0027E5AF /* RoundConfetti.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B94766C178A8A6A0027E5AF /* RoundConfetti.cpp */; };
+		9B947671178A990B0027E5AF /* Rotational.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B94766F178A990B0027E5AF /* Rotational.cpp */; };
+		9B947674178A9F7A0027E5AF /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B947672178A9F790027E5AF /* Triangle.cpp */; };
 		BE607F14D58342D596F5C04D /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = E6663DF602B348AFBD6316DF /* CinderApp.icns */; };
 		FF034F76EC2B44C8B5522C14 /* Ex44ParticlePolymorphismApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124DF5A86B1648EEB30EFE5D /* Ex44ParticlePolymorphismApp.cpp */; };
 /* End PBXBuildFile section */
@@ -44,6 +48,15 @@
 		9B614BDA1783D244002981DE /* Confetti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Confetti.h; path = ../src/Confetti.h; sourceTree = "<group>"; };
 		9B947663178A64E90027E5AF /* Square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Square.cpp; path = ../src/Square.cpp; sourceTree = "<group>"; };
 		9B947664178A64E90027E5AF /* Square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Square.h; path = ../src/Square.h; sourceTree = "<group>"; };
+		9B947667178A880F0027E5AF /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shape.h; path = ../src/Shape.h; sourceTree = "<group>"; };
+		9B947669178A886D0027E5AF /* Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Circle.cpp; sourceTree = "<group>"; };
+		9B94766A178A886D0027E5AF /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		9B94766C178A8A6A0027E5AF /* RoundConfetti.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RoundConfetti.cpp; path = ../src/RoundConfetti.cpp; sourceTree = "<group>"; };
+		9B94766D178A8A6A0027E5AF /* RoundConfetti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RoundConfetti.h; path = ../src/RoundConfetti.h; sourceTree = "<group>"; };
+		9B94766F178A990B0027E5AF /* Rotational.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Rotational.cpp; path = ../src/Rotational.cpp; sourceTree = "<group>"; };
+		9B947670178A990B0027E5AF /* Rotational.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Rotational.h; path = ../src/Rotational.h; sourceTree = "<group>"; };
+		9B947672178A9F790027E5AF /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Triangle.cpp; path = ../src/Triangle.cpp; sourceTree = "<group>"; };
+		9B947673178A9F7A0027E5AF /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Triangle.h; path = ../src/Triangle.h; sourceTree = "<group>"; };
 		E6663DF602B348AFBD6316DF /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,12 +90,13 @@
 			isa = PBXGroup;
 			children = (
 				124DF5A86B1648EEB30EFE5D /* Ex44ParticlePolymorphismApp.cpp */,
+				9B947672178A9F790027E5AF /* Triangle.cpp */,
+				9B94766F178A990B0027E5AF /* Rotational.cpp */,
+				9B94766C178A8A6A0027E5AF /* RoundConfetti.cpp */,
 				9B614BD31783CF44002981DE /* Particle.cpp */,
-				9B614BD41783CF44002981DE /* Particle.h */,
 				9B614BD91783D244002981DE /* Confetti.cpp */,
-				9B614BDA1783D244002981DE /* Confetti.h */,
 				9B947663178A64E90027E5AF /* Square.cpp */,
-				9B947664178A64E90027E5AF /* Square.h */,
+				9B947669178A886D0027E5AF /* Circle.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -135,6 +149,14 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B947673178A9F7A0027E5AF /* Triangle.h */,
+				9B947670178A990B0027E5AF /* Rotational.h */,
+				9B94766D178A8A6A0027E5AF /* RoundConfetti.h */,
+				9B947667178A880F0027E5AF /* Shape.h */,
+				9B614BD41783CF44002981DE /* Particle.h */,
+				9B614BDA1783D244002981DE /* Confetti.h */,
+				9B947664178A64E90027E5AF /* Square.h */,
+				9B94766A178A886D0027E5AF /* Circle.h */,
 				1C7CDBB07DFA419A92EB633B /* Resources.h */,
 				4FB5F7CF51A54350979E1749 /* Ex44ParticlePolymorphism_Prefix.pch */,
 			);
@@ -224,6 +246,10 @@
 				9B614BD51783CF44002981DE /* Particle.cpp in Sources */,
 				9B614BDB1783D244002981DE /* Confetti.cpp in Sources */,
 				9B947665178A64E90027E5AF /* Square.cpp in Sources */,
+				9B94766B178A886D0027E5AF /* Circle.cpp in Sources */,
+				9B94766E178A8A6A0027E5AF /* RoundConfetti.cpp in Sources */,
+				9B947671178A990B0027E5AF /* Rotational.cpp in Sources */,
+				9B947674178A9F7A0027E5AF /* Triangle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
