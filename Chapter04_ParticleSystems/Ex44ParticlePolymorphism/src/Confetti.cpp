@@ -14,10 +14,6 @@ void Confetti::update() {
 }
 
 void Confetti::draw() {
-    gl::color(color.x, color.y, color.z, Particle::getLifespan());
-    gl::pushMatrices();
-    gl::translate(Particle::getPosition());
-    gl::rotate(rotation);
-    gl::drawSolidRect( Rectf(-sizeRadius, -sizeRadius, sizeRadius, sizeRadius) );
-    gl::popMatrices();
+    Particle::draw( rotation, square );
 }
+
