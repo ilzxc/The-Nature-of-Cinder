@@ -36,12 +36,12 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex45ParticleRepeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex45ParticleRepeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEE6178B2C9700EABAC6 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
+		9B03BEE7178B2C9700EABAC6 /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleSystem.h; path = ../include/ParticleSystem.h; sourceTree = "<group>"; };
+		9B03BEE8178B2C9700EABAC6 /* Repeller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repeller.h; path = ../include/Repeller.h; sourceTree = "<group>"; };
 		9B614BDC178416D0002981DE /* Repeller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Repeller.cpp; path = ../src/Repeller.cpp; sourceTree = "<group>"; };
-		9B614BDD178416D0002981DE /* Repeller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Repeller.h; path = ../src/Repeller.h; sourceTree = "<group>"; };
 		9B614BE2178416FC002981DE /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
-		9B614BE3178416FC002981DE /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
 		9B614BE517841713002981DE /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleSystem.cpp; path = ../src/ParticleSystem.cpp; sourceTree = "<group>"; };
-		9B614BE617841713002981DE /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleSystem.h; path = ../src/ParticleSystem.h; sourceTree = "<group>"; };
 		B5907DECDE814F5DA38CC8E4 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		EEDAF6E8D2004BB187C7A910 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		F0D32125162B4FE59F43F2A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,11 +78,8 @@
 			children = (
 				1152DECAF1744169B5973992 /* Ex45ParticleRepellerApp.cpp */,
 				9B614BDC178416D0002981DE /* Repeller.cpp */,
-				9B614BDD178416D0002981DE /* Repeller.h */,
 				9B614BE2178416FC002981DE /* Particle.cpp */,
-				9B614BE3178416FC002981DE /* Particle.h */,
 				9B614BE517841713002981DE /* ParticleSystem.cpp */,
-				9B614BE617841713002981DE /* ParticleSystem.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -135,6 +132,9 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEE6178B2C9700EABAC6 /* Particle.h */,
+				9B03BEE7178B2C9700EABAC6 /* ParticleSystem.h */,
+				9B03BEE8178B2C9700EABAC6 /* Repeller.h */,
 				B5907DECDE814F5DA38CC8E4 /* Resources.h */,
 				49DF9B3B435F44CA9EBA6A9F /* Ex45ParticleRepeller_Prefix.pch */,
 			);

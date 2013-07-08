@@ -36,10 +36,10 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		58DCAE055761407E9610C748 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex43ParticleSystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex43ParticleSystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEE4178B2C4500EABAC6 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
+		9B03BEE5178B2C4500EABAC6 /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleSystem.h; path = ../include/ParticleSystem.h; sourceTree = "<group>"; };
 		9B614BCD1783C664002981DE /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
-		9B614BCE1783C664002981DE /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
 		9B614BD01783C670002981DE /* ParticleSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParticleSystem.cpp; path = ../src/ParticleSystem.cpp; sourceTree = "<group>"; };
-		9B614BD11783C670002981DE /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleSystem.h; path = ../src/ParticleSystem.h; sourceTree = "<group>"; };
 		BB6E10E16B3D4986BC6204D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2AB6B2A00AE41448B494D2C /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,9 +75,7 @@
 			children = (
 				212728ACBE15457D869AA957 /* Ex43ParticleSystemsApp.cpp */,
 				9B614BCD1783C664002981DE /* Particle.cpp */,
-				9B614BCE1783C664002981DE /* Particle.h */,
 				9B614BD01783C670002981DE /* ParticleSystem.cpp */,
-				9B614BD11783C670002981DE /* ParticleSystem.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -130,6 +128,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEE4178B2C4500EABAC6 /* Particle.h */,
+				9B03BEE5178B2C4500EABAC6 /* ParticleSystem.h */,
 				C2AB6B2A00AE41448B494D2C /* Resources.h */,
 				4E315015DB5A45C8B1118D07 /* Ex43ParticleSystems_Prefix.pch */,
 			);
