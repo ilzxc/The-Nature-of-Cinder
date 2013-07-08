@@ -33,8 +33,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex12_BallWithVectors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex12_BallWithVectors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEF3178B2F8100EABAC6 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../include/Ball.h; sourceTree = "<group>"; };
 		9BD6AAC817852D5100D88EBA /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ball.cpp; path = ../src/Ball.cpp; sourceTree = "<group>"; };
-		9BD6AAC917852D5100D88EBA /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = ../src/Ball.h; sourceTree = "<group>"; };
 		B2A134BB7DBE4CAFB53057D9 /* Ex12_BallWithVectors_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex12_BallWithVectors_Prefix.pch; sourceTree = "<group>"; };
 		B42C00C8DB4E4F7BBB7821CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8AE0ED5FF6144A8838D5457 /* Ex12_BallWithVectorsApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex12_BallWithVectorsApp.cpp; path = ../src/Ex12_BallWithVectorsApp.cpp; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			children = (
 				B8AE0ED5FF6144A8838D5457 /* Ex12_BallWithVectorsApp.cpp */,
 				9BD6AAC817852D5100D88EBA /* Ball.cpp */,
-				9BD6AAC917852D5100D88EBA /* Ball.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEF3178B2F8100EABAC6 /* Ball.h */,
 				D4D870BD229447E78325FE93 /* Resources.h */,
 				B2A134BB7DBE4CAFB53057D9 /* Ex12_BallWithVectors_Prefix.pch */,
 			);

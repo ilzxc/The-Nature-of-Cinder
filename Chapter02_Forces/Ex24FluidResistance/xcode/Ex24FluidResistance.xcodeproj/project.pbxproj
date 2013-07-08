@@ -36,10 +36,10 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex24FluidResistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex24FluidResistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEED178B2E1E00EABAC6 /* Liquid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Liquid.h; path = ../include/Liquid.h; sourceTree = "<group>"; };
+		9B03BEEE178B2E1E00EABAC6 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../include/Mover.h; sourceTree = "<group>"; };
 		9BD5F4A11788E4A400319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
-		9BD5F4A21788E4A400319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
 		9BD5F4A41788E4AF00319368 /* Liquid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Liquid.cpp; path = ../src/Liquid.cpp; sourceTree = "<group>"; };
-		9BD5F4A51788E4AF00319368 /* Liquid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Liquid.h; path = ../src/Liquid.h; sourceTree = "<group>"; };
 		9D0A03DA4EFE4184A09D8752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78673AE0CCB4482BB730736 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,9 +75,7 @@
 			children = (
 				429AEA852BF74036814E7C11 /* Ex24FluidResistanceApp.cpp */,
 				9BD5F4A11788E4A400319368 /* Mover.cpp */,
-				9BD5F4A21788E4A400319368 /* Mover.h */,
 				9BD5F4A41788E4AF00319368 /* Liquid.cpp */,
-				9BD5F4A51788E4AF00319368 /* Liquid.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -130,6 +128,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEED178B2E1E00EABAC6 /* Liquid.h */,
+				9B03BEEE178B2E1E00EABAC6 /* Mover.h */,
 				C78673AE0CCB4482BB730736 /* Resources.h */,
 				146DFF85016F41CFA00CA3F4 /* Ex24FluidResistance_Prefix.pch */,
 			);
