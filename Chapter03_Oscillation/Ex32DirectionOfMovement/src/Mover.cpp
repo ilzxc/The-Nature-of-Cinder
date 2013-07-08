@@ -13,7 +13,7 @@ using namespace ci;
 void Mover::update( const Vec2f& mousePosition) {
     acceleration = (mousePosition - position).normalized() * 1.7f;
     velocity += acceleration;
-    velocity.limit( 6.0f );
+    velocity.limit( 8.0f );
     position += velocity;
     
     angle = toDegrees( atan2f( velocity.y, velocity.x ) );
