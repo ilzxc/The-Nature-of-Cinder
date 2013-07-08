@@ -10,10 +10,10 @@
 
 void Confetti::update() {
     Particle::update();
-    rotation += rotationSpeed;
+    shape->update();
 }
 
 void Confetti::draw() {
-    Particle::draw( rotation, square );
+    Particle::draw( *shape );
 }
 
