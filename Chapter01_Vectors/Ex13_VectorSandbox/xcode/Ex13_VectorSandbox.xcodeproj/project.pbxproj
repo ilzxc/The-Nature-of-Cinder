@@ -36,8 +36,8 @@
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		643AAC698D7D4E6FBB819A78 /* Ex13_VectorSandboxApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = Ex13_VectorSandboxApp.cpp; path = ../src/Ex13_VectorSandboxApp.cpp; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex13_VectorSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex13_VectorSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEF4178B2FA500EABAC6 /* VecToCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VecToCenter.h; path = ../include/VecToCenter.h; sourceTree = "<group>"; };
 		9BD6AACB178530F800D88EBA /* VecToCenter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VecToCenter.cpp; path = ../src/VecToCenter.cpp; sourceTree = "<group>"; };
-		9BD6AACC178530F800D88EBA /* VecToCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VecToCenter.h; path = ../src/VecToCenter.h; sourceTree = "<group>"; };
 		D0A674926ADF427599FAA9C1 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,6 @@
 			children = (
 				643AAC698D7D4E6FBB819A78 /* Ex13_VectorSandboxApp.cpp */,
 				9BD6AACB178530F800D88EBA /* VecToCenter.cpp */,
-				9BD6AACC178530F800D88EBA /* VecToCenter.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEF4178B2FA500EABAC6 /* VecToCenter.h */,
 				D0A674926ADF427599FAA9C1 /* Resources.h */,
 				2DF8D3AC4FAF4F81A359E601 /* Ex13_VectorSandbox_Prefix.pch */,
 			);

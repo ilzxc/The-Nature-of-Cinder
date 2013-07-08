@@ -34,8 +34,8 @@
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		8D1107320486CEB800E47090 /* Ex26EverythingAttracts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex26EverythingAttracts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEEA178B2DB600EABAC6 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../include/Mover.h; sourceTree = "<group>"; };
 		9BD5F4AD17896E1A00319368 /* Mover.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Mover.cpp; path = ../src/Mover.cpp; sourceTree = "<group>"; };
-		9BD5F4AE17896E1A00319368 /* Mover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mover.h; path = ../src/Mover.h; sourceTree = "<group>"; };
 		DE04BB44A89B4737BEC0020C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E63DF0630F59423F82A67C8C /* Ex26EverythingAttracts_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex26EverythingAttracts_Prefix.pch; sourceTree = "<group>"; };
 		FD83D1DAF5A24CD1969B0252 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
@@ -72,7 +72,6 @@
 			children = (
 				05CD16F77A4D4B71B1FF2988 /* Ex26EverythingAttractsApp.cpp */,
 				9BD5F4AD17896E1A00319368 /* Mover.cpp */,
-				9BD5F4AE17896E1A00319368 /* Mover.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -125,6 +124,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEEA178B2DB600EABAC6 /* Mover.h */,
 				35091EAE024547F1A1F8EBDC /* Resources.h */,
 				E63DF0630F59423F82A67C8C /* Ex26EverythingAttracts_Prefix.pch */,
 			);
