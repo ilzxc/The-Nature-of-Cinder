@@ -37,8 +37,8 @@
 		6698222CD113475F8752B533 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		817E9779E8C0462880BA5110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex46TexturedParticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex46TexturedParticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B03BEE9178B2D0300EABAC6 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
 		9B614BE817844D0B002981DE /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
-		9B614BE917844D0B002981DE /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../src/Particle.h; sourceTree = "<group>"; };
 		9B614BEE178456BD002981DE /* texture00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = texture00.png; path = ../resources/texture00.png; sourceTree = "<group>"; };
 		FA49A0978B234C909D7A84E2 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,7 +74,6 @@
 			children = (
 				5B2B536A33414594935DD43E /* Ex46TexturedParticlesApp.cpp */,
 				9B614BE817844D0B002981DE /* Particle.cpp */,
-				9B614BE917844D0B002981DE /* Particle.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -127,6 +126,7 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
+				9B03BEE9178B2D0300EABAC6 /* Particle.h */,
 				FA49A0978B234C909D7A84E2 /* Resources.h */,
 				509DFF8748B745FE8EA0795B /* Ex46TexturedParticles_Prefix.pch */,
 			);
