@@ -18,7 +18,7 @@ void Wave::draw() {
     
     window.bindFramebuffer();
     gl::clear( Color(0, 0, 0) );
-    gl::color( 1.0f, 1.0f, 1.0f, 0.5f );
+    gl::color( 1.0f, 1.0f, 1.0f, 0.9f );
     for ( auto& c : circles ) {
         c.draw();
     }
@@ -26,8 +26,9 @@ void Wave::draw() {
     
     gl::pushMatrices();
     gl::translate( windowPosition );
-    gl::color( 0.222f, 0.222f, 0.222f );
+    gl::color( 0.01f, 0.01f, 0.01f );
     gl::drawSolidRect( window.getBounds() );
+    gl::color( 1, 1, 1 );
     gl::draw( window.getTexture() );
     gl::popMatrices();
 }

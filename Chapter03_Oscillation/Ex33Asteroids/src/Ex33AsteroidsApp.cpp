@@ -40,7 +40,7 @@ void Ex33AsteroidsApp::keyUp( KeyEvent event ) {
 }
 
 void Ex33AsteroidsApp::setKeysTo(const KeyEvent event, const bool what) {
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 3; i++) {
         if ( (what && !keys[i]) || (!what && keys[i]) ) { // only update if setting != what
             if(event.getCode() == definedKeys[i]) {
                 keys[i] = what;
