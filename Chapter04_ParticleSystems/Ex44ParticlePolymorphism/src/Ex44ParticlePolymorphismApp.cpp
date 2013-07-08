@@ -2,7 +2,7 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"
-#include "Particle.h"
+#include "RoundConfetti.h"
 #include "Confetti.h"
 
 using namespace ci;
@@ -37,11 +37,13 @@ void Ex44ParticlePolymorphismApp::update()
             }
         }
     }
-    
-    if (r.nextInt(0, 100) > 50) {
-        everything.push_back( new Particle( Vec2f(getWindowWidth() / 2, 70), r ) );
+    int coin = r.nextInt(0, 100);
+    if (coin <= 33) {
+        everything.push_back( new Confetti( Vec2f(getWindowWidth() / 2, 70), r, 0 ) );
+    } else if (coin <= 66) {
+        everything.push_back( new Confetti( Vec2f(getWindowWidth() / 2, 70), r, 1 ) );
     } else {
-        everything.push_back( new Confetti( Vec2f(getWindowWidth() / 2, 70), r ) );
+        everything.push_back( new RoundConfetti( Vec2f(getWindowWidth() / 2, 70), r ) );
     }
 }
 

@@ -8,6 +8,11 @@
 
 #include "Square.h"
 
+void Square::update() {
+    Rotational::update();
+}
+
 void Square::draw() const {
+    Rotational::draw();
     gl::drawSolidRect( bounds );
 }
