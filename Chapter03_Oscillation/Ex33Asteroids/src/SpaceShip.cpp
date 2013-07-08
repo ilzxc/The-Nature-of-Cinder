@@ -63,7 +63,7 @@ void SpaceShip::draw(){
     if(thrusting) {
         gl::color(1, 0.6, 0);
     }
-    gl::drawSolidRect( Rectf( -r, r, -r / 2, r + 3) );
-    gl::drawSolidRect( Rectf( r/2, r, r, r + 3) );
+    gl::drawSolidRect( Rectf( -r + 2, r, -r / 2, r + 3) );
+    gl::drawSolidRect( Rectf( r/2 , r, r - 2, r + 3) );
     gl::popMatrices();
 }
