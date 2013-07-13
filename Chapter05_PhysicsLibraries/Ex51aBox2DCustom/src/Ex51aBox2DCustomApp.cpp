@@ -24,7 +24,7 @@ class Ex51aBox2DCustomApp : public AppNative {
     
     Vec2f mousePosition;
     bool addBoxes;
-    vector<Box> test;
+    vector<Box> boxes;
 };
 
 void Ex51aBox2DCustomApp::setup() {
@@ -53,7 +53,7 @@ void Ex51aBox2DCustomApp::mouseUp( MouseEvent event ) {
 void Ex51aBox2DCustomApp::update()
 {
     if (addBoxes) {
-        test.push_back( Box( world, mousePosition.x, mousePosition.y, Rand::randFloat(5.0f, 20.0f) ) );
+        boxes.push_back( Box( world, mousePosition.x, mousePosition.y, Rand::randFloat(5.0f, 20.0f) ) );
     }
     
     // World step:
@@ -62,24 +62,24 @@ void Ex51aBox2DCustomApp::update()
     int32 positionIterations = 3;
     world->Step( timeStep, velocityIterations, positionIterations );
     
-    for ( std::vector<Box>::iterator iter = test.begin(); iter != test.end(); ) {
+    for ( std::vector<Box>::iterator iter = boxes.begin(); iter != boxes.end(); ) {
         iter->update( world );
         if (iter->isDead()) {
             world->DestroyBody( iter->getBody() );
-            test.erase( iter );
+            boxes.erase( iter );
         } else {
             ++iter;
         }
     }
     
-    cout << world->GetBodyCount() << endl;
+    cout << world->GetBodyCount() << endl; // total objects in the world
 }
 
 void Ex51aBox2DCustomApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    for (auto& b : test) {
+    for ( auto& b : boxes ) {
         b.draw();
     }
 }
