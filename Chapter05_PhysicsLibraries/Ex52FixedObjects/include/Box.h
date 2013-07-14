@@ -24,14 +24,14 @@ private:
     
 public:
     Box(){}
-    Box(b2World* world, float x, float y, float sizeX, float sizeY): bounds( -(sizeX + 7)/2.0f, -(sizeY + 7)/2.0f, (sizeX + 7)/2.0f, (sizeY + 7)/2.0f ) {
+    Box(b2World* world, float x, float y, float sizeX, float sizeY): bounds( -sizeX/2.0f, -sizeY/2.0f, sizeX/2.0f, sizeY/2.0f ) {
         b2BodyDef bodyDef;
         bodyDef.type = b2_dynamicBody;
         bodyDef.position.Set( Conversions::toPhysics(x), Conversions::toPhysics(y) );
         body = world->CreateBody(&bodyDef);
         
         b2PolygonShape dynamicBox;
-        b2Vec2 boxSize = Conversions::toPhysics( Vec2f(sizeX, sizeY) );
+        b2Vec2 boxSize = Conversions::toPhysics( Vec2f(sizeX / 2.0f, sizeY / 2.0f) );
         dynamicBox.SetAsBox(boxSize.x, boxSize.y);
         
         b2FixtureDef fixtureDef;
@@ -41,6 +41,7 @@ public:
         
         body->CreateFixture(&fixtureDef);
     }
+    
     void update(b2World * world);
     void draw() const;
     bool isDead();

@@ -13,6 +13,8 @@ void GroundSurface::createBody( b2World * world, std::vector<Vec2f> boxPoints ) 
     
     b2Vec2 *wp = new b2Vec2[boxPoints.size()];
     
+    // The following needs to be rewritten: the use of reverse_iterator is confusing...
+    
     int i = 0;
     for ( std::vector<Vec2f>::reverse_iterator iter = boxPoints.rbegin(); iter != boxPoints.rend(); ++iter ) {
         wp[i] = ( Conversions::toPhysics( *iter ) );
