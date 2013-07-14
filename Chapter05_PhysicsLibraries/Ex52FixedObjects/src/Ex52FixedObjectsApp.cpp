@@ -55,8 +55,6 @@ void Ex52FixedObjectsApp::mouseDrag( MouseEvent event ) {
     mouseMove( event );
 }
 
-
-
 void Ex52FixedObjectsApp::update() {
     
     if (addBoxes) {
