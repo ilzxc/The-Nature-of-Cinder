@@ -31,7 +31,7 @@ public:
         body = world->CreateBody(&bodyDef);
         
         b2PolygonShape dynamicBox;
-        float boxSize = Conversions::toPhysics(size);
+        float boxSize = Conversions::toPhysics(size/2.0f);
         dynamicBox.SetAsBox(boxSize, boxSize);
         
         b2FixtureDef fixtureDef;

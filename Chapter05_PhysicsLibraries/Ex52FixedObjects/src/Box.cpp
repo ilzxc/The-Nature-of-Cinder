@@ -26,7 +26,6 @@ bool Box::isDead() {
     if( position.y > app::getWindowHeight() ) {
         return true;
     }
-    
     return false;
 }
 
