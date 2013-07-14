@@ -19,6 +19,8 @@
 		9BEF081217920B0A003C9753 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEF081117920B0A003C9753 /* libBox2D.a */; };
 		9BEF082E179212D5003C9753 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF082C179212D5003C9753 /* Particle.cpp */; };
 		9BEF0831179212E2003C9753 /* GroundSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF082F179212E2003C9753 /* GroundSurface.cpp */; };
+		9BEF0835179298AB003C9753 /* SineSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF0833179298AA003C9753 /* SineSurface.cpp */; };
+		9BEF08391792A672003C9753 /* NoiseSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BEF08371792A672003C9753 /* NoiseSurface.cpp */; };
 		C863ED134A3D4F78876AFFE3 /* Ex53CurvyBoundariesApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 96E9BA3EA8D947378A3A5DC0 /* Ex53CurvyBoundariesApp.cpp */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,10 @@
 		9BEF082517920FF0003C9753 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
 		9BEF082C179212D5003C9753 /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = ../src/Particle.cpp; sourceTree = "<group>"; };
 		9BEF082F179212E2003C9753 /* GroundSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GroundSurface.cpp; path = ../src/GroundSurface.cpp; sourceTree = "<group>"; };
+		9BEF0832179297F3003C9753 /* SineSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SineSurface.h; path = ../include/SineSurface.h; sourceTree = "<group>"; };
+		9BEF0833179298AA003C9753 /* SineSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SineSurface.cpp; path = ../src/SineSurface.cpp; sourceTree = "<group>"; };
+		9BEF08361792A646003C9753 /* NoiseSurface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NoiseSurface.h; path = ../include/NoiseSurface.h; sourceTree = "<group>"; };
+		9BEF08371792A672003C9753 /* NoiseSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NoiseSurface.cpp; path = ../src/NoiseSurface.cpp; sourceTree = "<group>"; };
 		C40F79F35DAB4F5D8F55C945 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,6 +86,8 @@
 				96E9BA3EA8D947378A3A5DC0 /* Ex53CurvyBoundariesApp.cpp */,
 				9BEF082C179212D5003C9753 /* Particle.cpp */,
 				9BEF082F179212E2003C9753 /* GroundSurface.cpp */,
+				9BEF0833179298AA003C9753 /* SineSurface.cpp */,
+				9BEF08371792A672003C9753 /* NoiseSurface.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -138,6 +146,8 @@
 				9BEF082317920FD2003C9753 /* GroundSurface.h */,
 				9BEF082417920FE0003C9753 /* Conversions.h */,
 				9BEF082517920FF0003C9753 /* Particle.h */,
+				9BEF0832179297F3003C9753 /* SineSurface.h */,
+				9BEF08361792A646003C9753 /* NoiseSurface.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 				C863ED134A3D4F78876AFFE3 /* Ex53CurvyBoundariesApp.cpp in Sources */,
 				9BEF082E179212D5003C9753 /* Particle.cpp in Sources */,
 				9BEF0831179212E2003C9753 /* GroundSurface.cpp in Sources */,
+				9BEF0835179298AB003C9753 /* SineSurface.cpp in Sources */,
+				9BEF08391792A672003C9753 /* NoiseSurface.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
