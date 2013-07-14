@@ -4,6 +4,8 @@
 #include "Particle.h"
 #include "GroundSurface.h"
 #include "cinder/Rand.h"
+#include "SineSurface.h"
+#include "NoiseSurface.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -12,6 +14,7 @@ using namespace std;
 class Ex53CurvyBoundariesApp : public AppNative {
   public:
 	void setup();
+    void keyDown( KeyEvent event );
 	void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
 	void update();
@@ -23,6 +26,8 @@ class Ex53CurvyBoundariesApp : public AppNative {
     float32 timeStep;
     int32 velocityIterations;
     int32 positionIterations;
+    SineSurface sines;
+    NoiseSurface noize;
 };
 
 void Ex53CurvyBoundariesApp::setup() {
@@ -32,29 +37,43 @@ void Ex53CurvyBoundariesApp::setup() {
     velocityIterations = 8;
     positionIterations = 3;
     
+    gl::enableWireframe();
     Rand::randomize();
     
-    std::vector<Vec2f> groundPoints;
-    groundPoints.push_back( Vec2f( getWindowWidth(), 3.0f * getWindowHeight() / 4.0f) );
-    groundPoints.push_back( Vec2f( getWindowWidth() / 2.0f, 3.0f * getWindowHeight() / 4.0f - 100.0f) );
+    std::vector<Vec2f> groundPoints; // points to be interpreted by Box2D
     groundPoints.push_back( Vec2f( 0.0f, 3.0f * getWindowHeight() / 4.0f) );
-    
-    std::vector<Vec2f> screenPoints;
-    screenPoints.push_back( Vec2f( 0.0f, 3.0f * getWindowHeight() / 4.0f) );
-    screenPoints.push_back( Vec2f( getWindowWidth() / 2.0f, 3.0f * getWindowHeight() / 4.0f - 100.0f) );
-    screenPoints.push_back( Vec2f( 0.0f, getWindowHeight() ) );
-    screenPoints.push_back( Vec2f( getWindowWidth(), 3.0f * getWindowHeight() / 4.0f) );
-    screenPoints.push_back( Vec2f( getWindowWidth(), getWindowHeight() ) );
+    groundPoints.push_back( Vec2f( getWindowWidth() / 2.0f, 3.0f * getWindowHeight() / 4.0f - 100.0f) );
+    groundPoints.push_back( Vec2f( getWindowWidth(), 3.0f * getWindowHeight() / 4.0f) );
 
-    ground = GroundSurface( world, groundPoints, screenPoints );
+    ground = GroundSurface( world, groundPoints );
+}
+
+void Ex53CurvyBoundariesApp::keyDown( KeyEvent event ) {
+    if ( (event.getCode() == KeyEvent::KEY_1) || (event.getCode() == KeyEvent::KEY_2) || (event.getCode() == KeyEvent::KEY_3) ) {
+        std::vector<Vec2f> groundPoints; // points to be interpreted by Box2D
+        if (event.getCode() == KeyEvent::KEY_1) {
+            groundPoints.push_back( Vec2f( 0.0f, 3.0f * getWindowHeight() / 4.0f) );
+            groundPoints.push_back( Vec2f( getWindowWidth() / 2.0f, 3.0f * getWindowHeight() / 4.0f - 100.0f) );
+            groundPoints.push_back( Vec2f( getWindowWidth(), 3.0f * getWindowHeight() / 4.0f) );
+        } else if (event.getCode() == KeyEvent::KEY_2) {
+            sines = SineSurface(50);
+            groundPoints = sines.getPoints();
+        } else if (event.getCode() == KeyEvent::KEY_3) {
+            noize = NoiseSurface(50);
+            groundPoints = noize.getPoints();
+        }
+        
+        ground.resetSurface(world);
+        ground = GroundSurface( world, groundPoints );
+    }
 }
 
 void Ex53CurvyBoundariesApp::mouseDown( MouseEvent event ) {
-    gl::enableWireframe();
+    gl::disableWireframe();
 }
 
 void Ex53CurvyBoundariesApp::mouseUp( MouseEvent event ) {
-    gl::disableWireframe();
+    gl::enableWireframe();
 }
 
 void Ex53CurvyBoundariesApp::update() {
