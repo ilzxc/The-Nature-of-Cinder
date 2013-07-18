@@ -20,6 +20,7 @@
 		9B8288A2179651A800E19D95 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8288A1179651A800E19D95 /* libBox2D.a */; };
 		9B8288A617965B1A00E19D95 /* Boundary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B8288A517965B1A00E19D95 /* Boundary.cpp */; };
 		9B8288AD17965DDE00E19D95 /* CustomShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B8288AB17965DDE00E19D95 /* CustomShape.cpp */; };
+		9BC3951417970FF20028D8DB /* Microphone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BC3951217970FF20028D8DB /* Microphone.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		9B8288A517965B1A00E19D95 /* Boundary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Boundary.cpp; path = ../src/Boundary.cpp; sourceTree = "<group>"; };
 		9B8288A717965DC200E19D95 /* CustomShape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CustomShape.h; path = ../include/CustomShape.h; sourceTree = "<group>"; };
 		9B8288AB17965DDE00E19D95 /* CustomShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CustomShape.cpp; path = ../src/CustomShape.cpp; sourceTree = "<group>"; };
+		9BC3951117970FE50028D8DB /* Microphone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Microphone.h; path = ../include/Microphone.h; sourceTree = "<group>"; };
+		9BC3951217970FF20028D8DB /* Microphone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Microphone.cpp; path = ../src/Microphone.cpp; sourceTree = "<group>"; };
 		A57E6DF364CC471C82BB7050 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
 		FF6DDA44C5A948C88DA23C1A /* Ex54ComplexForms_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex54ComplexForms_Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +83,7 @@
 				9B8288A517965B1A00E19D95 /* Boundary.cpp */,
 				2C8850F4994F4010B92E7B3B /* Ex54ComplexFormsApp.cpp */,
 				9B8288AB17965DDE00E19D95 /* CustomShape.cpp */,
+				9BC3951217970FF20028D8DB /* Microphone.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -137,6 +141,7 @@
 				37C68337DB6C404B94AD3347 /* Resources.h */,
 				FF6DDA44C5A948C88DA23C1A /* Ex54ComplexForms_Prefix.pch */,
 				9B8288A717965DC200E19D95 /* CustomShape.h */,
+				9BC3951117970FE50028D8DB /* Microphone.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -224,6 +229,7 @@
 				69EECBB3FA08494895FDDA66 /* Ex54ComplexFormsApp.cpp in Sources */,
 				9B8288A617965B1A00E19D95 /* Boundary.cpp in Sources */,
 				9B8288AD17965DDE00E19D95 /* CustomShape.cpp in Sources */,
+				9BC3951417970FF20028D8DB /* Microphone.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
