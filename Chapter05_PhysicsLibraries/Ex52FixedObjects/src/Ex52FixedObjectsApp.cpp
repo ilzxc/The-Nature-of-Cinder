@@ -92,6 +92,9 @@ void Ex52FixedObjectsApp::draw()
 }
 
 void Ex52FixedObjectsApp::shutdown() {
+    for (auto& b : boxes) {
+        world->DestroyBody( b.getBody() );
+    }
     delete world;
 }
 

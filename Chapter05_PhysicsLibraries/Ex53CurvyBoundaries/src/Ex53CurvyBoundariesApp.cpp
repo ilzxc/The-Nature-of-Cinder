@@ -19,6 +19,7 @@ class Ex53CurvyBoundariesApp : public AppNative {
     void mouseUp( MouseEvent event );
 	void update();
 	void draw();
+    void shutdown();
     
     std::vector<Particle> particles;
     GroundSurface ground;
@@ -105,6 +106,13 @@ void Ex53CurvyBoundariesApp::draw()
     for ( auto& p : particles) {
         p.draw();
     }
+}
+
+void Ex53CurvyBoundariesApp::shutdown() {
+    for ( auto& p : particles ) {
+        p.killBody( world );
+    }
+    delete world;
 }
 
 CINDER_APP_NATIVE( Ex53CurvyBoundariesApp, RendererGl )
