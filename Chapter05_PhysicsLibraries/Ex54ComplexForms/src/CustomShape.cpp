@@ -8,7 +8,7 @@
 
 #include "CustomShape.h"
 
-CustomShape::CustomShape( b2World * world, const Vec2f& where ) {
+CustomShape::CustomShape( b2World *world, const Vec2f& where ) {
     Rand::randomize();
     
     // Screen Units:
@@ -57,7 +57,7 @@ CustomShape::CustomShape( b2World * world, const Vec2f& where ) {
     delete b2Polygon;
 }
 
-void CustomShape::update( b2World * world ) {
+void CustomShape::update( b2World *world ) {
     position = Conversions::toScreen( body->GetPosition() );
     angle = toDegrees( body->GetAngle() );
 }
@@ -67,8 +67,7 @@ void CustomShape::draw() const {
     gl::translate( position );
     gl::rotate( angle );
 
-    // gl::enableWireframe();
-    gl::color( 0.4343f, 0.0f, 0.0f, 0.333f );
+    gl::color( 186.0f/255, 194.0f/255, 195.0f/255 );
     gl::begin(GL_TRIANGLE_FAN);
     gl::vertex( startPoint );
     for( auto& vecs : polygon ) {
@@ -85,7 +84,7 @@ bool CustomShape::isDead() const {
     return false;
 }
 
-void CustomShape::killBody( b2World * world ) {
+void CustomShape::killBody( b2World *world ) {
     world->DestroyBody( body );
     body = NULL;
 }

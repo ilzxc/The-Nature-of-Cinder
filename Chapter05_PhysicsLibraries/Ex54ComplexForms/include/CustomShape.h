@@ -9,6 +9,7 @@
 #ifndef Ex54ComplexForms_CustomShape_h
 #define Ex54ComplexForms_CustomShape_h
 
+#pragma once
 #include "Box2D/Box2D.h"
 #include "Conversions.h"
 #include "cinder/gl/gl.h"
@@ -26,11 +27,11 @@ private:
     
 public:
     CustomShape() { }
-    CustomShape( b2World * world, const Vec2f& where );
-    void update( b2World * world );
+    CustomShape( b2World *world, const Vec2f& where );
+    void update( b2World *world );
     void draw() const;
     bool isDead() const;
-    void killBody( b2World * world );
+    void killBody( b2World *world );
 };
 
 #endif

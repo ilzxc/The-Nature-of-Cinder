@@ -9,7 +9,7 @@
 #include "Boundary.h"
 
 void Boundary::draw() const {
-    gl::color( 1, 1, 1 );
+    gl::color( 108.0f/255, 115.0f/255, 115.0f/255 );
     gl::pushMatrices();
     gl::translate( position );
     gl::drawSolidRect( bounds );
