@@ -85,6 +85,9 @@ void Ex51aBox2DCustomApp::draw()
 }
 
 void Ex51aBox2DCustomApp::shutdown() {
+    for ( auto& b : boxes ) {
+        world->DestroyBody( b.getBody() );
+    }
     delete world;
 }
 
