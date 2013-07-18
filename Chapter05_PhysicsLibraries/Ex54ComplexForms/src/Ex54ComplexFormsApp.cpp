@@ -2,8 +2,10 @@
 #include "Box2D/Box2D.h"
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
+#include "cinder/Rand.h"
 #include "Boundary.h"
 #include "CustomShape.h"
+#include "Microphone.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -12,17 +14,20 @@ using namespace std;
 class Ex54ComplexFormsApp : public AppNative {
   public:
 	void setup();
-	void mouseDown( MouseEvent event );	
+	void mouseDown( MouseEvent event );
+    void keyDown( KeyEvent event );
+    void keyUp( KeyEvent event );
 	void update();
 	void draw();
     
-    b2World * world;
+    b2World *world;
     float32 timestep;
     int32 velocityIterations;
     int32 positionIterations;
     
     std::vector<Boundary> boundaries;
     std::vector<CustomShape> polygons;
+    std::vector<Microphone> microphones;
 };
 
 void Ex54ComplexFormsApp::setup() {
@@ -39,7 +44,23 @@ void Ex54ComplexFormsApp::setup() {
 }
 
 void Ex54ComplexFormsApp::mouseDown( MouseEvent event ) {
-    polygons.push_back( CustomShape(world, event.getPos()) );
+    if ( Rand::randInt( 2 ) == 0 ) {
+        polygons.push_back( CustomShape(world, event.getPos()) );
+    } else {
+        microphones.push_back( Microphone(world, event.getPos()) );
+    }
+}
+
+void Ex54ComplexFormsApp::keyDown( KeyEvent event ) {
+    if( event.getCode() == KeyEvent::KEY_w ) {
+        gl::enableWireframe();
+    }
+}
+
+void Ex54ComplexFormsApp::keyUp( KeyEvent event ) {
+    if( event.getCode() == KeyEvent::KEY_w ) {
+        gl::disableWireframe();
+    }
 }
 
 void Ex54ComplexFormsApp::update() {
@@ -54,17 +75,31 @@ void Ex54ComplexFormsApp::update() {
             ++iter;
         }
     }
+    
+    for (std::vector<Microphone>::iterator iter = microphones.begin(); iter != microphones.end();) {
+        iter->update();
+        if ( iter->isDead() ) {
+            iter->killBody( world );
+            iter = microphones.erase( iter );
+        } else {
+            ++iter;
+        }
+    }
 }
 
 void Ex54ComplexFormsApp::draw()
 {
-	gl::clear( Color( 0.877f, 0.877f, 0.877f ) );
+	gl::clear( Color( 59.0f/255, 58.0f/255, 57.0f/255 ) );
     for ( auto& b : boundaries ) {
         b.draw();
     }
     
     for ( auto& p : polygons ) {
         p.draw();
+    }
+    
+    for ( auto& m : microphones ) {
+        m.draw();
     }
 }
 
