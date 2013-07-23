@@ -18,6 +18,7 @@ class Ex56ForcesApp : public AppNative {
     void mouseDrag( MouseEvent event );
 	void update();
 	void draw();
+    void shutdown();
     
     b2World *world;
     float32 timeStep;
@@ -75,6 +76,14 @@ void Ex56ForcesApp::draw() {
     for ( auto& particle : particles ) {
         particle.draw();
     }
+}
+
+void Ex56ForcesApp::shutdown() {
+    for ( auto& particle : particles ) {
+        particle.killBody( world );
+    }
+    attractor.killBody( world );
+    delete world;
 }
 
 CINDER_APP_NATIVE( Ex56ForcesApp, RendererGl )

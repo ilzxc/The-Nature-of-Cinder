@@ -36,7 +36,7 @@ public:
     void hover( const Vec2f& mouse );
     void stopDragging();
     void drag( const Vec2f& mouse );
-    void destroyBody( b2World *world );
+    void killBody( b2World *world );
 };
 
 #endif
