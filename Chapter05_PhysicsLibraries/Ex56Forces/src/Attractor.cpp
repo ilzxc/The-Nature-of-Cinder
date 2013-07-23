@@ -80,6 +80,6 @@ void Attractor::drag( const Vec2f& mouse ) {
     body->SetTransform( Conversions::toPhysics( location ), 0.0f ); // no rotation required
 }
 
-void Attractor::destroyBody( b2World *world ) {
+void Attractor::killBody( b2World *world ) {
     world->DestroyBody( body );
 }
