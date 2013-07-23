@@ -59,13 +59,13 @@ void Ex56ForcesApp::mouseDrag( MouseEvent event ) {
 }
 
 void Ex56ForcesApp::update() {
-    world->Step( timeStep, velocityIterations, positionIterations );
     attractor.hover( mouseLocation );
     attractor.drag( mouseLocation );
-    
     for ( auto& particle : particles ) {
         particle.update( world, attractor.attract( particle ) );
     }
+    world->Step( timeStep, velocityIterations, positionIterations );
+    world->ClearForces();
 }
 
 void Ex56ForcesApp::draw() {
