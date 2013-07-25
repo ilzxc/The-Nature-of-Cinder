@@ -36,17 +36,15 @@ void Ex57CollisionsApp::setup() {
     world->SetContactListener( &collisions );
     
     floor = Boundary( world, -10, getWindowHeight() - 50, getWindowWidth() + 20, 5.0f);
-    
-    // particles.push_back( new Particle( world, Vec2f( getWindowWidth() / 2.0f - 2, -100.0f ),  Rand::randFloat(5.0f, 15.0f) ) );
-    
-    // particles.push_back( new Particle( world, Vec2f( getWindowWidth() / 2.0f, 0.0f ),  Rand::randFloat(5.0f, 15.0f) ) );
 }
 
 void Ex57CollisionsApp::mouseDown( MouseEvent event ) {
 }
 
 void Ex57CollisionsApp::update() {
-    particles.push_back( new Particle( world, Vec2f( Rand::randFloat( getWindowWidth() ), Rand::randFloat(-500.0, 0.0f) ),  Rand::randFloat(5.0f, 15.0f) ) );
+    if ( Rand::randInt( 100 ) > 80 ) {
+        particles.push_back( new Particle( world, Vec2f( Rand::randFloat( getWindowWidth() ), Rand::randFloat(-500.0, 0.0f) ),  Rand::randFloat(5.0f, 15.0f) ) );
+    }
     
     world->Step( timeStep, velocityIterations, positionIterations );
     
@@ -63,6 +61,8 @@ void Ex57CollisionsApp::update() {
             ++iter;
         }
     }
+    
+    cout << particles.size() << endl;
 }
 
 void Ex57CollisionsApp::draw()

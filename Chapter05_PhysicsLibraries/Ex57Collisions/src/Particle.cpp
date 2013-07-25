@@ -10,8 +10,8 @@
 
 Particle::Particle( b2World *world, const Vec2f &_position, float _radius )
 : position( _position ),
-  radius( _radius ) {
-    innerColor.set( 0.877f, 0.877f, 0.877f );
+  radius( _radius ),
+  numContacts( 0 ) {
     b2BodyDef bd;
     bd.position = Conversions::toPhysics( position );
     bd.type = b2_dynamicBody;
@@ -41,7 +41,11 @@ void Particle::draw() const {
     gl::rotate( angle );
     gl::color( 0.221, 0.221, 0.221 );
     gl::drawSolidCircle( Vec2f::zero(), radius, 16 );
-    gl::color( innerColor );
+    if ( numContacts > 0 ) {
+        gl::color( 0.877f, 0.0f, 0.0f );
+    } else {
+        gl::color( 0.877f, 0.877f, 0.877f );
+    }
     gl::drawSolidCircle( Vec2f::zero(), radius * 0.7f, 16 );
     gl::color( 0.221, 0.221, 0.221 );
     gl::drawSolidRect( Rectf(0, -2, radius, 2) );
@@ -63,10 +67,9 @@ bool Particle::isDead() const {
     return false;
 }
 
-void Particle::Touching() {
-    innerColor.set( 0.877f, 0.0f, 0.0f );
+void Particle::onTouch() {
+    numContacts++;
 }
-void Particle::BeenTouched() {
-    innerColor.set( 0.0f, 0.877f, 0.877f );
-
+void Particle::offTouch() {
+    numContacts--;
 }

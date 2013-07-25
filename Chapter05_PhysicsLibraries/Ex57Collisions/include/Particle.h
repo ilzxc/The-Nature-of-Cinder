@@ -24,7 +24,7 @@ private:
     Vec2f  position;
     float  angle;
     float  radius;
-    Color  innerColor;
+    int    numContacts;
     
 public:
     Particle() { }
@@ -34,8 +34,8 @@ public:
     b2Body* getBody() const;
     bool isDead() const;
     void killBody( b2World *world );
-    void Touching();
-    void BeenTouched();
+    void onTouch();
+    void offTouch();
 };
 
 
