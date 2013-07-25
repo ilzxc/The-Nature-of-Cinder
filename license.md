@@ -1,11 +1,10 @@
-Copyright (c) 2013, Ilya Y. Rostovtsev
-All rights reserved.
-
-Based on Daniel Shiffman's **The Nature of Code** http://natureofcode.com
-Box2D headers and precompiled binaries (c) 2006-2009 Erin Catto http://www.box2d.org
-
-Redistribution and use in source and binary forms, with or without modification,
-are permitted provided that the following conditions are met:
+Copyright (c) 2013, Ilya Y. Rostovtsev  
+All rights reserved.  
+  
+Based on Daniel Shiffman's **The Nature of Code** http://natureofcode.com  
+Box2D headers and precompiled binaries (c) 2006-2009 Erin Catto http://www.box2d.org  
+  
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 *  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
