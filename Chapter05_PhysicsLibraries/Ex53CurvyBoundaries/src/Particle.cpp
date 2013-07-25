@@ -24,7 +24,6 @@ void Particle::makeBody( b2World * world ){
     fd.restitution = 0.3f;
     
     body->CreateFixture( &fd );
-    
 }
 
 void Particle::update( b2World * world ) {
