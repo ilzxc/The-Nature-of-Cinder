@@ -16,7 +16,7 @@
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		6F1932BA57EC4C74B15E4832 /* Ex55JointsApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D865720A7E984A22AF5AE1CA /* Ex55JointsApp.cpp */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		9B2A0D0E1799E8BC0049DB6C /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2A0D0D1799E8BC0049DB6C /* libBox2D.a */; };
+		9BBCA71F17A0E44000709F52 /* libBox2D.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBCA71E17A0E44000709F52 /* libBox2D.a */; };
 		9BD2B3691797B10700DCC8B0 /* Boundary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B3681797B10700DCC8B0 /* Boundary.cpp */; };
 		9BD2B36C1797B11900DCC8B0 /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B36A1797B11900DCC8B0 /* Particle.cpp */; };
 		9BD2B3701797B1D600DCC8B0 /* Pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2B36E1797B1D600DCC8B0 /* Pair.cpp */; };
@@ -39,7 +39,7 @@
 		77803CDBBD134CFE83123CD7 /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
 		877ADCE0150545C489B1B987 /* Ex55Joints_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = Ex55Joints_Prefix.pch; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Ex55Joints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex55Joints.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B2A0D0D1799E8BC0049DB6C /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = ../libBox2D.a; sourceTree = "<group>"; };
+		9BBCA71E17A0E44000709F52 /* libBox2D.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBox2D.a; path = ../../Box2D/libBox2D.a; sourceTree = "<group>"; };
 		9BD2B3651797B0AA00DCC8B0 /* Particle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = ../include/Particle.h; sourceTree = "<group>"; };
 		9BD2B3661797B0FF00DCC8B0 /* Boundary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Boundary.h; path = ../include/Boundary.h; sourceTree = "<group>"; };
 		9BD2B3671797B0FF00DCC8B0 /* Conversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conversions.h; path = ../include/Conversions.h; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2A0D0E1799E8BC0049DB6C /* libBox2D.a in Frameworks */,
+				9BBCA71F17A0E44000709F52 /* libBox2D.a in Frameworks */,
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
 				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
@@ -127,7 +127,6 @@
 		29B97314FDCFA39411CA2CEA /* Ex55Joints */ = {
 			isa = PBXGroup;
 			children = (
-				9B2A0D0D1799E8BC0049DB6C /* libBox2D.a */,
 				01B97315FEAEA392516A2CEA /* Blocks */,
 				29B97315FDCFA39411CA2CEA /* Headers */,
 				080E96DDFE201D6D7F000001 /* Source */,
@@ -164,6 +163,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9BBCA71E17A0E44000709F52 /* libBox2D.a */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
