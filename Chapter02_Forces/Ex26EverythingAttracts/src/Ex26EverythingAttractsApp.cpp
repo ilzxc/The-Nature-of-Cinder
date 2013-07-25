@@ -20,32 +20,35 @@ class Ex26EverythingAttractsApp : public AppNative {
 };
 
 void Ex26EverythingAttractsApp::prepareSettings( Settings *settings ) {
-    settings->setWindowSize(800, 200);
+    settings->setWindowSize(800, 300);
+    settings->setFrameRate( 60.0f );
 }
 
 void Ex26EverythingAttractsApp::setup() {
     Rand::randomize();
+    gl::enableAlphaBlending();
     for (int i = 0; i < 300; i++) {
         movers.push_back( Mover( randFloat(0.1, 2), randFloat(getWindowWidth()), randFloat(getWindowHeight()) ) );
     }
 }
 
 void Ex26EverythingAttractsApp::update() {
-    for (int i = 0; i < movers.size(); ++i) {
-        for (int j = 0; j < movers.size(); ++j) {
-            if (i != j) {
-                Vec2f force = movers[j].attract(movers[i], g);
-                movers[i].applyForce(force);
-            }
+    for ( std::vector<Mover>::iterator iter = movers.begin(); iter != movers.end(); ++iter) {
+        for ( std::vector<Mover>::iterator iter2 = iter + 1; iter2 != movers.end(); ++iter2) {
+            Vec2f force = iter2->attract(*iter, g);
+            iter->applyForce(force);
+            iter2->applyForce(-force);
         }
-        movers[i].update();
+        iter->update();
     }
+    
 }
 
 void Ex26EverythingAttractsApp::draw()
 {
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
+
     for ( auto& mover : movers ) {
         mover.draw();
     }
