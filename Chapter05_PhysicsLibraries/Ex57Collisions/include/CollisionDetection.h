@@ -19,16 +19,16 @@ public:
         void* objectA = contact->GetFixtureA()->GetBody()->GetUserData();
         void* objectB = contact->GetFixtureB()->GetBody()->GetUserData();
         if ( objectA && objectB ) { // if they are not NULL, we have particles!
-            static_cast< Particle* >(objectA)->Touching();
-            static_cast< Particle* >(objectB)->Touching();
+            static_cast< Particle* >(objectA)->onTouch();
+            static_cast< Particle* >(objectB)->onTouch();
         }
     }
     void EndContact ( b2Contact *contact ) {
         void* objectA = contact->GetFixtureA()->GetBody()->GetUserData();
         void* objectB = contact->GetFixtureB()->GetBody()->GetUserData();
         if ( objectA && objectB ) { // if they are not NULL, we have particles!
-            static_cast< Particle* >(objectA)->BeenTouched();
-            static_cast< Particle* >(objectB)->BeenTouched();
+            static_cast< Particle* >(objectA)->offTouch();
+            static_cast< Particle* >(objectB)->offTouch();
         }
     }
     
