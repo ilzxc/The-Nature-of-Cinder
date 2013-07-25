@@ -18,6 +18,7 @@ private:
     Vec2f location;
     Vec2f velocity;
     Vec2f acceleration;
+    Vec2f lastAcceleration;
     float radius;
     float mass;
     
