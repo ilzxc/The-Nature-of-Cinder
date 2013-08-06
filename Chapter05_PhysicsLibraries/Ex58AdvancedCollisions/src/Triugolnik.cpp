@@ -61,7 +61,7 @@ void Triugolnik::onCollisionWith( const int otherObjectKind ) {
             Particle::setColor( 11.0f / 255, 223.0f / 255, 118.0f / 255 );
             break;
         case SQUARE_PARTICLE:
-            // do something else
+            Particle::setColor( 0.0f, 0.0f, 0.0f );
             break;
     }
 }

@@ -53,7 +53,7 @@ void Square::onCollisionWith( const int otherObjectKind ) {
             Particle::setColor( 11.0f / 255, 171.0f / 255, 223.0f / 255 );
             break;
         case CIRCLE_PARTICLE:
-            // do something else
+            Particle::setColor( 0.0f, 0.0f, 0.0f );
             break;
     }
 }
