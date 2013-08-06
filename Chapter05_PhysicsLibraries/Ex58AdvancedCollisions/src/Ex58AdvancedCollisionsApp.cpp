@@ -41,7 +41,7 @@ void Ex58AdvancedCollisionsApp::setup() {
     
     world->SetContactListener( &collisions );
     
-    floor = new Boundary( world, 0.0f, getWindowHeight() - 20.0f, getWindowWidth(), 10.0f );
+    floor = new Boundary( world, 0.0f, getWindowHeight() - 50.0f, getWindowWidth(), 10.0f );
     
     Rand::randomize();
 }

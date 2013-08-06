@@ -52,7 +52,7 @@ void Circle::onCollisionWith( const int otherObjectKind ) {
             Particle::setColor( 154.0f / 255, 40.0f / 255, 47.0f / 255 );
             break;
         case TRIANGLE_PARTICLE:
-            // do something else
+            Particle::setColor( 0.0f, 0.0f, 0.0f );
             break;
     }
 }
