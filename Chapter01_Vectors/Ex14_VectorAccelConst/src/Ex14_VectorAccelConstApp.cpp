@@ -18,7 +18,7 @@ class Ex14_VectorAccelConstApp : public AppNative {
 };
 
 void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings ){
-    settings->setWindowSize(900, 400);
+    settings->setWindowSize( 900, 400 );
 }
 
 void Ex14_VectorAccelConstApp::setup() {
