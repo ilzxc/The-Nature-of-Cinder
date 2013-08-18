@@ -21,13 +21,13 @@ class Ex17_StupidFlockApp : public AppNative {
     const int numBalls = 10000;
 };
 
-void Ex17_StupidFlockApp::prepareSettings(Settings *settings){
+void Ex17_StupidFlockApp::prepareSettings(Settings *settings) {
     settings->setWindowSize( 900, 400 );
 }
 
 void Ex17_StupidFlockApp::setup() {
     Rand::randomize();
-    for (int i = 0; i < numBalls; i++) {
+    for ( int i = 0; i < numBalls; i++ ) {
         balls.push_back( Mover( randFloat( 0.6f ) ) );
     }
     mousePosition = getWindowCenter();
@@ -44,8 +44,7 @@ void Ex17_StupidFlockApp::update() {
     }
 }
 
-void Ex17_StupidFlockApp::draw()
-{
+void Ex17_StupidFlockApp::draw() {
 	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( auto& b : balls ) {
         b.draw();

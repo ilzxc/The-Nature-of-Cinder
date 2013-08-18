@@ -27,7 +27,7 @@ void Mover::update() {
     position += velocity;
 }
 
-void Mover::draw() {
+void Mover::draw() const {
     gl::color( 1.0f, 1.0f, 1.0f );
     gl::drawSolidCircle( position, ( 10.0f * fatness ) );
 }

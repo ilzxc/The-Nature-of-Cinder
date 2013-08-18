@@ -22,7 +22,7 @@ public:
     Ball( const float _x, const float _y, const Rand& _r );
 
     void update();
-    void draw();
+    void draw() const;
     
 private:
     float x;

@@ -17,7 +17,7 @@ class Ex14_VectorAccelConstApp : public AppNative {
     Mover ball;
 };
 
-void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings ){
+void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings ) {
     settings->setWindowSize( 900, 400 );
 }
 
@@ -33,8 +33,7 @@ void Ex14_VectorAccelConstApp::update() {
     ball.update();
 }
 
-void Ex14_VectorAccelConstApp::draw()
-{
+void Ex14_VectorAccelConstApp::draw() {
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
