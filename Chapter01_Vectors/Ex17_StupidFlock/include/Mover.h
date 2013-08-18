@@ -23,7 +23,7 @@ public:
     
     void setAccel( const Vec2f& mousePosition );
     void update();
-    void draw();
+    void draw() const;
     
 private:
     float fatness;

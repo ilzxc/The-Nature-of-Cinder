@@ -11,7 +11,7 @@
 
 Ball::Ball( const Vec2f& _p )   // constructor overloading
     : position( _p ),
-      velocity( randFloat(-10.0f, 10.0f), randFloat( -10.0, 10.0f ) ),
+      velocity( randFloat( -10.0f, 10.0f ), randFloat( -10.0, 10.0f ) ),
       radius( 30.0f )
     {
         /* the example above calls "randFloat" - a static function of Rand.
@@ -41,7 +41,7 @@ void Ball::update() {
 }
 
 
-void Ball::draw() {
+void Ball::draw() const {
     gl::pushMatrices();
     gl::translate( position );
     gl::color( 0.888f, 0.888f, 0.888f );

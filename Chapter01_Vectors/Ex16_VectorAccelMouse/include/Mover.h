@@ -19,7 +19,7 @@ class Mover {
 public:
     Mover();
     void update( const Vec2f& mousePosition);
-    void draw();
+    void draw() const;
     
 private:
     Vec2f position;

@@ -40,8 +40,7 @@ void Ex11_BallWithoutVectorsApp::update() {
     ballSmartPointer->update();     // smart pointers use -> just like regular pointers
 }
 
-void Ex11_BallWithoutVectorsApp::draw()
-{
+void Ex11_BallWithoutVectorsApp::draw() {
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ballOnTheHeap->draw();
     ballOnTheStack.draw();

@@ -23,7 +23,7 @@ public:
     Ball( const float _x, const float _y );   // constructing using two floats
     
     void update();
-    void draw();
+    void draw() const;
     
 private:
     Vec2f position;
