@@ -18,7 +18,6 @@ using namespace ci;
 
 class Mover {
 public:
-    Mover() { }
     Mover( const float _fatness );
     
     void setAccel( const Vec2f& mousePosition );
@@ -26,7 +25,7 @@ public:
     void draw() const;
     
 private:
-    float fatness;
+    const float fatness;
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;

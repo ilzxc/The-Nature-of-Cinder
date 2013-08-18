@@ -30,7 +30,7 @@ void Ex25GravitationalAttractorsApp::prepareSettings( Settings* settings ) {
 }
 
 void Ex25GravitationalAttractorsApp::setup() {
-    for ( int i = 0; i < 20; ++i ) {
+    for ( int i = 0; i < 100; ++i ) {
         movers.push_back( Mover( randFloat( 0.5f, 1.5f ), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
     }
     attractor = Attractor( getWindowCenter().x, getWindowCenter().y );

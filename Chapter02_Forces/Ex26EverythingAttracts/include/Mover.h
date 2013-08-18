@@ -16,7 +16,6 @@ using namespace ci;
 
 class Mover {
 public:
-    Mover(): radius( 0.0f ), mass( 0.0f ) { }
     Mover( const float _mass, const float _x, const float _y );
 
     float getMass() const;

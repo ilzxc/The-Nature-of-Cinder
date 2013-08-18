@@ -4,36 +4,44 @@
 //
 //  Created by Ilya Rostovtsev on 7/7/13.
 //
+//  HWH Maintenance 8/17
 //
 
 #include "Attractor.h"
 
-Vec2f Attractor::attract( const Mover& m ){
+Attractor::Attractor( const float _x, const float _y )
+    : mass(30.0f),
+      G(1.5f),
+      location( _x, _y ),
+      dragging(false),
+      rollover(false),
+      dragOffset( Vec2f::zero() )
+    { }
+
+Vec2f Attractor::attract( const Mover& m ) {
     Vec2f force = location - m.getLocation();
     float d = force.length();
-    d = (d < 5.0) ? 5.0 : ( (d > 25.0) ? 25.0 : d);
+    d = ( d < 5.0 ) ? 5.0 : ( ( d > 25.0 ) ? 25.0 : d );
     force.normalize();
-    float strength = (G * mass * m.getMass()) / (d * d);
+    float strength = ( G * mass * m.getMass() ) / ( d * d );
     force *= strength;
     return force;
 }
 
-
-void Attractor::draw() {
-    gl::color( 255.0f/255, 224.0f/255, 216.0f/255 );
+void Attractor::draw() const {
+    gl::color( 255.0f / 255, 224.0f / 255, 216.0f / 255 );
     gl::drawSolidCircle( location, mass );
-    if (rollover) {
-        gl::color( 152.0f/255, 255.0f/255, 249.0f/255 );
-
+    if ( rollover ) {
+        gl::color( 152.0f / 255, 255.0f / 255, 249.0f / 255 );
     } else {
-        gl::color( 204.0f/255, 33.0f/255, 25.0f/255 );
+        gl::color( 204.0f / 255, 33.0f / 255, 25.0f / 255 );
     }
     gl::drawSolidCircle( location, mass * 0.75 );
-    
 }
+
 void Attractor::clicked( const Vec2f& mouse ) {
     float d = mouse.distance( location );
-    if (d < mass) {
+    if ( d < mass ) {
         dragging = true;
         dragOffset = location - mouse;
     }
@@ -41,7 +49,7 @@ void Attractor::clicked( const Vec2f& mouse ) {
 
 void Attractor::hover( const Vec2f& mouse ) {
     float d = mouse.distance( location );
-    if (d < mass) {
+    if ( d < mass ) {
         rollover = true;
     } else {
         rollover = false;
@@ -53,7 +61,7 @@ void Attractor::stopDragging() {
 }
 
 void Attractor::drag( const Vec2f& mouse ) {
-    if (dragging) {
-        location = (mouse + dragOffset);
+    if ( dragging ) {
+        location = ( mouse + dragOffset );
     }
 }

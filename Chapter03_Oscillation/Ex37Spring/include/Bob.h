@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef Ex37Spring_Bob_h
@@ -18,21 +19,13 @@ private:
     Vec2f location;
     Vec2f velocity;
     Vec2f acceleration;
-    float mass;
-    float damping;
+    const float mass;
+    const float damping;
     Vec2f dragOffset;
     bool dragging;
     
 public:
-    Bob(){ }
-    Bob( float x, float y )
-    : location( x, y ),
-    velocity( Vec2f::zero() ),
-    acceleration( Vec2f::zero() ),
-    mass( 24.0f ),
-    damping( 0.98f ),
-    dragOffset( Vec2f::zero() ),
-    dragging( false ) { }
+    Bob( float x, float y );
     
     void update( const Vec2f& mouseLocation );
     void draw() const;

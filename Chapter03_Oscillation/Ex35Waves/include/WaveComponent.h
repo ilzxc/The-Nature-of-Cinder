@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef Ex35Waves_WaveComponent_h
@@ -14,25 +15,18 @@
 using namespace ci;
 
 class WaveComponent {
+public:
+    WaveComponent( const Vec2f& p, const float r, const float a, const float startAngle, const float v );
+    void update();
+    void draw() const;
+
 private:
     Vec2f position;
     float yOffset;
-    float radius;
-    float amplitude;
+    const float radius;
+    const float amplitude;
     float angle;
     float angleVelocity;
-    
-public:
-    WaveComponent() { }
-    WaveComponent( const Vec2f& p, const float r, const float a, const float startAngle, const float v )
-    : position( p ),
-      yOffset( position.y ),
-      radius( r ),
-      amplitude( a ),
-      angle( startAngle ),
-      angleVelocity( v ) { }
-    void update();
-    void draw() const;
 };
 
 #endif
