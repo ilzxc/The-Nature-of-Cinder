@@ -22,7 +22,7 @@ void Mover::update( const Vec2f& mousePosition) {
     position += velocity;
 }
 
-void Mover::draw() {
+void Mover::draw() const {
     gl::color( 178.0f / 255, 178.0f / 255, 178.0f / 255 );
     gl::drawSolidCircle( position, 6.0f );
     gl::color( velocity.length() / 10.0f, velocity.length() / 15.0f, 0.0f );

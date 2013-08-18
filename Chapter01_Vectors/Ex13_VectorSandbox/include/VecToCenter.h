@@ -17,13 +17,13 @@ using namespace ci;
 
 class VecToCenter {
 public:
-    VecToCenter() {}
+    VecToCenter() { }
     VecToCenter( const bool _active, const Vec2f& _centerPoint );
 
     void setCenter( const Vec2f& newCenter );
     void setActive( const bool newActive );
     void update( const Vec2f& current );
-    void draw();
+    void draw() const;
     
 private:
     bool active;

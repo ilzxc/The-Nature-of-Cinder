@@ -11,7 +11,7 @@ using namespace std;
 
 class Ex25GravitationalAttractorsApp : public AppNative {
   public:
-    void prepareSettings( Settings *settings );
+    void prepareSettings( Settings* settings );
 	void setup();
     void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
@@ -20,18 +20,18 @@ class Ex25GravitationalAttractorsApp : public AppNative {
 	void update();
 	void draw();
     
-    vector<Mover> movers;
+    vector< Mover > movers;
     Attractor attractor;
     Vec2f mouseLocation;
 };
 
-void Ex25GravitationalAttractorsApp::prepareSettings( Settings *settings ) {
-    settings->setWindowSize(800, 200);
+void Ex25GravitationalAttractorsApp::prepareSettings( Settings* settings ) {
+    settings->setWindowSize( 800, 200 );
 }
 
 void Ex25GravitationalAttractorsApp::setup() {
-    for (int i = 0; i < 20; ++i) {
-        movers.push_back( Mover( randFloat(0.5f, 1.5f), randFloat(getWindowWidth()), randFloat(getWindowHeight()) ) );
+    for ( int i = 0; i < 20; ++i ) {
+        movers.push_back( Mover( randFloat( 0.5f, 1.5f ), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
     }
     attractor = Attractor( getWindowCenter().x, getWindowCenter().y );
 }
@@ -52,22 +52,18 @@ void Ex25GravitationalAttractorsApp::mouseDrag( MouseEvent event ) {
     mouseLocation = event.getPos();
 }
 
-void Ex25GravitationalAttractorsApp::update()
-{
+void Ex25GravitationalAttractorsApp::update() {
     attractor.hover( mouseLocation );
     attractor.drag( mouseLocation );
-    // attractor.hover( mouseLocation );
     for ( auto& mover : movers ) {
         Vec2f force = attractor.attract( mover );
-        mover.applyForce(force);
+        mover.applyForce( force );
         mover.update();
     }
 }
 
-void Ex25GravitationalAttractorsApp::draw()
-{
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+void Ex25GravitationalAttractorsApp::draw() {
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     attractor.draw();
     for ( auto& mover : movers ) {
         mover.draw();

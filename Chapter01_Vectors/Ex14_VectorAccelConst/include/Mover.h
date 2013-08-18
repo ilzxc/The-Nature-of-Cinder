@@ -21,7 +21,7 @@ public:
     Mover();
     void randomizeAcceleration();
     void update();
-    void draw();
+    void draw() const;
     
 private:
     Vec2f position;

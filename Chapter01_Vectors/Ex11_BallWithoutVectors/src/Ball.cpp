@@ -29,7 +29,7 @@ void Ball::update() {
     }
 }
 
-void Ball::draw() {
+void Ball::draw() const {
     gl::color( grey, grey, grey );
     gl::drawSolidCircle( Vec2f( x, y ), cRadius );
 }
