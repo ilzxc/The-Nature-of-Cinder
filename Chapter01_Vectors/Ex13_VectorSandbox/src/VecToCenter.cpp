@@ -4,40 +4,48 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #include "VecToCenter.h"
 
-void VecToCenter::setCenter(const Vec2f& newCenter) {
+VecToCenter::VecToCenter( const bool _active, const Vec2f &_centerPoint )
+    : active( _active ),
+      magnitude( 0.0f ),
+      centerPoint( _centerPoint ),
+      endPoint( Vec2f::zero() )
+    { }
+
+void VecToCenter::setCenter( const Vec2f& newCenter ) {
     centerPoint = newCenter;
 }
 
-void VecToCenter::setActive(const bool newActive) {
+void VecToCenter::setActive( const bool newActive ) {
     active = newActive;
 }
 
-void VecToCenter::update(Vec2f current) {
+void VecToCenter::update( const Vec2f& current ) {
     endPoint = current;
-    magnitude = (endPoint - centerPoint).length();
+    magnitude = ( endPoint - centerPoint ).length();
 }
 
 void VecToCenter::draw() {
     if (active) {
-        cinder::gl::color( 1.0, 0.0, 0.7, 1.0 );
-        cinder::gl::drawLine( centerPoint, endPoint );
-        cinder::gl::color( 0.4, 0.4, 0.4 );
-        cinder::gl::drawLine( ci::Vec2f(0, 0), endPoint );
-        cinder::gl::drawLine( ci::Vec2f(0, ci::app::getWindowHeight()), endPoint );
-        cinder::gl::drawLine( ci::Vec2f(ci::app::getWindowWidth(), 0), endPoint );
-        cinder::gl::drawLine( ci::Vec2f(ci::app::getWindowWidth(), ci::app::getWindowHeight()), endPoint );
+        gl::color( 1.0f, 0.0f, 0.7f );
+        gl::drawLine( centerPoint, endPoint );
+        gl::color( 0.4f, 0.4f, 0.4f );
+        gl::drawLine( Vec2f::zero(), endPoint );
+        gl::drawLine( Vec2f( 0.0f, app::getWindowHeight() ), endPoint );
+        gl::drawLine( Vec2f( app::getWindowWidth(), 0.0f ), endPoint );
+        gl::drawLine( Vec2f( app::getWindowWidth(), app::getWindowHeight() ), endPoint );
         
-        cinder::gl::color( 1.0, 0.0, 0.7, 1.0 );
-        cinder::gl::drawSolidRect( ci::Rectf(0.0f, 0.0f, magnitude, 10.0f) );
+        gl::color( 1.0f, 0.0f, 0.7f );
+        gl::drawSolidRect( ci::Rectf( 0.0f, 0.0f, magnitude, 10.0f ) );
     } else {
-        cinder::gl::color( 0.0, 0.7, 1.0, 1.0 );
-        cinder::gl::pushMatrices();
-        cinder::gl::translate( centerPoint );
-        cinder::gl::drawLine( ci::Vec2f(0, 0), (endPoint - centerPoint).normalized() * 100 );
-        cinder::gl::popMatrices();
+        gl::color( 0.0f, 0.7f, 1.0f );
+        gl::pushMatrices();
+        gl::translate( centerPoint );
+        gl::drawLine( Vec2f::zero(), ( endPoint - centerPoint ).normalized() * 100 );
+        gl::popMatrices();
     }
 }

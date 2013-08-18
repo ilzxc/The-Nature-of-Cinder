@@ -8,8 +8,8 @@ using namespace std;
 
 class Ex14_VectorAccelConstApp : public AppNative {
   public:
-    void prepareSettings( Settings *settings );
-	void setup();
+    void prepareSettings( Settings* settings );
+    void setup();
 	void mouseDown( MouseEvent event );	
 	void update();
 	void draw();
@@ -17,15 +17,16 @@ class Ex14_VectorAccelConstApp : public AppNative {
     Mover ball;
 };
 
-void Ex14_VectorAccelConstApp::prepareSettings( Settings *settings ){
+void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings ){
     settings->setWindowSize(900, 400);
 }
 
 void Ex14_VectorAccelConstApp::setup() {
+    ball.randomizeAcceleration();
 }
 
 void Ex14_VectorAccelConstApp::mouseDown( MouseEvent event ) {
-    ball.randomizeAcceleration();
+    setup();
 }
 
 void Ex14_VectorAccelConstApp::update() {
@@ -34,8 +35,7 @@ void Ex14_VectorAccelConstApp::update() {
 
 void Ex14_VectorAccelConstApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
 
