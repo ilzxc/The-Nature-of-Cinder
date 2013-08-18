@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/6/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef __Ex17_StupidFlock__Mover__
@@ -18,19 +19,17 @@ using namespace ci;
 class Mover {
 public:
     Mover() { }
-    Mover( float fat ): fatness(fat), position( Vec2f::zero() ), velocity( Vec2f::zero() ), acceleration( Vec2f::zero() ) { }
-    ~Mover() { }
-    void setAccel( cinder::Vec2f );
+    Mover( const float _fatness );
+    
+    void setAccel( const Vec2f& mousePosition );
     void update();
     void draw();
     
-    float fatness;
-    
 private:
-    const int fatMax = 10.0;
-    ci::Vec2f position;
-    ci::Vec2f velocity;
-    ci::Vec2f acceleration;
+    float fatness;
+    Vec2f position;
+    Vec2f velocity;
+    Vec2f acceleration;
 };
 
 #endif /* defined(__Ex17_StupidFlock__Mover__) */
