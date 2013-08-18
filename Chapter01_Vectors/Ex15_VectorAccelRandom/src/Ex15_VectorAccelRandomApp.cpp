@@ -8,20 +8,15 @@ using namespace std;
 
 class Ex15_VectorAccelRandomApp : public AppNative {
   public:
-    void prepareSettings( Settings *settings );
-	void setup();
+    void prepareSettings( Settings* settings );
 	void update();
 	void draw();
     
     Mover ball;
 };
 
-void Ex15_VectorAccelRandomApp::prepareSettings(Settings *settings){
+void Ex15_VectorAccelRandomApp::prepareSettings(Settings* settings){
     settings->setWindowSize( 900, 400 );
-}
-
-void Ex15_VectorAccelRandomApp::setup() {
-    ball = Mover();
 }
 
 void Ex15_VectorAccelRandomApp::update() {
@@ -30,8 +25,7 @@ void Ex15_VectorAccelRandomApp::update() {
 
 void Ex15_VectorAccelRandomApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
 

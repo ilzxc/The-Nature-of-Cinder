@@ -4,30 +4,32 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef __Ex13_VectorSandbox__VecToCenter__
 #define __Ex13_VectorSandbox__VecToCenter__
 
+#include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 
 using namespace ci;
 
 class VecToCenter {
-  private:
+public:
+    VecToCenter() {}
+    VecToCenter( const bool _active, const Vec2f& _centerPoint );
+
+    void setCenter( const Vec2f& newCenter );
+    void setActive( const bool newActive );
+    void update( const Vec2f& current );
+    void draw();
+    
+private:
     bool active;
     float magnitude;
     Vec2f centerPoint;
     Vec2f endPoint;
-    
-  public:
-    VecToCenter() {}
-    VecToCenter( const bool a, const Vec2f &c ): active(a), magnitude(0), centerPoint(c), endPoint( Vec2f::zero() ) {}
-    ~VecToCenter(){}
-    void setCenter( const Vec2f& newCenter );
-    void setActive( const bool newActive );
-    void update( Vec2f current );
-    void draw();
 };
 
 #endif /* defined(__Ex13_VectorSandbox__VecToCenter__) */

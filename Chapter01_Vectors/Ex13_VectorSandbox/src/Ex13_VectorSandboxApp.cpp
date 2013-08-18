@@ -11,6 +11,7 @@ class Ex13_VectorSandboxApp : public AppNative {
 	void setup();
 	void mouseDown( MouseEvent event );
 	void mouseMove( MouseEvent event );
+    void mouseDrag( MouseEvent event );
 	void update();
 	void draw();
     
@@ -33,13 +34,17 @@ void Ex13_VectorSandboxApp::mouseMove( MouseEvent event ) {
     mouse = event.getPos();
 }
 
+void Ex13_VectorSandboxApp::mouseDrag( MouseEvent event ) {
+    mouseMove( event );
+}
+
 void Ex13_VectorSandboxApp::update(){
-    centre.update(mouse);
+    centre.update( mouse );
 }
 
 void Ex13_VectorSandboxApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     centre.draw();
 }
 
