@@ -26,12 +26,11 @@ void Ex16_VectorAccelMouseApp::mouseMove( MouseEvent event ) {
 }
 
 void Ex16_VectorAccelMouseApp::update() {
-    ball.update(mousePosition);
+    ball.update( mousePosition );
 }
 
 void Ex16_VectorAccelMouseApp::draw() {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
 
