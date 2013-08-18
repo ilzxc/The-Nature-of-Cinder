@@ -38,12 +38,11 @@ void Ex13_VectorSandboxApp::mouseDrag( MouseEvent event ) {
     mouseMove( event );
 }
 
-void Ex13_VectorSandboxApp::update(){
+void Ex13_VectorSandboxApp::update() {
     centre.update( mouse );
 }
 
-void Ex13_VectorSandboxApp::draw()
-{
+void Ex13_VectorSandboxApp::draw() {
 	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     centre.draw();
 }

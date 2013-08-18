@@ -26,8 +26,7 @@ void Ex12_BallWithVectorsApp::update() {
     smartBall->update();
 }
 
-void Ex12_BallWithVectorsApp::draw()
-{
+void Ex12_BallWithVectorsApp::draw() {
 	gl::clear( Color( 0.222f, 0.222f, 0.222f ) );
     ball.draw();
     smartBall->draw();

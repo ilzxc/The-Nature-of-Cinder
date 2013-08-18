@@ -29,7 +29,7 @@ void VecToCenter::update( const Vec2f& current ) {
     magnitude = ( endPoint - centerPoint ).length();
 }
 
-void VecToCenter::draw() {
+void VecToCenter::draw() const {
     if (active) {
         gl::color( 1.0f, 0.0f, 0.7f );
         gl::drawLine( centerPoint, endPoint );
