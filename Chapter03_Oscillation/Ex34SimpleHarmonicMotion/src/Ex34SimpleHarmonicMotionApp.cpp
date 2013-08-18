@@ -16,7 +16,7 @@ class Ex34SimpleHarmonicMotionApp : public AppNative {
 	void draw();
     
     Rand random;
-    vector<Oscillator> oscillators;
+    vector< Oscillator > oscillators;
 };
 
 void Ex34SimpleHarmonicMotionApp::setup() {
@@ -40,7 +40,7 @@ void Ex34SimpleHarmonicMotionApp::update() {
 
 void Ex34SimpleHarmonicMotionApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( auto& osc : oscillators ) {
         osc.draw();
     }

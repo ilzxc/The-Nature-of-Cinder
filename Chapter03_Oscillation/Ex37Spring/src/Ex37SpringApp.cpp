@@ -17,8 +17,8 @@ class Ex37SpringApp : public AppNative {
 	void update();
 	void draw();
     
-    Bob bob;
-    Spring spring;
+    std::unique_ptr< Bob > bob;
+    std::unique_ptr< Spring > spring;
     Vec2f mouseLocation;
     Vec2f gravity;
 };
@@ -28,16 +28,15 @@ void Ex37SpringApp::prepareSettings( Settings *settings ){
 }
 
 void Ex37SpringApp::setup() {
-    spring = Spring( getWindowWidth() / 2.0f, 10, 100 );
-    bob = Bob( getWindowWidth() / 2.0f, 100 );
+    spring = std::unique_ptr< Spring> ( new Spring( getWindowWidth() / 2.0f, 10, 100 ) );
+    bob = std::unique_ptr< Bob > ( new Bob( getWindowWidth() / 2.0f, 100 ) );
     mouseLocation = Vec2f::zero();
-    gravity = Vec2f(0.0f, 2.0f);
+    gravity = Vec2f( 0.0f, 2.0f );
 }
 
 void Ex37SpringApp::mouseDown( MouseEvent event ) {
-    bob.clicked( event.getPos() );
+    bob->clicked( event.getPos() );
     mouseLocation = event.getPos();
-    
 }
 
 void Ex37SpringApp::mouseDrag( MouseEvent event ) {
@@ -45,20 +44,20 @@ void Ex37SpringApp::mouseDrag( MouseEvent event ) {
 }
 
 void Ex37SpringApp::mouseUp( MouseEvent event ) {
-    bob.stopDragging();
+    bob->stopDragging();
 }
 
 void Ex37SpringApp::update() {
-    bob.applyForce( gravity );
-    spring.update(bob, 30, 400);
-    bob.update( mouseLocation );
+    bob->applyForce( gravity );
+    spring->update( *bob, 30, 400 );
+    bob->update( mouseLocation );
 }
 
 void Ex37SpringApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
-    spring.draw( bob );
-    bob.draw();
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    spring->draw( *bob );
+    bob->draw();
 }
 
 CINDER_APP_NATIVE( Ex37SpringApp, RendererGl )
