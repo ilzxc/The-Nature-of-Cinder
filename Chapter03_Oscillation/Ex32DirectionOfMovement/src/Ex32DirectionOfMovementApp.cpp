@@ -26,12 +26,11 @@ void Ex32DirectionOfMovementApp::mouseMove( MouseEvent event ) {
 }
 
 void Ex32DirectionOfMovementApp::update() {
-    car.update(mousePosition);
+    car.update( mousePosition );
 }
 
 void Ex32DirectionOfMovementApp::draw() {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     car.draw();
 }
 

@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef Ex35Waves_Wave_h
@@ -17,27 +18,16 @@
 
 using namespace ci;
 
-class Wave {
+class Wave {    
+public:
+    Wave( const float width, const float height, const Vec2f& winPos, const int numCircles, const float angVel );
+    void update();
+    void draw();
+    
 private:
     gl::Fbo window;
     Vec2f windowPosition;
-    std::vector<WaveComponent> circles;
-    
-public:
-    Wave() { }
-    Wave( const float width, const float height, const Vec2f& winPos, const int numCircles, const float angVel )
-    : window( width, height ), windowPosition( winPos ) {
-        float startAngle = 0.0f;
-        float setRadius = width / numCircles;
-        float setSkip = width / (numCircles - 1);
-        float setYOffset = height / 2.0f;
-        float setAmplitude = setYOffset * 0.88f;
-        for (int i = 0; i < numCircles; ++i) {
-            circles.push_back( WaveComponent( Vec2f(setSkip * (i), setYOffset ), setRadius, setAmplitude, startAngle + angVel * 2 * i, angVel / 2 ) );
-        }
-    }
-    void update();
-    void draw();
+    std::vector< WaveComponent > circles;
 };
 
 #endif

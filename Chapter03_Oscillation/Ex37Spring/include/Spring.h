@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef Ex37Spring_Spring_h
@@ -15,19 +16,15 @@
 using namespace ci;
 
 class Spring {
+public:
+    Spring( const float _x, const float _y, const float _length );
+    void update( Bob& b, float minLength, float maxLength );
+    void draw( const Bob& b) const;
+    
 private:
     Vec2f anchor;
     float length;
-    float k;
-    
-public:
-    Spring() {}
-    Spring( float x, float y, float l )
-    : anchor( x, y ),
-      length( l ),
-      k( 0.2f ) { }
-    void update( Bob& b, float minLength, float maxLength );
-    void draw( const Bob& b) const;
+    const float k;
 };
 
 #endif
