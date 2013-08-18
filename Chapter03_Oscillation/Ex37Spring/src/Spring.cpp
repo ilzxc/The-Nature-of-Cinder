@@ -4,29 +4,36 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #include "Spring.h"
 
-void Spring::update( Bob& b, float minLength, float maxLength ){
+Spring::Spring( const float _x, const float _y, const float _length )
+    : anchor( _x, _y ),
+      length( _length ),
+      k( 0.2f )
+{ }
+
+void Spring::update( Bob& b, const float minLength, const float maxLength ){
     Vec2f force = b.getLocation() - anchor;
     Vec2f dir = force;
     float d = force.length();
     float stretch = d - length;
     force.normalize();
-    force *= (-k * stretch);
+    force *= ( -k * stretch );
     b.applyForce( force );
     
-    if ( (d < minLength) || (d > maxLength) ) {
+    if ( ( d < minLength ) || ( d > maxLength ) ) {
         dir.normalize();
-        dir *= (d < minLength) ? minLength : maxLength;
+        dir *= ( d < minLength ) ? minLength : maxLength;
         b.setLocation( anchor + dir );
     }
     
 }
 
-void Spring::draw( const Bob& b) const {
-    gl::color( 175.0f/255, 175.0f/255, 175.0f/255 );
+void Spring::draw( const Bob& b ) const {
+    gl::color( 175.0f / 255, 175.0f / 255, 175.0f / 255 );
     gl::drawLine( b.getLocation(), anchor );
     gl::pushMatrices();
     gl::translate( anchor );

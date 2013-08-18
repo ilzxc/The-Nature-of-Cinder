@@ -4,45 +4,37 @@
 //
 //  Created by Ilya Rostovtsev on 7/7/13.
 //
+//  HWH Maintenance 8/17/13
 //
 
 #ifndef __Ex33Asteroids__SpaceShip__
 #define __Ex33Asteroids__SpaceShip__
 
+#include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "math.h"
 
 using namespace ci;
 
-class SpaceShip {
+class SpaceShip {    
+public:
+    SpaceShip( const float _x, const float _y );
+    
+    void update( const bool keys[] );
+    void draw() const;
+    
 private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
-    float damping;
-    float topspeed;
+    const float damping;
+    const float topspeed;
     float heading;
-    float r;
+    const float r;
     bool thrusting;
     
     void wrapEdges();
-    
-public:
-    SpaceShip() { }
-    SpaceShip(float x, float y)
-    : position( x, y ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      damping( 0.995f ),
-      topspeed( 6.0f ),
-      heading( 0.0f ),
-      r( 8.0f ),
-      thrusting( 0.0f ) {
-    }
-    ~SpaceShip() { }
-    
-    void update( const bool keys[] );
-    void draw();
+
 };
 
 #endif /* defined(__Ex33Asteroids__SpaceShip__) */
