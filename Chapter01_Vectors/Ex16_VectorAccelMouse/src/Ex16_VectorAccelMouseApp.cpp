@@ -8,6 +8,7 @@ using namespace std;
 
 class Ex16_VectorAccelMouseApp : public AppNative {
   public:
+    void prepareSettings( Settings* settings );
 	void setup();
 	void mouseMove( MouseEvent event );
 	void update();
@@ -16,6 +17,10 @@ class Ex16_VectorAccelMouseApp : public AppNative {
     Mover ball;
     Vec2f mousePosition;
 };
+
+void Ex16_VectorAccelMouseApp::prepareSettings( Settings* settings ) {
+    settings->setWindowSize( 900, 400 );
+}
 
 void Ex16_VectorAccelMouseApp::setup() {
     mousePosition = getWindowCenter();
