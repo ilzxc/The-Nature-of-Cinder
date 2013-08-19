@@ -12,9 +12,8 @@
 
 using namespace ci;
 
-class Shape {
+struct Shape {
     
-public:
     Shape( const float r, const float g, const float b ): color( r, g, b ) { }
     virtual ~Shape() { }
     virtual void update() = 0;
