@@ -30,7 +30,7 @@ void Particle::draw() {
     gl::color(204.0f/255, 33.0f/255, 25.0/255, lifespan);
     gl::drawSolidRect( Rectf(-sizeRadius, -sizeRadius, sizeRadius, sizeRadius) );
     gl::color(1, 1, 1, lifespan);
-    gl::drawSolidCircle( Vec2f(0.0f, 0.0f), sizeRadius / 2.0f);
+    gl::drawSolidRect( Rectf( -sizeRadius / 2.0f, -sizeRadius / 2.0f, sizeRadius / 2.0f, sizeRadius / 2.0f ) );
     gl::popMatrices();
 }
 
