@@ -14,7 +14,7 @@ Triangle::Triangle( const float radius, const float initialAngle, const float ro
   p1( 0.0f, -radius ),
   p2( radius, radius ),
   p3( -radius, radius ),
-  Shape::Shape( 218.0f / 255, 52.0f / 255, 48.0f / 255 )
+  Shape( 218.0f / 255, 52.0f / 255, 48.0f / 255 )
 { }
 
 void Triangle::update() {
