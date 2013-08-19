@@ -4,27 +4,30 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #include "Repeller.h"
 
-void Repeller::draw() {
-    gl::pushMatrices();
-    gl::translate(location);
-    gl::color(30.0/255, 95.0/255, 153.0/255);
-    gl::drawSolidCircle(Vec2f(0, 0), radius);
-    gl::color(102.0/255, 156.0/255, 204.0/255);
-    gl::drawSolidCircle(Vec2f(0, 0), radius * 0.80f);
-    gl::popMatrices();
+Repeller::Repeller( const Vec2f& location_ )
+: location( location_ ),
+  radius( 50.0f ),
+  strength( 30.0f )
+{ }
+
+void Repeller::setLocation( const Vec2i& mouse )
+{
+    location = mouse;
 }
 
-Vec2f Repeller::repel( const Particle& p ) const {
-    Vec2f direction = location - p.getPosition();
+Vec2f Repeller::repel( const Vec2f& particlePosition ) const
+{
+    Vec2f direction = location - particlePosition;
     float d = direction.length();
     direction.normalize();
-    if (d < 15.0f) {
+    if ( d < 15.0f ) {
         d = 15.0f;
-    } else if (d > radius * 2) {
+    } else if ( d > radius * 2 ) {
         d = radius * 2;
     }
     float force = -1.0f * strength / ( d * d );
@@ -32,6 +35,14 @@ Vec2f Repeller::repel( const Particle& p ) const {
     return direction;
 }
 
-void Repeller::setLocation( Vec2i mouse ) {
-    location = mouse;
+void Repeller::draw() const
+{
+    gl::pushMatrices();
+    gl::translate( location );
+    gl::color( 30.0f / 255, 95.0f / 255, 153.0f / 255 );
+    gl::drawSolidCircle( Vec2f::zero(), radius );
+    gl::color( 102.0f / 255, 156.0f / 255, 204.0f / 255 );
+    gl::drawSolidCircle( Vec2f::zero(), radius * 0.80f );
+    gl::popMatrices();
 }
+

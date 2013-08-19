@@ -89,14 +89,9 @@
 		080E96DDFE201D6D7F000001 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9B947687178ABB450027E5AF /* Circle.cpp */,
+				9BFDE76217C215F6002307FF /* Shapes */,
 				124DF5A86B1648EEB30EFE5D /* Ex44ParticlePolymorphismApp.cpp */,
-				9B947672178A9F790027E5AF /* Triangle.cpp */,
-				9B94766F178A990B0027E5AF /* Rotational.cpp */,
-				9B94766C178A8A6A0027E5AF /* RoundConfetti.cpp */,
-				9B614BD31783CF44002981DE /* Particle.cpp */,
-				9B614BD91783D244002981DE /* Confetti.cpp */,
-				9B947663178A64E90027E5AF /* Square.cpp */,
+				9BFDE76317C21603002307FF /* Particles */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -149,14 +144,8 @@
 		29B97315FDCFA39411CA2CEA /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				9B94767F178AB6F00027E5AF /* Circle.h */,
-				9B947680178AB6F00027E5AF /* Confetti.h */,
-				9B947681178AB6F00027E5AF /* Particle.h */,
-				9B947682178AB6F00027E5AF /* Rotational.h */,
-				9B947683178AB6F00027E5AF /* RoundConfetti.h */,
-				9B947684178AB6F00027E5AF /* Shape.h */,
-				9B947685178AB6F00027E5AF /* Square.h */,
-				9B947686178AB6F00027E5AF /* Triangle.h */,
+				9BFDE76017C215B7002307FF /* Shapes */,
+				9BFDE76117C215C3002307FF /* Particles */,
 				1C7CDBB07DFA419A92EB633B /* Resources.h */,
 				4FB5F7CF51A54350979E1749 /* Ex44ParticlePolymorphism_Prefix.pch */,
 			);
@@ -179,6 +168,49 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BFDE76017C215B7002307FF /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				9B947682178AB6F00027E5AF /* Rotational.h */,
+				9B94767F178AB6F00027E5AF /* Circle.h */,
+				9B947684178AB6F00027E5AF /* Shape.h */,
+				9B947685178AB6F00027E5AF /* Square.h */,
+				9B947686178AB6F00027E5AF /* Triangle.h */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		9BFDE76117C215C3002307FF /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				9B947680178AB6F00027E5AF /* Confetti.h */,
+				9B947681178AB6F00027E5AF /* Particle.h */,
+				9B947683178AB6F00027E5AF /* RoundConfetti.h */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		9BFDE76217C215F6002307FF /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				9B94766F178A990B0027E5AF /* Rotational.cpp */,
+				9B947687178ABB450027E5AF /* Circle.cpp */,
+				9B947672178A9F790027E5AF /* Triangle.cpp */,
+				9B947663178A64E90027E5AF /* Square.cpp */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		9BFDE76317C21603002307FF /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				9B94766C178A8A6A0027E5AF /* RoundConfetti.cpp */,
+				9B614BD31783CF44002981DE /* Particle.cpp */,
+				9B614BD91783D244002981DE /* Confetti.cpp */,
+			);
+			name = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

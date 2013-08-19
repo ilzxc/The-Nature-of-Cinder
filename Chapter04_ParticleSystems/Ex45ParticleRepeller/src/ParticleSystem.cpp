@@ -4,46 +4,46 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #include "ParticleSystem.h"
 
-void ParticleSystem::update( const Vec2f& force, Repeller& repeller, Rand& random ) {
-    applyForce( force );
-    applyRepeller( repeller );
-    for(std::vector<Particle>::iterator iter = particles.begin(); iter != particles.end();) {
-        iter->update();
-        if ( iter->isDead() ) {
-            iter = particles.erase(iter);
-        } else {
-            ++iter;
+ParticleSystem::ParticleSystem( const Vec2f& origin_ )
+: origin( origin_ )
+{ }
+
+ParticleSystem::~ParticleSystem()
+{
+    particles.clear();
+}
+
+void ParticleSystem::update( const Vec2f& gravity, Repeller& repeller, Rand& random )
+{
+    {
+        const int numParticlesToAdd = 2; // change to increase or decrease # of particles added each frame
+        
+        for ( int i = 0; i < numParticlesToAdd; ++i ) {
+            addParticle( random );
         }
     }
-    addParticle( random );
-    addParticle( random );
-    
-    // std::cout << "total number of particles present is " << particles.size() << std::endl;
+
+    for ( auto& p : particles ) {
+        p->applyForce( gravity );                               // apply gravity
+        p->applyForce( repeller.repel( p->getPosition() ) );    // apply repeller
+        p->update();                                            
+    }
+    particles.erase( std::remove_if( particles.begin(), particles.end(), std::mem_fn( &Particle::isDead ) ), particles.end() );
 }
 
-void ParticleSystem::draw() {
-    for( auto& i : particles) {
-        i.draw();
+void ParticleSystem::draw() const
+{
+    for( auto& p : particles ) {
+        p->draw();
     }
 }
 
-void ParticleSystem::addParticle( Rand& r ) {
-    particles.push_back( Particle( origin, r ) );
-}
-
-void ParticleSystem::applyForce( const Vec2f& f ) {
-    for (auto& i : particles) {
-        i.applyForce(f);
-    }
-}
-
-void ParticleSystem::applyRepeller( const Repeller& repeller ) {
-    for (auto& i : particles) {
-        Vec2f force = repeller.repel(i);
-        i.applyForce(force);
-    }
+void ParticleSystem::addParticle( Rand& random )
+{
+    particles.push_back( std::unique_ptr< Particle > ( new Particle( origin, random ) ) );
 }

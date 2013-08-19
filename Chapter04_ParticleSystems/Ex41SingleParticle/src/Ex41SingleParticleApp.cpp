@@ -9,44 +9,44 @@ using namespace std;
 
 class Ex41SingleParticleApp : public AppNative {
   public:
-    void prepareSettings( Settings *settings );
+    void prepareSettings( Settings* settings );
 	void setup();
 	void update();
 	void draw();
     void shutdown();
     
-    Particle *p;
-    Rand r;
+    Particle* p;
 };
 
-void Ex41SingleParticleApp::prepareSettings( Settings *settings ) {
-    settings->setWindowSize(640, 360);
+void Ex41SingleParticleApp::prepareSettings( Settings* settings )
+{
+    settings->setWindowSize( 640, 360 );
 }
 
 void Ex41SingleParticleApp::setup()
 {
     gl::enableAlphaBlending();
-    r.randomize();
-    
-    p = new Particle( Vec2f(getWindowWidth() / 2, 30), Vec2f( r.nextFloat(-0.001, 0.001), r.nextFloat(0.03, 0.05) ) );
+    Rand::randomize();
+    p = new Particle( Vec2f( getWindowWidth() / 2.0f, 30.0f ), Vec2f( Rand::randFloat( -0.001f, 0.001f ), Rand::randFloat( 0.03f, 0.05f ) ) );
 }
 
 void Ex41SingleParticleApp::update()
 {
     p->update();
-    if (p->isDead()) {
+    if ( p->isDead() ) {
         delete p;
-        p = new Particle( Vec2f(getWindowWidth() / 2, 30), Vec2f( r.nextFloat(-0.01, 0.01), r.nextFloat(0, 0.05) ) );
+        p = new Particle( Vec2f( getWindowWidth() / 2.0f, 30.0f ), Vec2f( Rand::randFloat( -0.01f, 0.01f ), Rand::randFloat( 0.0f, 0.05f ) ) );
     }
 }
 
 void Ex41SingleParticleApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
-    p->display();
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    p->draw();
 }
 
-void Ex41SingleParticleApp::shutdown() {
+void Ex41SingleParticleApp::shutdown()
+{
     delete p;
 }
 
