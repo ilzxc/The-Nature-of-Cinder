@@ -31,7 +31,6 @@ public:
             static_cast< Particle* >(objectB)->offTouch();
         }
     }
-    
 };
 
 #endif

@@ -18,7 +18,7 @@ Pair::Pair( b2World *world, const Vec2f &_position ) {
     b2DistanceJointDef djd;
     djd.Initialize( pair[0].getBody(), pair[1].getBody(), Conversions::toPhysics( left ), Conversions::toPhysics( right ) );
     djd.length = Conversions::toPhysics( distance );
-    djd.frequencyHz = 3;
+    djd.frequencyHz = 10;
     djd.dampingRatio = 0.8f;
     world->CreateJoint( &djd );
 }
