@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex46TexturedParticles__Particle__
@@ -16,29 +17,24 @@
 using namespace ci;
 
 class Particle {
+    
+public:
+    Particle( const gl::Texture* image, const Vec2f& origin, Rand& random );
+    
+    void update( const Vec2f& force);
+    void draw() const;
+    bool isDead() const;
+    
 private:
-    const gl::Texture * texture; // pointer to a texture
+    const gl::Texture* texture; // pointer to a texture
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
     float lifespan;
-    float aging;
-    float sizeRadius;
-    
-public:
-    Particle( const gl::Texture * image, const Vec2f origin, Rand& r )
-    : texture(image),
-      position(origin),
-      velocity( r.nextGaussian() * 0.04f, r.nextGaussian() * 0.06f - 1.0f ),
-      acceleration( Vec2f::zero() ),
-      lifespan( 1.0f ),
-      aging( r.nextFloat( (1.0f / 200), (1.0f/ 300) ) ),
-      sizeRadius( r.nextFloat(6, 11) ) {
-    }
-    ~Particle() {}
-    void update( const Vec2f& force);
-    void draw();
-    bool isDead();
+    const float aging;
+    Rectf bounds;
+    ColorAf color;
+
 };
 
 #endif /* defined(__Ex46TexturedParticles__Particle__) */

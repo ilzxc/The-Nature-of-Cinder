@@ -12,9 +12,8 @@ class Ex42ParticleVectorApp : public AppNative {
 	void setup();
 	void update();
 	void draw();
-
     
-    std::vector<Particle> particles;
+    std::vector< Particle > particles;
     Rand random;
 };
 
@@ -22,30 +21,26 @@ void Ex42ParticleVectorApp::setup()
 {
     gl::enableAlphaBlending();
     random.randomize();
-    particles.push_back( Particle( Vec2f( getWindowWidth() / 2, 40 ), random ) );
+    particles.push_back( Particle( Vec2f( getWindowWidth() / 2.0f, 40.0f ), random ) );
 }
 
 void Ex42ParticleVectorApp::update()
 {
-    for( std::vector<Particle>::iterator iter = particles.begin(); iter != particles.end(); ) {
+    for( std::vector< Particle >::iterator iter = particles.begin(); iter != particles.end(); ) {
         iter->update();
         if ( iter->isDead() ) {
-            iter = particles.erase(iter);
+            iter = particles.erase( iter );
         } else {
-            iter++;
+            ++iter;
         }
     }
-    
-    particles.push_back( Particle( Vec2f( getWindowWidth() / 2, 40 ), random ) );
-    
-    //std::cout << "Current particle count is " << particles.size() << std::endl;
+    particles.push_back( Particle( Vec2f( getWindowWidth() / 2.0f, 40.0f ), random ) );
 }
 
 void Ex42ParticleVectorApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
-    
-    for (auto& particle : particles){
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    for ( auto& particle : particles ) {
         particle.draw();
     }
 }

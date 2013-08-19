@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/7/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex44ParticlePolymorphism__Rotational__
@@ -14,15 +15,16 @@
 using namespace ci;
 
 class Rotational {
+    
+public:
+    Rotational( const float rotation_, const float rotationSpeed_ );
+    void update();
+    void draw() const;
+    
 private:
     float rotation;
     float rotationSpeed;
-    
-public:
-    Rotational() { }
-    Rotational( float r, float rS ): rotation( r ), rotationSpeed( rS ) { }
-    void update();
-    void draw() const;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__Rotational__) */

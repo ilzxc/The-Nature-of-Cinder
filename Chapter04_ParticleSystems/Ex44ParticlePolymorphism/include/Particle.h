@@ -4,7 +4,19 @@
 //
 //  Created by Ilya Rostovtsev on 7/2/13.
 //
+//  HWH Maintenance 8/19/13
 //
+
+/*****
+ *
+ *  Particle.h is an abstract base class, which handles the behaviors
+    defined in previous examples - it updates position and lifespan of
+    particles, and provides a pure virtual function for draw().
+ 
+    This abstract base class is extended by Confetti and RoundConfetti
+    classes.                                                            *
+                                                                        *
+                                                                    *****/
 
 #ifndef __Ex44ParticlePolymorphism__Particle__
 #define __Ex44ParticlePolymorphism__Particle__
@@ -16,32 +28,26 @@
 using namespace ci;
 
 class Particle {
+    
+public:
+    Particle( const Vec2f& origin, Rand& r );
+    virtual ~Particle() {}
+    
+    virtual void update();
+    virtual void draw() const = 0;
+    void draw( const Shape& shape ) const;
+    bool isDead() const;
+    float getRadius() const;
+    float getLifespan() const;
+    
 private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
     float lifespan;
-    float aging;
-    float sizeRadius;
-    
-public:
-    Particle( const Vec2f origin, Rand& r )
-    : position(origin),
-      velocity( r.nextFloat( -1.0f, 1.0f ), r.nextFloat( -1.0f, 1.0f ) ),
-      acceleration( 0.0f, r.nextFloat( 0.01f, 0.03f ) ),
-      lifespan( 1.0f ),
-      aging( r.nextFloat( (1.0f / 100), (1.0f/ 200) ) ),
-      sizeRadius( r.nextFloat( 2.0f, 7.0f ) ) {
-    }
-    virtual ~Particle() {}
-    
-    virtual void update();
-    virtual void draw() = 0;
-    void draw( const Shape& shape ) const;
-    bool isDead();
-    float getRadius() const;
-    float getLifespan() const;
-    
+    const float aging;
+    const float sizeRadius;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__Particle__) */

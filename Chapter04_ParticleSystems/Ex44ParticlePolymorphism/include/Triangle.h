@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/8/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex44ParticlePolymorphism__Triangle__
@@ -16,17 +17,15 @@
 using namespace ci;
 
 class Triangle: public Shape, public Rotational {
-private:
-    Vec2f p1, p2, p3;
     
 public:
-    Triangle(): Triangle::Triangle(5.0f, 0.0f, 0.0f) { }
-    Triangle( float radius, float initialAngle, float rotationSpeed )
-    : Rotational( initialAngle, rotationSpeed ),
-    p1( 0.0f, -radius ), p2( radius, radius ), p3( -radius, radius ),
-    Shape::Shape(218.0f/255, 52.0f/255, 48.0f/255) { }
-    void update();
-    void draw() const;
+    Triangle( const float radius, const float initialAngle, const float rotationSpeed );
+    virtual void update();
+    virtual void draw() const;
+    
+private:
+    Vec2f p1, p2, p3;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__Triangle__) */
