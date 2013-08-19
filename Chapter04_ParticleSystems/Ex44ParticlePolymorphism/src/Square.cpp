@@ -12,7 +12,7 @@
 Square::Square( const float side, const float initialAngle, const float rotationSpeed )
 : Rotational( initialAngle, rotationSpeed ),
   bounds( -side, -side, side, side ),
-  Shape::Shape( 54.0f / 255, 33.0f / 255, 68.0f / 255 )
+  Shape( 54.0f / 255, 33.0f / 255, 68.0f / 255 )
 { }
 
 void Square::update() {
