@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/7/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex44ParticlePolymorphism__RoundConfetti__
@@ -16,14 +17,17 @@
 
 using namespace ci;
 
-class RoundConfetti: public Particle {
-private:
-    Circle circle;
+class RoundConfetti : public Particle {
     
 public:
-    RoundConfetti( const Vec2f origin, Rand& r )
-    : Particle(origin, r), circle( Particle::getRadius() ) { }
-    void draw();
+    RoundConfetti( const Vec2f& origin, Rand& random );
+    virtual ~RoundConfetti();
+    virtual void draw() const;
+    // there is no need for an update() implementation - Particle::update() will be called instead
+    
+private:
+    Circle* circle;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__RoundConfetti__) */

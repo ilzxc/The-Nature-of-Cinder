@@ -15,7 +15,7 @@ class Ex43ParticleSystemsApp : public AppNative {
 	void draw();
     
     Rand seed;
-    std::vector<ParticleSystem> pss;
+    std::vector< ParticleSystem > pss;
 };
 
 void Ex43ParticleSystemsApp::setup()
@@ -26,27 +26,24 @@ void Ex43ParticleSystemsApp::setup()
 
 void Ex43ParticleSystemsApp::mouseDown( MouseEvent event )
 {
-    seed.randomize();
-    pss.push_back( ParticleSystem( Vec2f( event.getX(), event.getY() ), seed.nextFloat(0, 10000) ) );
+    if ( pss.size() > 20 ) {
+        pss.erase( pss.begin() );
+    }
+    pss.push_back( ParticleSystem( Vec2f( event.getX(), event.getY() ), seed.nextFloat( 0.0f, 10000.0f ) ) );
 }
 
 void Ex43ParticleSystemsApp::update()
 {
-    if(pss.size() > 0) {
-        for ( auto& system : pss ) {
-            system.update();
-        }
+    for ( auto& system : pss ) {
+        system.update();
     }
 }
 
 void Ex43ParticleSystemsApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
-    if(pss.size() > 0) {
-        for ( auto& system : pss ) {
-            system.draw();
-        }
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    for ( auto& system : pss ) {
+        system.draw();
     }
 }
 

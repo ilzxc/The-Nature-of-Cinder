@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/2/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex43ParticleSystems__ParticleSystem__
@@ -17,19 +18,16 @@ using namespace ci;
 
 class ParticleSystem {
     
-private:
-    std::vector<Particle> particles;
-    Vec2f origin;
-    Rand r;
-    
 public:
-    ParticleSystem( Vec2f o, float seed ): origin(o) {
-        r.seed( seed );
-        particles.push_back( Particle( origin, r ) );
-    }
-    ~ParticleSystem() { }
+    ParticleSystem( const Vec2f& origin_, const float seed_ );
     void update();
-    void draw();
+    void draw() const;
+    
+private:
+    std::vector< Particle > particles;
+    Vec2f origin;
+    Rand random;
+    
 };
 
 #endif /* defined(__Ex43ParticleSystems__ParticleSystem__) */

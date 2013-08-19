@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/7/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex44ParticlePolymorphism__Square__
@@ -15,19 +16,16 @@
 
 using namespace ci;
 
-class Square: public Shape, public Rotational {
+class Square : public Shape, public Rotational {
+    
+public:
+    Square( const float side, const float initialAngle, const float rotationSpeed );
+    virtual void update();
+    virtual void draw() const;
+    
 private:
     Rectf bounds;
-    
-    
-public: 
-    Square(): Square::Square(5.0f, 0.0f, 0.0f) { }
-    Square( float side, float initialAngle, float rotationSpeed )
-    : Rotational( initialAngle, rotationSpeed ),
-      bounds( -side, -side, side, side ),
-      Shape::Shape(54.0f/255, 33.0f/255, 68.0f/255) { }
-    void update();
-    void draw() const;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__Square__) */
