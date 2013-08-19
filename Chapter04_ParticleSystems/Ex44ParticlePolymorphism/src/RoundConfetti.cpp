@@ -8,7 +8,18 @@
 
 #include "RoundConfetti.h"
 
-void RoundConfetti::draw() {
-    Particle::draw( circle );
+RoundConfetti::RoundConfetti( const Vec2f& origin, Rand& random )
+: Particle( origin, random ),
+  circle( new Circle( Particle::getRadius() ) )
+{ }
+
+RoundConfetti::~RoundConfetti()
+{
+    delete circle;
+}
+
+void RoundConfetti::draw() const
+{
+    Particle::draw( *circle );
 }
 

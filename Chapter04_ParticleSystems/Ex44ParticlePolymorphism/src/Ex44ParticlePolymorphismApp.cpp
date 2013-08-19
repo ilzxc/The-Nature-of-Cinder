@@ -2,7 +2,6 @@
 #include "cinder/app/AppNative.h"
 #include "cinder/gl/gl.h"
 #include "cinder/Rand.h"
-#include "cinder/params/Params.h"
 #include "RoundConfetti.h"
 #include "Confetti.h"
 
@@ -17,71 +16,55 @@ class Ex44ParticlePolymorphismApp : public AppNative {
     void keyUp( KeyEvent event );
 	void update();
 	void draw();
-    void shutdown();
-    Rand r;
     
-    vector<Particle*> everything;
-    params::InterfaceGl mParams;
-    float liklihood;
+    Rand random;
+    std::vector< std::unique_ptr < Particle > > everything;
+    int likelihood;
 };
 
 void Ex44ParticlePolymorphismApp::setup()
 {
     gl::enableAlphaBlending();
-    r.randomize();
-    
-    mParams = params::InterfaceGl( "ParticlePolymorphism", Vec2i( 225, 200 ) );
-    mParams.addParam( "Composition", &liklihood, "min=0.0 max=100.0 step=2.0 keyIncr=s keyDecr=x" );
+    random.randomize();
+    likelihood = 300;
 }
 
-void Ex44ParticlePolymorphismApp::keyDown(KeyEvent event) {
-    if (event.getCode() == KeyEvent::KEY_w) {
+void Ex44ParticlePolymorphismApp::keyDown( KeyEvent event )
+{
+    if ( event.getCode() == KeyEvent::KEY_w ) {
         gl::enableWireframe();
     }
-    
-    liklihood = 33;
 }
 
-void Ex44ParticlePolymorphismApp::keyUp(KeyEvent event) {
+void Ex44ParticlePolymorphismApp::keyUp( KeyEvent event )
+{
     gl::disableWireframe();
 }
 
 void Ex44ParticlePolymorphismApp::update()
 {
-    if(everything.size() > 0) {
-        for(std::vector<Particle*>::reverse_iterator iter = everything.rbegin(); iter != everything.rend(); ++iter){
-            (*iter)->update();
-            if ( (*iter)->isDead() ) {
-                delete (*iter);
-                everything.erase(--iter.base());
-            }
-        }
-    }
-    int coin = r.nextInt(0, 100);
-    if (coin <= liklihood) {
-        everything.push_back( new Confetti( Vec2f(getWindowWidth() / 2, 70), r, 0 ) );
-    } else if (coin <= (liklihood * 2)) {
-        everything.push_back( new Confetti( Vec2f(getWindowWidth() / 2, 70), r, 1 ) );
+    // create new Particles in std::vector everything:
+    int coin = random.nextInt( likelihood * 3 ); 
+    if ( coin <= likelihood ) {
+        everything.push_back( std::unique_ptr< Particle > ( new Confetti( Vec2f( getWindowWidth() / 2.0f, 70.0f ), random, 0 ) ) );
+    } else if ( coin <= ( likelihood * 2 ) ) {
+        everything.push_back( std::unique_ptr< Particle > ( new Confetti( Vec2f( getWindowWidth() / 2.0f, 70.0f ), random, 1 ) ) );
     } else {
-        everything.push_back( new RoundConfetti( Vec2f(getWindowWidth() / 2, 70), r ) );
+        everything.push_back( std::unique_ptr< Particle > ( new RoundConfetti( Vec2f(getWindowWidth() / 2.0f, 70.0f ), random ) ) );
     }
+    
+    // update everything, and remove dead particles (garbage collection is handled by std::unique_ptr):
+    for ( auto& e : everything ) {
+        e->update();
+    }
+    everything.erase( std::remove_if( everything.begin(), everything.end(), std::mem_fn( &Particle::isDead ) ), everything.end() );
 }
 
 void Ex44ParticlePolymorphismApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0.96, 0.96, 0.96 ) );
-    
-    for (auto& p : everything) {
-        p->draw();
-    }
-    
-    mParams.draw();
-}
-
-void Ex44ParticlePolymorphismApp::shutdown() {
-    for (auto& p : everything) {
-        delete p;
+	gl::clear( Color( 0.96f, 0.96f, 0.96f ) );
+    for ( auto& e : everything ) {
+        e->draw();
     }
 }
 

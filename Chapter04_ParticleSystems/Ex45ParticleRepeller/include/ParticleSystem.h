@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex45ParticleRepeller__ParticleSystem__
@@ -18,24 +19,19 @@ using namespace ci;
 
 class ParticleSystem {
     
+public:
+    ParticleSystem( const Vec2f& origin_ );
+    ~ParticleSystem();
+    
+    void update( const Vec2f& gravity, Repeller& repeller, Rand& random );
+    void draw() const;
+    
 private:
-    std::vector<Particle> particles;
+    void addParticle( Rand& random );
+    
+    std::vector< std::unique_ptr< Particle > > particles;
     Vec2f origin;
     
-    void addParticle( Rand& r );
-    void applyForce( const Vec2f& f );
-    void applyRepeller( const Repeller& repeller );
-    
-    
-public:
-    ParticleSystem() {}
-    ParticleSystem( const Vec2f& o, Rand& r ): origin(o) {
-        addParticle( r );
-    }
-    ~ParticleSystem() {}
-        
-    void update( const Vec2f& force, Repeller& repeller, Rand& random );
-    void draw();
 };
 
 #endif /* defined(__Ex45ParticleRepeller__ParticleSystem__) */

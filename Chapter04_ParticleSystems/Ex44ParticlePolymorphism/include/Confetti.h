@@ -4,6 +4,7 @@
 //
 //  Created by Ilya Rostovtsev on 7/2/13.
 //
+//  HWH Maintenance 8/19/13
 //
 
 #ifndef __Ex44ParticlePolymorphism__Confetti__
@@ -17,22 +18,17 @@
 
 using namespace ci;
 
-class Confetti: public Particle {
-private:
-    Shape *shape;
-
+class Confetti : public Particle {
+    
 public:
-    Confetti( const Vec2f origin, Rand& r, int type )
-    : Particle::Particle(origin, r) {
-        if( type == 0 ) {
-            shape = new Square( Particle::getRadius(), r.nextFloat(0, 360), r.nextFloat(-7.5f, 7.5f) );
-        } else {
-            shape = new Triangle( Particle::getRadius(), r.nextFloat(0, 360), r.nextFloat(-7.5f, 7.5f) );
-        }
-    }
-    ~Confetti() { delete shape; }
-    void update();
-    void draw();
+    Confetti( const Vec2f& origin, Rand& random, const int type );
+    virtual ~Confetti();
+    virtual void update();
+    virtual void draw() const;
+    
+private:
+    Shape* shape;
+
 };
 
 #endif /* defined(__Ex44ParticlePolymorphism__Confetti__) */

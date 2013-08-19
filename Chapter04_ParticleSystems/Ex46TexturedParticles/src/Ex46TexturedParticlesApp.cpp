@@ -18,7 +18,7 @@ class Ex46TexturedParticlesApp : public AppNative {
     gl::Texture image;
     float windDirection, windSpeed;
     Vec2f wind;
-    std::vector<Particle*> particles;
+    std::vector< std::unique_ptr< Particle > > particles;
     Rand random;
 };
 
@@ -27,39 +27,34 @@ void Ex46TexturedParticlesApp::setup()
     gl::enableAlphaBlending();
     gl::enableAdditiveBlending();
     random.randomize();
-    image = gl::Texture( loadImage( loadResource("texture00.png") ) );
-    particles.push_back( new Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7 ), random ) );
+    image = gl::Texture( loadImage( loadResource( "texture00.png" ) ) );
     windDirection = 0.0f;
-    windSpeed = 0.11;
+    windSpeed = 0.11f;
 }
 
 void Ex46TexturedParticlesApp::update()
 {
     windDirection += windSpeed;
-    if (windDirection >= 6.28318530717959) {
-        windSpeed = random.nextFloat(0.07, 0.23);
-        windDirection -= 6.28318530717959;
+    if ( windDirection >= M_PI * 2 ) {
+        windSpeed = random.nextFloat( 0.07f, 0.23f );
+        windDirection -= M_PI * 2;
     }
     wind = Vec2f( sin(windDirection) * 0.0005f, 0.0f );
-    for(std::vector<Particle*>::reverse_iterator iter = particles.rbegin(); iter != particles.rend(); ++iter) {
-        (*iter)->update(wind);
-        if ( (*iter)->isDead() ) {
-            delete (*iter);
-            particles.erase( --iter.base() );
-        }
+    
+    particles.push_back( std::unique_ptr< Particle > ( new Particle( &image, Vec2f( getWindowWidth() / 2.0f, getWindowHeight() * 0.7f ), random ) ) );
+    
+    for ( auto& p : particles ) {
+        p->update( wind );
     }
     
-    particles.push_back( new Particle( &image, Vec2f( getWindowWidth() / 2, getWindowHeight() * 0.7  ), random ) );
-    
-    // std::cout << "Current particle count is " << particles.size() << std::endl;
+    particles.erase( std::remove_if( particles.begin(), particles.end(), std::mem_fn( &Particle::isDead ) ), particles.end() );
 }
 
 void Ex46TexturedParticlesApp::draw()
 {
-	gl::clear( Color( 0, 0, 0 ) );
-    
-    for( auto& i : particles ) {
-        i->draw();
+	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    for( auto& p : particles ) {
+        p->draw();
     }
 }
 
