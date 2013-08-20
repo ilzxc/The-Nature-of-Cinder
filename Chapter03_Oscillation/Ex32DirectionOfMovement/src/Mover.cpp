@@ -12,14 +12,15 @@
 using namespace ci;
 
 Mover::Mover()
-    : position( Vec2f::zero() ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      bounds( -20.0f, -10.0f, 20.0f, 10.0f ),
-      dotBounds( -6.0f, -6.0f, 6.0f, 6.0f )
-    { }
+: position( Vec2f::zero() ),
+  velocity( Vec2f::zero() ),
+  acceleration( Vec2f::zero() ),
+  bounds( -20.0f, -10.0f, 20.0f, 10.0f ),
+  dotBounds( -6.0f, -6.0f, 6.0f, 6.0f )
+{ }
 
-void Mover::update( const Vec2f& mousePosition ) {
+void Mover::update( const Vec2f& mousePosition )
+{
     acceleration = ( mousePosition - position ).normalized() * 1.7f;
     velocity += acceleration;
     velocity.limit( 8.0f );
@@ -28,7 +29,8 @@ void Mover::update( const Vec2f& mousePosition ) {
     angle = toDegrees( atan2f( velocity.y, velocity.x ) );
 }
 
-void Mover::draw() const {
+void Mover::draw() const
+{
     gl::color( 0.888f, 0.888f, 0.888f );
     gl::pushMatrices();
     gl::translate( position );

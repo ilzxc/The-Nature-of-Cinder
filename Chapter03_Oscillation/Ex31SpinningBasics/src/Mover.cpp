@@ -9,32 +9,37 @@
 
 #include "Mover.h"
 
-Mover::Mover( const float _mass, const float _x, const float _y )
-    : location( _x, _y ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      mass( _mass ),
-      bounds( -_mass * 8, -_mass * 8, _mass * 8, _mass * 8 )
-    { }
+Mover::Mover( const float mass_, const float x, const float y )
+: location( x, y ),
+  velocity( Vec2f::zero() ),
+  acceleration( Vec2f::zero() ),
+  mass( mass_ ),
+  bounds( -mass * 8, -mass * 8, mass * 8, mass * 8 )
+{ }
 
-float Mover::getMass() const {
+float Mover::getMass() const
+{
     return mass;
 }
 
-Vec2f Mover::getLocation() const {
+Vec2f Mover::getLocation() const
+{
     return location;
 }
 
-Vec2f Mover::getVelocity() const {
+Vec2f Mover::getVelocity() const
+{
     return velocity;
 }
 
-void Mover::applyForce( const Vec2f& force ) {
+void Mover::applyForce( const Vec2f& force )
+{
     Vec2f scaledForce = force / mass;
     acceleration += scaledForce;
 }
 
-void Mover::update() {
+void Mover::update()
+{
     velocity += acceleration;
     location += velocity;
     
@@ -46,7 +51,8 @@ void Mover::update() {
     acceleration = Vec2f::zero();
 }
 
-void Mover::draw() const {
+void Mover::draw() const
+{
     gl::color( 102.0f / 255, 156.0f / 255, 204.0f / 255 );
     gl::pushMatrices();
     gl::translate( location );

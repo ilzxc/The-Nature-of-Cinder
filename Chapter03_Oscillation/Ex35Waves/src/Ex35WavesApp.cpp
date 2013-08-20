@@ -19,12 +19,14 @@ class Ex35WavesApp : public AppNative {
     vector< Wave > waves;
 };
 
-void Ex35WavesApp::prepareSettings( Settings* settings ) {
+void Ex35WavesApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 900, 300 );
     settings->setResizable( false );
 }
 
-void Ex35WavesApp::setup() {
+void Ex35WavesApp::setup()
+{
     gl::enableAlphaBlending();
     float gutter = 10.0f;
     float xMult = ( getWindowWidth() - ( 2.0 * gutter ) ) / 3.0f;
@@ -35,15 +37,18 @@ void Ex35WavesApp::setup() {
     }
 }
 
-void Ex35WavesApp::mouseDown( MouseEvent event ) {
+void Ex35WavesApp::mouseDown( MouseEvent event )
+{
     gl::enableWireframe();
 }
 
-void Ex35WavesApp::mouseUp( MouseEvent e ) {
+void Ex35WavesApp::mouseUp( MouseEvent e )
+{
     gl::disableWireframe();
 }
 
-void Ex35WavesApp::update() {
+void Ex35WavesApp::update()
+{
     for ( auto& wave : waves ) {
         wave.update();
     }

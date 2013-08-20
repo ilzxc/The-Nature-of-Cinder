@@ -16,13 +16,15 @@
 using namespace ci;
 
 class Spring {
+    
 public:
-    Spring( const float _x, const float _y, const float _length );
+    Spring( const float x, const float y, const float length_ );
+    
     void update( Bob& b, float minLength, float maxLength );
     void draw( const Bob& b) const;
     
 private:
-    Vec2f anchor;
+    const Vec2f anchor;
     float length;
     const float k;
 };

@@ -15,8 +15,9 @@
 using namespace ci;
 
 class WaveComponent {
+    
 public:
-    WaveComponent( const Vec2f& p, const float r, const float a, const float startAngle, const float v );
+    WaveComponent( const Vec2f& position_, const float radius_, const float amplitude_, const float angle_, const float angleVelocity_ );
     void update();
     void draw() const;
 
@@ -27,6 +28,7 @@ private:
     const float amplitude;
     float angle;
     float angleVelocity;
+
 };
 
 #endif

@@ -17,19 +17,23 @@ class Ex32DirectionOfMovementApp : public AppNative {
     Vec2f mousePosition;
 };
 
-void Ex32DirectionOfMovementApp::setup() {
+void Ex32DirectionOfMovementApp::setup()
+{
     mousePosition = getWindowCenter();
 }
 
-void Ex32DirectionOfMovementApp::mouseMove( MouseEvent event ) {
+void Ex32DirectionOfMovementApp::mouseMove( MouseEvent event )
+{
     mousePosition = event.getPos();
 }
 
-void Ex32DirectionOfMovementApp::update() {
+void Ex32DirectionOfMovementApp::update()
+{
     car.update( mousePosition );
 }
 
-void Ex32DirectionOfMovementApp::draw() {
+void Ex32DirectionOfMovementApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     car.draw();
 }

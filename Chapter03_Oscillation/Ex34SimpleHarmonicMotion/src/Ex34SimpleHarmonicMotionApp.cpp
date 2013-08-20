@@ -19,12 +19,14 @@ class Ex34SimpleHarmonicMotionApp : public AppNative {
     vector< Oscillator > oscillators;
 };
 
-void Ex34SimpleHarmonicMotionApp::setup() {
+void Ex34SimpleHarmonicMotionApp::setup()
+{
     random.randomize();
     oscillators.push_back( Oscillator( random, app::getWindowCenter() ) );
 }
 
-void Ex34SimpleHarmonicMotionApp::mouseDown( MouseEvent event ) {
+void Ex34SimpleHarmonicMotionApp::mouseDown( MouseEvent event )
+{
     if ( event.isLeft() ) {
         setup();
     } else {
@@ -32,7 +34,8 @@ void Ex34SimpleHarmonicMotionApp::mouseDown( MouseEvent event ) {
     }
 }
 
-void Ex34SimpleHarmonicMotionApp::update() {
+void Ex34SimpleHarmonicMotionApp::update()
+{
     for ( auto& osc : oscillators ) {
         osc.update();
     }

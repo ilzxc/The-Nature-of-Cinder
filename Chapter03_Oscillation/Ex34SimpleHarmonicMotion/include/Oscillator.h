@@ -17,6 +17,7 @@
 using namespace ci;
 
 class Oscillator {
+    
 public:
     Oscillator( Rand& r, const Vec2f& windowCenter );
     void update();
@@ -27,6 +28,7 @@ private:
     Vec2f velocity;
     Vec2f amplitude;
     Vec2f display;
+
 };
 
 #endif

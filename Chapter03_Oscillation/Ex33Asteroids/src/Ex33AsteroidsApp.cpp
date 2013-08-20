@@ -20,7 +20,8 @@ class Ex33AsteroidsApp : public AppNative {
     std::unique_ptr< SpaceShip > ship;
 };
 
-void Ex33AsteroidsApp::setup() {
+void Ex33AsteroidsApp::setup()
+{
     definedKeys[0] = KeyEvent::KEY_LEFT;
     definedKeys[1] = KeyEvent::KEY_RIGHT;
     definedKeys[2] = KeyEvent::KEY_UP;
@@ -28,15 +29,18 @@ void Ex33AsteroidsApp::setup() {
     ship = std::unique_ptr< SpaceShip > ( new SpaceShip( getWindowWidth() / 2, getWindowHeight() / 2 ) );
 }
 
-void Ex33AsteroidsApp::keyDown( KeyEvent event ) {
+void Ex33AsteroidsApp::keyDown( KeyEvent event )
+{
     setKeysTo( event, true );
 }
 
-void Ex33AsteroidsApp::keyUp( KeyEvent event ) {
+void Ex33AsteroidsApp::keyUp( KeyEvent event )
+{
     setKeysTo( event, false );
 }
 
-void Ex33AsteroidsApp::setKeysTo( const KeyEvent event, const bool setTo ) {
+void Ex33AsteroidsApp::setKeysTo( const KeyEvent event, const bool setTo )
+{
     for ( int i = 0; i < 3; ++i ) {
         if ( ( setTo && !keys[i] ) || ( !setTo && keys[i] ) ) { // only update if setting != setTo
             if( event.getCode() == definedKeys[i] ) {
@@ -46,11 +50,13 @@ void Ex33AsteroidsApp::setKeysTo( const KeyEvent event, const bool setTo ) {
     }
 }
 
-void Ex33AsteroidsApp::update() {
+void Ex33AsteroidsApp::update()
+{
     ship->update( keys );
 }
 
-void Ex33AsteroidsApp::draw() {
+void Ex33AsteroidsApp::draw()
+{
 	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     ship->draw();
 }

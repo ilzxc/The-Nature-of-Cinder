@@ -20,29 +20,35 @@ class Ex36PendulumApp : public AppNative {
     Vec2f mouseLocation;
 };
 
-void Ex36PendulumApp::prepareSettings( Settings* settings ) {
+void Ex36PendulumApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 650, 330 );
 }
 
-void Ex36PendulumApp::setup() {
+void Ex36PendulumApp::setup()
+{
     p = std::unique_ptr< Pendulum > ( new Pendulum( Vec2f( getWindowWidth() / 2.0f, 0.0f ), 300.0f ) );
     mouseLocation = Vec2f::zero();
 }
 
-void Ex36PendulumApp::mouseDown( MouseEvent event ) {
+void Ex36PendulumApp::mouseDown( MouseEvent event )
+{
     p->clicked( event.getPos() );
     mouseLocation = event.getPos();
 }
 
-void Ex36PendulumApp::mouseDrag( MouseEvent event ) {
+void Ex36PendulumApp::mouseDrag( MouseEvent event )
+{
     mouseLocation = event.getPos();
 }
 
-void Ex36PendulumApp::mouseUp( MouseEvent event ) {
+void Ex36PendulumApp::mouseUp( MouseEvent event )
+{
     p->stopDragging();
 }
 
-void Ex36PendulumApp::update() {
+void Ex36PendulumApp::update()
+{
     p->update( mouseLocation );
 }
 

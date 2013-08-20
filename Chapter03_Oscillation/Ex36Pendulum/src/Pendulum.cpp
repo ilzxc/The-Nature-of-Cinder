@@ -9,20 +9,21 @@
 
 #include "Pendulum.h"
 
-Pendulum::Pendulum( const Vec2f& _origin, const float _arm )
-    : location( Vec2f::zero() ),
-      origin( _origin ),
-      arm( _arm ),
-      angle( M_PI / 4.0f ),
-      angleVelocity( 0.0f ),
-      angleAcceleration( 0.0f ),
-      radius( 24.0f ),
-      damping( 0.995f ),
-      dragging( false )
-    { }
+Pendulum::Pendulum( const Vec2f& origin_, const float arm_ )
+: location( Vec2f::zero() ),
+  origin( origin_ ),
+  arm( arm_ ),
+  angle( M_PI / 4.0f ),
+  angleVelocity( 0.0f ),
+  angleAcceleration( 0.0f ),
+  radius( 24.0f ),
+  damping( 0.995f ),
+  dragging( false )
+{ }
 
 
-void Pendulum::update( const Vec2f& mouse ) {
+void Pendulum::update( const Vec2f& mouse )
+{
     if (!dragging) {
         angleAcceleration = ( -0.4f / arm ) * sin(angle);
         angleVelocity += angleAcceleration;
@@ -38,14 +39,16 @@ void Pendulum::update( const Vec2f& mouse ) {
 }
 
 
-void Pendulum::draw() const {
+void Pendulum::draw() const
+{
     gl::color( 0.444f, 0.444f, 0.444f );
     gl::drawLine( origin, location );
     gl::color( 175.0f / 255, 175.0f / 255, 175.0 / 255 );
     gl::drawSolidCircle( location, radius );
 }
 
-void Pendulum::clicked( const Vec2f& mouse ) {
+void Pendulum::clicked( const Vec2f& mouse )
+{
     float d = ( mouse - location ).length();
     if ( d < radius ) {
         dragging = true;

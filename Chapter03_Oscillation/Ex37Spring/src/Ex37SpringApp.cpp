@@ -23,31 +23,37 @@ class Ex37SpringApp : public AppNative {
     Vec2f gravity;
 };
 
-void Ex37SpringApp::prepareSettings( Settings *settings ){
+void Ex37SpringApp::prepareSettings( Settings *settings )
+{
     settings->setWindowSize( 650, 350 );
 }
 
-void Ex37SpringApp::setup() {
+void Ex37SpringApp::setup()
+{
     spring = std::unique_ptr< Spring> ( new Spring( getWindowWidth() / 2.0f, 10, 100 ) );
     bob = std::unique_ptr< Bob > ( new Bob( getWindowWidth() / 2.0f, 100 ) );
     mouseLocation = Vec2f::zero();
     gravity = Vec2f( 0.0f, 2.0f );
 }
 
-void Ex37SpringApp::mouseDown( MouseEvent event ) {
+void Ex37SpringApp::mouseDown( MouseEvent event )
+{
     bob->clicked( event.getPos() );
     mouseLocation = event.getPos();
 }
 
-void Ex37SpringApp::mouseDrag( MouseEvent event ) {
+void Ex37SpringApp::mouseDrag( MouseEvent event )
+{
     mouseLocation = event.getPos();
 }
 
-void Ex37SpringApp::mouseUp( MouseEvent event ) {
+void Ex37SpringApp::mouseUp( MouseEvent event )
+{
     bob->stopDragging();
 }
 
-void Ex37SpringApp::update() {
+void Ex37SpringApp::update()
+{
     bob->applyForce( gravity );
     spring->update( *bob, 30, 400 );
     bob->update( mouseLocation );

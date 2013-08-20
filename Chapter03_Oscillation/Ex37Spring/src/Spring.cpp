@@ -9,13 +9,14 @@
 
 #include "Spring.h"
 
-Spring::Spring( const float _x, const float _y, const float _length )
-    : anchor( _x, _y ),
-      length( _length ),
-      k( 0.2f )
+Spring::Spring( const float x, const float y, const float length_ )
+: anchor( x, y ),
+  length( length_ ),
+  k( 0.2f )
 { }
 
-void Spring::update( Bob& b, const float minLength, const float maxLength ){
+void Spring::update( Bob& b, const float minLength, const float maxLength )
+{
     Vec2f force = b.getLocation() - anchor;
     Vec2f dir = force;
     float d = force.length();
@@ -32,7 +33,8 @@ void Spring::update( Bob& b, const float minLength, const float maxLength ){
     
 }
 
-void Spring::draw( const Bob& b ) const {
+void Spring::draw( const Bob& b ) const
+{
     gl::color( 175.0f / 255, 175.0f / 255, 175.0f / 255 );
     gl::drawLine( b.getLocation(), anchor );
     gl::pushMatrices();

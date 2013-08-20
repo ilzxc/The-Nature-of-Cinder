@@ -9,17 +9,18 @@
 
 #include "Bob.h"
 
-Bob::Bob( const float _x, const float _y )
-    : location( _x, _y ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      mass( 24.0f ),
-      damping( 0.98f ),
-      dragOffset( Vec2f::zero() ),
-      dragging( false )
+Bob::Bob( const float x, const float y )
+: location( x, y ),
+  velocity( Vec2f::zero() ),
+  acceleration( Vec2f::zero() ),
+  mass( 24.0f ),
+  damping( 0.98f ),
+  dragOffset( Vec2f::zero() ),
+  dragging( false )
 { }
 
-void Bob::update( const Vec2f& mouseLocation ) {
+void Bob::update( const Vec2f& mouseLocation )
+{
     if ( !dragging ) {
         velocity += acceleration;
         velocity *= damping;
@@ -30,16 +31,18 @@ void Bob::update( const Vec2f& mouseLocation ) {
     }
 }
 
-void Bob::draw() const {
-    if (dragging) {
-        gl::color( 50.0f/255, 50.0f/255, 50.0f/255 );
+void Bob::draw() const
+{
+    if ( dragging ) {
+        gl::color( 50.0f / 255, 50.0f / 255, 50.0f / 255 );
     } else {
-        gl::color( 175.0f/255, 175.0f/255, 175.0f/255 );
+        gl::color( 175.0f / 255, 175.0f / 255, 175.0f / 255 );
     }
     gl::drawSolidCircle( location, mass );
 }
 
-void Bob::clicked( const Vec2f& mouseLocation ) {
+void Bob::clicked( const Vec2f& mouseLocation )
+{
     float d = ( location - mouseLocation ).length();
     if ( d < mass ) {
         dragging = true;
@@ -47,19 +50,24 @@ void Bob::clicked( const Vec2f& mouseLocation ) {
     }
 }
 
-void Bob::stopDragging() {
+void Bob::stopDragging()
+{
     dragging = false;
     acceleration.set( Vec2f::zero() );
 }
 
-void Bob::applyForce( const Vec2f& force ) {
+void Bob::applyForce( const Vec2f& force )
+{
     Vec2f scaledForce = force / mass;
     acceleration += scaledForce;
 }
 
-Vec2f Bob::getLocation() const {
+Vec2f Bob::getLocation() const
+{
     return location;
 }
-void Bob::setLocation( const Vec2f& newLocation ) {
+
+void Bob::setLocation( const Vec2f& newLocation )
+{
     location = newLocation;
 }

@@ -9,9 +9,10 @@
 
 #include "Wave.h"
 
-Wave::Wave( const float width, const float height, const Vec2f& winPos, const int numCircles, const float angVel )
+Wave::Wave( const float width, const float height, const Vec2f& windowPosition_, const int numCircles, const float angVel )
 : window( width, height ),
-  windowPosition( winPos ) {
+  windowPosition( windowPosition_ )
+{
     float startAngle = 0.0f;
     float setRadius = width / numCircles;
     float setSkip = width / (numCircles - 1);
@@ -22,7 +23,8 @@ Wave::Wave( const float width, const float height, const Vec2f& winPos, const in
     }
 }
 
-void Wave::update() {
+void Wave::update()
+{
     for ( auto& c : circles ) {
         c.update();
     }
@@ -37,7 +39,8 @@ void Wave::update() {
     window.unbindFramebuffer();
 }
 
-void Wave::draw() {
+void Wave::draw()
+{
     gl::pushMatrices();
     gl::translate( windowPosition );
     gl::color( 0.01f, 0.01f, 0.01f );

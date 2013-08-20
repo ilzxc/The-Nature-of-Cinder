@@ -15,15 +15,7 @@
 using namespace ci;
 
 class Bob {
-private:
-    Vec2f location;
-    Vec2f velocity;
-    Vec2f acceleration;
-    const float mass;
-    const float damping;
-    Vec2f dragOffset;
-    bool dragging;
-    
+
 public:
     Bob( float x, float y );
     
@@ -34,6 +26,16 @@ public:
     void applyForce( const Vec2f& force );
     Vec2f getLocation() const;
     void setLocation( const Vec2f& newLocation );
+    
+private:
+    Vec2f location;
+    Vec2f velocity;
+    Vec2f acceleration;
+    const float mass;
+    const float damping;
+    Vec2f dragOffset;
+    bool dragging;
+    
 };
 
 #endif

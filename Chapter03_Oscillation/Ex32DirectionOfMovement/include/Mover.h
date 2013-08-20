@@ -16,6 +16,7 @@
 using namespace ci;
 
 class Mover {
+    
 public:
     Mover();
     void update( const Vec2f& mousePosition );
@@ -28,6 +29,7 @@ private:
     float angle;
     const Rectf bounds;
     const Rectf dotBounds;
+
 };
 
 #endif /* defined(__Ex32DirectionOfMovement__Mover__) */

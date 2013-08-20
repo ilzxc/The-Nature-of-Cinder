@@ -17,8 +17,9 @@
 using namespace ci;
 
 class Pendulum {
+    
 public:
-    Pendulum( const Vec2f& _origin, const float _arm );
+    Pendulum( const Vec2f& origin_, const float arm_ );
     
     void update( const Vec2f& mouse );
     void draw() const;
@@ -27,7 +28,7 @@ public:
     
 private:
     Vec2f location;
-    Vec2f origin;
+    const Vec2f origin;
     const float arm;
     float angle;
     float angleVelocity;
@@ -35,6 +36,7 @@ private:
     const float radius;
     const float damping;
     bool dragging;
+
 };
 
 #endif

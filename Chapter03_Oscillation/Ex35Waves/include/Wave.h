@@ -18,16 +18,18 @@
 
 using namespace ci;
 
-class Wave {    
+class Wave {
+    
 public:
-    Wave( const float width, const float height, const Vec2f& winPos, const int numCircles, const float angVel );
+    Wave( const float width, const float height, const Vec2f& windowPosition_, const int numCircles, const float angVel );
     void update();
     void draw();
     
 private:
     gl::Fbo window;
-    Vec2f windowPosition;
+    const Vec2f windowPosition;
     std::vector< WaveComponent > circles;
+
 };
 
 #endif

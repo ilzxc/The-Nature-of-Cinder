@@ -15,9 +15,10 @@
 
 using namespace ci;
 
-class SpaceShip {    
+class SpaceShip {
+    
 public:
-    SpaceShip( const float _x, const float _y );
+    SpaceShip( const float x, const float y );
     
     void update( const bool keys[] );
     void draw() const;
@@ -31,6 +32,8 @@ private:
     float heading;
     const float r;
     bool thrusting;
+    Vec2f shipPoints[3];
+    Rectf shipThrusters[2];
     
     void wrapEdges();
 

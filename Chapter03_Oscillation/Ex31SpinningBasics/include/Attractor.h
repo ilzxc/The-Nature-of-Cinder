@@ -16,9 +16,9 @@
 using namespace ci;
 
 class Attractor {
+    
 public:
-    Attractor() { }
-    Attractor( const float _x, const float _y );
+    Attractor( const float x, const float y );
     
     Vec2f attract( const Mover& m );
     void draw() const;
@@ -28,12 +28,13 @@ public:
     void drag( const Vec2f& mouse );
     
 private:
-    float mass;
-    float G;
+    const float mass;
+    const float G;
     Vec2f location;
     bool dragging;
     bool rollover;
     Vec2f dragOffset;
+
 };
 
 #endif /* defined(__Ex31SpinningBasics__Attractor__) */
