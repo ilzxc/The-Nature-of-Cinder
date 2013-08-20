@@ -17,6 +17,7 @@
 using namespace ci;
 
 class Mover {
+    
 public:
     Mover();
     void randomizeAcceleration();
@@ -27,6 +28,7 @@ private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
+
 };
 
 #endif /* defined(__Ex14_VectorAccelConst__Mover__) */

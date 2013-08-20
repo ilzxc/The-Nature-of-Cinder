@@ -16,6 +16,7 @@
 using namespace ci;
 
 class VecToCenter {
+    
 public:
     VecToCenter() { }
     VecToCenter( const bool _active, const Vec2f& _centerPoint );
@@ -30,6 +31,7 @@ private:
     float magnitude;
     Vec2f centerPoint;
     Vec2f endPoint;
+
 };
 
 #endif /* defined(__Ex13_VectorSandbox__VecToCenter__) */

@@ -17,6 +17,7 @@
 using namespace ci;
 
 class Ball {
+    
 public:
     Ball() { } 
     Ball( const float _x, const float _y, const Rand& _r );
@@ -31,6 +32,7 @@ private:
     float ySpeed;
     float cRadius;
     float grey;
+
 };
 
 #endif /* defined(__Ex11_BallWithoutVectors__Ball__) */

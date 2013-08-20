@@ -15,15 +15,18 @@ class Ex15_VectorAccelRandomApp : public AppNative {
     Mover ball;
 };
 
-void Ex15_VectorAccelRandomApp::prepareSettings( Settings* settings ) {
+void Ex15_VectorAccelRandomApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 900, 400 );
 }
 
-void Ex15_VectorAccelRandomApp::update() {
+void Ex15_VectorAccelRandomApp::update()
+{
     ball.update();
 }
 
-void Ex15_VectorAccelRandomApp::draw() {
+void Ex15_VectorAccelRandomApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }

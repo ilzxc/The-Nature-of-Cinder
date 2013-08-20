@@ -10,18 +10,20 @@
 #include "Mover.h"
 
 Mover::Mover()
-    : position( Vec2f::zero() ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() )
-    { }
+: position( Vec2f::zero() ),
+  velocity( Vec2f::zero() ),
+  acceleration( Vec2f::zero() )
+{ }
 
-void Mover::randomizeAcceleration() {
+void Mover::randomizeAcceleration()
+{
     const float maximumAccel = 0.3f;
     Rand::randomize();
     acceleration = Vec2f( randFloat( maximumAccel * 2 ) - maximumAccel, randFloat( maximumAccel * 2 ) - maximumAccel );
 }
 
-void Mover::update() {
+void Mover::update()
+{
     velocity += acceleration;
     velocity.limit( 10.0f );
     position += velocity;
@@ -39,7 +41,8 @@ void Mover::update() {
     }
 }
 
-void Mover::draw() const {
+void Mover::draw() const
+{
     gl::color( 178.0f / 255, 178.0 / 255, 178.0f / 255 );
     gl::drawSolidCircle( position, 7.0f );
     gl::color( velocity.length() / 10.0f, 0.0f, 0.0f );

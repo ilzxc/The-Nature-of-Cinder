@@ -17,6 +17,7 @@
 using namespace ci;
 
 class Mover {
+    
 public:
     Mover( const float _fatness );
     
@@ -29,6 +30,7 @@ private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
+
 };
 
 #endif /* defined(__Ex17_StupidFlock__Mover__) */

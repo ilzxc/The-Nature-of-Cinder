@@ -17,26 +17,30 @@ class Ex14_VectorAccelConstApp : public AppNative {
     Mover ball;
 };
 
-void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings ) {
+void Ex14_VectorAccelConstApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 900, 400 );
 }
 
-void Ex14_VectorAccelConstApp::setup() {
+void Ex14_VectorAccelConstApp::setup()
+{
     ball.randomizeAcceleration();
 }
 
-void Ex14_VectorAccelConstApp::mouseDown( MouseEvent event ) {
+void Ex14_VectorAccelConstApp::mouseDown( MouseEvent event )
+{
     setup();
 }
 
-void Ex14_VectorAccelConstApp::update() {
+void Ex14_VectorAccelConstApp::update()
+{
     ball.update();
 }
 
-void Ex14_VectorAccelConstApp::draw() {
+void Ex14_VectorAccelConstApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
-
 
 CINDER_APP_NATIVE( Ex14_VectorAccelConstApp, RendererGl )

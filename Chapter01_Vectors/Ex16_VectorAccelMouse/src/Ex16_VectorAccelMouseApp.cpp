@@ -18,23 +18,28 @@ class Ex16_VectorAccelMouseApp : public AppNative {
     Vec2f mousePosition;
 };
 
-void Ex16_VectorAccelMouseApp::prepareSettings( Settings* settings ) {
+void Ex16_VectorAccelMouseApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 900, 400 );
 }
 
-void Ex16_VectorAccelMouseApp::setup() {
+void Ex16_VectorAccelMouseApp::setup()
+{
     mousePosition = getWindowCenter();
 }
 
-void Ex16_VectorAccelMouseApp::mouseMove( MouseEvent event ) {
+void Ex16_VectorAccelMouseApp::mouseMove( MouseEvent event )
+{
     mousePosition = event.getPos();
 }
 
-void Ex16_VectorAccelMouseApp::update() {
+void Ex16_VectorAccelMouseApp::update()
+{
     ball.update( mousePosition );
 }
 
-void Ex16_VectorAccelMouseApp::draw() {
+void Ex16_VectorAccelMouseApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
