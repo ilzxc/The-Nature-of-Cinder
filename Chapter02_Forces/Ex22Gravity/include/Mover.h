@@ -16,8 +16,9 @@
 using namespace ci;
 
 class Mover {
+    
 public:
-    Mover( const float _mass, const float _x, const float _y );
+    Mover( const float mass_, const float x, const float y );
 
     float getMass() const;
     void applyForce( const Vec2f& force );
@@ -32,6 +33,7 @@ private:
     const float mass;
     
     void checkEdges();
+
 };
 
 #endif /* defined(__Ex22Gravity__Mover__) */

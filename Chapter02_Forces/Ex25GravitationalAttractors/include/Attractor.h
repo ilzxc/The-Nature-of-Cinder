@@ -16,9 +16,10 @@
 using namespace ci;
 
 class Attractor {
+    
 public:
     Attractor() { }
-    Attractor( const float _x, const float _y );
+    Attractor( const float x, const float y );
     
     Vec2f attract( const Mover& m );
     void draw() const;
@@ -34,6 +35,7 @@ private:
     bool dragging;
     bool rollover;
     Vec2f dragOffset;
+
 };
 
 #endif /* defined(__Ex25GravitationalAttractors__Attractor__) */

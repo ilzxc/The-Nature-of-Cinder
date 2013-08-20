@@ -16,8 +16,9 @@
 using namespace ci;
 
 class Mover {
+    
 public:
-    Mover( const float _mass, const float _x, const float _y );
+    Mover( const float mass_, const float x, const float y );
 
     float getMass() const;
     Vec2f getVelocity() const;
@@ -33,6 +34,7 @@ private:
     const float mass;
 
     void checkEdges();
+    
 };
 
 #endif /* defined(__Ex23Friction__Mover__) */

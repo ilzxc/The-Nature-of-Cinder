@@ -18,22 +18,26 @@ class Ex21WindApp : public AppNative {
     Vec2f gravity;
 };
 
-void Ex21WindApp::prepareSettings( Settings* settings ) {
+void Ex21WindApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 640, 360 );
 }
 
-void Ex21WindApp::setup() {
+void Ex21WindApp::setup()
+{
     wind.set( 0.01f, 0.0f );
     gravity.set( 0.0f, 0.1f );
 }
 
-void Ex21WindApp::update() {
+void Ex21WindApp::update()
+{
     ball.applyForce( wind );
     ball.applyForce( gravity );
     ball.update();
 }
 
-void Ex21WindApp::draw() {
+void Ex21WindApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }

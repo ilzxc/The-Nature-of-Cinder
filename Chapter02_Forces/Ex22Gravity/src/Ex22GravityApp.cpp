@@ -20,11 +20,13 @@ class Ex22GravityApp : public AppNative {
     Vec2f gravity;
 };
 
-void Ex22GravityApp::prepareSettings( Settings *settings ) {
+void Ex22GravityApp::prepareSettings( Settings *settings )
+{
     settings->setWindowSize( 800, 200 );
 }
 
-void Ex22GravityApp::setup() {
+void Ex22GravityApp::setup()
+{
     wind.set( 0.01f, 0.0f );
     Rand::randomize();
     for ( int i = 0; i < 20; ++i ) {
@@ -32,7 +34,8 @@ void Ex22GravityApp::setup() {
     }
 }
 
-void Ex22GravityApp::update() {
+void Ex22GravityApp::update()
+{
     for ( auto& mover : movers ) {
         gravity.set( 0.0f, 0.1f * mover.getMass() );
         mover.applyForce( wind );
@@ -41,7 +44,8 @@ void Ex22GravityApp::update() {
     }
 }
 
-void Ex22GravityApp::draw() {
+void Ex22GravityApp::draw()
+{
 	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     
     for ( auto& mover : movers ) {

@@ -9,16 +9,17 @@
 
 #include "Attractor.h"
 
-Attractor::Attractor( const float _x, const float _y )
-    : mass( 30.0f ),
-      G( 1.5f ),
-      location( _x, _y ),
-      dragging( false ),
-      rollover( false ),
-      dragOffset( Vec2f::zero() )
-    { }
+Attractor::Attractor( const float x, const float y )
+: mass( 30.0f ),
+  G( 1.5f ),
+  location( x, y ),
+  dragging( false ),
+  rollover( false ),
+  dragOffset( Vec2f::zero() )
+{ }
 
-Vec2f Attractor::attract( const Mover& m ) {
+Vec2f Attractor::attract( const Mover& m )
+{
     Vec2f force = location - m.getLocation();
     float d = force.length();
     d = ( d < 5.0 ) ? 5.0 : ( ( d > 25.0 ) ? 25.0 : d );
@@ -28,7 +29,8 @@ Vec2f Attractor::attract( const Mover& m ) {
     return force;
 }
 
-void Attractor::draw() const {
+void Attractor::draw() const
+{
     if ( rollover ) {
         gl::color( 0.9f, 0.9f, 0.9f );
     } else {
@@ -37,7 +39,8 @@ void Attractor::draw() const {
     gl::drawSolidCircle( location, mass );
     
 }
-void Attractor::clicked( const Vec2f& mouse ) {
+void Attractor::clicked( const Vec2f& mouse )
+{
     float d = mouse.distance( location );
     if ( d < mass ) {
         dragging = true;
@@ -45,7 +48,8 @@ void Attractor::clicked( const Vec2f& mouse ) {
     }
 }
 
-void Attractor::hover( const Vec2f& mouse ) {
+void Attractor::hover( const Vec2f& mouse )
+{
     float d = mouse.distance( location );
     if ( d < mass ) {
         rollover = true;
@@ -54,11 +58,13 @@ void Attractor::hover( const Vec2f& mouse ) {
     }
 }
 
-void Attractor::stopDragging() {
+void Attractor::stopDragging()
+{
     dragging = false;
 }
 
-void Attractor::drag( const Vec2f& mouse ) {
+void Attractor::drag( const Vec2f& mouse )
+{
     if ( dragging ) {
         location = ( mouse + dragOffset );
     }

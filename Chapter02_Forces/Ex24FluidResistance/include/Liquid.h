@@ -18,7 +18,7 @@ using namespace ci;
 class Liquid {
 public:
     Liquid() { }
-    Liquid( float x1, float y1, float x2, float y2, float coeff );
+    Liquid( const float x1, const float y1, const float x2, const float y2, const float c_ );
     
     bool contains( const Mover& m );
     Vec2f drag( const Mover& m );

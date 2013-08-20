@@ -9,36 +9,41 @@
 
 #include "Mover.h"
 
-Mover::Mover( const float _mass, const float _x, const float _y )
-    : location( _x, _y ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      mass( _mass ),
-      radius( _mass * 8 )
-    { }
+Mover::Mover( const float mass_, const float x, const float y )
+: location( x, y ),
+  velocity( Vec2f::zero() ),
+  acceleration( Vec2f::zero() ),
+  mass( mass_ ),
+  radius( mass * 8 )
+{ }
 
-float Mover::getMass() const {
+float Mover::getMass() const
+{
     return mass;
 }
 
-void Mover::applyForce( const Vec2f& force ) {
+void Mover::applyForce( const Vec2f& force )
+{
     Vec2f scaledForce = force / mass;
     acceleration += scaledForce;
 }
 
-void Mover::update() {
+void Mover::update()
+{
     velocity += acceleration;
     location += velocity;
     checkEdges();
     acceleration = Vec2f::zero();
 }
 
-void Mover::draw() const {
+void Mover::draw() const
+{
     gl::color( 1.0f, 1.0f, 1.0f );
     gl::drawSolidCircle( location, radius );
 }
 
-void Mover::checkEdges() {
+void Mover::checkEdges()
+{
     if ( location.x > app::getWindowWidth() - radius ) {
         location.x = app::getWindowWidth() - radius;
         velocity.x *= -1;

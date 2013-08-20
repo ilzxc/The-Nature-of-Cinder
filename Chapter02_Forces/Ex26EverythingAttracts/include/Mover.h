@@ -15,8 +15,9 @@
 using namespace ci;
 
 class Mover {
+    
 public:
-    Mover( const float _mass, const float _x, const float _y );
+    Mover( const float mass_, const float x, const float y );
 
     float getMass() const;
     Vec2f getLocation() const;
@@ -34,6 +35,7 @@ private:
     Vec2f lastAcceleration;
     const float radius;
     const float mass;
+
 };
 
 #endif /* defined(__Ex26EverythingAttracts__Mover__) */

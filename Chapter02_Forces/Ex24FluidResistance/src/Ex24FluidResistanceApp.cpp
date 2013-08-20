@@ -22,17 +22,20 @@ class Ex24FluidResistanceApp : public AppNative {
     Liquid liquid;
 };
 
-void Ex24FluidResistanceApp::prepareSettings( Settings* settings ) {
+void Ex24FluidResistanceApp::prepareSettings( Settings* settings )
+{
     settings->setWindowSize( 800, 200 );
 }
 
-void Ex24FluidResistanceApp::setup() {
+void Ex24FluidResistanceApp::setup()
+{
     gl::enableAlphaBlending();
     liquid = Liquid( 0.0f, getWindowHeight() / 2.0f, getWindowWidth(), getWindowHeight(), 0.1f );
     resetMovers();
 }
 
-void Ex24FluidResistanceApp::resetMovers() {
+void Ex24FluidResistanceApp::resetMovers()
+{
     if ( movers.size() != 0 ) {
         movers.clear();
     }
@@ -42,11 +45,13 @@ void Ex24FluidResistanceApp::resetMovers() {
     }
 }
 
-void Ex24FluidResistanceApp::mouseDown( MouseEvent event ) {
+void Ex24FluidResistanceApp::mouseDown( MouseEvent event )
+{
     resetMovers();
 }
 
-void Ex24FluidResistanceApp::update() {
+void Ex24FluidResistanceApp::update()
+{
     for ( auto& mover: movers ) {
         if (liquid.contains( mover ) ) {
             Vec2f dragForce = liquid.drag( mover );
@@ -58,7 +63,8 @@ void Ex24FluidResistanceApp::update() {
     }
 }
 
-void Ex24FluidResistanceApp::draw() {
+void Ex24FluidResistanceApp::draw()
+{
 	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for (auto& mover : movers ) {
         mover.draw();

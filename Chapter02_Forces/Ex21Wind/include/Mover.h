@@ -16,6 +16,7 @@
 using namespace ci;
 
 class Mover {
+    
 public:
     Mover();
     void applyForce( const Vec2f& force );
@@ -30,6 +31,7 @@ private:
     const float radius;
     
     void checkEdges();
+
 };
 
 #endif /* defined(__Ex21Wind__Mover__) */

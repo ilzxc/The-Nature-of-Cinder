@@ -16,8 +16,9 @@
 using namespace ci;
 
 class Mover {
+    
 public:
-    Mover( float m, float x, float y );
+    Mover( const float mass_, const float x, const float y );
 
     float getMass() const;
     Vec2f getLocation() const;
@@ -34,6 +35,7 @@ private:
     const float mass;
     
     void checkEdges();
+
 };
 
 #endif /* defined(__Ex24FluidResistance__Mover__) */
