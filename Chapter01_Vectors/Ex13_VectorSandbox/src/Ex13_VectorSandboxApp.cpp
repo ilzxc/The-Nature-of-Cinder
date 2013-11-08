@@ -22,7 +22,7 @@ class Ex13_VectorSandboxApp : public AppNative {
 
 void Ex13_VectorSandboxApp::setup()
 {
-    centre = VecToCenter ( true, getWindowCenter() );
+    centre = VecToCenter{ true, getWindowCenter() };
     drawMode = true;
 }
 
@@ -49,7 +49,7 @@ void Ex13_VectorSandboxApp::update()
 
 void Ex13_VectorSandboxApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+	gl::clear( Color{ 0.0f, 0.0f, 0.0f } );
     centre.draw();
 }
 

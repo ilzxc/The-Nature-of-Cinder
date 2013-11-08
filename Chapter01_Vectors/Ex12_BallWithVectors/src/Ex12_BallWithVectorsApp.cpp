@@ -12,14 +12,13 @@ class Ex12_BallWithVectorsApp : public AppNative {
 	void update();
 	void draw();
     
-    Ball ball;
+    Ball ball{ Vec2f( 200.0f, 200.0f ) }; // initialization during declaration with { }
     std::unique_ptr< Ball > smartBall;
 };
 
 void Ex12_BallWithVectorsApp::setup()
 {
-    ball = Ball( getWindowCenter() );
-    smartBall = std::unique_ptr< Ball > ( new Ball( getWindowCenter() ) );
+    smartBall = std::unique_ptr< Ball > ( new Ball{ getWindowCenter() } );
 }
 
 void Ex12_BallWithVectorsApp::update()
@@ -30,7 +29,7 @@ void Ex12_BallWithVectorsApp::update()
 
 void Ex12_BallWithVectorsApp::draw()
 {
-	gl::clear( Color( 0.222f, 0.222f, 0.222f ) );
+	gl::clear( Color{ 0.222f, 0.222f, 0.222f } );
     ball.draw();
     smartBall->draw();
 }

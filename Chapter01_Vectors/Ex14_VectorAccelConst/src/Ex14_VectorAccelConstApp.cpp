@@ -39,7 +39,7 @@ void Ex14_VectorAccelConstApp::update()
 
 void Ex14_VectorAccelConstApp::draw()
 {
-	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
+	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     ball.draw();
 }
 

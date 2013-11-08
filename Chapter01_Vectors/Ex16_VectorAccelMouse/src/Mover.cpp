@@ -10,14 +10,14 @@
 #include "Mover.h"
 
 Mover::Mover()
-: position( Vec2f::zero() ),
-  velocity ( Vec2f::zero() ),
-  acceleration ( Vec2f::zero() )
+: position { Vec2f::zero() },
+  velocity { Vec2f::zero() },
+  acceleration { Vec2f::zero() }
 { }
 
-void Mover::update( const Vec2f& mousePosition)
+void Mover::update( const Vec2f& mousePosition )
 {
-    acceleration = (mousePosition - position).normalized() * 1.7f;
+    acceleration = ( mousePosition - position ).normalized() * 1.7f;
     velocity += acceleration;
     velocity.limit( 10.0f );
     position += velocity;

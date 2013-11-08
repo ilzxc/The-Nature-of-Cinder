@@ -10,16 +10,16 @@
 #include "Mover.h"
 
 Mover::Mover()
-: position( Vec2f::zero() ),
-  velocity( Vec2f::zero() ),
-  acceleration( Vec2f::zero() )
+: position{ Vec2f::zero() },
+  velocity{ Vec2f::zero() },
+  acceleration{ Vec2f::zero() }
 { }
 
 void Mover::randomizeAcceleration()
 {
     const float maximumAccel = 0.3f;
     Rand::randomize();
-    acceleration = Vec2f( randFloat( maximumAccel * 2 ) - maximumAccel, randFloat( maximumAccel * 2 ) - maximumAccel );
+    acceleration = Vec2f{ randFloat( maximumAccel * 2 ) - maximumAccel, randFloat( maximumAccel * 2 ) - maximumAccel };
 }
 
 void Mover::update()

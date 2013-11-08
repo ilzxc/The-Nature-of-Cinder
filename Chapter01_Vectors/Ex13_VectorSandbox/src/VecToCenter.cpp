@@ -10,10 +10,10 @@
 #include "VecToCenter.h"
 
 VecToCenter::VecToCenter( const bool _active, const Vec2f &_centerPoint )
-: active( _active ),
-  magnitude( 0.0f ),
-  centerPoint( _centerPoint ),
-  endPoint( Vec2f::zero() )
+: active{ _active },
+  magnitude{ 0.0f },
+  centerPoint{ _centerPoint },
+  endPoint{ Vec2f::zero() }
 { }
 
 void VecToCenter::setCenter( const Vec2f& newCenter )
@@ -39,11 +39,11 @@ void VecToCenter::draw() const
         gl::drawLine( centerPoint, endPoint );
         gl::color( 0.4f, 0.4f, 0.4f );
         gl::drawLine( Vec2f::zero(), endPoint );
-        gl::drawLine( Vec2f( 0.0f, app::getWindowHeight() ), endPoint );
-        gl::drawLine( Vec2f( app::getWindowWidth(), 0.0f ), endPoint );
-        gl::drawLine( Vec2f( app::getWindowWidth(), app::getWindowHeight() ), endPoint );
+        gl::drawLine( Vec2f{ 0.0f, app::getWindowHeight() }, endPoint );
+        gl::drawLine( Vec2f{ app::getWindowWidth(), 0.0f }, endPoint );
+        gl::drawLine( Vec2f{ app::getWindowWidth(), app::getWindowHeight() }, endPoint );
         gl::color( 1.0f, 0.0f, 0.7f );
-        gl::drawSolidRect( ci::Rectf( 0.0f, 0.0f, magnitude, 10.0f ) );
+        gl::drawSolidRect( ci::Rectf{ 0.0f, 0.0f, magnitude, 10.0f } );
     } else {
         gl::color( 0.0f, 0.7f, 1.0f );
         gl::pushMatrices();

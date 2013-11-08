@@ -10,9 +10,9 @@
 #include "Ball.h"
 
 Ball::Ball( const Vec2f& position_ )   // constructor overloading
-: position( position_ ),
-  //velocity( randFloat( -10.0f, 10.0f ), randFloat( -10.0, 10.0f ) ),
-  radius( 30.0f )
+: position{ position_ },
+  // velocity( randFloat( -10.0f, 10.0f ), randFloat( -10.0, 10.0f ) ),
+  radius{ 30.0f }
 {
     /* the example above calls "randFloat" - a static function of Rand.
      due to the fact that Rand::randomize() has never been called, the
@@ -21,11 +21,11 @@ Ball::Ball( const Vec2f& position_ )   // constructor overloading
      initializer list above.                                             */
     
     Rand::randomize();
-    velocity = Vec2f( randFloat(-10.0f, 10.0f), randFloat( -10.0, 10.0f ) );
+    velocity = Vec2f( randFloat( -10.0f, 10.0f ), randFloat( -10.0, 10.0f ) );
 }
 
 Ball::Ball( const float x_, const float y_ )
-: Ball( Vec2f( x_, y_ ) )   // invoke another constructor (after transforming the values)
+: Ball{ Vec2f{ x_, y_ } }   // invoke another constructor (after transforming the values)
 { }
 
 void Ball::update()

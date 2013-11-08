@@ -16,12 +16,12 @@ class Ex17_StupidFlockApp : public AppNative {
 	void update();
 	void draw();
 
-    vector< Mover > balls;
+    vector< unique_ptr< Mover > > balls;
     Vec2f mousePosition;
     const int numBalls = 10000;
 };
 
-void Ex17_StupidFlockApp::prepareSettings(Settings *settings)
+void Ex17_StupidFlockApp::prepareSettings( Settings *settings )
 {
     settings->setWindowSize( 900, 400 );
 }
@@ -30,9 +30,9 @@ void Ex17_StupidFlockApp::setup()
 {
     Rand::randomize();
     for ( int i = 0; i < numBalls; i++ ) {
-        balls.push_back( Mover( randFloat( 0.6f ) ) );
+        balls.push_back( unique_ptr< Mover > ( new Mover{ randFloat( 0.6f ) } ) );
     }
-    mousePosition = getWindowCenter();
+    mousePosition = { getWindowCenter() };
 }
 
 void Ex17_StupidFlockApp::mouseMove( MouseEvent event )
@@ -42,17 +42,17 @@ void Ex17_StupidFlockApp::mouseMove( MouseEvent event )
 
 void Ex17_StupidFlockApp::update()
 {
-    for ( auto& b : balls ) {
-        b.setAccel( mousePosition );
-        b.update();
+    for ( const auto& b : balls ) {
+        b->setAccel( mousePosition );
+        b->update();
     }
 }
 
 void Ex17_StupidFlockApp::draw()
 {
 	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
-    for ( auto& b : balls ) {
-        b.draw();
+    for ( const auto& b : balls ) {
+        b->draw();
     }
 }
 

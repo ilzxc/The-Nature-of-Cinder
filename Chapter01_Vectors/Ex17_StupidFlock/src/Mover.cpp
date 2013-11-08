@@ -10,10 +10,10 @@
 #include "Mover.h"
 
 Mover::Mover( const float _fatness )
-: fatness( _fatness ),
-  position( Vec2f::zero() ),
-  velocity( Vec2f::zero() ),
-  acceleration( Vec2f::zero() )
+: fatness{ _fatness },
+  position{ Vec2f::zero() },
+  velocity{ Vec2f::zero() },
+  acceleration{ Vec2f::zero() }
 { }
 
 void Mover::setAccel( const Vec2f& mousePosition )

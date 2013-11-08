@@ -27,7 +27,7 @@ void Ex15_VectorAccelRandomApp::update()
 
 void Ex15_VectorAccelRandomApp::draw()
 {
-	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
+	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     ball.draw();
 }
 
