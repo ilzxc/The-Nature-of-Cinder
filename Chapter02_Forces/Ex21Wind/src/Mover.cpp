@@ -10,17 +10,16 @@
 #include "Mover.h"
 
 Mover::Mover()
-: location( 30.f, 30.f ),
-  velocity( Vec2f::zero() ),
-  acceleration( Vec2f::zero() ),
-  mass( 1.0f ),
-  radius( 24.0f )
+: location{ 30.f, 30.f },
+  velocity{ Vec2f::zero() },
+  acceleration{ Vec2f::zero() },
+  mass{ 1.f },
+  radius{ 24.f }
 { }
 
 void Mover::applyForce( const Vec2f& force )
 {
-    Vec2f scaledForce = force / mass;
-    acceleration += scaledForce;
+    acceleration += ( force / mass );
 }
 
 void Mover::update()
@@ -33,7 +32,7 @@ void Mover::update()
 
 void Mover::draw() const
 {
-    gl::color( 1.0f, 1.0f, 1.0f );
+    gl::color( 1.f, 1.f, 1.f );
     gl::drawSolidCircle( location, radius );
 }
 

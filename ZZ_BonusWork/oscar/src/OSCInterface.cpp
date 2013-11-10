@@ -19,33 +19,26 @@ void OSCInterface::setup(int aPort) {
     listener.setup(aPort);
     
     host = cinder::System::getIpAddress();
-	if( host.rfind( '.' ) != std::string::npos )
-		host.replace( host.rfind( '.' ) + 1, 3, "255" );
-	sender.setup( host, port + 1, true );
+    std::cout << "host is " << host << std::endl;
+    sender.setup( host, port + 1, true );
 }
 
 
-void OSCInterface::update() {
-    
-    
-    
+void OSCInterface::update()
+{
     while( listener.hasWaitingMessages() ) {
         cinder::osc::Message message;
 		listener.getNextMessage( &message );
         
-        std::vector<std::string> addressVector;
-        //std::string fullAddress = message.getAddress();
-        //unsigned lastSlash = fullAddress.find('/');
-        
-        std::string test1 = "/square/rotation";
-        std::string test2 = "/square/color/r";
+        std::vector< std::string > addressVector;
+
         
         if( message.getAddress() == rotationAddress ) {
-            rotation = message.getArgAsFloat(0);
+            rotation = message.getArgAsFloat( 0 );
         }
         
-        if (message.getAddress() == colorAddress ) {
-            color.set(message.getArgAsInt32(0), message.getArgAsInt32(1), message.getArgAsInt32(2));
+        if ( message.getAddress() == colorAddress ) {
+            color.set( message.getArgAsInt32( 0 ), message.getArgAsInt32( 1 ), message.getArgAsInt32( 2 ) );
             color.normalize();
         }
         
@@ -103,18 +96,18 @@ void OSCInterface::unfoldAddresses(const std::string address) {
 
 
 void OSCInterface::sendMessage() {
-    sender.sendBundle(bundle);
+    sender.sendBundle( bundle );
     bundle.clear();
 }
 
 void OSCInterface::appendMessage(const float argument, const std::string address) {
     message.addFloatArg(argument);
-    packageBundle(address);
+    packageBundle( address );
 }
 
 void OSCInterface::appendMessage(const int argument, const std::string address) {
     message.addIntArg(argument);
-    packageBundle(address);
+    packageBundle( address );
 }
 
 void OSCInterface::appendMessage(const std::string argument, const std::string address) {
@@ -123,10 +116,10 @@ void OSCInterface::appendMessage(const std::string argument, const std::string a
 }
 
 void OSCInterface::packageBundle( const std::string address ) {
-    message.setAddress(address);
-    message.setRemoteEndpoint(host, port);
+    message.setAddress( address );
+    // message.setRemoteEndpoint( host, port );
     try {
-        bundle.addMessage(message);
+        bundle.addMessage( message );
         message.clear();
     } catch (...) { cinder::app::console() << "Can not add message to the bundle" << std::endl; }
 }

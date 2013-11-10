@@ -66,7 +66,7 @@ void CustomShape::draw() const {
     gl::pushMatrices();
     gl::translate( position );
     gl::rotate( angle );
-    gl::color( 186.0f / 255, 194.0f / 255, 195.0f / 255 )
+    gl::color( 186.0f / 255, 194.0f / 255, 195.0f / 255 );
     gl::begin( GL_TRIANGLE_FAN );
     gl::vertex( startPoint );
     for( auto& vecs : polygon ) {

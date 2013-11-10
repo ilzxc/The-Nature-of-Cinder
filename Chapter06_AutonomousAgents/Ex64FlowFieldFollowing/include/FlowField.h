@@ -17,32 +17,20 @@
 using namespace ci;
 
 class FlowField {
+    
+public:
+	FlowField( int r );
+            
+    void init();
+    Vec2f lookup( const Vec2f& lookUp ) const;
+    void draw() const;
+    
 private:
 	std::vector< std::vector< Vec2f > > field;
 	int resolution;
 	Perlin perlin;
 
 	void drawVector( const Vec2f& vec, const Vec2f& position, float scale ) const;
-
-public:
-	FlowField() { }
-	FlowField( int r ): resolution( r ) {
-		try {
-			if ( resolution <= 0 ) {
-				throw "Resolution may not be zero!";
-			}
-		} catch (const char* message) {
-			std::cerr << message << std::endl;
-		}
-		int cols = ci::app::getWindowWidth() / resolution;
-		int rows = ci::app::getWindowHeight() / resolution;
-		field.resize( cols, std::vector< Vec2f >( rows, Vec2f::zero() ) );
-		init();
-	}
-
-	void init();
-	Vec2f lookup( const Vec2f& lookUp ) const;
-	void draw() const;
 };
 
 #endif

@@ -18,10 +18,9 @@ using namespace ci;
 class Attractor {
     
 public:
-    Attractor() { }
     Attractor( const float x, const float y );
     
-    Vec2f attract( const Mover& m );
+    const Vec2f attract( const Mover& m ) const;
     void draw() const;
     void clicked( const Vec2f& mouse );
     void hover( const Vec2f& mouse );
@@ -29,8 +28,8 @@ public:
     void drag( const Vec2f& mouse );
     
 private:
-    float mass;
-    float G;
+    const float mass;
+    const float G;
     Vec2f location;
     bool dragging;
     bool rollover;

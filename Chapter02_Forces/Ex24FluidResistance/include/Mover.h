@@ -20,9 +20,9 @@ class Mover {
 public:
     Mover( const float mass_, const float x, const float y );
 
-    float getMass() const;
-    Vec2f getLocation() const;
-    Vec2f getVelocity() const;
+    const float getMass() const;
+    const Vec2f& getLocation() const;
+    const Vec2f& getVelocity() const;
     void applyForce( const Vec2f& force );
     void update();
     void draw() const;

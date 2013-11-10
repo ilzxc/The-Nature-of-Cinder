@@ -13,26 +13,28 @@ class Ex62WanderingVehicleApp : public AppNative {
 	void update();
 	void draw();
     
-    Vehicle vehicle;
+    unique_ptr< Vehicle > vehicle;
 };
 
-void Ex62WanderingVehicleApp::setup() {
-    vehicle = Vehicle( getWindowCenter() );
+void Ex62WanderingVehicleApp::setup()
+{
+    vehicle = unique_ptr< Vehicle > ( new Vehicle ( getWindowCenter() ) );
 }
 
-void Ex62WanderingVehicleApp::mouseDown( MouseEvent event ) {
-    vehicle.toggleDebug();
+void Ex62WanderingVehicleApp::mouseDown( MouseEvent event )
+{
+    vehicle->toggleDebug();
 }
 
-void Ex62WanderingVehicleApp::update() {
-    vehicle.update();
+void Ex62WanderingVehicleApp::update()
+{
+    vehicle->update();
 }
 
 void Ex62WanderingVehicleApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0.88f, 0.88f, 0.88f ) );
-    vehicle.draw();
+	gl::clear( Color{ 0.88f, 0.88f, 0.88f } );
+    vehicle->draw();
 }
 
 CINDER_APP_NATIVE( Ex62WanderingVehicleApp, RendererGl )

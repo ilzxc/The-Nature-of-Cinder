@@ -16,7 +16,7 @@ Character::Character(const ci::Surface * spriteSheet, const gl::Texture::Format 
     
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 2; j++) {
-            Area subset = Area(spriteSizeX * i, spriteSizeY * j, spriteSizeX * i + spriteSizeX, spriteSizeY * j + spriteSizeY);
+            Area subset = Area( spriteSizeX * i, spriteSizeY * j, spriteSizeX * i + spriteSizeX, spriteSizeY * j + spriteSizeY );
             frames[i][j] = gl::Texture( spriteSheet->clone( subset ), fmt );
         }
     }

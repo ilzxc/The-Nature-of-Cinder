@@ -27,15 +27,15 @@ void Particle::draw() {
     gl::pushMatrices();
     gl::translate(position);
     gl::rotate(rotation);
-    gl::color(204.0f/255, 33.0f/255, 25.0/255, lifespan);
+    gl::color(204.0f/255, 33.0f/255, 25.0f/255, lifespan);
     gl::drawSolidRect( Rectf(-sizeRadius, -sizeRadius, sizeRadius, sizeRadius) );
-    gl::color(1, 1, 1, lifespan);
+    gl::color( 1.0f, 1.0f, 1.0f, lifespan );
     gl::drawSolidRect( Rectf( -sizeRadius / 2.0f, -sizeRadius / 2.0f, sizeRadius / 2.0f, sizeRadius / 2.0f ) );
     gl::popMatrices();
 }
 
 bool Particle::isDead() {
-    if(lifespan < 0.0f) {
+    if( lifespan < 0.0f ) {
         return true;
     }
     return false;

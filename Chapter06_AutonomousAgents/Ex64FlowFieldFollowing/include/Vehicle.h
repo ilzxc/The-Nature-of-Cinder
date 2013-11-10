@@ -15,31 +15,24 @@
 using namespace ci;
 
 class Vehicle {
+    
+public:
+    Vehicle( const Vec2f& _position, const float _maxforce, const float _maxspeed );
+    
+    void update( const FlowField& flow );
+    void draw() const;
+    
 private:
     Vec2f position;
     Vec2f velocity;
     Vec2f acceleration;
-    float size;
-    float maxForce;
-    float maxSpeed;
+    const float size;
+    const float maxForce;
+    const float maxSpeed;
     float angle;
     
 	void borders();
-    
-public:
-    Vehicle() {}
-    Vehicle( const Vec2f& _position, float _maxforce, float _maxspeed )
-    : position( _position ),
-      velocity( Vec2f::zero() ),
-      acceleration( Vec2f::zero() ),
-      size( 5.0f ),
-      maxForce( _maxforce ),
-      maxSpeed( _maxspeed ),
-      angle( 0.0f )
-    { }
-    
-    void update( const FlowField& flow );
-    void draw() const;
+
 };
 
 #endif

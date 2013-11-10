@@ -13,6 +13,7 @@ class Ex21WindApp : public AppNative {
 	void update();
 	void draw();
     
+  private:
     Mover ball;
     Vec2f wind;
     Vec2f gravity;
@@ -25,8 +26,8 @@ void Ex21WindApp::prepareSettings( Settings* settings )
 
 void Ex21WindApp::setup()
 {
-    wind.set( 0.01f, 0.0f );
-    gravity.set( 0.0f, 0.1f );
+    wind.set( 0.01f, 0.f );
+    gravity.set( 0.f, 0.1f );
 }
 
 void Ex21WindApp::update()

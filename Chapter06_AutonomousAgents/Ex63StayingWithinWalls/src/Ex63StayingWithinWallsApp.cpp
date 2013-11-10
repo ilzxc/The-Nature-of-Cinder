@@ -13,27 +13,28 @@ class Ex63StayingWithinWallsApp : public AppNative {
 	void update();
 	void draw();
     
-    Vehicle vehicle;
+    unique_ptr< Vehicle > vehicle;
 };
 
-void Ex63StayingWithinWallsApp::setup() {
-    vehicle = Vehicle( getWindowCenter(), getWindowSize() );
+void Ex63StayingWithinWallsApp::setup()
+{
+    vehicle = unique_ptr< Vehicle > ( new Vehicle{ getWindowCenter(), getWindowSize() } );
 }
 
-void Ex63StayingWithinWallsApp::resize() {
-    vehicle.setBoundary( getWindowSize() );
+void Ex63StayingWithinWallsApp::resize()
+{
+    vehicle->setBoundary( getWindowSize() );
 }
 
-void Ex63StayingWithinWallsApp::update() {
-    vehicle.update();
+void Ex63StayingWithinWallsApp::update()
+{
+    vehicle->update();
 }
 
 void Ex63StayingWithinWallsApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 1, 1, 1 ) );
-    
-    vehicle.draw();
+	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    vehicle->draw();
 }
 
 CINDER_APP_NATIVE( Ex63StayingWithinWallsApp, RendererGl )

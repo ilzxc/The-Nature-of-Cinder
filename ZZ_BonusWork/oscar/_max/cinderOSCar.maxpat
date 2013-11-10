@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 730.0, 174.0, 640.0, 480.0 ],
+		"rect" : [ 756.0, 136.0, 791.0, 568.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -31,14 +31,88 @@
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
+					"id" : "obj-39",
+					"linecount" : 2,
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 458.5, 420.0, 185.0, 34.0 ],
+					"text" : "/fromCinder/MouseMove/X 714 \n/fromCinder/MouseMove/Y 74 \n",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-32",
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 240.5, 105.0, 150.0, 20.0 ],
+					"text" : "/square/rotation \"$1\" ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 60.5, 135.0, 122.0, 20.0 ],
+					"text" : "o.pack /square/color"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-26",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "FullPacket" ],
+					"patching_rect" : [ 465.0, 300.0, 94.0, 20.0 ],
+					"text" : "o.broadcast.api"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"linecount" : 4,
+					"maxclass" : "o.message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 465.0, 330.0, 163.0, 62.0 ],
+					"text" : "/fromCinder/MouseDown/X \n/fromCinder/MouseDown/Y \n/fromCinder/MouseMove/X \n/fromCinder/MouseMove/Y \n",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-24",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 363.0, 200.5, 48.0 ],
-					"presentation_rect" : [ 217.5, 364.0, 0.0, 0.0 ],
+					"patching_rect" : [ 225.0, 378.0, 200.5, 48.0 ],
 					"text" : ".... and MouseDown values only update once you click your mouse. (all events handled by Cinder)"
 				}
 
@@ -53,8 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 9.5, 363.0, 200.5, 62.0 ],
-					"presentation_rect" : [ 182.0, 262.0, 0.0, 0.0 ],
+					"patching_rect" : [ 9.5, 378.0, 200.5, 62.0 ],
 					"text" : "click on the Cinder app (oscar) to focus it.... note that the MouseMove values update as long as the window is \"focused\"...."
 				}
 
@@ -69,8 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 390.0, 170.0, 229.0, 62.0 ],
-					"presentation_rect" : [ 388.5, 170.0, 0.0, 0.0 ],
+					"patching_rect" : [ 379.5, 165.0, 229.0, 62.0 ],
 					"text" : "currently, the addresses are hard-coded into the C++ code, but with a little bit more work, parameters could \"holla\" to-and-from our applications..."
 				}
 
@@ -86,7 +158,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 230.5, 30.0, 135.0, 34.0 ],
-					"presentation_rect" : [ 226.5, 35.0, 0.0, 0.0 ],
 					"text" : "and then rotate our square around...."
 				}
 
@@ -153,22 +224,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.5, 110.0, 90.0, 20.0 ],
+					"patching_rect" : [ 60.5, 105.0, 90.0, 20.0 ],
 					"text" : "pak i i i"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"id" : "obj-15",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.5, 140.0, 132.0, 18.0 ],
-					"text" : "/square/color $1 $2 $3"
 				}
 
 			}
@@ -181,7 +238,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 240.5, 80.0, 105.0, 15.0 ],
+					"patching_rect" : [ 240.5, 65.0, 105.0, 15.0 ],
 					"size" : 500.0
 				}
 
@@ -194,22 +251,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.5, 170.0, 139.0, 20.0 ],
+					"patching_rect" : [ 240.5, 165.0, 139.0, 20.0 ],
 					"text" : "udpsend localhost 2222"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
-					"id" : "obj-7",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 240.5, 125.0, 113.0, 18.0 ],
-					"text" : "/square/rotation $1"
 				}
 
 			}
@@ -222,8 +265,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 226.0, 345.0, 50.0, 18.0 ],
-					"text" : "312"
+					"patching_rect" : [ 226.0, 360.0, 50.0, 18.0 ],
+					"text" : "399"
 				}
 
 			}
@@ -236,8 +279,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 345.0, 50.0, 18.0 ],
-					"text" : "270"
+					"patching_rect" : [ 285.0, 360.0, 50.0, 18.0 ],
+					"text" : "139"
 				}
 
 			}
@@ -250,7 +293,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 257.0, 315.0, 137.0, 20.0 ],
+					"patching_rect" : [ 257.0, 330.0, 137.0, 20.0 ],
 					"text" : "o.route /X /Y"
 				}
 
@@ -264,7 +307,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 256.0, 285.0, 187.0, 20.0 ],
+					"patching_rect" : [ 256.0, 300.0, 187.0, 20.0 ],
 					"text" : "o.route /fromCinder/MouseDown"
 				}
 
@@ -278,8 +321,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 24.5, 345.0, 50.0, 18.0 ],
-					"text" : "929"
+					"patching_rect" : [ 24.5, 360.0, 50.0, 18.0 ],
+					"text" : "714"
 				}
 
 			}
@@ -292,8 +335,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.5, 345.0, 50.0, 18.0 ],
-					"text" : "185"
+					"patching_rect" : [ 83.5, 360.0, 50.0, 18.0 ],
+					"text" : "74"
 				}
 
 			}
@@ -306,7 +349,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "FullPacket" ],
-					"patching_rect" : [ 55.5, 315.0, 137.0, 20.0 ],
+					"patching_rect" : [ 55.5, 330.0, 137.0, 20.0 ],
 					"text" : "o.route /X /Y"
 				}
 
@@ -320,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "FullPacket" ],
-					"patching_rect" : [ 55.5, 285.0, 186.0, 20.0 ],
+					"patching_rect" : [ 55.5, 300.0, 186.0, 20.0 ],
 					"text" : "o.route /fromCinder/MouseMove"
 				}
 
@@ -348,8 +391,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.5, 255.0, 100.0, 20.0 ],
-					"text" : "udpreceive 2223"
+					"patching_rect" : [ 55.5, 255.0, 144.0, 20.0 ],
+					"text" : "udpreceive 2223 CNMAT"
 				}
 
 			}
@@ -374,6 +417,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -383,7 +444,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-32", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-13", 0 ]
@@ -410,16 +471,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-30", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
@@ -473,10 +525,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-32", 0 ]
 				}
 
 			}
@@ -489,18 +568,44 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "o.broadcast.api.maxpat",
+				"bootpath" : "/Users/ilyarostovtsev/Documents/Max/Packages/CNMAT-MMJSS/patchers",
+				"patcherrelativepath" : "../../../../../Max/Packages/CNMAT-MMJSS/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "o.route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.union.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.mappatch.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.expr.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.select.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.var.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
  ]

@@ -10,20 +10,23 @@ using namespace ci;
 
 class Path
 {
-private:
-	std::vector< Vec2f > points;
-	float radius;
-
+    
 public:
-	Path(): radius( 60.0f ) { }
-
-	void addPoint(float x, float y);
+	Path();
+    
+    void draw() const;
+	void addPoint( const float x, const float y );
 	void reset();
 	Vec2f getStart() const;
 	Vec2f getEnd() const;
 	float getRadius() const;
-	std::vector< Vec2f > getPoints() const;
-	void draw(void) const;
+	const std::vector< Vec2f >& getPoints() const;
+    
+private:
+	std::vector< Vec2f > points;
+	float radius;
+    float circleRadius;
+
 };
 
 #endif

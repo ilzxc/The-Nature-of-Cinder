@@ -28,15 +28,15 @@ void oscarApp::setup()
 
 void oscarApp::mouseDown( MouseEvent event )
 {
-    oscar.appendMessage(event.getX(), "/fromCinder/MouseDown/X");
-    oscar.appendMessage(event.getY(), "/fromCinder/MouseDown/Y");
+    oscar.appendMessage( event.getX(), "/fromCinder/MouseDown/X" );
+    oscar.appendMessage( event.getY(), "/fromCinder/MouseDown/Y" );
     oscar.sendMessage();
 }
 
 void oscarApp::mouseMove( MouseEvent event)
 {
-    oscar.appendMessage(event.getX(), "/fromCinder/MouseMove/X");
-    oscar.appendMessage(event.getY(), "/fromCinder/MouseMove/Y");
+    oscar.appendMessage( event.getX(), "/fromCinder/MouseMove/X" );
+    oscar.appendMessage( event.getY(), "/fromCinder/MouseMove/Y" );
     oscar.sendMessage();
 }
 

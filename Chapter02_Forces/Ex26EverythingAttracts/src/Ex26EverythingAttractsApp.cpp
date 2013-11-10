@@ -15,6 +15,7 @@ class Ex26EverythingAttractsApp : public AppNative {
 	void update();
 	void draw();
     
+  private:
     const float g = 0.4f;
     vector< Mover > movers;
 };
@@ -28,16 +29,16 @@ void Ex26EverythingAttractsApp::setup()
 {
     Rand::randomize();
     gl::enableAlphaBlending();
-    for ( int i = 0; i < 300; ++i ) {
-        movers.push_back( Mover( randFloat( 0.1f, 2.0f ), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
+    for ( auto i = 0; i < 450; ++i ) {
+        movers.push_back( Mover( randFloat( 0.1f, 2.f ), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
     }
 }
 
 void Ex26EverythingAttractsApp::update()
 {
-    for ( std::vector< Mover >::iterator iter = movers.begin(); iter != movers.end(); ++iter ) {
-        for ( std::vector< Mover >::iterator iter2 = iter + 1; iter2 != movers.end(); ++iter2 ) {
-            Vec2f force = iter2->attract( *iter, g );
+    for ( auto iter = movers.begin(); iter != movers.end(); ++iter ) {
+        for ( auto iter2 = iter + 1; iter2 != movers.end(); ++iter2 ) {
+            auto force = iter2->attract( *iter, g );
             iter->applyForce( force );
             iter2->applyForce( -force );
         }
@@ -48,7 +49,7 @@ void Ex26EverythingAttractsApp::update()
 
 void Ex26EverythingAttractsApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+	gl::clear( Color{ 0.f, 0.f, 0.f } );
     for ( auto& mover : movers ) {
         mover.draw();
     }

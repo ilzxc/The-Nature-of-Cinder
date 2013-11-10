@@ -1,47 +1,59 @@
 #include "Path.h"
 
-void Path::addPoint( float x, float y ) {
-	points.push_back( Vec2f( x, y ) );
+Path::Path()
+: radius{ 60.f },
+  circleRadius{ radius * 0.75f }
+{ }
+
+void Path::draw() const
+{
+	gl::color( 0.777f, 0.777f, 0.777f );
+	gl::lineWidth( radius );
+	gl::begin( GL_LINE_STRIP );
+    for ( auto& p : points ) {
+        gl::vertex( p );
+    }
+    gl::end();
+    
+	for ( auto& p : points ) {
+		gl::drawSolidCircle( p, circleRadius );
+	}
+    
+	gl::color( 0.777f, 0.f, 0.f );
+	gl::lineWidth( 1.f );
+	gl::begin( GL_LINE_STRIP );
+    for ( auto& p : points ) {
+        gl::vertex( p );
+    }
+    gl::end();
 }
 
-Vec2f Path::getStart() const {
-	return points[0];
+void Path::addPoint( const float x, const float y )
+{
+	points.push_back( Vec2f{ x, y } );
 }
 
-Vec2f Path::getEnd() const {
-	return points[points.size() - 1];
+Vec2f Path::getStart() const
+{
+	return points[ 0 ];
 }
 
-float Path::getRadius(void) const {
-	return radius / 2.0f;
+Vec2f Path::getEnd() const
+{
+	return points[ points.size() - 1 ];
 }
 
-std::vector< Vec2f > Path::getPoints() const {
+float Path::getRadius() const
+{
+	return radius / 2.f;
+}
+
+const std::vector< Vec2f >& Path::getPoints() const
+{
 	return points;
 }
 
-void Path::reset() {
+void Path::reset()
+{
 	points.clear();
-}
-
-void Path::draw() const {
-	gl::color( 0.777f, 0.777f, 0.777f );
-	gl::lineWidth( radius );
-	gl::begin(GL_LINE_STRIP);
-    for (auto& p : points) {
-        gl::vertex( p );
-    }
-    gl::end();
-
-	for (auto& p : points) {
-		gl::drawSolidCircle( p, radius * 0.75f );
-	}
-
-	gl::color( 0.777f, 0.0f, 0.0f );
-	gl::lineWidth( 1.0f );
-	gl::begin(GL_LINE_STRIP);
-    for (auto& p : points) {
-        gl::vertex( p );
-    }
-    gl::end();
 }

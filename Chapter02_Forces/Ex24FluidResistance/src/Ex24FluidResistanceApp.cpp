@@ -19,7 +19,7 @@ class Ex24FluidResistanceApp : public AppNative {
 	void draw();
     
     vector< Mover > movers;
-    Liquid liquid;
+    unique_ptr< Liquid > liquid;
 };
 
 void Ex24FluidResistanceApp::prepareSettings( Settings* settings )
@@ -30,7 +30,7 @@ void Ex24FluidResistanceApp::prepareSettings( Settings* settings )
 void Ex24FluidResistanceApp::setup()
 {
     gl::enableAlphaBlending();
-    liquid = Liquid( 0.0f, getWindowHeight() / 2.0f, getWindowWidth(), getWindowHeight(), 0.1f );
+    liquid = unique_ptr< Liquid > ( new Liquid{ 0.f, getWindowHeight() / 2.f, getWindowWidth(), getWindowHeight(), 0.1f } );
     resetMovers();
 }
 
@@ -40,8 +40,8 @@ void Ex24FluidResistanceApp::resetMovers()
         movers.clear();
     }
     
-    for ( int i = 0; i < 11; ++i ) {
-        movers.push_back( Mover( Rand::randFloat( 0.5f, 3.0f ), 40.0 + i * 70, 0.0f ) );
+    for ( auto i = 0; i < 11; ++i ) {
+        movers.push_back( Mover( Rand::randFloat( 0.5f, 3.f ), 40. + i * 70, 0.f ) );
     }
 }
 
@@ -53,11 +53,11 @@ void Ex24FluidResistanceApp::mouseDown( MouseEvent event )
 void Ex24FluidResistanceApp::update()
 {
     for ( auto& mover: movers ) {
-        if (liquid.contains( mover ) ) {
-            Vec2f dragForce = liquid.drag( mover );
+        if ( liquid->contains( mover ) ) {
+            auto dragForce = liquid->drag( mover );
             mover.applyForce( dragForce );
         }
-        Vec2f gravity = Vec2f( 0.0f, 0.1 * mover.getMass() );
+        auto gravity = Vec2f{ 0.f, 0.1 * mover.getMass() };
         mover.applyForce( gravity );
         mover.update();
     }
@@ -65,11 +65,11 @@ void Ex24FluidResistanceApp::update()
 
 void Ex24FluidResistanceApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
-    for (auto& mover : movers ) {
+	gl::clear( Color{ 0.f, 0.f, 0.f } );
+    for ( auto& mover : movers ) {
         mover.draw();
     }
-    liquid.draw();
+    liquid->draw();
 }
 
 CINDER_APP_NATIVE( Ex24FluidResistanceApp, RendererGl )

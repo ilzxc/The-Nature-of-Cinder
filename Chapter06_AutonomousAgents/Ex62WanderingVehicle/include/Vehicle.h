@@ -15,6 +15,31 @@
 using namespace ci;
 
 class Vehicle {
+    
+public:
+    Vehicle( const Vec2f& _position )
+    : position{ _position },
+      velocity{ 1.f, 1.f },
+      acceleration{ Vec2f::zero() },
+      wanderTheta{ 0.f },
+      size{ 16.f },
+      maxForce{ 0.2f },
+      maxSpeed{ 3.f },
+      angle{ 0.f },
+      debug{ false },
+      circle{ Vec2f::zero() },
+      target{ Vec2f::zero() },
+      wanderR{ 45.f },
+      wanderD{ 200.f },
+      change{ 0.3f }
+    {
+        std::cout << velocity.x << ", " << velocity.y << std::endl;
+    }
+    
+    void update();
+    void draw() const;
+    void toggleDebug();
+        
 private:
     Vec2f position;
     Vec2f velocity;
@@ -37,30 +62,7 @@ private:
     void drawWander() const ;
     void borders();
     void seek( const Vec2f& target );
-    
-public:
-    Vehicle() {}
-    Vehicle( Vec2f _position )
-    : position( _position ),
-      velocity( 1.0f, 1.0f ),
-      acceleration( Vec2f::zero() ),
-      wanderTheta( 0.0f ),
-      size( 16.0f ),
-      maxForce( 0.2f ),
-      maxSpeed( 3.0f ),
-      angle( 0.0f ),
-      debug( false ),
-      circle( Vec2f::zero() ),
-      target( Vec2f::zero() ),
-      wanderR( 45.0f ),
-      wanderD( 200.0f ),
-      change( 0.3f ) {
-          std::cout << velocity.x << ", " << velocity.y << std::endl;
-      }
-    
-    void toggleDebug();
-    void update();
-    void draw() const;
+
 };
 
 #endif

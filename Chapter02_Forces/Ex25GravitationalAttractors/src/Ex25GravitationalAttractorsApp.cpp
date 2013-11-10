@@ -20,9 +20,11 @@ class Ex25GravitationalAttractorsApp : public AppNative {
 	void update();
 	void draw();
     
+  private:
     vector< Mover > movers;
-    Attractor attractor;
+    unique_ptr< Attractor > attractor;
     Vec2f mouseLocation;
+
 };
 
 void Ex25GravitationalAttractorsApp::prepareSettings( Settings* settings )
@@ -32,20 +34,20 @@ void Ex25GravitationalAttractorsApp::prepareSettings( Settings* settings )
 
 void Ex25GravitationalAttractorsApp::setup()
 {
-    for ( int i = 0; i < 100; ++i ) {
+    for ( auto i = 0; i < 100; ++i ) {
         movers.push_back( Mover( randFloat( 0.5f, 1.5f ), randFloat( getWindowWidth() ), randFloat( getWindowHeight() ) ) );
     }
-    attractor = Attractor( getWindowCenter().x, getWindowCenter().y );
+    attractor = unique_ptr < Attractor > ( new Attractor{ getWindowCenter().x, getWindowCenter().y } );
 }
 
 void Ex25GravitationalAttractorsApp::mouseDown( MouseEvent event )
 {
-    attractor.clicked( event.getPos() );
+    attractor->clicked( event.getPos() );
 }
 
 void Ex25GravitationalAttractorsApp::mouseUp( MouseEvent event )
 {
-    attractor.stopDragging();
+    attractor->stopDragging();
 }
 
 void Ex25GravitationalAttractorsApp::mouseMove( MouseEvent event )
@@ -60,19 +62,18 @@ void Ex25GravitationalAttractorsApp::mouseDrag( MouseEvent event )
 
 void Ex25GravitationalAttractorsApp::update()
 {
-    attractor.hover( mouseLocation );
-    attractor.drag( mouseLocation );
+    attractor->hover( mouseLocation );
+    attractor->drag( mouseLocation );
     for ( auto& mover : movers ) {
-        Vec2f force = attractor.attract( mover );
-        mover.applyForce( force );
+        mover.applyForce( attractor->attract( mover ) );
         mover.update();
     }
 }
 
 void Ex25GravitationalAttractorsApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
-    attractor.draw();
+	gl::clear( Color{ 0.f, 0.f, 0.f } );
+    attractor->draw();
     for ( auto& mover : movers ) {
         mover.draw();
     }

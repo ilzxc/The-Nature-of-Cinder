@@ -10,32 +10,31 @@
 #include "Mover.h"
 
 Mover::Mover( const float mass_, const float x, const float y )
-: location( x, y ),
-  velocity( Vec2f::zero() ),
-  acceleration( Vec2f::zero() ),
-  mass( mass_ ),
-  radius( mass * 8 )
+: location{ x, y },
+  velocity{ Vec2f::zero() },
+  acceleration{ Vec2f::zero() },
+  mass{ mass_ },
+  radius{ mass * 8 }
 { }
 
-float Mover::getMass() const
+const float Mover::getMass() const
 {
     return mass;
 }
 
-Vec2f Mover::getLocation() const
+const Vec2f& Mover::getLocation() const
 {
     return location;
 }
 
-Vec2f Mover::getVelocity() const
+const Vec2f& Mover::getVelocity() const
 {
     return velocity;
 }
 
 void Mover::applyForce( const Vec2f& force )
 {
-    Vec2f scaledForce = force / mass;
-    acceleration += scaledForce;
+    acceleration += force / mass;
 }
 
 void Mover::update()
@@ -48,7 +47,7 @@ void Mover::update()
 
 void Mover::draw() const
 {
-    gl::color( 1.0f, 1.0f, 1.0f );
+    gl::color( 1.f, 1.f, 1.f );
     gl::drawSolidCircle( location, radius );
 }
 
