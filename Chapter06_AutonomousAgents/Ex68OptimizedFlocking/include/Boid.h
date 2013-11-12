@@ -21,7 +21,9 @@ class Boid
 {
     
 public:
-    Boid( const Vec2f& _location, const Rand& random );
+    Boid( const Rand& random, const int team );
+    ~Boid();
+    void updateLocation();
     void update( const vector< shared_ptr< Boid > >& boids );
     void draw() const;
     const Vec2f& getLocation() const;
@@ -29,6 +31,7 @@ public:
     
 private:
     Vec2f location;
+    Vec2f nextFrame;
     Vec2f velocity;
     Vec2f acceleration;
     float r;
@@ -36,6 +39,7 @@ private:
     float maxSpeed;
     float angle;
     float neighborDistance;
+    ColorA color;
     std::vector< Vec2f > triPoints;
     
     void flock( const vector< shared_ptr< Boid > >& boids );

@@ -8,27 +8,44 @@
 
 #include "Boid.h"
 
-Boid::Boid( const Vec2f& _location, const Rand& random )
-: location{ _location },
-  acceleration{ Vec2f::zero() },
-  r{ 3.f },
-  maxForce{ 0.05f },
-  maxSpeed{ 1.1f },
+Boid::Boid( const Rand& random, const int team )
+: acceleration{ Vec2f::zero() },
+  r{ 2.f + random.randFloat( 1.5f ) },
+  maxForce{ 0.5f },
+  maxSpeed{ 7.1f },
   angle{ 0.f },
   triPoints{ Vec2f{ 0, -r * 2 }, Vec2f{ -r, r * 2 }, Vec2f{ r, r * 2 } },
   neighborDistance{ r * r * 15 * 15 }
 {
-    velocity = Vec2f{ random.randFloat( 0.f, 1.f ), random.randFloat( 0.f, 1.f ) };
+    //location = ( team == 0 ) ? Vec2f{ app::getWindowWidth() / 3.f + random.randFloat( -20.f, 20.f ), app::getWindowCenter().y + random.randFloat( -20.f, 20.f ) } : Vec2f{ app::getWindowWidth() * 2.f / 3.f + random.randFloat( -20.f, 20.f ), app::getWindowCenter().y + random.randFloat( -20.f, 20.f ) };
+    if ( team == 0 ) {
+        location = Vec2f{ random.randFloat() * app::getWindowCenter().x, random.randFloat() * app::getWindowHeight() };
+    } else {
+        location = Vec2f{ app::getWindowCenter().x + random.randFloat() * app::getWindowCenter().x, random.randFloat() * app::getWindowHeight() };
+    }
+    velocity = Vec2f{ random.randFloat( -30.f, 30.f ), random.randFloat( -30.f, 30.f ) } * ( ( team == 0 ) ? 1 : -1 );
+    color = ( team == 0 ) ? ColorA{ 164.f / 255, 5.f / 255, 33.f / 255, r - 2.f } : ColorA{ 1.f / 255, 0.f, 38.f / 255, r - 2.f };
+    nextFrame = location;
+}
+
+Boid::~Boid()
+{
+    std::cout << "Calling destructor of boid." << std::endl;
+}
+
+void Boid::updateLocation()
+{
+    location = nextFrame;
+    borders();
 }
 
 void Boid::update( const vector< shared_ptr< Boid > >& boids )
 {
-    borders();
     flock( boids );
     velocity += acceleration;
     angle = toDegrees( atan2( velocity.y, velocity.x ) ) + 90.f;
     velocity.limit( maxSpeed );
-    location += velocity;
+    nextFrame = location + velocity;
     acceleration = Vec2f::zero();
 }
 
@@ -37,7 +54,7 @@ void Boid::draw() const
     gl::pushMatrices();
     gl::translate( location );
     gl::rotate( angle );
-    gl::color( Color::black() );
+    gl::color( color );
     gl::drawSolidTriangle( &triPoints[0] );
     gl::popMatrices();
 }

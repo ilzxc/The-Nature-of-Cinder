@@ -10,6 +10,7 @@ class Ex68OptimizedFlockingApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
 	void setup();
+    void resize();
 	void update();
 	void draw();
     
@@ -27,14 +28,31 @@ void Ex68OptimizedFlockingApp::prepareSettings( Settings* settings )
 
 void Ex68OptimizedFlockingApp::setup()
 {
+    gl::enableAlphaBlending();
     Rand random;
     random.randomize();
     for ( auto i = 0; i < 5000; ++i ) { // 10000 boids test (build release to see the full effect)
-        flock.push_back( shared_ptr< Boid > ( new Boid( Vec2f{ random.nextFloat() * getWindowWidth(), random.nextFloat() * getWindowHeight() }, random ) ) );
+        if ( random.randBool() ) {
+            flock.push_back( shared_ptr< Boid > ( new Boid( random, 0 ) ) );
+        } else {
+            flock.push_back( shared_ptr< Boid > ( new Boid( random, 1 ) ) );
+        }
     }
     cols = getWindowWidth() / scale;
     rows = getWindowHeight() / scale;
 
+    // instantiate the multidimensional vector:
+    binLatticeSpatialSubdivision = vector< vector< vector< std::shared_ptr< Boid > > > >( cols, vector< vector< std::shared_ptr< Boid > > >( rows ) );
+}
+
+void Ex68OptimizedFlockingApp::resize()
+{
+    app::setWindowSize( getWindowWidth() - ( getWindowWidth() % 5 ), getWindowHeight() - ( getWindowHeight() % 5 ) );
+    binLatticeSpatialSubdivision.clear();
+    
+    cols = getWindowWidth() / scale;
+    rows = getWindowHeight() / scale;
+    
     // instantiate the multidimensional vector:
     binLatticeSpatialSubdivision = vector< vector< vector< std::shared_ptr< Boid > > > >( cols, vector< vector< std::shared_ptr< Boid > > >( rows ) );
 }
@@ -46,6 +64,11 @@ void Ex68OptimizedFlockingApp::update()
         for ( auto& square : cols ) {
             square.clear();
         }
+    }
+    
+    // update location:
+    for ( auto& boid : flock ) {
+        boid->updateLocation();
     }
     
     // put boids into bins:
@@ -69,8 +92,6 @@ void Ex68OptimizedFlockingApp::update()
             }
         }
     }
-    
-    cout << "FPS : " << getAverageFps() << endl; // monitor FPS
 }
 
 void Ex68OptimizedFlockingApp::draw()
