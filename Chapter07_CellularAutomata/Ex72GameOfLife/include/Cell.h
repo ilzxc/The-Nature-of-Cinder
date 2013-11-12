@@ -6,9 +6,33 @@
 //
 //
 
-#ifndef Ex72GameOfLife_Cell_h
-#define Ex72GameOfLife_Cell_h
+#ifndef __Ex72GameOfLife__Cell__
+#define __Ex72GameOfLife__Cell__
 
+#include "cinder/gl/gl.h"
+#include "cinder/Vector.h"
+#include "cinder/Rand.h"
 
+using namespace ci;
 
-#endif
+class Cell
+{
+    
+public:
+    Cell() { }
+    void set( const float x, const float y, const float w, const int state );
+
+    void savePrevious();
+    void newState( const int s );
+    void draw() const;
+    int getPrevious() const;
+    int getState() const;
+    
+private:
+    Rectf cell;
+    int state;
+    int previous;
+    
+};
+
+#endif /* defined(__Ex72GameOfLife__Cell__) */
