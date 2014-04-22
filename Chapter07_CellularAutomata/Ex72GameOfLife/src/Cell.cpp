@@ -48,6 +48,6 @@ void Cell::draw() const
     } else { gl::color( 1.f, 1.f, 1.f ); }
     gl::drawSolidRect( cell );
     
-    gl::color( Color::black() );
-    gl::drawStrokedRect( cell );
+    //gl::color( Color::black() );
+    //gl::drawStrokedRect( cell );
 }

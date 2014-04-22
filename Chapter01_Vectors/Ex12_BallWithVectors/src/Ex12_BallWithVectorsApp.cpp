@@ -35,6 +35,6 @@ void Ex12_BallWithVectorsApp::draw()
 }
 
 /* no shutdown() is required for cleanup, if all of the variables are
-   declared on the stack - of if smart pointers are used              */
+   declared on the stack - or if smart pointers are used              */
 
 CINDER_APP_NATIVE( Ex12_BallWithVectorsApp, RendererGl )

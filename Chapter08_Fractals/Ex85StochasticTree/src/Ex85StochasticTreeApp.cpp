@@ -51,7 +51,7 @@ void Ex85StochasticTreeApp::draw()
 {
 	gl::clear( Color{ 1.f, 1.f, 1.f } );
     gl::pushMatrices();
-    gl::translate( Vec2f{ app::getWindowCenter().x, app::getWindowHeight() } );
+    gl::translate( Vec2f( getWindowCenter().x, app::getWindowHeight() ) );
     branch( 60, 0 );
     gl::popMatrices();
 }

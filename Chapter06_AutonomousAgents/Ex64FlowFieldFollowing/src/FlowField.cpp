@@ -52,7 +52,7 @@ Vec2f FlowField::lookup( const Vec2f& lookUp ) const {
 void FlowField::draw() const {
 	for ( auto i = 0; i < field.size(); ++i ) {
 		for ( auto j = 0; j < field[ i ].size(); ++j ) {
-			drawVector( field[ i ][ j ], Vec2f{ i * resolution, j * resolution }, resolution - 5 );
+			drawVector( field[ i ][ j ], Vec2f{ static_cast<float>( i * resolution ), static_cast<float>( j * resolution ) }, resolution - 5 );
 		}
 	}
 }

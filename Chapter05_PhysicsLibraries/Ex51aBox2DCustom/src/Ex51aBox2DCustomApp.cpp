@@ -24,7 +24,7 @@ class Ex51aBox2DCustomApp : public AppNative {
     
     Vec2f mousePosition;
     bool addBoxes;
-    vector<Box> boxes;
+    vector< Box > boxes;
 };
 
 void Ex51aBox2DCustomApp::setup() {
@@ -64,7 +64,7 @@ void Ex51aBox2DCustomApp::update()
     
     for ( std::vector<Box>::iterator iter = boxes.begin(); iter != boxes.end(); ) {
         iter->update( world );
-        if (iter->isDead()) {
+        if ( iter->isDead() ) {
             world->DestroyBody( iter->getBody() );
             boxes.erase( iter );
         } else {

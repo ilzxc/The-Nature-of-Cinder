@@ -28,7 +28,7 @@ public:
     
 private:
     Rand random;
-    const int w = 20;
+    const int w = 5;
     int columns, rows;
     vector< vector< Cell > > board;
     

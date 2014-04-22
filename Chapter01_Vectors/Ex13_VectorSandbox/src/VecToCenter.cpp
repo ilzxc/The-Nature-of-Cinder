@@ -39,9 +39,9 @@ void VecToCenter::draw() const
         gl::drawLine( centerPoint, endPoint );
         gl::color( 0.4f, 0.4f, 0.4f );
         gl::drawLine( Vec2f::zero(), endPoint );
-        gl::drawLine( Vec2f{ 0.0f, app::getWindowHeight() }, endPoint );
-        gl::drawLine( Vec2f{ app::getWindowWidth(), 0.0f }, endPoint );
-        gl::drawLine( Vec2f{ app::getWindowWidth(), app::getWindowHeight() }, endPoint );
+        gl::drawLine( Vec2f{ 0.0f, static_cast< float >( app::getWindowHeight() ) }, endPoint );
+        gl::drawLine( Vec2f{ static_cast< float >( app::getWindowWidth() ), 0.0f }, endPoint );
+        gl::drawLine( Vec2f{ static_cast< float >( app::getWindowWidth() ), static_cast< float >( app::getWindowHeight() ) }, endPoint );
         gl::color( 1.0f, 0.0f, 0.7f );
         gl::drawSolidRect( ci::Rectf{ 0.0f, 0.0f, magnitude, 10.0f } );
     } else {
