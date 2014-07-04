@@ -57,7 +57,7 @@ void Vehicle::wander()
     circle += position;
     
     auto h = ( atan2f( circle.y, circle.x ) );
-    auto circleOffset = Vec2f{ wanderR * cos( wanderTheta + h ), wanderR * sin( wanderTheta + h ) };
+    auto circleOffset = Vec2f{ wanderR * cosf( wanderTheta + h ), wanderR * sinf( wanderTheta + h ) };
     target = circle + circleOffset;
     seek( target );
 }

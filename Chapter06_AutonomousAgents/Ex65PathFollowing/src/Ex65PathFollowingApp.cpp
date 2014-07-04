@@ -32,8 +32,8 @@ void Ex65PathFollowingApp::setup()
     path = unique_ptr< Path > ( new Path() );
 	Rand::randomize();
 	resetPath();
-	cars.push_back( unique_ptr< Vehicle > ( new Vehicle( Vec2f{ 0.f, getWindowCenter().y }, 0.2f, 5.f ) ) );
-    cars.push_back( unique_ptr< Vehicle > ( new Vehicle( Vec2f{ 0.f, getWindowCenter().y }, 0.4f, 7.f ) ) );
+	cars.push_back( unique_ptr< Vehicle > ( new Vehicle( Vec2f{ 1.f, getWindowCenter().y }, 0.2f, 5.f ) ) );
+    cars.push_back( unique_ptr< Vehicle > ( new Vehicle( Vec2f{ 1.f, getWindowCenter().y }, 0.4f, 7.f ) ) );
 }
 
 void Ex65PathFollowingApp::resetPath()

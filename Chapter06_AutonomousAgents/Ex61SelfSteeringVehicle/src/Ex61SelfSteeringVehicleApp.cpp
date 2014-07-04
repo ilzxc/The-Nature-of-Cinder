@@ -20,7 +20,7 @@ class Ex61SelfSteeringVehicleApp : public AppNative {
 
 void Ex61SelfSteeringVehicleApp::setup()
 {
-    vehicle = unique_ptr< Vehicle > ( new Vehicle { getWindowWidth(), getWindowHeight() } );
+    vehicle = unique_ptr< Vehicle > ( new Vehicle { static_cast< float >( getWindowWidth() ), static_cast< float >( getWindowHeight() ) } );
     mouse = Vec2f{ app::getWindowCenter() };
     mouseRadius = 50.0f;
 }

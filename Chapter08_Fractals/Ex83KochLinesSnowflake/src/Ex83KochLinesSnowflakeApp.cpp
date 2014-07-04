@@ -10,8 +10,8 @@ using namespace std;
 class Ex83KochLinesSnowflakeApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void draw();
+    void setup();
+    void draw();
     
   private:
     std::vector< KochLine > lines;
@@ -28,8 +28,8 @@ void Ex83KochLinesSnowflakeApp::setup()
     gl::color( 0.f, 0.f, 0.f );
     
     auto a = Vec2f{ 0, 173 };
-    auto b = Vec2f{ app::getWindowWidth(), 173 };
-    auto c = Vec2f{ app::getWindowWidth() / 2, 173 + app::getWindowWidth() * cos( toRadians( 30.f ) ) };
+    auto b = Vec2f{ static_cast< float >( app::getWindowWidth() ), 173 };
+    auto c = Vec2f{ static_cast< float >( app::getWindowWidth() / 2 ), 173 + app::getWindowWidth() * cos( toRadians( 30.f ) ) };
     
     lines.push_back( KochLine( a, b ) );
     lines.push_back( KochLine( b, c ) );
@@ -42,7 +42,7 @@ void Ex83KochLinesSnowflakeApp::setup()
 
 void Ex83KochLinesSnowflakeApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     for ( auto& l : lines ) {
         l.draw();
     }

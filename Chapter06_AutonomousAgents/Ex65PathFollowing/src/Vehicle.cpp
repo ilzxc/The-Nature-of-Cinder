@@ -2,7 +2,7 @@
 
 Vehicle::Vehicle( const Vec2f& _position, float _maxForce, float _maxSpeed )
 : position{ _position },
-  velocity{ Vec2f::zero() },
+  velocity{ 1.f, 0.f },
   acceleration{ Vec2f::zero() },
   size{ 8.0f },
   maxForce{ _maxForce },
