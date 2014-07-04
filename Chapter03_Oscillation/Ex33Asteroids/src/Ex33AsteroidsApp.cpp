@@ -8,12 +8,12 @@ using namespace std;
 
 class Ex33AsteroidsApp : public AppNative {
   public:
-	void setup();
+    void setup();
     void keyDown( KeyEvent event );
     void keyUp( KeyEvent event );
     void setKeysTo( const KeyEvent event, const bool setTo );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     int definedKeys[3];
     bool keys[3];
@@ -57,7 +57,7 @@ void Ex33AsteroidsApp::update()
 
 void Ex33AsteroidsApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     ship->draw();
 }
 

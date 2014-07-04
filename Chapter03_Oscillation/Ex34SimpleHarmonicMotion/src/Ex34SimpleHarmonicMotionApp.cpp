@@ -10,10 +10,10 @@ using namespace std;
 
 class Ex34SimpleHarmonicMotionApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     Rand random;
     vector< Oscillator > oscillators;
@@ -43,7 +43,7 @@ void Ex34SimpleHarmonicMotionApp::update()
 
 void Ex34SimpleHarmonicMotionApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( auto& osc : oscillators ) {
         osc.draw();
     }

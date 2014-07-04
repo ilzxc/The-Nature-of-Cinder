@@ -28,21 +28,21 @@ void Path::addPoint( const float x, const float y )
 void Path::draw() const
 {
     gl::color( 0.777f, 0.777f, 0.777f );
-	gl::lineWidth( radius );
-	gl::begin( GL_LINE_STRIP );
+    gl::lineWidth( radius );
+    gl::begin( GL_LINE_STRIP );
     for ( const auto& p : points ) {
         gl::vertex( p );
     }
     gl::vertex( points[0] );
     gl::end();
     
-	for ( const auto& p : points ) {
-		gl::drawSolidCircle( p, radius * 0.7f );
-	}
+    for ( const auto& p : points ) {
+        gl::drawSolidCircle( p, radius * 0.7f );
+    }
     
-	gl::color( 0.777f, 0.0f, 0.0f );
-	gl::lineWidth( 1.0f );
-	gl::begin( GL_LINE_STRIP );
+    gl::color( 0.777f, 0.0f, 0.0f );
+    gl::lineWidth( 1.0f );
+    gl::begin( GL_LINE_STRIP );
     for ( const auto& p : points ) {
         gl::vertex( p );
     }

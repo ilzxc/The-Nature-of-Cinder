@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex71ElementaryCellularAutomataApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
   private:
     std::unique_ptr< CA > ca;
@@ -34,8 +34,8 @@ void Ex71ElementaryCellularAutomataApp::update()
 
 void Ex71ElementaryCellularAutomataApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     ca->draw();
 }
 

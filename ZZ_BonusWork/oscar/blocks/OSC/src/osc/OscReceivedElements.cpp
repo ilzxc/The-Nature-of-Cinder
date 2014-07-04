@@ -1,31 +1,31 @@
 /*
-	oscpack -- Open Sound Control packet manipulation library
-	http://www.audiomulch.com/~rossb/oscpack
+    oscpack -- Open Sound Control packet manipulation library
+    http://www.audiomulch.com/~rossb/oscpack
 
-	Copyright (c) 2004-2005 Ross Bencina <rossb@audiomulch.com>
+    Copyright (c) 2004-2005 Ross Bencina <rossb@audiomulch.com>
 
-	Permission is hereby granted, free of charge, to any person obtaining
-	a copy of this software and associated documentation files
-	(the "Software"), to deal in the Software without restriction,
-	including without limitation the rights to use, copy, modify, merge,
-	publish, distribute, sublicense, and/or sell copies of the Software,
-	and to permit persons to whom the Software is furnished to do so,
-	subject to the following conditions:
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files
+    (the "Software"), to deal in the Software without restriction,
+    including without limitation the rights to use, copy, modify, merge,
+    publish, distribute, sublicense, and/or sell copies of the Software,
+    and to permit persons to whom the Software is furnished to do so,
+    subject to the following conditions:
 
-	The above copyright notice and this permission notice shall be
-	included in all copies or substantial portions of the Software.
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
 
-	Any person wishing to distribute modifications to the Software is
-	requested to send the modifications to the original developer so that
-	they can be incorporated into the canonical version.
+    Any person wishing to distribute modifications to the Software is
+    requested to send the modifications to the original developer so that
+    they can be incorporated into the canonical version.
 
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
-	ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
-	CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-	WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+    IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+    ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+    CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
 #include "OscReceivedElements.h"
 
@@ -42,8 +42,8 @@ namespace osc{
 // the string is terminated correctly.
 static inline const char* FindStr4End( const char *p )
 {
-	if( p[0] == '\0' )    // special case for SuperCollider integer address pattern
-		return p + 4;
+    if( p[0] == '\0' )    // special case for SuperCollider integer address pattern
+        return p + 4;
 
     p += 3;
 
@@ -61,8 +61,8 @@ static inline const char* FindStr4End( const char *p, const char *end )
     if( p >= end )
         return 0;
 
-	if( p[0] == '\0' )    // special case for SuperCollider integer address pattern
-		return p + 4;
+    if( p[0] == '\0' )    // special case for SuperCollider integer address pattern
+        return p + 4;
 
     p += 3;
     end -= 1;
@@ -102,7 +102,7 @@ static inline int32 ToInt32( const char *p )
 
     return u.i;
 #else
-	return *(int32*)p;
+    return *(int32*)p;
 #endif
 }
 
@@ -122,7 +122,7 @@ static inline uint32 ToUInt32( const char *p )
 
     return u.i;
 #else
-	return *(uint32*)p;
+    return *(uint32*)p;
 #endif
 }
 
@@ -146,7 +146,7 @@ int64 ToInt64( const char *p )
 
     return u.i;
 #else
-	return *(int64*)p;
+    return *(int64*)p;
 #endif
 }
 
@@ -170,7 +170,7 @@ uint64 ToUInt64( const char *p )
 
     return u.i;
 #else
-	return *(uint64*)p;
+    return *(uint64*)p;
 #endif
 }
 
@@ -200,12 +200,12 @@ bool ReceivedMessageArgument::AsBool() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == TRUE_TYPE_TAG )
-		return true;
-	else if( *typeTag_ == FALSE_TYPE_TAG )
-		return false;
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == TRUE_TYPE_TAG )
+        return true;
+    else if( *typeTag_ == FALSE_TYPE_TAG )
+        return false;
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -213,10 +213,10 @@ bool ReceivedMessageArgument::AsBoolUnchecked() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == TRUE_TYPE_TAG )
-		return true;
+    else if( *typeTag_ == TRUE_TYPE_TAG )
+        return true;
     else
-	    return false;
+        return false;
 }
 
 
@@ -224,10 +224,10 @@ int32 ReceivedMessageArgument::AsInt32() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == INT32_TYPE_TAG )
-		return AsInt32Unchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == INT32_TYPE_TAG )
+        return AsInt32Unchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -246,7 +246,7 @@ int32 ReceivedMessageArgument::AsInt32Unchecked() const
 
     return u.i;
 #else
-	return *(int32*)argument_;
+    return *(int32*)argument_;
 #endif
 }
 
@@ -255,10 +255,10 @@ float ReceivedMessageArgument::AsFloat() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == FLOAT_TYPE_TAG )
-		return AsFloatUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == FLOAT_TYPE_TAG )
+        return AsFloatUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -277,7 +277,7 @@ float ReceivedMessageArgument::AsFloatUnchecked() const
 
     return u.f;
 #else
-	return *(float*)argument_;
+    return *(float*)argument_;
 #endif
 }
 
@@ -286,10 +286,10 @@ char ReceivedMessageArgument::AsChar() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == CHAR_TYPE_TAG )
-		return AsCharUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == CHAR_TYPE_TAG )
+        return AsCharUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -303,16 +303,16 @@ uint32 ReceivedMessageArgument::AsRgbaColor() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == RGBA_COLOR_TYPE_TAG )
-		return AsRgbaColorUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == RGBA_COLOR_TYPE_TAG )
+        return AsRgbaColorUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
 uint32 ReceivedMessageArgument::AsRgbaColorUnchecked() const
 {
-	return ToUInt32( argument_ );
+    return ToUInt32( argument_ );
 }
 
 
@@ -320,16 +320,16 @@ uint32 ReceivedMessageArgument::AsMidiMessage() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == MIDI_MESSAGE_TYPE_TAG )
-		return AsMidiMessageUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == MIDI_MESSAGE_TYPE_TAG )
+        return AsMidiMessageUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
 uint32 ReceivedMessageArgument::AsMidiMessageUnchecked() const
 {
-	return ToUInt32( argument_ );
+    return ToUInt32( argument_ );
 }
 
 
@@ -337,10 +337,10 @@ int64 ReceivedMessageArgument::AsInt64() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == INT64_TYPE_TAG )
-		return AsInt64Unchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == INT64_TYPE_TAG )
+        return AsInt64Unchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -354,10 +354,10 @@ uint64 ReceivedMessageArgument::AsTimeTag() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == TIME_TAG_TYPE_TAG )
-		return AsTimeTagUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == TIME_TAG_TYPE_TAG )
+        return AsTimeTagUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -371,10 +371,10 @@ double ReceivedMessageArgument::AsDouble() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == DOUBLE_TYPE_TAG )
-		return AsDoubleUnchecked();
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == DOUBLE_TYPE_TAG )
+        return AsDoubleUnchecked();
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -397,7 +397,7 @@ double ReceivedMessageArgument::AsDoubleUnchecked() const
 
     return u.d;
 #else
-	return *(double*)argument_;
+    return *(double*)argument_;
 #endif
 }
 
@@ -406,10 +406,10 @@ const char* ReceivedMessageArgument::AsString() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == STRING_TYPE_TAG )
-		return argument_;
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == STRING_TYPE_TAG )
+        return argument_;
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -417,10 +417,10 @@ const char* ReceivedMessageArgument::AsSymbol() const
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == SYMBOL_TYPE_TAG )
-		return argument_;
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == SYMBOL_TYPE_TAG )
+        return argument_;
+    else
+        throw WrongArgumentTypeException();
 }
 
 
@@ -428,17 +428,17 @@ void ReceivedMessageArgument::AsBlob( const void*& data, unsigned long& size ) c
 {
     if( !typeTag_ )
         throw MissingArgumentException();
-	else if( *typeTag_ == BLOB_TYPE_TAG )
-		AsBlobUnchecked( data, size );
-	else
-		throw WrongArgumentTypeException();
+    else if( *typeTag_ == BLOB_TYPE_TAG )
+        AsBlobUnchecked( data, size );
+    else
+        throw WrongArgumentTypeException();
 }
 
 
 void ReceivedMessageArgument::AsBlobUnchecked( const void*& data, unsigned long& size ) const
 {
     size = ToUInt32( argument_ );
-	data = (void*)(argument_+4);
+    data = (void*)(argument_+4);
 }
 
 //------------------------------------------------------------------------------
@@ -463,7 +463,7 @@ void ReceivedMessageArgumentIterator::Advance()
             break;
 
         case INT32_TYPE_TAG:
-        case FLOAT_TYPE_TAG: 					
+        case FLOAT_TYPE_TAG:                    
         case CHAR_TYPE_TAG:
         case RGBA_COLOR_TYPE_TAG:
         case MIDI_MESSAGE_TYPE_TAG:
@@ -474,7 +474,7 @@ void ReceivedMessageArgumentIterator::Advance()
         case INT64_TYPE_TAG:
         case TIME_TAG_TYPE_TAG:
         case DOUBLE_TYPE_TAG:
-				
+                
             value_.argument_ += 8;
             break;
 
@@ -526,7 +526,7 @@ ReceivedMessage::ReceivedMessage( const ReceivedBundleElement& bundleElement )
 
 bool ReceivedMessage::AddressPatternIsUInt32() const
 {
-	return (addressPattern_[0] == '\0');
+    return (addressPattern_[0] == '\0');
 }
 
 

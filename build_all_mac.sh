@@ -194,34 +194,6 @@ xcrun xcodebuild -project Chapter07_CellularAutomata/Ex72GameOfLife/xcode/Ex72Ga
 mv Chapter07_CellularAutomata/Ex72GameOfLife/xcode/build/Release/Ex72GameOfLife.app ./build/Ex72GameOfLife.app
 rm -r Chapter07_CellularAutomata/Ex72GameOfLife/xcode/build*
 
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex73Var01NonRectangularGrids/xcode/Ex73Var01NonRectangularGrids.xcodeproj -target Ex73Var01NonRectangularGrids -configuration Release $@
-mv Chapter07_CellularAutomata/Ex73Var01NonRectangularGrids/xcode/build/Release/Ex73Var01NonRectangularGrids.app ./build/Ex73Var01NonRectangularGrids.app
-rm -r Chapter07_CellularAutomata/Ex73Var01NonRectangularGrids/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex74Var02ProbabilisticCA/xcode/Ex74Var02ProbabilisticCA.xcodeproj -target Ex74Var02ProbabilisticCA -configuration Release $@
-mv Chapter07_CellularAutomata/Ex74Var02ProbabilisticCA/xcode/build/Release/Ex74Var02ProbabilisticCA.app ./build/Ex74Var02ProbabilisticCA.app
-rm -r Chapter07_CellularAutomata/Ex74Var02ProbabilisticCA/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex75Var03ContinuousCA/xcode/Ex75Var03ContinuousCA.xcodeproj -target Ex75Var03ContinuousCA -configuration Release $@
-mv Chapter07_CellularAutomata/Ex75Var03ContinuousCA/xcode/build/Release/Ex75Var03ContinuousCA.app ./build/Ex75Var03ContinuousCA.app
-rm -r Chapter07_CellularAutomata/Ex75Var03ContinuousCA/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex76Var04ImageProcessing/xcode/Ex76Var04ImageProcessing.xcodeproj -target Ex76Var04ImageProcessing -configuration Release $@
-mv Chapter07_CellularAutomata/Ex76Var04ImageProcessing/xcode/build/Release/Ex76Var04ImageProcessing.app ./build/Ex76Var04ImageProcessing.app
-rm -r Chapter07_CellularAutomata/Ex76Var04ImageProcessing/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex77Var05HistoricalCA/xcode/Ex77Var05HistoricalCA.xcodeproj -target Ex77Var05HistoricalCA -configuration Release $@
-mv Chapter07_CellularAutomata/Ex77Var05HistoricalCA/xcode/build/Release/Ex77Var05HistoricalCA.app ./build/Ex77Var05HistoricalCA.app
-rm -r Chapter07_CellularAutomata/Ex77Var05HistoricalCA/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex78Var06MovingCells/xcode/Ex78Var06MovingCells.xcodeproj -target Ex78Var06MovingCells -configuration Release $@
-mv Chapter07_CellularAutomata/Ex78Var06MovingCells/xcode/build/Release/Ex78Var06MovingCells.app ./build/Ex78Var06MovingCells.app
-rm -r Chapter07_CellularAutomata/Ex78Var06MovingCells/xcode/build*
-
-xcrun xcodebuild -project Chapter07_CellularAutomata/Ex79Var07Nesting/xcode/Ex79Var07Nesting.xcodeproj -target Ex79Var07Nesting -configuration Release $@
-mv Chapter07_CellularAutomata/Ex79Var07Nesting/xcode/build/Release/Ex79Var07Nesting.app ./build/Ex79Var07Nesting.app
-rm -r Chapter07_CellularAutomata/Ex79Var07Nesting/xcode/build*
-
 
 
 xcrun xcodebuild -project Chapter08_Fractals/Ex81RecursiveCircles/xcode/Ex81RecursiveCircles.xcodeproj -target Ex81RecursiveCircles -configuration Release $@

@@ -11,9 +11,9 @@ using namespace std;
 
 class Ex46TexturedParticlesApp : public AppNative {
   public:
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
     gl::Texture image;
     float windDirection, windSpeed;
@@ -52,7 +52,7 @@ void Ex46TexturedParticlesApp::update()
 
 void Ex46TexturedParticlesApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for( auto& p : particles ) {
         p->draw();
     }

@@ -8,11 +8,11 @@ using namespace std;
 
 class Ex67FlockingApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
-	void mouseUp( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event );
+    void mouseUp( MouseEvent event );
+    void update();
+    void draw();
     
   private:
     vector< unique_ptr< Boid > > flock;
@@ -47,7 +47,7 @@ void Ex67FlockingApp::update()
 
 void Ex67FlockingApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     for ( const auto& boid : flock ) {
         boid->draw();
     }

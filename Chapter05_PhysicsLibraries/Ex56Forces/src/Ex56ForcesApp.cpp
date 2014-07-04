@@ -11,13 +11,13 @@ using namespace std;
 
 class Ex56ForcesApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
     void mouseMove( MouseEvent event );
     void mouseDrag( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     void shutdown();
     
     b2World *world;
@@ -69,7 +69,7 @@ void Ex56ForcesApp::update() {
 }
 
 void Ex56ForcesApp::draw() {
-	gl::clear( Color( 0, 0, 0 ) );
+    gl::clear( Color( 0, 0, 0 ) );
     
     attractor.draw();
     

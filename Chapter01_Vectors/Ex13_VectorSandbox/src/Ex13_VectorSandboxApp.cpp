@@ -8,12 +8,12 @@ using namespace std;
 
 class Ex13_VectorSandboxApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
-	void mouseMove( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
+    void mouseMove( MouseEvent event );
     void mouseDrag( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     VecToCenter centre;
     Vec2f mouse;
@@ -49,7 +49,7 @@ void Ex13_VectorSandboxApp::update()
 
 void Ex13_VectorSandboxApp::draw()
 {
-	gl::clear( Color{ 0.0f, 0.0f, 0.0f } );
+    gl::clear( Color{ 0.0f, 0.0f, 0.0f } );
     centre.draw();
 }
 

@@ -13,7 +13,7 @@ class Ex86LSystemApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
     void setup();
-    void mouseDown( MouseEvent event );	
+    void mouseDown( MouseEvent event ); 
     void draw();
     void redraw();
     
@@ -66,7 +66,7 @@ void Ex86LSystemApp::draw()
 
 void Ex86LSystemApp::redraw()
 {
-	gl::clear( Color( 1.f, 1.f, 1.f ) );
+    gl::clear( Color( 1.f, 1.f, 1.f ) );
     gl::pushMatrices();
     gl::translate( Vec2f( getWindowCenter().x, 0.f ) );
     gl::rotate( 90.f );

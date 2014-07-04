@@ -9,7 +9,7 @@ class Ex84TreeApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
     void mouseMove( MouseEvent event );
-	void draw();
+    void draw();
     
   private:
     float theta;
@@ -29,7 +29,7 @@ void Ex84TreeApp::mouseMove( MouseEvent event )
 
 void Ex84TreeApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     gl::color( 0.f, 0.f, 0.f );
     gl::pushMatrices();
     gl::translate( app::getWindowCenter().x, app::getWindowHeight() );

@@ -11,11 +11,11 @@ using namespace std;
 
 class iOSTestApp : public AppNative {
   public:
-	void setup();
+    void setup();
     void touchesBegan( TouchEvent event );
-	void touchesMoved( TouchEvent event );
-	void update();
-	void draw();
+    void touchesMoved( TouchEvent event );
+    void update();
+    void draw();
     
     ParticleSystem ps;
     Repeller repeller;
@@ -34,7 +34,7 @@ void iOSTestApp::touchesBegan( TouchEvent event ) {
     Vec2f position = Vec2f::zero();
     int counter = event.getTouches().size();
     for( vector<TouchEvent::Touch>::const_iterator touchIt = event.getTouches().begin(); touchIt != event.getTouches().end(); ++touchIt ) {
-		position += touchIt->getPos();
+        position += touchIt->getPos();
     }
     repeller.setLocation( position / counter );
 }
@@ -43,7 +43,7 @@ void iOSTestApp::touchesMoved( TouchEvent event ) {
     Vec2f position = Vec2f::zero();
     int counter = event.getTouches().size();
     for( vector<TouchEvent::Touch>::const_iterator touchIt = event.getTouches().begin(); touchIt != event.getTouches().end(); ++touchIt ) {
-		position += touchIt->getPos();
+        position += touchIt->getPos();
     }
     repeller.setLocation( position / counter );
 }
@@ -54,8 +54,8 @@ void iOSTestApp::update() {
 
 void iOSTestApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 1, 1, 1 ) );
+    // clear out the window with black
+    gl::clear( Color( 1, 1, 1 ) );
     repeller.draw();
     ps.draw();
 }

@@ -12,13 +12,13 @@ using namespace std;
 class Ex25GravitationalAttractorsApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
+    void setup();
     void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
     void mouseMove( MouseEvent event );
-	void mouseDrag( MouseEvent event );
-	void update();
-	void draw();
+    void mouseDrag( MouseEvent event );
+    void update();
+    void draw();
     
   private:
     vector< Mover > movers;
@@ -72,7 +72,7 @@ void Ex25GravitationalAttractorsApp::update()
 
 void Ex25GravitationalAttractorsApp::draw()
 {
-	gl::clear( Color{ 0.f, 0.f, 0.f } );
+    gl::clear( Color{ 0.f, 0.f, 0.f } );
     attractor->draw();
     for ( auto& mover : movers ) {
         mover.draw();

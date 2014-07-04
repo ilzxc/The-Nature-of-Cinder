@@ -9,10 +9,10 @@ using namespace std;
 
 class UnderstandingImagesApp : public AppNative {
   public:
-	void setup();
-	void mouseUp( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseUp( MouseEvent event );
+    void update();
+    void draw();
     
     Surface spriteSheetSurface;
     gl::Texture spriteSheetTexture;
@@ -51,8 +51,8 @@ void UnderstandingImagesApp::update()
 
 void UnderstandingImagesApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 2; j++) {
             gl::pushMatrices();

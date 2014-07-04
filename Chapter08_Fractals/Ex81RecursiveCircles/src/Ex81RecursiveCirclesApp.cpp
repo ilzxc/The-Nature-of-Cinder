@@ -7,9 +7,9 @@ using namespace std;
 
 class Ex81RecursiveCirclesApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
- 	void draw();
+    void setup();
+    void mouseDown( MouseEvent event );
+    void draw();
     
   private:
     short mode;

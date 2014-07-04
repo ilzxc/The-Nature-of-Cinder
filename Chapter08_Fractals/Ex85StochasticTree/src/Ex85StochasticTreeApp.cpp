@@ -10,10 +10,10 @@ using namespace std;
 class Ex85StochasticTreeApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
   private:
     float yoff;
@@ -49,7 +49,7 @@ void Ex85StochasticTreeApp::update()
 
 void Ex85StochasticTreeApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     gl::pushMatrices();
     gl::translate( Vec2f( getWindowCenter().x, app::getWindowHeight() ) );
     branch( 60, 0 );

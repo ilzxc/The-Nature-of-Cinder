@@ -9,9 +9,9 @@ using namespace std;
 class Ex21WindApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
   private:
     Mover ball;
@@ -39,7 +39,7 @@ void Ex21WindApp::update()
 
 void Ex21WindApp::draw()
 {
-	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
+    gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     ball.draw();
 }
 

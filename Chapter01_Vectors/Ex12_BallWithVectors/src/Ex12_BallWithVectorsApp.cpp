@@ -8,9 +8,9 @@ using namespace std;
 
 class Ex12_BallWithVectorsApp : public AppNative {
   public:
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
     Ball ball{ Vec2f( 200.0f, 200.0f ) }; // initialization during declaration with { }
     std::unique_ptr< Ball > smartBall;
@@ -29,7 +29,7 @@ void Ex12_BallWithVectorsApp::update()
 
 void Ex12_BallWithVectorsApp::draw()
 {
-	gl::clear( Color{ 0.222f, 0.222f, 0.222f } );
+    gl::clear( Color{ 0.222f, 0.222f, 0.222f } );
     ball.draw();
     smartBall->draw();
 }

@@ -10,11 +10,11 @@ using namespace std;
 class NessBox2DApp : public AppNative {
   public:
     void prepareSettings(Settings *Settings);
-	void setup();
+    void setup();
     void keyDown(KeyEvent event);
     void keyUp(KeyEvent event);
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     Character ness;
     NPC jeff;
@@ -86,8 +86,8 @@ void NessBox2DApp::update()
 
 void NessBox2DApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0.2, 0.2, 0.2 ) );
+    // clear out the window with black
+    gl::clear( Color( 0.2, 0.2, 0.2 ) );
     if( ness.getY() < jeff.getY() ) {
         ness.draw();
         jeff.draw();

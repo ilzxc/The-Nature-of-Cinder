@@ -9,10 +9,10 @@ using namespace std;
 
 class Ex43ParticleSystemsApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     Rand seed;
     std::vector< ParticleSystem > pss;
@@ -41,7 +41,7 @@ void Ex43ParticleSystemsApp::update()
 
 void Ex43ParticleSystemsApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( auto& system : pss ) {
         system.draw();
     }

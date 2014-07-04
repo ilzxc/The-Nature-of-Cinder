@@ -11,9 +11,9 @@ using namespace std;
 class Ex22GravityApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
   private:
     vector< Mover > movers;
@@ -48,7 +48,7 @@ void Ex22GravityApp::update()
 
 void Ex22GravityApp::draw()
 {
-	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
+    gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     
     for ( auto& mover : movers ) {
         mover.draw();

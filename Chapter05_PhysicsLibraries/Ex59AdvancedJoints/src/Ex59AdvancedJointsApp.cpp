@@ -10,12 +10,12 @@ using namespace std;
 
 class Ex59AdvancedJointsApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
     void mouseDrag( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     void shutdown();
     
     b2World *world;
@@ -58,7 +58,7 @@ void Ex59AdvancedJointsApp::update() {
 }
 
 void Ex59AdvancedJointsApp::draw() {
-	gl::clear( Color( 0.666, 0.666, 0.666 ) );
+    gl::clear( Color( 0.666, 0.666, 0.666 ) );
     arm->draw();
     floor->draw();
 }

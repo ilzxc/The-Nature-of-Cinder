@@ -11,9 +11,9 @@ using namespace std;
 class Ex103NetworkApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
   private:
     unique_ptr< Network > network;
@@ -63,7 +63,7 @@ void Ex103NetworkApp::update()
 
 void Ex103NetworkApp::draw()
 {
-	gl::clear( Color( 1.f, 1.f, 1.f ) );
+    gl::clear( Color( 1.f, 1.f, 1.f ) );
     network->draw();
 }
 

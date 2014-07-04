@@ -11,10 +11,10 @@ using namespace std;
 
 class Ex57CollisionsApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     void shutdown();
     
     b2World *world;
@@ -67,7 +67,7 @@ void Ex57CollisionsApp::update() {
 
 void Ex57CollisionsApp::draw()
 {
-	gl::clear( Color( 0.789f, 0.789f, 0.789f ) );
+    gl::clear( Color( 0.789f, 0.789f, 0.789f ) );
     floor.draw();
     for ( auto& p : particles ) {
         p->draw();

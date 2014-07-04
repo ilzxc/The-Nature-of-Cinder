@@ -9,9 +9,9 @@ using namespace std;
 
 class Ex42ParticleVectorApp : public AppNative {
   public:
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
     std::vector< Particle > particles;
     Rand random;
@@ -39,7 +39,7 @@ void Ex42ParticleVectorApp::update()
 
 void Ex42ParticleVectorApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( auto& particle : particles ) {
         particle.draw();
     }

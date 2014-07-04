@@ -8,8 +8,8 @@ using namespace std;
 class Ex82CantorLinesApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void draw();
+    void setup();
+    void draw();
     
 private:
     void drawLines( const Vec2f& p1, const Vec2f& p2 );
@@ -27,7 +27,7 @@ void Ex82CantorLinesApp::setup()
 
 void Ex82CantorLinesApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     drawLines( Vec2f{ 100, 200 }, Vec2f{ 700, 200 } );
 }
 

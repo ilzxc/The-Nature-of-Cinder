@@ -12,11 +12,11 @@ using namespace std;
 
 class Ex55JointsApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void keyDown( KeyEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     void shutdown();
     
     b2World *world;
@@ -85,7 +85,7 @@ void Ex55JointsApp::update() {
 
 void Ex55JointsApp::draw()
 {
-	gl::clear( Color( 0.944f, 0.944f, 0.944f ) );
+    gl::clear( Color( 0.944f, 0.944f, 0.944f ) );
     for ( auto& b : boundaries ) {
         b.draw();
     }

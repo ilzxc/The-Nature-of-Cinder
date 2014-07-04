@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex61SelfSteeringVehicleApp : public AppNative {
   public:
-	void setup();
-	void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseMove( MouseEvent event );
+    void update();
+    void draw();
     
     unique_ptr< Vehicle > vehicle;
     Vec2f mouse;
@@ -37,8 +37,8 @@ void Ex61SelfSteeringVehicleApp::update()
 
 void Ex61SelfSteeringVehicleApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color{ 0.9f, 0.9f, 0.9f } );
+    // clear out the window with black
+    gl::clear( Color{ 0.9f, 0.9f, 0.9f } );
     
     gl::color( 0.444f, 0.444f, 0.444f );
     gl::drawSolidCircle( mouse, mouseRadius );

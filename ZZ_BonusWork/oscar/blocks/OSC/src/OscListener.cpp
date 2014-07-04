@@ -39,178 +39,178 @@
 using namespace std;
 
 namespace cinder { namespace osc {
-	
-class OscListener : public ::osc::OscPacketListener {	
+    
+class OscListener : public ::osc::OscPacketListener {   
   public:
-	OscListener();
-	~OscListener();
-	
-	void setup(int listen_port);
-	
-	bool hasWaitingMessages() const;
-	bool getNextMessage( Message * );
+    OscListener();
+    ~OscListener();
+    
+    void setup(int listen_port);
+    
+    bool hasWaitingMessages() const;
+    bool getNextMessage( Message * );
 
-	CallbackId	registerMessageReceived( std::function<void (const osc::Message*)> callback );
-	void		unregisterMessageReceived( CallbackId id );
-	
-	void shutdown();
-	
+    CallbackId  registerMessageReceived( std::function<void (const osc::Message*)> callback );
+    void        unregisterMessageReceived( CallbackId id );
+    
+    void shutdown();
+    
   protected:
-	virtual void ProcessMessage( const ::osc::ReceivedMessage &m, const IpEndpointName& remoteEndpoint );
-	
+    virtual void ProcessMessage( const ::osc::ReceivedMessage &m, const IpEndpointName& remoteEndpoint );
+    
   private:
-	void threadSocket();
-	
-	deque<Message*> mMessages;
-	
-	UdpListeningReceiveSocket* mListen_socket;
-	
-	mutable std::mutex mMutex;
-	std::shared_ptr<std::thread> mThread;
-	
-	CallbackMgr<void (const Message*)>	mMessageReceivedCbs;
-	bool mSocketHasShutdown;
+    void threadSocket();
+    
+    deque<Message*> mMessages;
+    
+    UdpListeningReceiveSocket* mListen_socket;
+    
+    mutable std::mutex mMutex;
+    std::shared_ptr<std::thread> mThread;
+    
+    CallbackMgr<void (const Message*)>  mMessageReceivedCbs;
+    bool mSocketHasShutdown;
 };
 
 OscListener::OscListener()
 {
-	mListen_socket = NULL;
+    mListen_socket = NULL;
 }
 
 void OscListener::setup(int listen_port)
 {
-	if (mListen_socket) {
-		shutdown();
-	}
-	
-	mSocketHasShutdown = false;
-	
-	mListen_socket = new UdpListeningReceiveSocket(IpEndpointName(IpEndpointName::ANY_ADDRESS, listen_port), this);
+    if (mListen_socket) {
+        shutdown();
+    }
+    
+    mSocketHasShutdown = false;
+    
+    mListen_socket = new UdpListeningReceiveSocket(IpEndpointName(IpEndpointName::ANY_ADDRESS, listen_port), this);
 
-	mThread = std::shared_ptr<std::thread>( new std::thread( &OscListener::threadSocket, this ) );
+    mThread = std::shared_ptr<std::thread>( new std::thread( &OscListener::threadSocket, this ) );
 }
 
 void OscListener::shutdown() {
-	if (mListen_socket) {
-		mListen_socket->AsynchronousBreak();
-		
-		while( ! mSocketHasShutdown ) {
-			ci::sleep( 1 );
-		}
-		
-		mThread->join();
-		
-		delete mListen_socket;
-		mListen_socket = NULL;
-	}
+    if (mListen_socket) {
+        mListen_socket->AsynchronousBreak();
+        
+        while( ! mSocketHasShutdown ) {
+            ci::sleep( 1 );
+        }
+        
+        mThread->join();
+        
+        delete mListen_socket;
+        mListen_socket = NULL;
+    }
 }
 
 OscListener::~OscListener() {
-	shutdown();
+    shutdown();
 }
 
 void OscListener::threadSocket() {
-	
-	mListen_socket->Run();
-	mSocketHasShutdown = true;
-	
+    
+    mListen_socket->Run();
+    mSocketHasShutdown = true;
+    
 }
 
 void OscListener::ProcessMessage( const ::osc::ReceivedMessage &m, const IpEndpointName& remoteEndpoint ) {
-	Message* message = new Message();
-	
-	message->setAddress(m.AddressPattern());
-	
-	char endpoint_host[IpEndpointName::ADDRESS_STRING_LENGTH];
-	remoteEndpoint.AddressAsString(endpoint_host);
-	message->setRemoteEndpoint(endpoint_host, remoteEndpoint.port);
-	
-	for (::osc::ReceivedMessage::const_iterator arg = m.ArgumentsBegin(); arg != m.ArgumentsEnd(); ++arg){
-		if (arg->IsInt32())
-			message->addIntArg( arg->AsInt32Unchecked());
-		else if (arg->IsFloat())
-			message->addFloatArg(arg->AsFloatUnchecked());
-		else if (arg->IsString())
-			message->addStringArg(arg->AsStringUnchecked());
-		else {
-			assert(false && "message argument type unknown");
-		}
-	}
-	
-	lock_guard<mutex> lock(mMutex);
-	
-	if( mMessageReceivedCbs.empty() ){
-		mMessages.push_back( message );
-	}else{
-		mMessageReceivedCbs.call( message );
-		delete message;
-	}
+    Message* message = new Message();
+    
+    message->setAddress(m.AddressPattern());
+    
+    char endpoint_host[IpEndpointName::ADDRESS_STRING_LENGTH];
+    remoteEndpoint.AddressAsString(endpoint_host);
+    message->setRemoteEndpoint(endpoint_host, remoteEndpoint.port);
+    
+    for (::osc::ReceivedMessage::const_iterator arg = m.ArgumentsBegin(); arg != m.ArgumentsEnd(); ++arg){
+        if (arg->IsInt32())
+            message->addIntArg( arg->AsInt32Unchecked());
+        else if (arg->IsFloat())
+            message->addFloatArg(arg->AsFloatUnchecked());
+        else if (arg->IsString())
+            message->addStringArg(arg->AsStringUnchecked());
+        else {
+            assert(false && "message argument type unknown");
+        }
+    }
+    
+    lock_guard<mutex> lock(mMutex);
+    
+    if( mMessageReceivedCbs.empty() ){
+        mMessages.push_back( message );
+    }else{
+        mMessageReceivedCbs.call( message );
+        delete message;
+    }
 }
 
 bool OscListener::hasWaitingMessages() const
 {
-	std::lock_guard<mutex> lock( mMutex );
-	return ! mMessages.empty();
+    std::lock_guard<mutex> lock( mMutex );
+    return ! mMessages.empty();
 }
 
 bool OscListener::getNextMessage( Message* message )
 {
-	lock_guard<mutex> lock( mMutex );
-	
-	if( mMessages.empty() )
-		return false;
-	
-	Message* src_message = mMessages.front();
-	message->copy( *src_message );
-	
-	delete src_message;	
-	mMessages.pop_front();
-	
-	return true;
+    lock_guard<mutex> lock( mMutex );
+    
+    if( mMessages.empty() )
+        return false;
+    
+    Message* src_message = mMessages.front();
+    message->copy( *src_message );
+    
+    delete src_message; 
+    mMessages.pop_front();
+    
+    return true;
 }
 
 CallbackId OscListener::registerMessageReceived( std::function<void (const osc::Message*)> callback )
 {
-	lock_guard<mutex> lock( mMutex );
-	return mMessageReceivedCbs.registerCb( callback );
+    lock_guard<mutex> lock( mMutex );
+    return mMessageReceivedCbs.registerCb( callback );
 }
 
 void OscListener::unregisterMessageReceived( CallbackId id )
 {
-	lock_guard<mutex> lock(mMutex);
-	return mMessageReceivedCbs.unregisterCb( id );
+    lock_guard<mutex> lock(mMutex);
+    return mMessageReceivedCbs.unregisterCb( id );
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Listener
 Listener::Listener() {
-	oscListener = std::shared_ptr<OscListener>( new OscListener );
+    oscListener = std::shared_ptr<OscListener>( new OscListener );
 }
 
 void Listener::setup(int listen_port){
-	oscListener->setup(listen_port);
+    oscListener->setup(listen_port);
 }
 
 void Listener::shutdown(){
-	oscListener->shutdown();
+    oscListener->shutdown();
 }
 
 bool Listener::hasWaitingMessages() const {
-	return oscListener->hasWaitingMessages();
+    return oscListener->hasWaitingMessages();
 }
 
 bool Listener::getNextMessage(Message* message) {
-	return oscListener->getNextMessage(message);
+    return oscListener->getNextMessage(message);
 }
 
 CallbackId Listener::registerMessageReceived( std::function<void (const osc::Message*)> callback )
 {
-	return oscListener->registerMessageReceived( callback );
+    return oscListener->registerMessageReceived( callback );
 }
 
 void Listener::unregisterMessageReceived( CallbackId id )
 {
-	return oscListener->unregisterMessageReceived( id );
+    return oscListener->unregisterMessageReceived( id );
 }
-	
+    
 } } // namespace cinder::osc

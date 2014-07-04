@@ -9,10 +9,10 @@ using namespace std;
 class Ex16_VectorAccelMouseApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseMove( MouseEvent event );
+    void update();
+    void draw();
     
     Mover ball;
     Vec2f mousePosition;
@@ -40,7 +40,7 @@ void Ex16_VectorAccelMouseApp::update()
 
 void Ex16_VectorAccelMouseApp::draw()
 {
-	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
+    gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     ball.draw();
 }
 

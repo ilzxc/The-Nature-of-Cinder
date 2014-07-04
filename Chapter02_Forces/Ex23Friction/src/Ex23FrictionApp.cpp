@@ -11,9 +11,9 @@ using namespace std;
 class Ex23FrictionApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
   private:
     vector< Mover > movers;
@@ -65,7 +65,7 @@ void Ex23FrictionApp::update()
 
 void Ex23FrictionApp::draw()
 {
-	gl::clear( Color{ 0.f, 0.f, 0.f } );
+    gl::clear( Color{ 0.f, 0.f, 0.f } );
     
     for ( auto& mover : movers ) {
         mover.draw();

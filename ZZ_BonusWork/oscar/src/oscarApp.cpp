@@ -11,11 +11,11 @@ using namespace std;
 
 class oscarApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     OSCInterface oscar;
     square mySquare;
@@ -49,8 +49,8 @@ void oscarApp::update()
 
 void oscarApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     mySquare.draw();
 }
 

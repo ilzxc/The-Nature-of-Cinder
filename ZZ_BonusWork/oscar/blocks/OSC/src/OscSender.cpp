@@ -33,124 +33,124 @@
 
 #include <assert.h>
 namespace cinder { namespace osc {
-	
-	class OscSender  {
-	public:
-		OscSender();
-		~OscSender();
-		
-		void setup( std::string hostname, int port, bool multicast );
-		
-		void sendMessage( const Message &message );
-		void sendBundle( const Bundle &bundle );
-		
-		void shutdown();
-	private:
-		
-		void appendBundle( const Bundle &bundle, ::osc::OutboundPacketStream &p );
-		void appendMessage( const Message &message, ::osc::OutboundPacketStream &p );
-		
-		UdpTransmitSocket* socket;
-		
-	};
-	
-	
+    
+    class OscSender  {
+    public:
+        OscSender();
+        ~OscSender();
+        
+        void setup( std::string hostname, int port, bool multicast );
+        
+        void sendMessage( const Message &message );
+        void sendBundle( const Bundle &bundle );
+        
+        void shutdown();
+    private:
+        
+        void appendBundle( const Bundle &bundle, ::osc::OutboundPacketStream &p );
+        void appendMessage( const Message &message, ::osc::OutboundPacketStream &p );
+        
+        UdpTransmitSocket* socket;
+        
+    };
+    
+    
 
 OscSender::OscSender(){
-	socket = NULL;
+    socket = NULL;
 }
 
 OscSender::~OscSender(){
-	if (socket)
-		shutdown();
+    if (socket)
+        shutdown();
 }
 
 void OscSender::setup( std::string hostname, int port, bool multicast )
 {
-	if( socket )
-		shutdown();
-	socket = new UdpTransmitSocket( IpEndpointName(hostname.c_str(), port), multicast );
+    if( socket )
+        shutdown();
+    socket = new UdpTransmitSocket( IpEndpointName(hostname.c_str(), port), multicast );
 }
 
 void OscSender::shutdown(){
-	if (socket)
-		delete socket;
-	socket = NULL;
+    if (socket)
+        delete socket;
+    socket = NULL;
 }
 
 void OscSender::sendBundle( const Bundle &bundle ){
-	static const int OUTPUT_BUFFER_SIZE = 32768;
-	char buffer[OUTPUT_BUFFER_SIZE];
-	
-	::osc::OutboundPacketStream p(buffer, OUTPUT_BUFFER_SIZE);
-	
-	appendBundle( bundle, p );
-	
-	socket->Send(p.Data(), p.Size());
+    static const int OUTPUT_BUFFER_SIZE = 32768;
+    char buffer[OUTPUT_BUFFER_SIZE];
+    
+    ::osc::OutboundPacketStream p(buffer, OUTPUT_BUFFER_SIZE);
+    
+    appendBundle( bundle, p );
+    
+    socket->Send(p.Data(), p.Size());
 }
 
 void OscSender::sendMessage( const Message &message )
 {
-	static const int OUTPUT_BUFFER_SIZE = 16384;
-	char buffer[OUTPUT_BUFFER_SIZE];
-	::osc::OutboundPacketStream p(buffer, OUTPUT_BUFFER_SIZE);
-	
-	p << ::osc::BeginBundleImmediate;
-	appendMessage(message, p);
-	p << ::osc::EndBundle;
-	
-	socket->Send(p.Data(), p.Size());
+    static const int OUTPUT_BUFFER_SIZE = 16384;
+    char buffer[OUTPUT_BUFFER_SIZE];
+    ::osc::OutboundPacketStream p(buffer, OUTPUT_BUFFER_SIZE);
+    
+    p << ::osc::BeginBundleImmediate;
+    appendMessage(message, p);
+    p << ::osc::EndBundle;
+    
+    socket->Send(p.Data(), p.Size());
 }
 
 void OscSender::appendBundle( const Bundle &bundle, ::osc::OutboundPacketStream& p )
 {
-	p << ::osc::BeginBundleImmediate;
-	for( int i = 0; i < bundle.getBundleCount(); i++ ) {
-		appendBundle( bundle.getBundleAt(i), p );
-	}
-	
-	for( int i = 0; i < bundle.getMessageCount(); i++) {
-		appendMessage( bundle.getMessageAt(i), p );
-	}
-	p << ::osc::EndBundle;
+    p << ::osc::BeginBundleImmediate;
+    for( int i = 0; i < bundle.getBundleCount(); i++ ) {
+        appendBundle( bundle.getBundleAt(i), p );
+    }
+    
+    for( int i = 0; i < bundle.getMessageCount(); i++) {
+        appendMessage( bundle.getMessageAt(i), p );
+    }
+    p << ::osc::EndBundle;
 }
 
 void OscSender::appendMessage( const Message& message, ::osc::OutboundPacketStream& p ){
-	p << ::osc::BeginMessage( message.getAddress().c_str() );
-	for (int i = 0; i < message.getNumArgs(); ++i) {
-		if (message.getArgType(i) == TYPE_INT32){
-			p << message.getArgAsInt32(i);
-		}else if (message.getArgType(i) == TYPE_FLOAT){
-			p << message.getArgAsFloat(i);
-		}else if (message.getArgType(i) == TYPE_STRING){
-			p << message.getArgAsString(i).c_str();
-		}else {
-			throw OscExcInvalidArgumentType();
-		}
-	}
-	p << ::osc::EndMessage;
+    p << ::osc::BeginMessage( message.getAddress().c_str() );
+    for (int i = 0; i < message.getNumArgs(); ++i) {
+        if (message.getArgType(i) == TYPE_INT32){
+            p << message.getArgAsInt32(i);
+        }else if (message.getArgType(i) == TYPE_FLOAT){
+            p << message.getArgAsFloat(i);
+        }else if (message.getArgType(i) == TYPE_STRING){
+            p << message.getArgAsString(i).c_str();
+        }else {
+            throw OscExcInvalidArgumentType();
+        }
+    }
+    p << ::osc::EndMessage;
 }
-	
-	
+    
+    
 Sender::Sender()
 {
-	oscSender = std::shared_ptr<OscSender>( new OscSender );
+    oscSender = std::shared_ptr<OscSender>( new OscSender );
 }
 
 void Sender::setup( std::string hostname, int port, bool multicast )
 {
-	oscSender->setup( hostname, port, multicast );
+    oscSender->setup( hostname, port, multicast );
 }
 
 void Sender::sendMessage( const Message& message )
 {
-	oscSender->sendMessage(message);
+    oscSender->sendMessage(message);
 }
 
 void Sender::sendBundle( const Bundle& bundle )
 {
-	oscSender->sendBundle( bundle );
+    oscSender->sendBundle( bundle );
 }
-	
+    
 }// namespace cinder
 }// namespace osc

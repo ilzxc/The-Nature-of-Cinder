@@ -11,11 +11,11 @@ using namespace std;
 
 class Ex44ParticlePolymorphismApp : public AppNative {
   public:
-	void setup();
+    void setup();
     void keyDown( KeyEvent event );
     void keyUp( KeyEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     Rand random;
     std::vector< std::unique_ptr < Particle > > everything;
@@ -62,7 +62,7 @@ void Ex44ParticlePolymorphismApp::update()
 
 void Ex44ParticlePolymorphismApp::draw()
 {
-	gl::clear( Color( 0.96f, 0.96f, 0.96f ) );
+    gl::clear( Color( 0.96f, 0.96f, 0.96f ) );
     for ( auto& e : everything ) {
         e->draw();
     }

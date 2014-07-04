@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex62WanderingVehicleApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     unique_ptr< Vehicle > vehicle;
 };
@@ -33,7 +33,7 @@ void Ex62WanderingVehicleApp::update()
 
 void Ex62WanderingVehicleApp::draw()
 {
-	gl::clear( Color{ 0.88f, 0.88f, 0.88f } );
+    gl::clear( Color{ 0.88f, 0.88f, 0.88f } );
     vehicle->draw();
 }
 

@@ -7,10 +7,10 @@ using namespace std;
 
 class SpinningBatonApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     float angle = 0;
     int distance = 50;
@@ -32,8 +32,8 @@ void SpinningBatonApp::update()
 
 void SpinningBatonApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     gl::pushMatrices();
     gl::translate( getWindowCenter() );
     gl::rotate(angle);

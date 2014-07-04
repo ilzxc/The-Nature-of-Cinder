@@ -10,11 +10,11 @@ using namespace std;
 class Ex35WavesApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent e );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     vector< Wave > waves;
 };
@@ -56,7 +56,7 @@ void Ex35WavesApp::update()
 
 void Ex35WavesApp::draw()
 {
-	gl::clear( Color( 0.222f, 0.222f, 0.222f ) );
+    gl::clear( Color( 0.222f, 0.222f, 0.222f ) );
     for ( auto& wave : waves ) {
         wave.draw();
     }

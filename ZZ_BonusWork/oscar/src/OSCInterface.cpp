@@ -28,7 +28,7 @@ void OSCInterface::update()
 {
     while( listener.hasWaitingMessages() ) {
         cinder::osc::Message message;
-		listener.getNextMessage( &message );
+        listener.getNextMessage( &message );
         
         std::vector< std::string > addressVector;
 
@@ -43,43 +43,43 @@ void OSCInterface::update()
         }
         
         /*
-		cinder::app::console() << "New message received" << std::endl;
-		cinder::app::console() << "Address: " << message.getAddress() << std::endl;
-		cinder::app::console() << "Num Arg: " << message.getNumArgs() << std::endl;
-		for (int i = 0; i < message.getNumArgs(); i++) {
-			cinder::app::console() << "-- Argument " << i << std::endl;
-			cinder::app::console() << "---- type: " << message.getArgTypeName(i) << std::endl;
-			if( message.getArgType(i) == cinder::osc::TYPE_INT32 ) {
-				try {
-					cinder::app::console() << "------ value: " << message.getArgAsInt32(i) << std::endl;
-				}
-				catch (...) {
-					cinder::app::console() << "Exception reading argument as int32" << std::endl;
-				}
-			}
-			else if( message.getArgType(i) == cinder::osc::TYPE_FLOAT ) {
-				try {
-					cinder::app::console() << "------ value: " << message.getArgAsFloat(i) << std::endl;
-				}
-				catch (...) {
-					cinder::app::console() << "Exception reading argument as float" << std::endl;
-				}
-			}
-			else if( message.getArgType(i) == cinder::osc::TYPE_STRING) {
-				try {
-					cinder::app::console() << "------ value: " << message.getArgAsString(i).c_str() << std::endl;
-				}
-				catch (...) {
-					cinder::app::console() << "Exception reading argument as string" << std::endl;
-				}
-			}
-		}
+        cinder::app::console() << "New message received" << std::endl;
+        cinder::app::console() << "Address: " << message.getAddress() << std::endl;
+        cinder::app::console() << "Num Arg: " << message.getNumArgs() << std::endl;
+        for (int i = 0; i < message.getNumArgs(); i++) {
+            cinder::app::console() << "-- Argument " << i << std::endl;
+            cinder::app::console() << "---- type: " << message.getArgTypeName(i) << std::endl;
+            if( message.getArgType(i) == cinder::osc::TYPE_INT32 ) {
+                try {
+                    cinder::app::console() << "------ value: " << message.getArgAsInt32(i) << std::endl;
+                }
+                catch (...) {
+                    cinder::app::console() << "Exception reading argument as int32" << std::endl;
+                }
+            }
+            else if( message.getArgType(i) == cinder::osc::TYPE_FLOAT ) {
+                try {
+                    cinder::app::console() << "------ value: " << message.getArgAsFloat(i) << std::endl;
+                }
+                catch (...) {
+                    cinder::app::console() << "Exception reading argument as float" << std::endl;
+                }
+            }
+            else if( message.getArgType(i) == cinder::osc::TYPE_STRING) {
+                try {
+                    cinder::app::console() << "------ value: " << message.getArgAsString(i).c_str() << std::endl;
+                }
+                catch (...) {
+                    cinder::app::console() << "Exception reading argument as string" << std::endl;
+                }
+            }
+        }
         
         if ( message.getNumArgs() != 0 && message.getArgType( 0 ) == cinder::osc::TYPE_FLOAT ) {
             // positionX = message.getArgAsFloat(0);
         }
          */
-	}
+    }
 }
 
 void OSCInterface::unfoldAddresses(const std::string address) {

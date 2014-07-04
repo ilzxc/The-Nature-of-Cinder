@@ -11,10 +11,10 @@ using namespace std;
 class Ex66GroupBehaviorsApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     unique_ptr< Path > path;
     vector< Vehicle > vehicles;
@@ -55,7 +55,7 @@ void Ex66GroupBehaviorsApp::update()
 
 void Ex66GroupBehaviorsApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     path->draw();
     for ( const auto& v : vehicles ) {
         v.draw();

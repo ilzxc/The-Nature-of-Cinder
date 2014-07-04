@@ -11,9 +11,9 @@ using namespace std;
 class Ex101SimplePerceptronApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     
   private:
     shared_ptr< Rand > random;
@@ -75,7 +75,7 @@ void Ex101SimplePerceptronApp::update()
 
 void Ex101SimplePerceptronApp::draw()
 {
-	gl::clear( Color( 0.888f, 0.888f, 0.888f ) );
+    gl::clear( Color( 0.888f, 0.888f, 0.888f ) );
     gl::color( 0.f, 0.f, 0.f );
     gl::pushMatrices();
     gl::translate( getWindowCenter() );

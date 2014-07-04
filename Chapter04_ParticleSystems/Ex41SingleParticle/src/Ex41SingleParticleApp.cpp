@@ -10,9 +10,9 @@ using namespace std;
 class Ex41SingleParticleApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     void shutdown();
     
     Particle* p;
@@ -41,7 +41,7 @@ void Ex41SingleParticleApp::update()
 
 void Ex41SingleParticleApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     p->draw();
 }
 

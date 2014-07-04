@@ -10,10 +10,10 @@ using namespace std;
 class Ex102SeekingNeuralApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
   private:
     unique_ptr< Vehicle > v;
@@ -51,7 +51,7 @@ void Ex102SeekingNeuralApp::update()
 
 void Ex102SeekingNeuralApp::draw()
 {
-	gl::clear( Color( 0.878f, 0.878f, 0.878f ) );
+    gl::clear( Color( 0.878f, 0.878f, 0.878f ) );
     gl::color( 0.f, 0.787f, 0.f, 0.5f );
     gl::drawSolidCircle( getWindowCenter(), 18.f );
     gl::color( 0.f, 0.f, 0.f );

@@ -9,8 +9,8 @@ using namespace std;
 class Ex15_VectorAccelRandomApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     Mover ball;
 };
@@ -27,7 +27,7 @@ void Ex15_VectorAccelRandomApp::update()
 
 void Ex15_VectorAccelRandomApp::draw()
 {
-	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
+    gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     ball.draw();
 }
 

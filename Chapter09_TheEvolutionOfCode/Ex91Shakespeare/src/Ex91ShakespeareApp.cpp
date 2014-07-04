@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex91ShakespeareApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     int population_max;
     float mutation_rate;
@@ -55,8 +55,8 @@ void Ex91ShakespeareApp::update()
 
 void Ex91ShakespeareApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) ); 
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) ); 
 }
 
 CINDER_APP_NATIVE( Ex91ShakespeareApp, RendererGl )

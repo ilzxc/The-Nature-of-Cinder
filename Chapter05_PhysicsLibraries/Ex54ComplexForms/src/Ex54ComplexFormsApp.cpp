@@ -13,12 +13,12 @@ using namespace std;
 
 class Ex54ComplexFormsApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void keyDown( KeyEvent event );
     void keyUp( KeyEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     b2World *world;
     float32 timestep;
@@ -89,7 +89,7 @@ void Ex54ComplexFormsApp::update() {
 
 void Ex54ComplexFormsApp::draw()
 {
-	gl::clear( Color( 59.0f/255, 58.0f/255, 57.0f/255 ) );
+    gl::clear( Color( 59.0f/255, 58.0f/255, 57.0f/255 ) );
     for ( auto& b : boundaries ) {
         b.draw();
     }

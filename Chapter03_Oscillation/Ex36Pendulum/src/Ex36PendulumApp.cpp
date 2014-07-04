@@ -9,12 +9,12 @@ using namespace std;
 class Ex36PendulumApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseDrag( MouseEvent event );
     void mouseUp( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     std::unique_ptr< Pendulum > p;
     Vec2f mouseLocation;
@@ -54,7 +54,7 @@ void Ex36PendulumApp::update()
 
 void Ex36PendulumApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     p->draw();
 }
 

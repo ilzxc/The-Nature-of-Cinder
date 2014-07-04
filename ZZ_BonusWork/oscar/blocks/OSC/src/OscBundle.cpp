@@ -38,25 +38,25 @@ Bundle::~Bundle(){
 }
 
 Bundle& Bundle::copy(const Bundle& other){
-	for (size_t i = 0; i < other.bundles.size(); i++) {
-		bundles.push_back(other.bundles[i]);
-	}
-	
-	for (size_t i = 0; i < other.messages.size(); i++) {
-		messages.push_back(other.messages[i]);
-	}
-	
-	return *this;
-	
+    for (size_t i = 0; i < other.bundles.size(); i++) {
+        bundles.push_back(other.bundles[i]);
+    }
+    
+    for (size_t i = 0; i < other.messages.size(); i++) {
+        messages.push_back(other.messages[i]);
+    }
+    
+    return *this;
+    
 }
 
 void Bundle::addBundle(const Bundle& bundle){
-	bundles.push_back(bundle);
+    bundles.push_back(bundle);
 }
 
 void Bundle::addMessage(const Message& message){
 
-	messages.push_back(message);
+    messages.push_back(message);
 }
 
 } // namespace osc

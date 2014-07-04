@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex32DirectionOfMovementApp : public AppNative {
   public:
-	void setup();
-	void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseMove( MouseEvent event );
+    void update();
+    void draw();
     
     Mover car;
     Vec2f mousePosition;
@@ -34,7 +34,7 @@ void Ex32DirectionOfMovementApp::update()
 
 void Ex32DirectionOfMovementApp::draw()
 {
-	gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
+    gl::clear( Color( 0.111f, 0.111f, 0.111f ) );
     car.draw();
 }
 

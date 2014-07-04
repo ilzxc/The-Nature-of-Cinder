@@ -10,9 +10,9 @@ using namespace std;
 class Ex11_BallWithoutVectorsApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     void shutdown();
     
     Rand random;
@@ -45,7 +45,7 @@ void Ex11_BallWithoutVectorsApp::update()
 
 void Ex11_BallWithoutVectorsApp::draw()
 {
-	gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
+    gl::clear( Color{ 0.111f, 0.111f, 0.111f } );
     ballOnTheHeap->draw();
     ballOnTheStack.draw();
     ballSmartPointer->draw();

@@ -10,10 +10,10 @@ using namespace std;
 
 class Ex45ParticleRepellerApp : public AppNative {
   public:
-	void setup();
+    void setup();
     void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     
     std::unique_ptr < ParticleSystem > ps;
     std::unique_ptr < Repeller > repeller;
@@ -41,7 +41,7 @@ void Ex45ParticleRepellerApp::update()
 
 void Ex45ParticleRepellerApp::draw()
 {
-	gl::clear( Color( 1.0f, 1.0f, 1.0f ) );
+    gl::clear( Color( 1.0f, 1.0f, 1.0f ) );
     repeller->draw();
     ps->draw();
 }

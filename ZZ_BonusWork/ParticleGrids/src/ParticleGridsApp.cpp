@@ -12,13 +12,13 @@ enum patterns { cosplussin, coscircles, sinconsinsquared };
 class ParticleGridsApp : public AppBasic {
   public:
     void prepareSettings( Settings *settings );
-	void setup();
+    void setup();
     void resize( ResizeEvent event );
     void makeGrid();
     void makePattern();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
     float particleSize;
     vector<particle> particles;
@@ -86,8 +86,8 @@ void ParticleGridsApp::update()
 
 void ParticleGridsApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     
     for( int i = 0; i < particles.size(); i++ ) {
         particles[i].draw();

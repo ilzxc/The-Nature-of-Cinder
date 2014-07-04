@@ -11,13 +11,13 @@ using namespace std;
 
 class Ex51aBox2DCustomApp : public AppNative {
   public:
-	void setup();
-	void mouseMove( MouseEvent event );
+    void setup();
+    void mouseMove( MouseEvent event );
     void mouseDrag( MouseEvent event );
     void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     void shutdown();
     
     b2World* world;
@@ -77,8 +77,8 @@ void Ex51aBox2DCustomApp::update()
 
 void Ex51aBox2DCustomApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 0, 0, 0 ) );
+    // clear out the window with black
+    gl::clear( Color( 0, 0, 0 ) );
     for ( auto& b : boxes ) {
         b.draw();
     }

@@ -13,12 +13,12 @@ using namespace std;
 
 class Ex53CurvyBoundariesApp : public AppNative {
   public:
-	void setup();
+    void setup();
     void keyDown( KeyEvent event );
-	void mouseDown( MouseEvent event );
+    void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
-	void update();
-	void draw();
+    void update();
+    void draw();
     void shutdown();
     
     std::vector<Particle> particles;
@@ -98,8 +98,8 @@ void Ex53CurvyBoundariesApp::update() {
 
 void Ex53CurvyBoundariesApp::draw()
 {
-	// clear out the window with black
-	gl::clear( Color( 1, 1, 1 ) );
+    // clear out the window with black
+    gl::clear( Color( 1, 1, 1 ) );
     
     ground.draw();
     

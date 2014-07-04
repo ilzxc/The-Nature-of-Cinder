@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex63StayingWithinWallsApp : public AppNative {
   public:
-	void setup();
-	void resize();
-	void update();
-	void draw();
+    void setup();
+    void resize();
+    void update();
+    void draw();
     
     unique_ptr< Vehicle > vehicle;
 };
@@ -33,7 +33,7 @@ void Ex63StayingWithinWallsApp::update()
 
 void Ex63StayingWithinWallsApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     vehicle->draw();
 }
 

@@ -12,13 +12,13 @@ using namespace std;
 class Ex31SpinningBasicsApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
-	void mouseDown( MouseEvent event );
+    void setup();
+    void mouseDown( MouseEvent event );
     void mouseUp( MouseEvent event );
     void mouseMove( MouseEvent event );
-	void mouseDrag( MouseEvent event );
-	void update();
-	void draw();
+    void mouseDrag( MouseEvent event );
+    void update();
+    void draw();
     
     vector< Mover > movers;
     std::unique_ptr< Attractor > attractor;
@@ -71,7 +71,7 @@ void Ex31SpinningBasicsApp::update()
 
 void Ex31SpinningBasicsApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     attractor->draw();
     for ( auto& mover : movers ) {
         mover.draw();

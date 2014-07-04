@@ -8,10 +8,10 @@ using namespace std;
 
 class Ex72GameOfLifeApp : public AppNative {
   public:
-	void setup();
-	void mouseDown( MouseEvent event );	
-	void update();
-	void draw();
+    void setup();
+    void mouseDown( MouseEvent event ); 
+    void update();
+    void draw();
     
   private:
     unique_ptr< GOL > gol;
@@ -35,7 +35,7 @@ void Ex72GameOfLifeApp::update()
 
 void Ex72GameOfLifeApp::draw()
 {
-  	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     gol->draw();
 }
 

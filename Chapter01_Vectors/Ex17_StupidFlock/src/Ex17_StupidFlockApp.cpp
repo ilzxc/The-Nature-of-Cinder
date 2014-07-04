@@ -11,10 +11,10 @@ using namespace std;
 class Ex17_StupidFlockApp : public AppNative {
   public:
     void prepareSettings( Settings *settings );
-	void setup();
-	void mouseMove( MouseEvent event );
-	void update();
-	void draw();
+    void setup();
+    void mouseMove( MouseEvent event );
+    void update();
+    void draw();
 
     vector< unique_ptr< Mover > > balls;
     Vec2f mousePosition;
@@ -50,7 +50,7 @@ void Ex17_StupidFlockApp::update()
 
 void Ex17_StupidFlockApp::draw()
 {
-	gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
+    gl::clear( Color( 0.0f, 0.0f, 0.0f ) );
     for ( const auto& b : balls ) {
         b->draw();
     }

@@ -14,9 +14,9 @@ using namespace std;
 
 class Ex58AdvancedCollisionsApp : public AppNative {
   public:
-	void setup();
-	void update();
-	void draw();
+    void setup();
+    void update();
+    void draw();
     void shutdown();
     
     b2World *world;
@@ -74,7 +74,7 @@ void Ex58AdvancedCollisionsApp::update() {
 }
 
 void Ex58AdvancedCollisionsApp::draw() {
-	gl::clear( Color( 0.888f, 0.888f, 0.888f ) );
+    gl::clear( Color( 0.888f, 0.888f, 0.888f ) );
     for ( auto&  s : squares ) {
         s->draw();
     }

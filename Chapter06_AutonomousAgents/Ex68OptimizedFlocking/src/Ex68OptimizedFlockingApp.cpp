@@ -9,10 +9,10 @@ using namespace std;
 class Ex68OptimizedFlockingApp : public AppNative {
   public:
     void prepareSettings( Settings* settings );
-	void setup();
+    void setup();
     void resize();
-	void update();
-	void draw();
+    void update();
+    void draw();
     
   private:
     vector< std::shared_ptr< Boid > > flock;
@@ -96,7 +96,7 @@ void Ex68OptimizedFlockingApp::update()
 
 void Ex68OptimizedFlockingApp::draw()
 {
-	gl::clear( Color{ 1.f, 1.f, 1.f } );
+    gl::clear( Color{ 1.f, 1.f, 1.f } );
     for ( const auto& boid : flock ) {
         boid->draw();
     }

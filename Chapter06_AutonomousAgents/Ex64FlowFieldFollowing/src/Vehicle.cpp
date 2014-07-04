@@ -20,22 +20,22 @@ Vehicle::Vehicle( const Vec2f& _position, const float _maxforce, const float _ma
 
 void Vehicle::update( const FlowField& flow )
 {
-	auto desired = flow.lookup( position );
-	desired *= maxSpeed;
-	desired -= velocity;        // steer
-	desired.limit( maxForce );
-	acceleration += desired;
-	velocity += acceleration;
-	velocity.limit( maxSpeed );
-	position += velocity;
-	acceleration.set( Vec2f::zero() );
-	angle = toDegrees( atan2f( velocity.y, velocity.x ) );
-	borders();
+    auto desired = flow.lookup( position );
+    desired *= maxSpeed;
+    desired -= velocity;        // steer
+    desired.limit( maxForce );
+    acceleration += desired;
+    velocity += acceleration;
+    velocity.limit( maxSpeed );
+    position += velocity;
+    acceleration.set( Vec2f::zero() );
+    angle = toDegrees( atan2f( velocity.y, velocity.x ) );
+    borders();
 }
 
 void Vehicle::draw() const
 {
-	gl::pushMatrices();
+    gl::pushMatrices();
     gl::color( 0.222f, 0.222f, 0.222f );
     gl::translate( position );
     gl::rotate( angle );
@@ -45,7 +45,7 @@ void Vehicle::draw() const
 
 void Vehicle::borders()
 {
-	if ( position.x < -size ) {
+    if ( position.x < -size ) {
         position.x = app::getWindowWidth() + size;
     } else if ( position.x > app::getWindowWidth() + size ) {
         position.x = -size;
