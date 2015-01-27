@@ -27,7 +27,7 @@ void GroundSurface::createBody( b2World * world, std::vector<Vec2f> boxPoints ) 
     fd.shape = &chain;
     body->CreateFixture( &fd );
     
-    delete wp;
+    delete[] wp;
 }
 
 void GroundSurface::draw() const {

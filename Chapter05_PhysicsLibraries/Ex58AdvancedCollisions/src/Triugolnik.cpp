@@ -26,7 +26,7 @@ Triugolnik::Triugolnik( b2World *world, const Vec2f &position, float _angle, flo
         vertices[i] = Conversions::toPhysics( points[i] );
     }
     ps.Set( vertices, 3 );
-    delete vertices;
+    delete[] vertices;
 
     b2FixtureDef fd;
     fd.shape = &ps;

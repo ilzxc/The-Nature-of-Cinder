@@ -36,7 +36,7 @@ void Attractor::draw() const
     if ( rollover ) {
         gl::color( 152.0f / 255, 255.0f / 255, 249.0f / 255 );
     } else {
-        gl::color( 204.0f / 255, 33.0f / 255, 25.0f / 255 );
+        gl::color( 204.0f / 255,  33.0f / 255,  25.0f / 255 );
     }
     gl::drawSolidCircle( location, mass * 0.75 );
 }

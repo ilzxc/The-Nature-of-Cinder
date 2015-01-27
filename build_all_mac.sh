@@ -1,6 +1,6 @@
 #!/bin/sh
 
-
+mkdir build
 
 xcrun xcodebuild -project Chapter01_Vectors/Ex11_BallWithoutVectors/xcode/Ex11_BallWithoutVectors.xcodeproj -target Ex11_BallWithoutVectors -configuration Release $@
 mv Chapter01_Vectors/Ex11_BallWithoutVectors/xcode/build/Release/Ex11_BallWithoutVectors.app ./build/Ex11_BallWithoutVectors.app

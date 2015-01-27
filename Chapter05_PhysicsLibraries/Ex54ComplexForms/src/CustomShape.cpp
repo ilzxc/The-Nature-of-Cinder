@@ -54,7 +54,7 @@ CustomShape::CustomShape( b2World *world, const Vec2f& where ) {
     body->SetLinearVelocity( b2Vec2( Rand::randFloat(-1.0f, 1.0f), Rand::randFloat(-5.0f, -2.0f) ) );
     body->SetAngularVelocity( Rand::randFloat(-5.0f, 5.0f) );
     
-    delete b2Polygon;
+    delete[] b2Polygon;
 }
 
 void CustomShape::update( b2World *world ) {
