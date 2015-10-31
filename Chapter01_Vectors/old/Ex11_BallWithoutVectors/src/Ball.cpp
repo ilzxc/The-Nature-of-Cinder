@@ -4,7 +4,6 @@
 //
 //  Created by Ilya Rostovtsev on 7/3/13.
 //
-//  HWH Maintenance 8/15/13
 //
 
 #include "Ball.h"
