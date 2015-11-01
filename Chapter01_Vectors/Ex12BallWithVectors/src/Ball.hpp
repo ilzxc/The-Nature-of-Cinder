@@ -14,8 +14,7 @@ using namespace ci;
 
 class Ball {
   public:
-    Ball(); // default constructor
-    Ball( const vec2& position ); // vector constructor
+    Ball( const vec2& position = vec2{ 0.f, 0.f } ); // vector constructor
     Ball( const Ball& other ); // copy constructor
     Ball& operator=( const Ball& other ); // copy assignment
     

@@ -16,7 +16,7 @@ namespace cinder {
 class Ball {
     
 public:
-    Ball(): x{ 0.f }, y{ 0.f }, x_velocity{ 0.f }, y_velocity{ 0.f }, radius{ 20.f } { }
+    constexpr Ball(): x{ 0.f }, y{ 0.f }, x_velocity{ 0.f }, y_velocity{ 0.f }, radius{ 20.f } { }
     Ball( const float x, const float y, const ci::Rand& r );
     
     void update();

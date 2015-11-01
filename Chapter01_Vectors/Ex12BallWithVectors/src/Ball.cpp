@@ -12,11 +12,6 @@
 using namespace ci;
 using namespace std;
 
-Ball::Ball()
-{
-    cout << "ctor ()" << endl;
-}
-
 Ball::Ball( const vec2& position )
 : position{ position },
   radius{ 30.0f }
