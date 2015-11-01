@@ -23,7 +23,8 @@ class Flock {
     void draw() const;
     
   private:
-    static constexpr int numBoids = 8000;
+    static constexpr int numBoids = 16000;
+    static constexpr int numThreads = 8;
     struct BoidData {
         BoidData( float fatness ): fatness{ fatness } { }
         ci::vec2 position;
@@ -33,6 +34,7 @@ class Flock {
     };
     std::vector< BoidData > flockData;
     ci::gl::BatchRef flockBatch[ numBoids ];
+    std::thread* tt;
 };
 
 #endif /* Flock_hpp */

@@ -17,12 +17,14 @@ class Ex17StupidFlockApp : public App {
   private:
     Flock flock;
     vec2 mouseLast;
+    Font font;
 };
 
 void Ex17StupidFlockApp::setup()
 {
     app::setWindowSize( 900, 400 );
     mouseLast = app::getWindowCenter();
+    font = Font();
 }
 
 void Ex17StupidFlockApp::mouseMove( MouseEvent event )
@@ -34,12 +36,14 @@ void Ex17StupidFlockApp::update()
 {
     flock.interact( mouseLast );
     flock.update();
+    cout << "framerate: " << getAverageFps() << endl;
 }
 
 void Ex17StupidFlockApp::draw()
 {
 	gl::clear( Color( 0, 0, 0 ) );
     flock.draw();
+    gl::drawString( "*" + to_string( getAverageFps() ), vec2{ 10.f, 10.f }, Color::white(), font );
 }
 
 CINDER_APP( Ex17StupidFlockApp, RendererGl )
